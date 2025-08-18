@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  18 AUG 2025 16:22
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  18 AUG 2025 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/nicole/Programming/latex/PTB/PTB2/Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025
-(/Users/nicole/Programming/latex/PTB/PTB2/Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.tex
+**/Users/nicole/Programming/latex/PTB/PTB2/__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025
+(/Users/nicole/Programming/latex/PTB/PTB2/__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -630,8 +630,8 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
-\openout1 = `Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux'.
+ (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
+\openout1 = `__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
 LaTeX Font Info:    ... okay on input line 127.
@@ -758,9 +758,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 127.
 Package hyperref Info: Link coloring ON on input line 127.
- (./Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.out) (./Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.out)
+ (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.out) (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.out)
 \@outlinefile=\write3
-\openout3 = `Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.out'.
+\openout3 = `__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -779,208 +779,63 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \c@lstlisting=\count323
 Package tocbasic Info: setting babel extension for `lol' on input line 127.
 \scr@dte@lstlisting@maxnumwidth=\skip99
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_charlottenburg' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_friedrichshain_kreuzberg' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_fust' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_koerperschaften_I' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_koerperschaften_II' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_koerperschaften_III' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_koerperschaften_IV' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_lichtenberg' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_marzahn_hellersdorf' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_mitte_tiergarten' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_neukoelln' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_pankow_weissensee' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_prenzlauer_berg' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_reinickendorf' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_schoeneberg' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_spandau' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_steglitz' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_tempelhof' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_treptow_koepenick' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_wedding' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_wilmersdorf' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_zehlendorf' undefined on input line 129.
-
-
-LaTeX Warning: Citation `fa_fuer_fahndung_und_strafsachen' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_fuer_koerperschaften_i' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_fuer_koerperschaften_ii' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_fuer_koerperschaften_iii' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_fuer_koerperschaften_iv' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_charlottenburg' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_friedrichshain_kreuzberg' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_lichtenberg' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_marzahn_hellersdorf' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_mitte_tiergarten' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_neukoelln' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_pankow_weissensee' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_prenzlauer_berg' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_reinickendorf' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_schoeneberg' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_spandau' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_steglitz' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_tempelhof' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_treptow_koepenick' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_wedding' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_wilmersdorf' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_zehlendorf' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_technisches_finanzamt' undefined on input line 130.
-
 File: BILDER-PTB2/Berliner-wasserbetriebe.svg.png Graphic file (type bmp)
 <BILDER-PTB2/Berliner-wasserbetriebe.svg.png>
 File: BILDER-PTB2/Hochschule_für_Wirtschaft_und_Recht_Berlin_logo.jpg Graphic file (type bmp)
 <BILDER-PTB2/Hochschule_für_Wirtschaft_und_Recht_Berlin_logo.jpg>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 167.
+(Font)              <14.4> on input line 165.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 167.
+(Font)              <7> on input line 165.
 File: BILDER-PTB2/unterschrift_nicole.png Graphic file (type bmp)
 <BILDER-PTB2/unterschrift_nicole.png>
 File: BILDER-PTB2/unterschrift_max.png Graphic file (type bmp)
 <BILDER-PTB2/unterschrift_max.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 189.
+(Font)              <12> on input line 187.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 189.
+(Font)              <8> on input line 187.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 189.
+(Font)              <6> on input line 187.
 
-Overfull \hbox (26.84541pt too wide) in paragraph at lines 183--193
+Overfull \hbox (26.84541pt too wide) in paragraph at lines 181--191
 [][] 
  []
 
 [1
 
-] (./Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.toc)
+] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.toc)
 \tf@toc=\write4
-\openout4 = `Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.toc'.
+\openout4 = `__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.toc'.
 
  [1]
-Overfull \hbox (8.3513pt too wide) in paragraph at lines 208--215
+Overfull \hbox (8.3513pt too wide) in paragraph at lines 206--213
 [] 
  []
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 222.
-
-
-LaTeX Warning: Citation `bwb2025' on page 1 undefined on input line 222.
-
-[1]
-Overfull \hbox (8.3513pt too wide) in paragraph at lines 256--262
+(Font)              <5> on input line 220.
+ [1]
+Overfull \hbox (8.3513pt too wide) in paragraph at lines 254--260
 [] 
  []
 
-[2] (./Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl
+[2] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl) [3]
 
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 3.
-
-) [3]
-
-LaTeX Warning: Hyper reference `sec:Anhang2' on page 4 undefined on input line 285.
+LaTeX Warning: Hyper reference `sec:Anhang2' on page 4 undefined on input line 283.
 
 
-LaTeX Warning: Reference `sec:Anhang2' on page 4 undefined on input line 285.
+LaTeX Warning: Reference `sec:Anhang2' on page 4 undefined on input line 283.
 
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
 File: BILDER-PTB2/unterschrift_nicole.png Graphic file (type bmp)
 <BILDER-PTB2/unterschrift_nicole.png>
-[6] (./Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
+[6] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -989,16 +844,16 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.out' has not changed.
+Package rerunfilecheck Info: File `__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  23183 strings out of 474773
- 466462 string characters out of 5757725
+ 467016 string characters out of 5757725
  1926839 words of memory out of 5000000
  45026 multiletter control sequences out of 15000+600000
  562286 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 108i,13n,107p,10987b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,13n,107p,11006b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.pdf (9 pages).
+Output written on __latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.pdf (9 pages).
