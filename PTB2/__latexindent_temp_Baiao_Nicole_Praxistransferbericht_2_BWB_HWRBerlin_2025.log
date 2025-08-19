@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  18 AUG 2025 21:04
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  19 AUG 2025 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -821,7 +821,12 @@ Overfull \hbox (8.3513pt too wide) in paragraph at lines 254--260
 [] 
  []
 
-[2] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl) [3]
+[2] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl
+Underfull \hbox (badness 1117) in paragraph at lines 4--7
+[]\TU/TimesNewRoman(0)/m/n/12 Adobe (2025).  \TU/TimesNewRoman(0)/m/it/12 Content Supply Chain: Creation & Production\TU/TimesNewRoman(0)/m/n/12 .  Zugriff am
+ []
+
+) [3]
 
 LaTeX Warning: Hyper reference `sec:Anhang2' on page 4 undefined on input line 283.
 
@@ -848,10 +853,10 @@ Package rerunfilecheck Info: File `__latexindent_temp_Baiao_Nicole_Praxistransfe
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23183 strings out of 474773
- 467014 string characters out of 5757725
- 1926839 words of memory out of 5000000
- 45026 multiletter control sequences out of 15000+600000
+ 23190 strings out of 474773
+ 467102 string characters out of 5757725
+ 1927839 words of memory out of 5000000
+ 45033 multiletter control sequences out of 15000+600000
  562286 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,13n,107p,11006b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
