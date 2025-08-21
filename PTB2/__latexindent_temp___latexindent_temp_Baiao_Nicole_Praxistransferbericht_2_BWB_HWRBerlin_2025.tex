@@ -225,27 +225,31 @@ Vor diesem Hintergrund gewinnt die Nutzung von Cloud-Software zunehmend an Bedeu
 
 Das Ziel dieser Arbeit ist es daher, anhand des Falls der erweiterten Nutzung der Adobe Cloud aufzuzeigen, wie Anforderungen systematisch analysiert und bewertet werden können, um daraus Handlungsempfehlungen für künftige ähnliche Szenarien abzuleiten. Hierzu werden theoretische Konzepte aus ITIL, Changemanagement und Anforderungsmanagement mit praktischen Erfahrungen im Anforderungsprozess verknüpft. Ergänzend wird ein Interview mit einer Kollegin aus dem Portfoliomanagement einbezogen, um zusätzliche Perspektiven aus der Praxis darzustellen. Die Ausarbeitung erfolgt in LaTeX.
 
-% === TEIL 1 ===
-\section{Theoretische Rahmen}
+% === Theoretischer Rahmen ===
+\section{Theoretischer Rahmen}
 \subsection{Software-Einführung und -Erweiterung}
-Die Einführung von Software lässt sich allgemein als ein geplanter Veränderungsprozess verstehen, in dem neue Anwendungen bereitgestellt oder bestehende Lösungen erweitert werden. Ziel ist es, den Nutzen für Anwender und Organisation zu maximieren, während Risiken wie Kostenüberschreitungen, Akzeptanzprobleme oder Sicherheitslücken minimiert werden.
-Eine erfolgreiche Softwareeinführung umfasst dabei verschiedene Aufgaben:
-\begin{itemize}
-    \setlength\itemsep{0.4\baselineskip}
-    \setlength\parskip{0pt}
-    \setlength\parsep{0pt}
+In der Literatur finden sich unterschiedliche Definitionen des Begriffs Softwareeinführung. Nach einer engeren Auffassung bezeichnet er ausschließlich die erstmalige Implementierung einer neuen Anwendung in einem Unternehmen und umfasst damit vor allem die technische Installation, Inbetriebnahme und Akzeptanz durch die Mitarbeitenden.\footnote{Vgl.\cite{papershift2022}} 
+Eine erweiterte Definition geht darüber hinaus: Sie versteht Softwareeinführung nicht nur als einmalige Implementierung, sondern auch als Anpassung oder Erweiterung neuer Softwarelösungen. Jede Änderung oder neue Nutzungssituation bedeutet somit eine erneute „Einführung“ – auch wenn es sich nicht um ein komplett neues Produkt handelt.\footnote{Vgl.\cite{pureconsultant2023}}
+
+Für ein großes Unternehmen wie die Berliner Wasserbetriebe sind beide Definitionen relevant. Einerseits werden regelmäßig neue Anwendungen eingeführt, andererseits spielen die Anpassung und Erweiterung bestehender Softwarelösungen eine zentrale Rolle. In dieser Arbeit liegt der Fokus jedoch auf der Erweiterung und Skalierung bereits genutzter Software, wie dies am Beispiel der Adobe Cloud deutlich wird.\footnote{Vgl.\cite{softwarevergleich2023}}
+Ein strukturierter Ablauf ist entscheidend für den Erfolg. Typischerweise wird der Prozess in fünf Phasen gegliedert, die sich an Projektmanagement- und ITIL-Strukturen orientieren (diese werden später noch detailliert erläutert):
+\begin{enumerate}
+    \item \textbf{Projektvorbereitung} – Festlegung von Zielen, Nutzen und Projektteam.
+    \item \textbf{Planung} – Ausarbeitung von Konzept, Prozessen, Ressourcen und Risiken.
+    \item \textbf{Auswahl der Software} – systematische Evaluierung und Pilotierung.
+    \item \textbf{Installation \& Rollout} – Umsetzung, Datenmigration, Tests und Übergabe.
+    \item \textbf{Überwachung \& Analyse} – Betrieb, Support und kontinuierliche Optimierung.\footnote{Vgl.\cite{papershift2022}} 
+\end{enumerate}
     
-    \item \normalsize Planung und Organisation bedeutet, dass Ziele, Verantwortlichkeiten, Zeitpläne und Budgets im Vorfeld klar definiert werden müssen.
-    \item \normalsize Technische Integration beschreibt die Installation der Software, die Anpassung von Schnittstellen und gegebenenfalls die Migration vorhandener Daten.
-    \item \normalsize Prozessanpassung beinhaltet die Überprüfung, ob bestehende Geschäftsprozesse angepasst oder neu gestaltet werden müssen, damit die Software optimal genutzt werden kann.
-    \item \normalsize Schulung und Unterstützung der Anwender stellt sicher, dass die Mitarbeitenden die Lösung verstehen und sie im Arbeitsalltag anwenden können.
-    \item \normalsize Evaluation schließlich prüft, ob die definierten Ziele erreicht wurden und welche Optimierungen nach der Einführung notwendig sind.
-    \end{itemize}
+    \subsection{Herausforderung bei Einführung von Software}
+Mit der zunehmenden Nutzung von Cloud-Software hat sich die Dynamik der Einführung und Erweiterung von Anwendungen stark verändert. Cloud-Lösungen bieten den Vorteil, dass sie schnell skalierbar, ortsunabhängig verfügbar und in der Regel einfach zu aktualisieren sind. Gleichzeitig entstehen neue Herausforderungen. Unternehmen müssen sich mit Fragen der Datensicherheit, der Compliance mit gesetzlichen Vorgaben sowie mit einer möglichen Abhängigkeit vom Anbieter auseinandersetzen.\footnote{Vgl.\cite{bsi2023}}
 
-    \subsection{Cloud und Künstliche Intelligenz in Unternehmen}
-Mit der zunehmenden Nutzung von Cloud-Software hat sich die Dynamik der Einführung und Erweiterung von Anwendungen stark verändert. Cloud-Lösungen bieten den Vorteil, dass sie schnell skalierbar, ortsunabhängig verfügbar und in der Regel einfach zu aktualisieren sind. Gleichzeitig entstehen neue Herausforderungen. Unternehmen müssen sich mit Fragen der Datensicherheit, der Compliance mit gesetzlichen Vorgaben sowie mit einer möglichen Abhängigkeit vom Anbieter auseinandersetzen.
+Hinzu kommt, dass viele Cloud-Produkte heute mit KI-Funktionalitäten ausgestattet sind. Diese eröffnen Chancen wie die Automatisierung von Prozessen, die Unterstützung kreativer Tätigkeiten oder die Verbesserung der Entscheidungsqualität.\footnote{Ebenda} Gleichzeitig bergen sie Risiken: Der Umgang mit sensiblen Daten, die oft in externen Rechenzentren verarbeitet werden, wirft Fragen zum Datenschutz auf. Auch die mangelnde Transparenz sogenannter „Black-Box-Algorithmen“ kann problematisch sein.\footnote{Vgl.\cite{enisa2020}} Unternehmen stehen daher vor der Aufgabe, Chancen und Risiken sorgfältig abzuwägen und geeignete Governance-Strukturen zu schaffen. 
 
-Hinzu kommt, dass viele Cloud-Produkte heute mit KI-Funktionalitäten ausgestattet sind. Diese eröffnen Chancen wie die Automatisierung von Prozessen, die Unterstützung kreativer Tätigkeiten oder die Verbesserung der Entscheidungsqualität. Gleichzeitig bergen sie Risiken: Der Umgang mit sensiblen Daten, die oft in externen Rechenzentren verarbeitet werden, wirft Fragen zum Datenschutz auf. Auch die mangelnde Transparenz sogenannter „Black-Box-Algorithmen“ kann problematisch sein. Unternehmen stehen daher vor der Aufgabe, Chancen und Risiken sorgfältig abzuwägen und geeignete Governance-Strukturen zu schaffen.
+\subsection{Rolle des Anforderungsmanagements}
+Damit die Einführung oder Erweiterung von Software erfolgreich ist, bedarf es eines strukturierten Anforderungsmanagements. Dieses hat die Aufgabe, die Bedarfe der Fachbereiche zu erheben, zu dokumentieren und zu priorisieren. Anschließend werden die Anforderungen mit den strategischen Zielen des Unternehmens abgeglichen, um sicherzustellen, dass neue oder erweiterte Softwarelösungen nicht isoliert eingeführt, sondern in die Gesamtstrategie eingebettet werden.
+
+Ein weiteres wichtiges Element ist die Zusammenarbeit mit relevanten Stakeholdern. Dazu zählen neben den Fachbereichen auch Datenschutz- und IT-Sicherheitsbeauftragte sowie das Portfoliomanagement, das den Überblick über alle IT-Projekte behält. Erst durch diesen ganzheitlichen Ansatz lassen sich fundierte Entscheidungen treffen, die sowohl den Bedarf der Anwender als auch die übergeordneten Unternehmensinteressen berücksichtigen.
 % === TEIL 2 ===
 \section{TEIL 2}
 % --- TEIL 2.1 ---

@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: __latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux
+The style file: hwrbib.bst
+Database file #1: quellen-ptb2.bib
+Warning--entry type for "bwb2025" isn't style-file defined
+--line 10 of file quellen-ptb2.bib
+Warning--entry type for "adobeBusiness2025" isn't style-file defined
+--line 17 of file quellen-ptb2.bib
+Warning--entry type for "isr2024" isn't style-file defined
+--line 24 of file quellen-ptb2.bib
+Warning--entry type for "papershift2022" isn't style-file defined
+--line 31 of file quellen-ptb2.bib
+Warning--entry type for "pureconsultant2023" isn't style-file defined
+--line 38 of file quellen-ptb2.bib
+Warning--entry type for "softwarevergleich2023" isn't style-file defined
+--line 45 of file quellen-ptb2.bib
+You've used 7 entries,
+            2042 wiz_defined-function locations,
+            517 strings with 4653 characters,
+and the built_in function-call counts, 1810 in all, are:
+= -- 185
+> -- 49
+< -- 7
++ -- 14
+- -- 14
+* -- 111
+:= -- 364
+add.period$ -- 22
+call.type$ -- 7
+change.case$ -- 37
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 77
+empty$ -- 115
+format.name$ -- 28
+if$ -- 328
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 39
+num.names$ -- 21
+pop$ -- 28
+preamble$ -- 1
+purify$ -- 42
+quote$ -- 0
+skip$ -- 57
+stack$ -- 0
+substring$ -- 84
+swap$ -- 6
+text.length$ -- 7
+text.prefix$ -- 7
+top$ -- 0
+type$ -- 42
+warning$ -- 0
+while$ -- 14
+width$ -- 0
+write$ -- 89
+(There were 6 warnings)
