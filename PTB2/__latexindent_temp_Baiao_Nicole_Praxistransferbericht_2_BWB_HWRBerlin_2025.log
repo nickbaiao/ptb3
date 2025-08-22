@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  21 AUG 2025 09:07
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  22 AUG 2025 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -815,41 +815,32 @@ Overfull \hbox (8.3513pt too wide) in paragraph at lines 206--213
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 220.
+(Font)              <5> on input line 221.
  [1] [2]
-
-LaTeX Warning: Citation `enisa2020' on page 3 undefined on input line 247.
-
-
-Overfull \hbox (19.33376pt too wide) in paragraph at lines 247--248
-\TU/TimesNewRoman(0)/m/n/12 gen zum Datenschutz auf. Auch die mangelnde Transparenz sogenannter „Black-Box-Algorithmen“
+Overfull \hbox (0.65993pt too wide) in paragraph at lines 255--256
+\TU/TimesNewRoman(0)/m/n/12 rung und Verbesserung gesichert. Aufbauend darauf versteht man unter IT-Service-Management
  []
 
 [3]
-Overfull \hbox (8.3513pt too wide) in paragraph at lines 265--271
+Overfull \hbox (8.3513pt too wide) in paragraph at lines 276--282
 [] 
  []
 
-[4] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl
-Underfull \hbox (badness 1117) in paragraph at lines 4--7
-[]\TU/TimesNewRoman(0)/m/n/12 Adobe (2025).  \TU/TimesNewRoman(0)/m/it/12 Content Supply Chain: Creation & Production\TU/TimesNewRoman(0)/m/n/12 .  Zugriff am
- []
+[4] [5] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl) [6]
 
-) [5]
-
-LaTeX Warning: Hyper reference `sec:Anhang2' on page 6 undefined on input line 294.
+LaTeX Warning: Hyper reference `sec:Anhang2' on page 7 undefined on input line 305.
 
 
-LaTeX Warning: Reference `sec:Anhang2' on page 6 undefined on input line 294.
+LaTeX Warning: Reference `sec:Anhang2' on page 7 undefined on input line 305.
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
 File: BILDER-PTB2/unterschrift_nicole.png Graphic file (type bmp)
 <BILDER-PTB2/unterschrift_nicole.png>
-[8] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
+[9] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -862,12 +853,12 @@ Package rerunfilecheck Info: File `__latexindent_temp_Baiao_Nicole_Praxistransfe
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23202 strings out of 474773
- 467353 string characters out of 5757725
- 1929839 words of memory out of 5000000
- 45044 multiletter control sequences out of 15000+600000
- 562294 words of font info for 76 fonts, out of 8000000 for 9000
+ 23207 strings out of 474773
+ 467331 string characters out of 5757725
+ 1930839 words of memory out of 5000000
+ 45050 multiletter control sequences out of 15000+600000
+ 562286 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,13n,107p,11006b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on __latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.pdf (11 pages).
+Output written on __latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.pdf (12 pages).

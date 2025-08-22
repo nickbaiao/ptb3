@@ -1,30 +1,51 @@
 \begin{thebibliography}{}
 
-\bibitem[Ado25]{adobeBusiness2025}
-Adobe (2025).
-\newblock {\em Content Supply Chain: Creation \& Production}.
-\newblock Zugriff am 18.08.2025.
+\bibitem[{Ado}25a]{S_AdobeAI}
+{Adobe} (2025a).
+\newblock {\em Generative AI Approach – Adobe Firefly}.
 
-\bibitem[AG24]{isr2024}
-AG, I. I.~P. (2024).
-\newblock {\em Anforderungsmanagement: Definition, Methoden und Erfolgsfaktoren}.
-\newblock Zugriff am 18.08.2025.
+\bibitem[{Ado}25b]{S_AdobeCloud}
+{Adobe Business} (2025b).
+\newblock {\em Content Supply Chain – Creation \& Production}.
 
-\bibitem[{Ber}25]{bwb2025}
+\bibitem[{Amb}25]{S_Ambient}
+{Ambient Digital} (2025).
+\newblock {\em Künstliche Intelligenz: Chancen und Risiken}.
+
+\bibitem[{Asa}25]{S_Asana}
+{Asana} (2025).
+\newblock {\em Requirements Management – Alles was Sie wissen müssen}.
+
+\bibitem[{Ber}25]{S_BWB}
 {Berliner Wasserbetriebe} (2025).
 \newblock {\em Arbeiten bei den Berliner Wasserbetrieben}.
-\newblock Abgerufen am 18.08.2025.
 
-\bibitem[{Bun}23]{bsi2023}
-{Bundesamt für Sicherheit in der Informationstechnik (BSI)} (2023).
-\newblock Generative ki-modelle: Chancen und risiken für cyber-sicherheit.
+\bibitem[{BSI}24]{S_BSI_KI}
+{BSI – Bundesamt für Sicherheit in der Informationstechnik} (2024).
+\newblock Generative ki-modelle: Potenziale und herausforderungen.
 \newblock Technical report, BSI.
-\newblock Zugriff am 18.08.2025.
+
+\bibitem[{BSI}25a]{S_BSI_Grundlagen}
+{BSI – Bundesamt für Sicherheit in der Informationstechnik} (2025a).
+\newblock {\em Cloud Computing – Grundlagenwissen}.
+
+\bibitem[{BSI}25b]{S_BSI_Risiken}
+{BSI – Bundesamt für Sicherheit in der Informationstechnik} (2025b).
+\newblock {\em Cloud Computing – Risiken und Sicherheitstipps}.
 
 \bibitem[Con23]{pureconsultant2023}
 Consultant, P. (2023).
 \newblock {\em Softwareeinführung: Definition, Vorgehen \& Tipps}.
 \newblock Zugriff am 18.08.2025.
+
+\bibitem[{ENI}20]{S_ENISA_AI}
+{ENISA – European Union Agency for Cybersecurity} (2020).
+\newblock Artificial intelligence cybersecurity challenges.
+\newblock Technical report, ENISA.
+
+\bibitem[{ISR}25]{S_ISR}
+{ISR Information Products AG} (2025).
+\newblock {\em Anforderungsmanagement – Wissen}.
 
 \bibitem[Pap22]{papershift2022}
 Papershift (2022).
@@ -35,5 +56,10 @@ Papershift (2022).
 Softwarevergleich.de (2023).
 \newblock {\em Softwareeinführung: Wie Unternehmen die Projektphasen meistern}.
 \newblock Zugriff am 18.08.2025.
+
+\bibitem[SZ08]{S_ITIL}
+Stych, C. and Zeppenfeld, K. (2008).
+\newblock {\em Informatik im Fokus: ITIL}.
+\newblock Springer, Berlin, Heidelberg.
 
 \end{thebibliography}
