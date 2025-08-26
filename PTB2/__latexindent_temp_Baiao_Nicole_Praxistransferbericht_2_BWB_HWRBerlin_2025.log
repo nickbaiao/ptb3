@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  22 AUG 2025 10:31
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  26 AUG 2025 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -809,38 +809,38 @@ Overfull \hbox (26.84541pt too wide) in paragraph at lines 181--191
 \openout4 = `__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.toc'.
 
  [1]
-Overfull \hbox (8.3513pt too wide) in paragraph at lines 206--213
+Overfull \hbox (8.3513pt too wide) in paragraph at lines 206--215
 [] 
  []
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 221.
+(Font)              <5> on input line 223.
  [1] [2]
-Overfull \hbox (0.65993pt too wide) in paragraph at lines 255--256
+Overfull \hbox (0.65993pt too wide) in paragraph at lines 257--258
 \TU/TimesNewRoman(0)/m/n/12 rung und Verbesserung gesichert. Aufbauend darauf versteht man unter IT-Service-Management
  []
 
-[3]
-Overfull \hbox (8.3513pt too wide) in paragraph at lines 276--282
+[3] [4] [5]
+Overfull \hbox (8.3513pt too wide) in paragraph at lines 290--296
 [] 
  []
 
-[4] [5] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl) [6]
+[6] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl [7]) [8]
 
-LaTeX Warning: Hyper reference `sec:Anhang2' on page 7 undefined on input line 305.
+LaTeX Warning: Hyper reference `sec:Anhang2' on page 9 undefined on input line 319.
 
 
-LaTeX Warning: Reference `sec:Anhang2' on page 7 undefined on input line 305.
+LaTeX Warning: Reference `sec:Anhang2' on page 9 undefined on input line 319.
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
 File: BILDER-PTB2/unterschrift_nicole.png Graphic file (type bmp)
 <BILDER-PTB2/unterschrift_nicole.png>
-[9] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
+[11] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -853,12 +853,12 @@ Package rerunfilecheck Info: File `__latexindent_temp_Baiao_Nicole_Praxistransfe
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23207 strings out of 474773
- 467331 string characters out of 5757725
- 1930839 words of memory out of 5000000
- 45050 multiletter control sequences out of 15000+600000
+ 23211 strings out of 474773
+ 467381 string characters out of 5757725
+ 1931839 words of memory out of 5000000
+ 45054 multiletter control sequences out of 15000+600000
  562286 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 108i,13n,107p,11006b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,13n,107p,11006b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on __latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.pdf (12 pages).
+Output written on __latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.pdf (14 pages).
