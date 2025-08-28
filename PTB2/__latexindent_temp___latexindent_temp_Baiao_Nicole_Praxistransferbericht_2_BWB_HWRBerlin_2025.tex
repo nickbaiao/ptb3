@@ -276,14 +276,41 @@ Ein wesentliches Merkmal des Change Managements besteht darin, dass die emotiona
 Transparente Kommunikation ist dafür entscheidend: Nur wenn Ziele, Hintergründe und Auswirkungen klar vermittelt werden, entsteht Akzeptanz und Beteiligung.Besonders bei Softwareanpassungen zeigt sich, dass Change Management nicht allein technische Maßnahmen umfasst, sondern immer auch den sozialen Kontext und die Bedürfnisse der Beteiligten.\footnote{Ebenda, S.~42--43.}
 
 % === 3. Praxisteil ===
-\section{Software-Erweiterung im Praxiseinsatz}
+\section{Anforderungsmanagement im Praxis}
+Der Prozess begann, als interne Kunden der BWB den Wunsch äußerten, Software-Produkte mit KI-Funktionen aus der Adobe Creative Cloud nutzen zu können. Damit war ein erster Bedarf formuliert – wie in der Theorie des Anforderungsmanagements beschrieben, bildet die strukturierte Erhebung von Anforderungen den Ausgangspunkt jeder Entscheidung.\footnote{Vgl. \cite{S_PohlRupp}, S.~3.} In Gesprächen mit den Fachbereichen wurde dieser Bedarf konkretisiert: Welche Anwendungen sind für die tägliche Arbeit relevant, welche Vorteile bieten die KI-Funktionen und welche Risiken sind zu erwarten?
 
-\subsection{Phase 1: Ermittlung der Anforderungen}
-AAAAAA
+\subsection{Vorgehen im aktuellen Fall}
+Die Bewertung der Bedarfe erfolgt in Abstimmung mit Portfolio-Management, IT-Sicherheit und Datenschutz. Dieses Vorgehen entspricht den in ITIL beschriebenen Best Practices, wonach Veränderungen nicht nur technisch, sondern auch organisatorisch und sicherheitsrelevant zu prüfen sind.\footnote{Vgl. \cite{S_ITIL}, S.~40--43.} Zur systematischen Analyse wurde eine Excel-Tabelle erstellt, in der die relevanten Kriterien dokumentiert und für jede Anwendung bewertet wurden. Dazu gehörten insbesondere:
+\begin{itemize}
+  \item Genutzte Anwendungen bei den BWB – um festzustellen, welche Tools im Alltag unverzichtbar sind und daher Priorität haben.
+  \item Aktueller Angebotsstatus durch Adobe – um Transparenz zu schaffen, welche Funktionen Teil des Standard-Pakets sind und welche zusätzliche Lizenzmodelle erfordern.
+  \item Notwendigkeit interner oder externer Daten – da Anwendungen mit Cloud- oder KI-Anbindung häufig sensible Betriebsdaten verarbeiten.
+  \item Zweck der Anwendung – also der konkrete Mehrwert für die tägliche Arbeit, z.\,B. Dokumentenbearbeitung, Bildbearbeitung oder Datenanalyse.
+  \item Vorhandensein von KI-Funktionen (inkl. Machine Learning) – um zu prüfen, ob deren Nutzung verpflichtend ist oder optional deaktiviert werden kann.
+  \item Angaben von Adobe zur Datensicherheit – insbesondere zur Speicherung, Verarbeitung und möglicher Weitergabe von Daten.
+  \item Kosten- und Lizenzmodelle – um den finanziellen Rahmen abzuschätzen und eine Entscheidung zwischen Basis- und Premium-Funktionen vorzubereiten.
+\end{itemize}
 
-\subsection{Phase 2: Validierung und Abstimmung}
+Die Ergebnisse wurden in einem Memo dokumentiert, das als Grundlage für die weitere Abstimmung diente. Damit wurde die theoretische Phase des Dokumentierens umgesetzt.\footnote{Vgl. \cite{S_PohlRupp}, S.~4.}
 
-\subsection{Anwendung auf ähnliche Fälle}
+Aus Sicht der Softwareeinführung, lassen sich mehrere Phasen wiedererkennen: Mit der Bedarfserhebung und Bewertung wurde die Rolle der Projektvorbereitung erfüllt, in der Ziele und Nutzen festgelegt werden. Die Analyse mit Excel und Memo entspricht einem Teil der Planung, da Ressourcen, Risiken und Alternativen geprüft wurden. Eine vollständige Auswahl- oder Rollout-Phase stand zwar noch aus, doch erste Überlegungen zur systematischen Evaluierung möglicher Alternativen wurden bereits vorbereitet.\footnote{Vgl. \cite{pureconsultant2023}.}
+
+Parallel zu diesen Schritten fanden Gespräche mit internen Kunden statt, um Anforderungen zu präzisieren und Prioritäten zu bestimmen. Hier zeigte sich, dass einige Tools wie Acrobat für den Arbeitsalltag unverzichtbar sind, während andere Anwendungen mit KI-Funktionen eher optional wahrgenommen wurden. Dieses Vorgehen knüpft an die in der Theorie beschriebenen Methoden der Anforderungsanalyse an, etwa Interviews oder Priorisierungstechniken.\footnote{Vgl. \cite{S_ISR}.}
+
+Insgesamt zeigt sich, dass die Vorgehensweise des Teams nicht auf einer isolierten Entscheidung basierte, sondern eng an den theoretischen Phasen von Anforderungsmanagement, Softwareeinführung und ITIL orientiert war. Zugleich musste der Prozess an die praktische Situation angepasst werden, indem Unsicherheiten adressiert, Kriterien konkretisiert und die Abstimmung mit relevanten Stakeholdern in den Vordergrund gestellt wurden.
+
+\subsection{Vergleich mit ähnlichen Fällen: Microsoft 365 Copilot}
+Ein vergleichbarer Fall zeigt sich bei der Einführung von Microsoft 365 Copilot. Die Lösung wurde in Anwendungen wie Word, Excel, Outlook oder Teams integriert und bietet Funktionen zur automatischen Texterstellung, Analyse oder Zusammenfassung.\footnote{Vgl. \cite{S_MS_CopilotOverview}.} Die Nachfrage war groß, insbesondere bei Abteilungen mit hoher Dokumentations- und Analysearbeit. Gleichzeitig entstanden aber erhebliche Bedenken bezüglich Datenschutz und Sicherheit, da nicht klar war, wie sensibel verarbeitete Daten genutzt oder gespeichert werden. Microsoft versichert zwar, dass Copilot-Daten innerhalb der Service-Grenzen verbleiben und nicht zum Training von KI-Modellen eingesetzt werden,\footnote{Vgl. \cite{S_MS_CopilotSecurity}.} dennoch blieben Zweifel bestehen.
+
+Um diese Risiken zu bewältigen, gingen Unternehmen unterschiedlich vor. Viele starteten mit Pilotprojekten in ausgewählten Abteilungen, um den Einsatz zu erproben und Risiken einzugrenzen. Darauf aufbauend wurden klare Nutzungsrichtlinien entwickelt, die festlegten, in welchen Fällen Copilot erlaubt ist und welche Daten ausgeschlossen bleiben.\footnote{Vgl. \cite{S_Reco}.} Ergänzend erfolgten Schulungen für Mitarbeitende, um ein Bewusstsein für Chancen und Gefahren zu schaffen. Teilweise wurden auch technische Schutzmaßnahmen wie restriktivere Zugriffsrechte oder Monitoring-Tools eingeführt.\footnote{Vgl. \cite{S_Reco}; \cite{S_Kyndryl}.} In einigen Organisationen beschränkte man sich zunächst auf den Einsatz in weniger kritischen Bereichen.\footnote{Vgl. \cite{S_Reco}.} 
+
+Der Vergleich mit dem Adobe-Fall verdeutlicht: Sobald Anbieter KI-Funktionen in bestehende Softwareprodukte integrieren, müssen Unternehmen eine Balance zwischen Innovationspotenzial und Sicherheitsanforderungen finden. Ein strukturierter Prozess aus Bedarfsaufnahme, Risikoprüfung und enger Abstimmung mit Datenschutz und IT-Sicherheit bildet dabei die Grundlage für eine verantwortungsvolle Entscheidung.
+
+
+
+\subsection{Teil}
+
+\subsection{Teil}
 % === Glossar ====
 \section*{Glossar}  
 \addcontentsline{toc}{section}{Glossar} 

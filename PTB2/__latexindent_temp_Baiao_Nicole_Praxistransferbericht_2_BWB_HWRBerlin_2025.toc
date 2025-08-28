@@ -7,13 +7,14 @@
 \contentsline {subsection}{\numberline {2.3}ITIL-Best Practices}{3}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Rolle des Anforderungsmanagements}{4}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Change-Management}{5}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Software-Erweiterung im Praxiseinsatz}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Phase 1: Ermittlung der Anforderungen}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Phase 2: Validierung und Abstimmung}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Anwendung auf ähnliche Fälle}{6}{subsection.3.3}%
-\contentsline {section}{Glossar}{6}{subsection.3.3}%
-\contentsline {section}{Literaturverzeichnis}{7}{subsection.3.3}%
-\contentsline {section}{Anhangsverzeichnis}{9}{subsection.3.3}%
-\contentsline {subsection}{Anhang 1}{10}{section*.1}%
-\contentsline {section}{Ehrenwörtliche Erklärung}{11}{section*.1}%
+\contentsline {section}{\numberline {3}Anforderungsmanagement im Praxis}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Vorgehen im aktuellen Fall}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Vergleich mit ähnlichen Fällen: Microsoft 365 Copilot}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Teil}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Teil}{8}{subsection.3.4}%
+\contentsline {section}{Glossar}{8}{subsection.3.4}%
+\contentsline {section}{Literaturverzeichnis}{9}{subsection.3.4}%
+\contentsline {section}{Anhangsverzeichnis}{12}{subsection.3.4}%
+\contentsline {subsection}{Anhang 1}{13}{section*.1}%
+\contentsline {section}{Ehrenwörtliche Erklärung}{14}{section*.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

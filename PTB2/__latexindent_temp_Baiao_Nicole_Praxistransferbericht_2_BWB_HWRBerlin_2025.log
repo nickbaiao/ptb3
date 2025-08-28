@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  26 AUG 2025 10:46
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  28 AUG 2025 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,30 +817,217 @@ Overfull \hbox (8.3513pt too wide) in paragraph at lines 206--215
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 223.
  [1] [2]
+
+LaTeX Warning: Citation `S_ITIL' on page 3 undefined on input line 255.
+
+
+LaTeX Warning: Citation `S_ITIL' on page 3 undefined on input line 257.
+
+
 Overfull \hbox (0.65993pt too wide) in paragraph at lines 257--258
 \TU/TimesNewRoman(0)/m/n/12 rung und Verbesserung gesichert. Aufbauend darauf versteht man unter IT-Service-Management
  []
 
-[3] [4] [5]
-Overfull \hbox (8.3513pt too wide) in paragraph at lines 291--297
+[3]
+
+LaTeX Warning: Citation `S_PohlRupp' on page 4 undefined on input line 263.
+
+
+LaTeX Warning: Citation `S_PohlRupp' on page 4 undefined on input line 265.
+
+
+LaTeX Warning: Citation `S_PohlRupp' on page 4 undefined on input line 269.
+
+[4]
+
+LaTeX Warning: Citation `S_Schichtel' on page 5 undefined on input line 273.
+
+
+LaTeX Warning: Citation `S_PohlRupp' on page 5 undefined on input line 280.
+
+[5]
+
+LaTeX Warning: Citation `S_ITIL' on page 6 undefined on input line 283.
+
+[6]
+
+LaTeX Warning: Citation `S_PohlRupp' on page 7 undefined on input line 294.
+
+[7]
+Overfull \hbox (8.3513pt too wide) in paragraph at lines 318--324
 [] 
  []
 
-[6] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl [7]) [8]
+[8] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl
+Underfull \hbox (badness 3919) in paragraph at lines 9--12
+[]\TU/TimesNewRoman(0)/m/n/12 Adobe Business (2025b).  \TU/TimesNewRoman(0)/m/it/12 Content Supply Chain – Creation & Produc-
+ []
 
-LaTeX Warning: Hyper reference `sec:Anhang2' on page 9 undefined on input line 320.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+\TU/TimesNewRoman(0)/m/it/12 tion\TU/TimesNewRoman(0)/m/n/12 .  [][]$[][][][][] [] [] [] [][][][][][][][] [] [][][][][] [] [][][] [] [][] [] [][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] []
+ []
 
 
-LaTeX Warning: Reference `sec:Anhang2' on page 9 undefined on input line 320.
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+[] [] [][][][][][][] [] [][][][][][][] [] [][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][]
+ []
 
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+Underfull \hbox (badness 4726) in paragraph at lines 29--33
+[]\TU/TimesNewRoman(0)/m/n/12 BSI – Bundesamt für Sicherheit in der Informationstechnik (2024).  Ge-
+ []
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 29--33
+\TU/TimesNewRoman(0)/m/n/12 nerative ki-modelle: Potenziale und herausforderungen.  Technical report, BSI.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--33
+[][]$[][][][][] [] [] [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][][][][][][][] [] [][][][][][][][][] [] [][] [] [][][] [] [][] [] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 35--38
+[]\TU/TimesNewRoman(0)/m/n/12 BSI – Bundesamt für Sicherheit in der Informationstechnik (2025a).  \TU/TimesNewRoman(0)/m/it/12 Cloud
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+\TU/TimesNewRoman(0)/m/it/12 Computing – Grundlagenwissen\TU/TimesNewRoman(0)/m/n/12 .  [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][][][] [] [][] [] [][] [] [][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 40--43
+\TU/TimesNewRoman(0)/m/it/12 puting – Risiken und Sicherheitstipps\TU/TimesNewRoman(0)/m/n/12 .  [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][][][] [] [][] [] [][] [] [][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+[] [] [][][] [] [][][][][][][][][][][][][][] [] [][] [] [][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+[] [] [][][][] [] [][][][][][][][][][][] [] [][][][][] [] [][][][][][][][] [] [][][][][][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+[][][][][] [][] [][][] [] [][][][][] [] [][][][][][][][][][][][][][][][][] [] [][][][][] [] [][][][][] [] [][][][][][][][][][][] [] [][][][][][][][][][]$[][]
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
+[]\TU/TimesNewRoman(0)/m/n/12 ENISA – European Union Agency for Cybersecurity (2020).  Artifici-
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 50--54
+\TU/TimesNewRoman(0)/m/n/12 al intelligence cybersecurity challenges.  Technical report, ENISA.  [][]$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
+[] [] [][][] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][][][] [] [][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 56--59
+[]\TU/TimesNewRoman(0)/m/n/12 ISR Information Products AG (2025).  \TU/TimesNewRoman(0)/m/it/12 Anforderungsmanagement – Wissen\TU/TimesNewRoman(0)/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 61--64
+[]\TU/TimesNewRoman(0)/m/n/12 Kyndryl (2024).  \TU/TimesNewRoman(0)/m/it/12 Implement Copilot at Scale\TU/TimesNewRoman(0)/m/n/12 .  [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 61--64
+[][][] [] [][] [] [][] [] [][][][][][][][][][][][] [] [][][][][][][][] [] [][][][] [] [][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] \TU/TimesNewRoman(0)/m/n/12 (Zu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
+[][][] [] [][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] \TU/TimesNewRoman(0)/m/n/12 (Zugriff
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 76--79
+[]\TU/TimesNewRoman(0)/m/n/12 Papershift (2022).  \TU/TimesNewRoman(0)/m/it/12 Software-Einführung erfolgreich meistern: 12 Tipps im
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+\TU/TimesNewRoman(0)/m/it/12 Überblick\TU/TimesNewRoman(0)/m/n/12 .  [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+[] [] [][][][] [] [][][][][][][][][] [] [][][][][][][][][][][][][] [] [][][][] [] [][][][][][][][][][][][] [] [][][][][][] [] [][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+[][][][][][][][][][][][][][] [][] [][][][][][][][][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 81--84
+[][][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] \TU/TimesNewRoman(0)/m/n/12 (Zugriff
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 86--89
+[]\TU/TimesNewRoman(0)/m/n/12 Softwarevergleich.de (2023).  \TU/TimesNewRoman(0)/m/it/12 Softwareeinführung: Wie Unternehmen die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--89
+\TU/TimesNewRoman(0)/m/it/12 Projektphasen meistern\TU/TimesNewRoman(0)/m/n/12 .  [][]$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][] [] [][] [] [][][][][][] [] [][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--89
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+) [11]
+
+LaTeX Warning: Hyper reference `sec:Anhang2' on page 12 undefined on input line 347.
+
+
+LaTeX Warning: Reference `sec:Anhang2' on page 12 undefined on input line 347.
+
+[12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
 File: BILDER-PTB2/unterschrift_nicole.png Graphic file (type bmp)
 <BILDER-PTB2/unterschrift_nicole.png>
-[11] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
+[14] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -853,12 +1040,12 @@ Package rerunfilecheck Info: File `__latexindent_temp_Baiao_Nicole_Praxistransfe
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23212 strings out of 474773
- 467387 string characters out of 5757725
- 1931839 words of memory out of 5000000
- 45055 multiletter control sequences out of 15000+600000
- 562286 words of font info for 75 fonts, out of 8000000 for 9000
+ 23223 strings out of 474773
+ 467618 string characters out of 5757725
+ 1941839 words of memory out of 5000000
+ 45063 multiletter control sequences out of 15000+600000
+ 562302 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 108i,13n,107p,11006b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,13n,107p,11006b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on __latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.pdf (14 pages).
+Output written on __latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.pdf (17 pages).
