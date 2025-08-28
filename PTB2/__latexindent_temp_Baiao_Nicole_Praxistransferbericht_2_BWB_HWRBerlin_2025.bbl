@@ -77,15 +77,31 @@ Papershift (2022).
 \newblock {\em Software-Einführung erfolgreich meistern: 12 Tipps im Überblick}.
 \newblock \url{https://www.papershift.com/blog/software-einfuehrung#:~:text=Mangelnde%20Investition%20in%20Schulungen%20Ohne%20eine%20ausreichende,Umsetzung%20von%20Schulungen%20somit%20nicht%20zu%20sparen.} (Zugriff am 18.08.2025).
 
+\bibitem[PR15]{S_PohlRupp}
+Pohl, K. and Rupp, C. (2015).
+\newblock {\em Basiswissen Requirements Engineering}.
+\newblock 3 Edition.
+\newblock dpunkt.verlag, Heidelberg.
+
 \bibitem[{Rec}25]{S_Reco}
 {Reco AI} (2025).
 \newblock {\em How to Prepare Your Business for Microsoft Copilot}.
 \newblock \url{https://www.reco.ai/blog/how-to-prepare-your-business-for-microsoft-copilot} (Zugriff am 22.08.2025).
 
+\bibitem[Sch16]{S_Schichtel}
+Schichtel, A. (2016).
+\newblock {\em Change Management f{\"u}r Dummies}.
+\newblock Wiley-VCH, Weinheim.
+
 \bibitem[Sof23]{softwarevergleich2023}
 Softwarevergleich.de (2023).
 \newblock {\em Softwareeinführung: Wie Unternehmen die Projektphasen meistern}.
 \newblock \url{https://softwarevergleich.de/wissen/wissen/software-einfuehrung-wie-unternehmen-die-projektphasen-meistern-16#c293} (Zugriff am 18.08.2025).
+
+\bibitem[SZ08]{S_ITIL}
+Stych, C. and Zeppenfeld, K. (2008).
+\newblock {\em Informatik im Fokus: ITIL}.
+\newblock Springer, Berlin, Heidelberg.
 
 \bibitem[{Wik}25]{S_WikipediaBedarf}
 {Wikipedia} (2025).

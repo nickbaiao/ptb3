@@ -6,77 +6,74 @@ Database file #1: quellen-ptb2.bib
 Warning--entry type for "S_BWB" isn't style-file defined
 --line 1 of file quellen-ptb2.bib
 Warning--entry type for "S_Asana" isn't style-file defined
---line 8 of file quellen-ptb2.bib
+--line 7 of file quellen-ptb2.bib
 Warning--entry type for "S_ISR" isn't style-file defined
---line 15 of file quellen-ptb2.bib
+--line 14 of file quellen-ptb2.bib
 Warning--entry type for "S_AdobeAI" isn't style-file defined
---line 22 of file quellen-ptb2.bib
+--line 21 of file quellen-ptb2.bib
 Warning--entry type for "S_AdobeCloud" isn't style-file defined
---line 29 of file quellen-ptb2.bib
+--line 28 of file quellen-ptb2.bib
 Warning--entry type for "S_Ambient" isn't style-file defined
---line 36 of file quellen-ptb2.bib
+--line 35 of file quellen-ptb2.bib
 Warning--entry type for "papershift2022" isn't style-file defined
---line 43 of file quellen-ptb2.bib
+--line 42 of file quellen-ptb2.bib
 Warning--entry type for "pureconsultant2023" isn't style-file defined
---line 50 of file quellen-ptb2.bib
+--line 49 of file quellen-ptb2.bib
 Warning--entry type for "softwarevergleich2023" isn't style-file defined
---line 57 of file quellen-ptb2.bib
+--line 56 of file quellen-ptb2.bib
 Warning--entry type for "S_BSI_Grundlagen" isn't style-file defined
---line 64 of file quellen-ptb2.bib
+--line 63 of file quellen-ptb2.bib
 Warning--entry type for "S_BSI_Risiken" isn't style-file defined
---line 71 of file quellen-ptb2.bib
+--line 70 of file quellen-ptb2.bib
 Warning--entry type for "S_WikipediaBedarf" isn't style-file defined
---line 94 of file quellen-ptb2.bib
+--line 110 of file quellen-ptb2.bib
 Warning--entry type for "S_MS_CopilotOverview" isn't style-file defined
---line 101 of file quellen-ptb2.bib
+--line 125 of file quellen-ptb2.bib
 Warning--entry type for "S_MS_CopilotSecurity" isn't style-file defined
---line 108 of file quellen-ptb2.bib
+--line 132 of file quellen-ptb2.bib
 Warning--entry type for "S_Reco" isn't style-file defined
---line 115 of file quellen-ptb2.bib
+--line 139 of file quellen-ptb2.bib
 Warning--entry type for "S_Kyndryl" isn't style-file defined
---line 122 of file quellen-ptb2.bib
-Warning--I didn't find a database entry for "S_ITIL"
-Warning--I didn't find a database entry for "S_PohlRupp"
-Warning--I didn't find a database entry for "S_Schichtel"
-You've used 18 entries,
+--line 146 of file quellen-ptb2.bib
+You've used 21 entries,
             2042 wiz_defined-function locations,
-            585 strings with 7949 characters,
-and the built_in function-call counts, 4614 in all, are:
-= -- 474
-> -- 126
-< -- 18
-+ -- 39
-- -- 36
-* -- 286
-:= -- 920
-add.period$ -- 56
-call.type$ -- 18
-change.case$ -- 94
-chr.to.int$ -- 15
-cite$ -- 18
-duplicate$ -- 198
-empty$ -- 293
-format.name$ -- 72
-if$ -- 839
+            600 strings with 8206 characters,
+and the built_in function-call counts, 5598 in all, are:
+= -- 570
+> -- 169
+< -- 19
++ -- 53
+- -- 50
+* -- 350
+:= -- 1108
+add.period$ -- 66
+call.type$ -- 21
+change.case$ -- 112
+chr.to.int$ -- 18
+cite$ -- 21
+duplicate$ -- 238
+empty$ -- 362
+format.name$ -- 90
+if$ -- 1032
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 95
-num.names$ -- 54
-pop$ -- 72
+missing$ -- 6
+newline$ -- 111
+num.names$ -- 63
+pop$ -- 95
 preamble$ -- 1
-purify$ -- 108
+purify$ -- 128
 quote$ -- 0
-skip$ -- 142
+skip$ -- 173
 stack$ -- 0
-substring$ -- 216
-swap$ -- 16
-text.length$ -- 18
-text.prefix$ -- 18
+substring$ -- 252
+swap$ -- 19
+text.length$ -- 19
+text.prefix$ -- 19
 top$ -- 0
-type$ -- 108
+type$ -- 120
 warning$ -- 0
-while$ -- 36
+while$ -- 44
 width$ -- 0
-write$ -- 224
-(There were 19 warnings)
+write$ -- 265
+(There were 16 warnings)
