@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  28 AUG 2025 13:35
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  28 AUG 2025 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -826,7 +826,7 @@ Overfull \hbox (8.3513pt too wide) in paragraph at lines 318--324
 [] 
  []
 
-[8] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl
+[8] [9] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.bbl
 Underfull \hbox (badness 3919) in paragraph at lines 9--12
 []\TU/TimesNewRoman(0)/m/n/12 Adobe Business (2025b).  \TU/TimesNewRoman(0)/m/it/12 Content Supply Chain – Creation & Produc-
  []
@@ -906,7 +906,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--48
 [][][][][] [][] [][][] [] [][][][][] [] [][][][][][][][][][][][][][][][][] [] [][][][][] [] [][][][][] [] [][][][][][][][][][][] [] [][][][][][][][][][]$[][]
  []
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
 []\TU/TimesNewRoman(0)/m/n/12 ENISA – European Union Agency for Cybersecurity (2020).  Artifici-
  []
@@ -961,7 +961,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--79
 [][][][][][][][][][][][][][] [][] [][][][][][][][][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][] []
  []
 
-[10]
+[11]
 Underfull \hbox (badness 2088) in paragraph at lines 87--90
 [][][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] \TU/TimesNewRoman(0)/m/n/12 (Zugriff
  []
@@ -981,21 +981,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--100
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-) [11]
+) [12]
 
-LaTeX Warning: Hyper reference `sec:Anhang2' on page 12 undefined on input line 347.
+LaTeX Warning: Hyper reference `sec:Anhang2' on page 13 undefined on input line 347.
 
 
-LaTeX Warning: Reference `sec:Anhang2' on page 12 undefined on input line 347.
+LaTeX Warning: Reference `sec:Anhang2' on page 13 undefined on input line 347.
 
-[12] [13]
+[13] [14]
 Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
 File: BILDER-PTB2/unterschrift_nicole.png Graphic file (type bmp)
 <BILDER-PTB2/unterschrift_nicole.png>
-[14] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
+[15] (./__latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1010,10 +1010,10 @@ Package rerunfilecheck Info: File `__latexindent_temp_Baiao_Nicole_Praxistransfe
 Here is how much of TeX's memory you used:
  23221 strings out of 474773
  467525 string characters out of 5757725
- 1941839 words of memory out of 5000000
+ 1940839 words of memory out of 5000000
  45062 multiletter control sequences out of 15000+600000
  562294 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,13n,107p,11006b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on __latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.pdf (17 pages).
+Output written on __latexindent_temp_Baiao_Nicole_Praxistransferbericht_2_BWB_HWRBerlin_2025.pdf (18 pages).
