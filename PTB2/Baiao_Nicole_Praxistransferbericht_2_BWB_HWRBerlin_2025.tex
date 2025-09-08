@@ -1,4 +1,4 @@
-% NICOLE CAMILLE BAIÃO - PRAXISTRANSFERBERICHT I
+% NICOLE CAMILLE BAIÃO - PRAXISTRANSFERBERICHT II
 
 % === DOKUMENTKLASSE ===
 \documentclass[
@@ -126,8 +126,6 @@
 % === BEGINN DOKUMENT ===
 \begin{document}
 % === LITERATUR EINBINDEN (unsichtbar zitieren, damit sie im Literaturverzeichnis auftaucht) ===
-\nocite{google_maps_tfa_zu_fa_charlottenburg,google_maps_tfa_zu_fa_friedrichshain_kreuzberg,google_maps_tfa_zu_fa_fust,google_maps_tfa_zu_fa_koerperschaften_I,google_maps_tfa_zu_fa_koerperschaften_II,google_maps_tfa_zu_fa_koerperschaften_III,google_maps_tfa_zu_fa_koerperschaften_IV,google_maps_tfa_zu_fa_lichtenberg,google_maps_tfa_zu_fa_marzahn_hellersdorf,google_maps_tfa_zu_fa_mitte_tiergarten,google_maps_tfa_zu_fa_neukoelln,google_maps_tfa_zu_fa_pankow_weissensee,google_maps_tfa_zu_fa_prenzlauer_berg,google_maps_tfa_zu_fa_reinickendorf,google_maps_tfa_zu_fa_schoeneberg,google_maps_tfa_zu_fa_spandau,google_maps_tfa_zu_fa_steglitz,google_maps_tfa_zu_fa_tempelhof,google_maps_tfa_zu_fa_treptow_koepenick,google_maps_tfa_zu_fa_wedding,google_maps_tfa_zu_fa_wilmersdorf,google_maps_tfa_zu_fa_zehlendorf} %alle berlin und maps quellen
-\nocite{fa_fuer_fahndung_und_strafsachen,fa_fuer_koerperschaften_i,fa_fuer_koerperschaften_ii,fa_fuer_koerperschaften_iii,fa_fuer_koerperschaften_iv,fa_charlottenburg,fa_friedrichshain_kreuzberg,fa_lichtenberg,fa_marzahn_hellersdorf,fa_mitte_tiergarten,fa_neukoelln,fa_pankow_weissensee,fa_prenzlauer_berg,fa_reinickendorf,fa_schoeneberg,fa_spandau,fa_steglitz,fa_tempelhof,fa_treptow_koepenick,fa_wedding,fa_wilmersdorf,fa_zehlendorf,fa_technisches_finanzamt}
 
 % --- Seitenzahlen-Formatierung 1/3: Römische Zahlen ---
 \pagenumbering{Roman}  % Nutzt römische Zahlen (I, II, III, …)
@@ -148,7 +146,7 @@
 \includegraphics[scale=0.25]{BILDER-PTB2/Hochschule_für_Wirtschaft_und_Recht_Berlin_logo.jpg} \\[0.7cm] % \\[1.8cm] fügt einen vertikalen Abstand von 1.8 cm nach den Bildern ein
 
 % --- Titel (fette und große Schrift) ---
-\Large{\textbf{Handlungsempfehlungen für die Skalierung der Prozesse zur Einführung von Software-Produkte - am Beispiel der erweiterten Nutzung der Adobe Creative Cloud}} \\[0.3cm]
+\Large{\textbf{Handlungsempfehlungen für die Skalierung der Prozesse zur Einführung von Software-Produkten - am Beispiel der erweiterten Nutzung der Adobe Creative Cloud}} \\[0.3cm]
     \doublespacing % Verdoppelt den Zeilenabstand
 
 % --- Untertitel ---
@@ -165,7 +163,7 @@ Fachbereich Duales Studium\\ [0.2cm]
 
 % --- Tabelle mit persönlichen Angaben ---
 \begin{tabular}{l l}  
-    \textbf{\normalsize{von}} & \normalsize{Nicole Camille Baião}  \\[0.2cm]
+    \textbf{\normalsize{von:}} & \normalsize{Nicole Camille Baião}  \\[0.2cm]
     \textbf{\normalsize{Bereich:}} & \normalsize{Wirtschaft} \\[0.2cm]
     \textbf{\normalsize{Fachrichtung:}} & \normalsize{Wirtschaftsinformatik} \\[0.2cm]
     \textbf{\normalsize{Studienjahrgang:}} & \normalsize{2024} \\[0.2cm]
@@ -181,7 +179,7 @@ Fachbereich Duales Studium\\ [0.2cm]
 
 % --- Tabelle mit Unterschriften ---
 \begin{tabular}{p{8cm} p{8cm}}
-    \normalsize{Berlin, den XX. XXXX 202X} & \normalsize{Berlin, den XX. XXXX 202X} \\[0.4cm]
+    \normalsize{Berlin, den 27. September 2025} & \normalsize{Berlin, den 28. September 2025} \\[0.4cm]
 
     \includegraphics[width=5.7cm]{BILDER-PTB2/unterschrift_nicole.png} &
     \includegraphics[width=4cm]{BILDER-PTB2/unterschrift_max.png} \\[0.1cm]
@@ -206,12 +204,14 @@ Fachbereich Duales Studium\\ [0.2cm]
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 \vspace{0.6cm}
 \begin{tabular}{p{4cm} p{11.35cm}}   
-    \textbf{\normalsize AAA:} & \normalsize AAAA \\[0.5cm]
+    \textbf{\normalsize BWB} & \normalsize Berliner Wasserbetriebe \\[0.5cm]
     \hline
-    \textbf{\normalsize BBB:} & \normalsize BBBB \\[0.5cm]
+    \textbf{\normalsize IT} & \normalsize Informationstechnologie \\[0.5cm]
     \hline
-    \textbf{\normalsize CCC:} & \normalsize CCCC \\[0.5cm]
- \end{tabular}
+    \textbf{\normalsize ITIL} & \normalsize IT Infrastructure Library \\[0.5cm]
+    \hline
+    \textbf{\normalsize KI} & \normalsize Künstliche Intelligenz \\[0.5cm] 
+\end{tabular}
 
 % --- Seitenzahlen-Formatierung 2/3: Wechsel auf normale (arabische) Zahlen ---
 \newpage
@@ -219,45 +219,118 @@ Fachbereich Duales Studium\\ [0.2cm]
 \setcounter{page}{1}
 % === Einleitung ===
 \section{Einleitung}
-Die Berliner Wasserbetriebe (BWB) sind das größte Wasser- und Abwasserversorgungsunternehmen Deutschlands und zugleich einer der größten Arbeitgeber in Berlin. Das Unternehmen beschäftigt aktuell rund 4.836 Mitarbeitende\footnote{\cite{bwb2025}}. In einem derart komplexen Umfeld mit zahlreichen Fachabteilungen und hohen regulatorischen Anforderungen übernimmt die IT-Abteilung eine zentrale Rolle.
 
-Innerhalb der IT ist die Abteilung Kundenberatung und Anforderungsmanagement für die internen Kunden der BWB zuständig. Ihre Aufgabe besteht darin, Bedarfe der Fachbereiche aufzunehmen, strukturiert zu bewerten und in enger Abstimmung mit den zentralen IT- und Portfoliomanagement-Einheiten tragfähige Lösungen zu entwickeln. Dabei steht nicht nur die Einführung neuer Software im Fokus, sondern auch die Skalierung und erweiterte Nutzung bestehender Produkte.
+Die Berliner Wasserbetriebe (BWB) sind das größte Wasserver- und Abwasserentsorgungsunternehmen Deutschlands und zugleich einer der größten Arbeitgeber in Berlin. Das Unternehmen beschäftigt aktuell 4.836 Mitarbeitende.\footnote{Vgl. \cite{S_BWB}.} In einem derart komplexen Umfeld mit zahlreichen Fachabteilungen und hohen regulatorischen Anforderungen übernimmt die IT-Abteilung eine zentrale Rolle.
 
-Vor diesem Hintergrund gewinnt die Nutzung von Cloud-Software zunehmend an Bedeutung. Am Beispiel der Adobe Creative Cloud zeigt sich, dass moderne KI-Funktionalitäten erhebliche Chancen für die Effizienzsteigerung bieten, gleichzeitig jedoch Fragen hinsichtlich Datenschutz, Datensicherheit und Governance aufwerfen. Besonders relevant ist die Überlegung, wie bestehende Softwareprodukte erweitert und skaliert werden können, ohne dass eine vollständige Neubeschaffung erforderlich wird.
+Innerhalb der IT ist die Abteilung Kundenberatung und Anforderungsmanagement für die internen Kunden der BWB zuständig. Sie berät die Fachbereiche, nimmt deren Bedarfe auf, bewertet sie und entwickelt in Abstimmung mit den zentralen IT- und Portfoliomanagement-Einheiten passende Lösungen.\footnote{Vgl. \cite{S_Asana}.} Dies kann sowohl die Einführung neuer Anwendungen als auch die Anpassung oder Erweiterung bestehender Systeme umfassen.\footnote{Vgl. \cite{S_ISR}.} Anforderungen können dabei etwa Funktionen sein, die eine erfolgreiche Nutzung ermöglichen, oder Aspekte, die Abteilungen bei der Erreichung ihrer Geschäftsziele unterstützen.\footnote{Vgl. \cite{S_ISR}.}
 
-Das Ziel dieser Arbeit ist es daher, anhand des Falls der erweiterten Nutzung der Adobe Cloud aufzuzeigen, wie Anforderungen systematisch analysiert und bewertet werden können, um daraus Handlungsempfehlungen für künftige ähnliche Szenarien abzuleiten. Hierzu werden theoretische Konzepte aus ITIL, Changemanagement und Anforderungsmanagement mit praktischen Erfahrungen im Anforderungsprozess verknüpft. Ergänzend wird ein Interview mit einer Kollegin aus dem Portfoliomanagement einbezogen, um zusätzliche Perspektiven aus der Praxis darzustellen.
+Vor diesem Hintergrund gewinnt die Nutzung von Cloud-Software zunehmend an Bedeutung. Am Beispiel der Adobe Creative Cloud zeigt sich, dass moderne KI-Funktionalitäten\footnote{Vgl. \cite{S_AdobeAI}, \cite{S_AdobeCloud}.} erhebliche Chancen für Effizienzsteigerungen bieten, gleichzeitig jedoch auch Risiken mit sich bringen.\footnote{Vgl. \cite{S_Ambient}.} Besonders relevant ist die Frage, wie bestehende Softwareprodukte erweitert und skaliert werden können, sodass keine vollständige Neubeschaffung erforderlich wird.
 
-% === TEIL 1 ===
-\section{TEIL 1 }
-AAAA
+Das Ziel dieser Arbeit ist es daher, anhand des Falls der erweiterten Nutzung der Adobe Cloud aufzuzeigen, wie Anforderungen systematisch analysiert und bewertet werden können, um daraus Handlungsempfehlungen für künftige ähnliche Szenarien abzuleiten. Hierzu werden theoretische Konzepte aus ITIL, Change- und Anforderungsmanagement mit praktischen Erfahrungen im Anforderungsprozess verknüpft. Zur Ergänzung werden Interviews mit Mitarbeitenden der Berliner Wasserbetriebe herangezogen, die praxisnahe Einblicke und Erfahrungen liefern. Die Ausarbeitung erfolgt in LaTeX.
+
+% === Theoretischer Rahmen ===
+\section{Theoretischer Rahmen}
+\subsection{Software-Einführung und -Erweiterung}
+In der Literatur finden sich unterschiedliche Definitionen des Begriffs Softwareeinführung. Nach einer engeren Auffassung bezeichnet er ausschließlich die erstmalige Implementierung einer neuen Anwendung in einem Unternehmen und umfasst damit vor allem die technische Installation, Inbetriebnahme und Akzeptanz durch die Mitarbeitenden.\footnote{Vgl.\cite{papershift2022}.} 
+Eine erweiterte Definition geht darüber hinaus: Sie versteht Softwareeinführung nicht nur als einmalige Implementierung, sondern auch als Anpassung oder Erweiterung neuer Softwarelösungen. Jede Änderung oder neue Nutzungssituation bedeutet somit eine erneute „Einführung“ – auch wenn es sich nicht um ein komplett neues Produkt handelt.\footnote{Vgl.\cite{pureconsultant2023}.}
+
+Für ein großes Unternehmen wie die Berliner Wasserbetriebe sind beide Definitionen relevant. Einerseits werden regelmäßig neue Anwendungen eingeführt, andererseits spielen die Anpassung und Erweiterung bestehender Softwarelösungen eine zentrale Rolle. In dieser Arbeit liegt der Fokus jedoch auf der Erweiterung und Skalierung bereits genutzter Software, wie dies am Beispiel der Adobe Cloud deutlich wird.\footnote{Vgl.\cite{softwarevergleich2023}.}
+Ein strukturierter Ablauf ist entscheidend für den Erfolg. Typischerweise wird der Prozess in fünf Phasen gegliedert, die sich an Projektmanagement- und ITIL-Strukturen orientieren:
+\begin{enumerate}
+    \item \textbf{Projektvorbereitung} – Festlegung von Zielen, Nutzen und Projektteam.
+    \item \textbf{Planung} – Ausarbeitung von Konzept, Prozessen, Ressourcen und Risiken.
+    \item \textbf{Auswahl der Software} – systematische Evaluierung und Pilotierung.
+    \item \textbf{Installation \& Rollout} – Umsetzung, Datenmigration, Tests und Übergabe.
+    \item \textbf{Überwachung \& Analyse} – Betrieb, Support und kontinuierliche Optimierung.\footnote{Vgl.\cite{papershift2022}.} 
+\end{enumerate}
+Bei einer Software-Erweiterung, die im Mittelpunkt dieser Arbeit steht, sind hingegen nur einzelne Phasen in vollem Umfang relevant. Welche dies konkret sind, wird im weiteren Verlauf noch verdeutlicht.  
+ \subsection{Cloud-Software und KI-Funktionalitäten}
+
+Die zunehmende Nutzung von Cloud-Software hat die Dynamik der Einführung und Erweiterung von Anwendungen grundlegend verändert. Cloud-Lösungen sind skalierbar, ortsunabhängig verfügbar und lassen sich vergleichsweise einfach aktualisieren.\footnote{Vgl. \cite{S_BSI_Grundlagen}, S.~5.} Gleichzeitig stellen sie Unternehmen vor neue Herausforderungen, insbesondere im Hinblick auf Datensicherheit, die Einhaltung gesetzlicher Vorgaben und eine mögliche Abhängigkeit vom Anbieter.\footnote{Vgl. \cite{S_BSI_Risiken}, S.~7.}
+
+Hinzu kommt, dass viele Cloud-Produkte heute mit KI-Funktionalitäten ausgestattet sind. Diese eröffnen Chancen wie die Automatisierung von Prozessen, die Unterstützung kreativer Tätigkeiten oder die Verbesserung der Entscheidungsqualität.\footnote{Vgl. \cite{S_BSI_KI}, S.~9.} Gleichzeitig bergen sie Risiken: der Umgang mit sensiblen Daten, die oft in externen Rechenzentren verarbeitet werden, wirft Fragen zum Datenschutz auf.\footnote{Vgl. \cite{S_ENISA_AI}, S.~24-26.} Auch die mangelnde Transparenz sogenannter „Black-Box-Algorithmen“ kann problematisch sein.\footnote{Vgl. \cite{S_ENISA_AI}, S.~9.} Unternehmen müssen daher Chancen und Risiken abwägen und geeignete Governance-Strukturen schaffen. Die spezifische Vorgehensweise der BWB wird im weiteren Verlauf praxisnah dargestellt.
+
+\subsection{ITIL-Best Practices}
+
+Die ITIL ist ein zentraler Bestandteil für das Verständnis von Software-Erweiterungen im IT-Service-Management. Um seine Rolle nachvollziehen zu können, ist es notwendig, zunächst einige grundlegende Begriffe zu klären. Ein IT-Service ist eine immaterielle Dienstleistung der Informationstechnologie, die unter anderem Beratung, Planung sowie die Bereitstellung von Hardware- und Softwareleistungen umfasst. ITIL definiert ihn als „ein oder mehrere IT-Systeme, die einen Geschäftsprozess ermöglichen oder unterstützen und vom Kunden als zusammenhängendes Ganzes wahrgenommen werden“.\footnote{Vgl. \cite{S_ITIL}, S.~6.} 
+
+Die Qualität des Service spielt dabei eine zentrale Rolle und wird durch kontinuierliche Steuerung und Verbesserung gesichert. Aufbauend darauf versteht man unter IT-Service-Management (ITSM) ein prozessorientiertes Modell, das die Gesamtheit der Methoden und Prozesse zur Lieferung, Unterstützung und Steuerung von IT-Services umfasst. Ziel ist es, die IT-Infrastruktur und Anwendungen so auszurichten, dass sie die Geschäftsziele bestmöglich unterstützen.\footnote{Vgl. \cite{S_ITIL}, S.~8, S.~139.}
+
+Als Rahmenwerk dient hier die IT Infrastructure Library (ITIL), die in den 1980er-Jahren im Auftrag der britischen Regierung entwickelt wurde.\footnote{Ebenda, S.~11--12.} Sie beruht auf dem sogenannten Best-Practice-Ansatz, also einer Vereinheitlichung der Analyseergebnisse britischer Behörden, die ihre gesammelten Erfahrungen in einer Büchersammlung dokumentierten.\footnote{Ebenda, S.~123.} ITIL legt damit fest, was und wann im IT-Service-Management zu tun ist, ohne jedoch das Wie vorzuschreiben.\footnote{Ebenda, S.~124.} 
+
+\subsection{Rolle des Anforderungsmanagements}
+
+Das Requirements Engineering (Anforderungsmanagement) ist ein systematischer und disziplinierter Prozess, bei dem die Bedürfnisse, Erwartungen und Anforderungen an ein System erfasst, analysiert, dokumentiert, geprüft und verwaltet werden.\footnote{Vgl. \cite{S_PohlRupp}, S.~3--4.} Solche Bedürfnisse werden im wirtschaftlichen Sinn als Bedarf bezeichnet, also ein konkretisiertes Bedürfnis, das durch eine Leistung oder Lösung erfüllt werden kann.\footnote{Vgl. \cite{S_WikipediaBedarf}.}
+
+Im Mittelpunkt des Requirements Engineering steht der Begriff des Stakeholders. Als Stakeholder gelten alle Personen oder Organisationen, die in irgendeiner Weise Einfluss auf die Anforderungen eines Systems haben. Dazu zählen etwa spätere Nutzer, Administratoren, das Management oder auch externe Institutionen. Wichtig ist: Anforderungen entstehen nicht isoliert, sondern immer im Kontext der Interessen und Bedürfnisse dieser Stakeholder.\footnote{Vgl. \cite{S_PohlRupp}, S.~3--4.}
+
+Ziel des Requirements Engineering ist es, sicherzustellen, dass alle relevanten Anforderungen korrekt verstanden und über den gesamten Projektverlauf hinweg berücksichtigt werden. Ein zentrales Element dabei ist die Fähigkeit, flexibel auf veränderte Rahmenbedingungen und neue Anforderungen zu reagieren. Requirements Engineering ist also kein einmaliger Schritt, sondern ein kontinuierlicher Prozess der Anpassung und Weiterentwicklung.\footnote{Vgl. \cite{S_ISR}.} 
+
+Um diese Anforderungen erfolgreich umzusetzen, gliedert sich das Requirements Engineering in folgende zentrale Tätigkeiten: Ermitteln, Dokumentieren, Prüfen und Abstimmen sowie Verwalten. Beim Ermitteln geht es darum, mithilfe geeigneter Methoden (z. B. Interviews, Beobachtungen) die relevanten Anforderungen der Stakeholder zu identifizieren. In der Phase des Dokumentierens werden diese systematisch festgehalten. Danach folgt das Prüfen und Abstimmen, bei dem Anforderungen mit Stakeholdern abgeglichen und auf Konsistenz, Vollständigkeit und Verständlichkeit überprüft werden. Abschließend sorgt das Verwalten dafür, dass Anforderungen über den Projektverlauf hinweg aktuell bleiben und bei Änderungen angepasst werden.\footnote{Vgl. \cite{S_PohlRupp},S.~4--5.}
+
+\subsection{Change Management}
+
+Change Management bezeichnet die bewusste und strukturierte Steuerung von Veränderungsprozessen in Organisationen. Ziel ist es, Veränderungen gezielt einzuleiten, zu steuern und nachhaltig abzusichern.\footnote{Vgl. \cite{S_Schichtel}, S.~40.} Dabei reicht es nicht, technische Anpassungen vorzunehmen – im Mittelpunkt steht die aktive Einbindung der betroffenen Menschen, da jede Veränderung ihre bestehenden Denk- und Verhaltensmuster sowie Arbeitsabläufe beeinflusst.
+
+Ein wesentliches Merkmal des Change Managements besteht darin, dass die emotionale Ebene der Betroffenen berücksichtigt, Orientierung geschaffen und ein gemeinsames Vorgehen ermöglicht wird.\footnote{Ebenda, S.~41.} Damit Veränderungen akzeptiert und erfolgreich umgesetzt werden können, spielen drei Ebenen eine zentrale Rolle: Strategie (Zielrichtung und Vision), Struktur (Prozesse und organisatorische Abläufe) sowie Kultur (Werte, Einstellungen und Verhaltensweisen).\footnote{Ebenda, S.~43.} Diese Ebenen greifen ineinander und entscheiden darüber, ob ein Veränderungsprozess im Alltag verankert wird.
+Transparente Kommunikation ist dafür entscheidend: Nur wenn Ziele, Hintergründe und Auswirkungen klar vermittelt werden, entsteht Akzeptanz und Beteiligung. Besonders bei Softwareanpassungen zeigt sich, dass Change Management nicht allein technische Maßnahmen umfasst, sondern immer auch den sozialen Kontext und die Bedürfnisse der Beteiligten.\footnote{Ebenda, S.~42--43.}
+
+% === 3. Praxisteil ===
+\section{Anforderungsmanagement in der Praxis}
+
+Die Berliner Wasserbetriebe nutzen seit vielen Jahren Adobe-Produkte in der Unternehmenskommunikation, bisher in Form der lokal installierten Creative Suite. Da dieses Produkt von Adobe eingestellt wurde, erfolgte der notwendige Umstieg auf die cloudbasierte Adobe Creative Cloud. Um die Arbeitsfähigkeit sofort zu sichern, wurden zunächst nur die bereits bekannten Werkzeuge freigeschaltet – ohne neue Cloud- oder KI-Funktionen.
+
+\subsection{Bedarfsaufnahme}
+
+Parallel äußerte die Unternehmenskommunikation den Wunsch nach einem erweiterten Zugriff auf zusätzliche Komponenten, insbesondere auf die in der Creative Cloud integrierten KI-gestützten Funktionen. Damit lag ein klarer Bedarf vor: Einerseits sollten bewährte Tools weiterhin genutzt werden können, andererseits bestand das Interesse an den neuen Möglichkeiten der Cloud-Lösung. Dieser Bedarf markierte den Ausgangspunkt für den Anforderungsmanagement-Prozess, in dem Chancen und Risiken der erweiterten Nutzung systematisch geprüft werden.
+
+\subsection{Abstimmungen}
+
+Gemäß der etablierten Prozesse bei den BWB müssen bei der Einführung oder Erweiterung von Software zunächst verschiedene Stakeholder einbezogen werden. Daher fand frühzeitig eine enge Abstimmung mit dem Portfolio-Management, der IT-Sicherheit sowie dem Datenschutz statt, um den Bedarf nicht nur technisch, sondern auch organisatorisch und sicherheitsrelevant zu prüfen. Dieses Vorgehen entspricht den in ITIL beschriebenen Best Practices.\footnote{Vgl. \cite{S_ITIL}, S.~40--43.} 
+
+In diesem Fall lag eine Besonderheit darin, dass die Umstellung auf die Adobe Creative Cloud aus Dringlichkeitsgründen bereits erfolgt war, bevor alle Prüfschritte abgeschlossen wurden. Die üblichen Rücksprachen mit IT-Sicherheit, Datenschutz und weiteren Beteiligten (u.\,a. den IT-internen Betreuern der Adobe-Produkte und der Arbeitnehmervertretung) wurden daher im Nachgang intensiv nachgeholt, um die Freigabe zusätzlicher Komponenten zu beurteilen.
+
+Die Hauptschwierigkeit in der Abstimmungsphase ergab sich aus den neuartigen KI-Funktionen der Software. Für den Umgang mit KI gibt es bei den BWB noch keine endgültig verabschiedete Richtlinie – eine unternehmensweite KI-Policy befindet sich zwar in Arbeit, war aber zum Zeitpunkt des Falls noch nicht verfügbar. Folglich war anfangs unklar, worauf bei der Bewertung der Anfrage der Schwerpunkt zu legen ist: auf die generelle Cloud-Nutzung, auf die KI-Komponenten oder auf spezifische fachliche Anforderungen. Um ein gemeinsames Verständnis für das komplexe Thema zu schaffen, waren mehrere Abstimmungsrunden erforderlich. In vorbereitenden Gesprächen mit den Beteiligten wurde zunächst geklärt, welche Adobe-Tools im Einsatz sind, welche neuen Module und KI-Funktionen zur Diskussion stehen und welche Risiken oder Vorgaben (etwa aus Datenschutzsicht) zu beachten sind. Erst auf Basis dieses gemeinsamen Informationsstands konnte die eigentliche Bewertung strukturiert angegangen werden.
+
+\subsection{Bewertung}
+
+Für die systematische Analyse der Anforderung wurden die gesammelten Informationen in einer Excel-Tabelle strukturiert erfasst. Dort wurden alle relevanten Kriterien dokumentiert und die vorhandenen sowie neuen Komponenten der Adobe Creative Cloud entlang dieser Kriterien bewertet. Dazu gehörten insbesondere:
 
 \begin{itemize}
-    \setlength\itemsep{0.4\baselineskip}
-    \setlength\parskip{0pt}
-    \setlength\parsep{0pt}
-    
-    \item \normalsize aaaa.
-    \item \normalsize bbbb.
-    \item \normalsize cccc.
-  \end{itemize}
+    \item \textbf{Bereits genutzte Anwendungen bei den BWB:} Welche Tools sind im Arbeitsalltag bereits unverzichtbar und haben daher höchste Priorität bei einer Erweiterung?
+    \item \textbf{Aktueller Angebotsumfang durch Adobe:} Welche Funktionen sind im bestehenden Lizenzpaket enthalten und für welche Erweiterungen wären zusätzliche Lizenzen oder Upgrades nötig?
+    \item \textbf{Umgang mit Daten (intern/extern):} Benötigen die in Frage kommenden Adobe-Tools den Zugriff auf interne (möglicherweise sensible) Daten oder werden Daten in die Cloud hochgeladen? Wenn ja, welche Datenkategorien sind betroffen (z.\,B. öffentliche vs. vertrauliche Informationen)?
+    \item \textbf{Einsatzzweck der Anwendung:} Welchen konkreten Mehrwert bieten die neuen Funktionen im Arbeitsalltag? (z.\,B. automatisierte Dokumentenerstellung, KI-gestützte Bildbearbeitung, Datenanalyse-Unterstützung.)
+    \item \textbf{Vorhandensein von KI-Funktionen:} Enthält die Anwendung KI-gestützte Module (z.\,B. Machine-Learning-Funktionen) und ist deren Nutzung zwingend integriert oder optional konfigurierbar?
+    \item \textbf{Herstellerangaben zur Datensicherheit:} Wie werden die Daten bei Adobe verarbeitet und gespeichert? Werden eventuell Daten an Adobe-Server übertragen, und existieren Aussagen dazu, dass keine Weitergabe oder unautorisierte Nutzung (z.\,B. für KI-Training) erfolgt?
+    \item \textbf{Kosten- und Lizenzmodelle:} Welche Mehrkosten würden durch die Freischaltung zusätzlicher Funktionen oder Benutzerkonten entstehen? Gibt es alternative Lizenzmodelle (Basis vs. Premium), und wie verhalten sich diese im Kosten-Nutzen-Verhältnis?
+\end{itemize}
 
-  % === TEIL 2 ===
-\section{TEIL 2}
-% --- TEIL 2.1 ---
-\subsection{AAAAA}
-AAAAAA
-% --- TEIL 2.2 ---
-\subsection{BBBB}
+Die Bewertung entlang dieser Kriterien beleuchtete sowohl Risiken als auch Chancen der erweiterten Adobe-Nutzung. So wurde beispielsweise deutlich, dass bei KI-gestützten Funktionen besondere Vorsicht geboten ist: Sensible Unternehmensdaten (etwa detailreiche interne Grafiken oder Betriebspläne) dürfen nicht ungeschützt in eine Cloud-KI gegeben werden, da dies zu ungewollter Veröffentlichung oder Missbrauch führen könnte. Solche Inhalte müssten vor einer KI-Verarbeitung anonymisiert oder ganz von der Nutzung ausgeschlossen werden. Gleichzeitig ergab die Analyse deutliche Potenziale: Durch KI-Unterstützung ließen sich bestimmte kreative Aufgaben erheblich beschleunigen (z.\,B. automatische Entwürfe oder Bildoptimierungen), was Zeit und Aufwand in der Unternehmenskommunikation sparen könnte.
 
+Die Ergebnisse der Excel-Analyse wurden in einem ausführlichen Memo dokumentiert, das als Grundlage für weitere Entscheidungen und Abstimmungen diente. Damit wurde die theoretische Phase der Dokumentation abgeschlossen.\footnote{Vgl. \cite{S_PohlRupp}, S.~4.} Rückblickend lassen sich die bisher durchlaufenen Schritte auch den typischen Phasen einer Software-Einführung zuordnen: Die Bedarfsaufnahme und initiale Bewertung entsprachen einer Projektvorbereitung, in der Ziele und Nutzen festgelegt wurden. Die vertiefte Analyse mit Excel und Memo kann als Teil der Planung gesehen werden, da hier bereits Ressourcenfragen, Risiken und erste Alternativen betrachtet wurden. Eine eigentliche Auswahl- oder Rollout-Phase stand zwar noch aus, doch wurden bereits erste Überlegungen für mögliche Vorgehensweisen und Lösungsalternativen angestellt.\footnote{Vgl. \cite{pureconsultant2023}.} 
+
+Parallel zur Analyse fanden auch fortlaufend Gespräche mit dem internen Kunden (Unternehmenskommunikation) statt, um die Anforderungen weiter zu präzisieren und Prioritäten abzustimmen. Dabei zeigte sich, dass manche Tools (z.\,B. Adobe Acrobat für PDF-Dokumente) für den täglichen Betrieb unverzichtbar sind, während andere, insbesondere neue KI-basierte Anwendungen, vom Fachbereich als „nice-to-have“ und damit nachrangig eingestuft wurden. Dieses Vorgehen knüpfte direkt an bekannte Methoden der Anforderungsanalyse an – etwa den Einsatz von Interviews und Priorisierungstechniken – und spiegelt die in der Theorie empfohlene praxisnahe Bewertung wider.\footnote{Vgl. \cite{S_ISR}.}
+
+\subsection{Vorläufiges Ergebnis}
+
+Trotz der umfassenden Prüfung liegt bislang noch keine endgültige Entscheidung zur erweiterten Nutzung der Adobe Creative Cloud vor. Die KI-gestützten Komponenten sind zum aktuellen Zeitpunkt weiterhin deaktiviert, bis alle erforderlichen Prüfschritte abgeschlossen sind und eine fundierte Bewertung vorliegt. Eine zentrale Herausforderung für das weitere Vorgehen ist die Entscheidung, wie mit dem Alles-oder-nichts-Prinzip umgegangen wird: Aus technischer und lizenzrechtlicher Sicht kann die Adobe Creative Cloud entweder für alle Nutzenden vollständig freigeschaltet werden – mit sämtlichen erweiterten Funktionen – oder muss für alle auf den eingeschränkten Funktionsumfang begrenzt bleiben, so wie es derzeit der Fall ist. 
+
+Vor diesem Hintergrund werden derzeit zwei mögliche Lösungswege diskutiert. Erstens könnte man der Hauptbedarfsträgerin (der Unternehmenskommunikation) die vollumfängliche Nutzung der neuen Funktionen ermöglichen, gleichzeitig jedoch für andere Fachbereiche den Zugang beschränken und für diese nach Alternativlösungen ohne KI-Funktionalität suchen. Zweitens wäre es möglich, sämtliche betroffene Fachbereiche einzubeziehen und jeweils getrennte Risikobewertungen durchzuführen. Auf Basis dieser Prüfungen könnte man anschließend – sofern keine unvertretbaren Risiken identifiziert werden – die erweiterten Funktionen für alle Bereiche freischalten.
+
+Die Entscheidung zwischen diesen Ansätzen ist im November 2025 noch offen. Das Team tendiert dazu, vor einem organisationsweiten Rollout zunächst in ausgewählten Bereichen (wie der Unternehmenskommunikation) Erfahrungen zu sammeln und die Entwicklung der unternehmensweiten KI-Policy abzuwarten. In jedem Fall wird eng mit den strategischen Einheiten zusammengearbeitet, um sicherzustellen, dass die schließlich gewählte Lösung zur IT-Strategie der BWB passt und geltende Sicherheitsstandards eingehalten werden. Dieses Zwischenergebnis unterstreicht, wie wichtig ein sorgfältiges, schrittweises Vorgehen bei der Einführung von KI-Funktionen ist: Anstatt vorschnell alle Möglichkeiten freizuschalten, priorisiert das Unternehmen Sicherheit und Compliance und wägt alternative Umsetzungsstrategien ab.
+\section{Handlungsempfehlungen}
+
+\section{Fazit}
 % === Glossar ====
 \section*{Glossar}  
 \addcontentsline{toc}{section}{Glossar} 
 \vspace{0.6cm}
 \begin{tabular}{p{4cm} p{11.35cm}}   
     \hline
-    \textbf{\normalsize AAAA:} & \normalsize AAAAA.\footnotemark[70]\\[0.5cm]
+    \textbf{\normalsize Cloud} & \normalsize Cloud Computing bedeutet, dass IT-Ressourcen wie Speicher, Programme oder Rechenleistung über das Internet von Anbietern bereitgestellt werden, sodass Nutzer flexibel und ortsunabhängig darauf zugreifen können.\footnotemark[70]\\[0.5cm]
     \hline
-    \textbf{\normalsize BBBB:} & \normalsize BBBB. \footnotemark[71]\\[0.5cm]
+    \textbf{\normalsize BBBB} & \normalsize BBBB. \footnotemark[71]\\[0.5cm]
 \end{tabular}
 
 % Fußnoten für Teil 1
@@ -297,10 +370,10 @@ AAAAAA
 \vspace*{\fill}
 \begin{center}
     \begin{adjustbox}{rotate=90, center, valign=b}
-        \begin{minipage}{0.9\textheight}
+        \begin{minipage}{0.95\textheight}
             \centering
-            {\Large\bfseries Anhang 1}\\[1em]
-            AAAA
+            {\Large\bfseries Anhang 1: Excel-Tabelle (Adobe-Liste)}\\[1em]
+            \includegraphics[width=\textheight]{BILDER-PTB2/Adobe.Liste.1.png}
         \end{minipage}
     \end{adjustbox}
 \end{center}

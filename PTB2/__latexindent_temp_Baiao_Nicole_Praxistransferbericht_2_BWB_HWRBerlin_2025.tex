@@ -277,40 +277,51 @@ Transparente Kommunikation ist dafür entscheidend: Nur wenn Ziele, Hintergründ
 
 % === 3. Praxisteil ===
 \section{Anforderungsmanagement in der Praxis}
-Der Prozess begann, als interne Kunden der BWB den Wunsch äußerten, Software-Produkte mit KI-Funktionen aus der Adobe Creative Cloud nutzen zu können. Damit war ein erster Bedarf formuliert – wie in der Theorie des Anforderungsmanagements beschrieben, bildet die strukturierte Erhebung von Anforderungen den Ausgangspunkt jeder Entscheidung.\footnote{Vgl. \cite{S_PohlRupp}, S.~3.} In Gesprächen mit den Fachbereichen wurde dieser Bedarf konkretisiert: Welche Anwendungen sind für die tägliche Arbeit relevant, welche Vorteile bieten die KI-Funktionen und welche Risiken sind zu erwarten?
 
-\subsection{Vorgehen im aktuellen Fall}
-Die Bewertung der Bedarfe erfolgt in Abstimmung mit Portfolio-Management, IT-Sicherheit und Datenschutz. Dieses Vorgehen entspricht den in ITIL beschriebenen Best Practices, wonach Veränderungen nicht nur technisch, sondern auch organisatorisch und sicherheitsrelevant zu prüfen sind.\footnote{Vgl. \cite{S_ITIL}, S.~40--43.} Zur systematischen Analyse wurde eine Excel-Tabelle erstellt, in der die relevanten Kriterien dokumentiert und für jede Anwendung bewertet wurden. Dazu gehörten insbesondere:
+Die Berliner Wasserbetriebe nutzen seit vielen Jahren Adobe-Produkte in der Unternehmenskommunikation, bisher in Form der lokal installierten Creative Suite. Da dieses Produkt von Adobe eingestellt wurde, erfolgte der notwendige Umstieg auf die cloudbasierte Adobe Creative Cloud. Um die Arbeitsfähigkeit sofort zu sichern, wurden zunächst nur die bereits bekannten Werkzeuge freigeschaltet – ohne neue Cloud- oder KI-Funktionen.
+
+\subsection{Bedarfsaufnahme}
+
+Parallel äußerte die Unternehmenskommunikation den Wunsch nach einem erweiterten Zugriff auf zusätzliche Komponenten, insbesondere auf die in der Creative Cloud integrierten KI-gestützten Funktionen. Damit lag ein klarer Bedarf vor: Einerseits sollten bewährte Tools weiterhin genutzt werden können, andererseits bestand das Interesse an den neuen Möglichkeiten der Cloud-Lösung. Dieser Bedarf markierte den Ausgangspunkt für den Anforderungsmanagement-Prozess, in dem Chancen und Risiken der erweiterten Nutzung systematisch geprüft werden.
+
+\subsection{Abstimmungen}
+
+Gemäß der etablierten Prozesse bei den BWB müssen bei der Einführung oder Erweiterung von Software zunächst verschiedene Stakeholder einbezogen werden. Daher fand frühzeitig eine enge Abstimmung mit dem Portfolio-Management, der IT-Sicherheit sowie dem Datenschutz statt, um den Bedarf nicht nur technisch, sondern auch organisatorisch und sicherheitsrelevant zu prüfen. Dieses Vorgehen entspricht den in ITIL beschriebenen Best Practices.\footnote{Vgl. \cite{S_ITIL}, S.~40--43.} 
+
+In diesem Fall lag eine Besonderheit darin, dass die Umstellung auf die Adobe Creative Cloud aus Dringlichkeitsgründen bereits erfolgt war, bevor alle Prüfschritte abgeschlossen wurden. Die üblichen Rücksprachen mit IT-Sicherheit, Datenschutz und weiteren Beteiligten (u.\,a. den IT-internen Betreuern der Adobe-Produkte und der Arbeitnehmervertretung) wurden daher im Nachgang intensiv nachgeholt, um die Freigabe zusätzlicher Komponenten zu beurteilen.
+
+Die Hauptschwierigkeit in der Abstimmungsphase ergab sich aus den neuartigen KI-Funktionen der Software. Für den Umgang mit KI gibt es bei den BWB noch keine endgültig verabschiedete Richtlinie – eine unternehmensweite KI-Policy befindet sich zwar in Arbeit, war aber zum Zeitpunkt des Falls noch nicht verfügbar. Folglich war anfangs unklar, worauf bei der Bewertung der Anfrage der Schwerpunkt zu legen ist: auf die generelle Cloud-Nutzung, auf die KI-Komponenten oder auf spezifische fachliche Anforderungen. Um ein gemeinsames Verständnis für das komplexe Thema zu schaffen, waren mehrere Abstimmungsrunden erforderlich. In vorbereitenden Gesprächen mit den Beteiligten wurde zunächst geklärt, welche Adobe-Tools im Einsatz sind, welche neuen Module und KI-Funktionen zur Diskussion stehen und welche Risiken oder Vorgaben (etwa aus Datenschutzsicht) zu beachten sind. Erst auf Basis dieses gemeinsamen Informationsstands konnte die eigentliche Bewertung strukturiert angegangen werden.
+
+\subsection{Bewertung}
+
+Für die systematische Analyse der Anforderung wurden die gesammelten Informationen in einer Excel-Tabelle strukturiert erfasst. Dort wurden alle relevanten Kriterien dokumentiert und die vorhandenen sowie neuen Komponenten der Adobe Creative Cloud entlang dieser Kriterien bewertet. Dazu gehörten insbesondere:
+
 \begin{itemize}
-  \item Genutzte Anwendungen bei den BWB – um festzustellen, welche Tools im Alltag unverzichtbar sind und daher Priorität haben.
-  \item Aktueller Angebotsstatus durch Adobe – um Transparenz zu schaffen, welche Funktionen Teil des Standard-Pakets sind und welche zusätzliche Lizenzmodelle erfordern.
-  \item Notwendigkeit interner oder externer Daten – da Anwendungen mit Cloud- oder KI-Anbindung häufig sensible Betriebsdaten verarbeiten.
-  \item Zweck der Anwendung – also der konkrete Mehrwert für die tägliche Arbeit, z.\,B. Dokumentenbearbeitung, Bildbearbeitung oder Datenanalyse.
-  \item Vorhandensein von KI-Funktionen (inkl. Machine Learning) – um zu prüfen, ob deren Nutzung verpflichtend ist oder optional deaktiviert werden kann.
-  \item Angaben von Adobe zur Datensicherheit – insbesondere zur Speicherung, Verarbeitung und möglicher Weitergabe von Daten.
-  \item Kosten- und Lizenzmodelle – um den finanziellen Rahmen abzuschätzen und eine Entscheidung zwischen Basis- und Premium-Funktionen vorzubereiten.
+    \item \textbf{Bereits genutzte Anwendungen bei den BWB:} Welche Tools sind im Arbeitsalltag bereits unverzichtbar und haben daher höchste Priorität bei einer Erweiterung?
+    \item \textbf{Aktueller Angebotsumfang durch Adobe:} Welche Funktionen sind im bestehenden Lizenzpaket enthalten und für welche Erweiterungen wären zusätzliche Lizenzen oder Upgrades nötig?
+    \item \textbf{Umgang mit Daten (intern/extern):} Benötigen die in Frage kommenden Adobe-Tools den Zugriff auf interne (möglicherweise sensible) Daten oder werden Daten in die Cloud hochgeladen? Wenn ja, welche Datenkategorien sind betroffen (z.\,B. öffentliche vs. vertrauliche Informationen)?
+    \item \textbf{Einsatzzweck der Anwendung:} Welchen konkreten Mehrwert bieten die neuen Funktionen im Arbeitsalltag? (z.\,B. automatisierte Dokumentenerstellung, KI-gestützte Bildbearbeitung, Datenanalyse-Unterstützung.)
+    \item \textbf{Vorhandensein von KI-Funktionen:} Enthält die Anwendung KI-gestützte Module (z.\,B. Machine-Learning-Funktionen) und ist deren Nutzung zwingend integriert oder optional konfigurierbar?
+    \item \textbf{Herstellerangaben zur Datensicherheit:} Wie werden die Daten bei Adobe verarbeitet und gespeichert? Werden eventuell Daten an Adobe-Server übertragen, und existieren Aussagen dazu, dass keine Weitergabe oder unautorisierte Nutzung (z.\,B. für KI-Training) erfolgt?
+    \item \textbf{Kosten- und Lizenzmodelle:} Welche Mehrkosten würden durch die Freischaltung zusätzlicher Funktionen oder Benutzerkonten entstehen? Gibt es alternative Lizenzmodelle (Basis vs. Premium), und wie verhalten sich diese im Kosten-Nutzen-Verhältnis?
 \end{itemize}
 
-Die Ergebnisse wurden in einem Memo dokumentiert, das als Grundlage für die weitere Abstimmung diente. Damit wurde die theoretische Phase des Dokumentierens umgesetzt.\footnote{Vgl. \cite{S_PohlRupp}, S.~4.}
+Die Bewertung entlang dieser Kriterien beleuchtete sowohl Risiken als auch Chancen der erweiterten Adobe-Nutzung. So wurde beispielsweise deutlich, dass bei KI-gestützten Funktionen besondere Vorsicht geboten ist: Sensible Unternehmensdaten (etwa detailreiche interne Grafiken oder Betriebspläne) dürfen nicht ungeschützt in eine Cloud-KI gegeben werden, da dies zu ungewollter Veröffentlichung oder Missbrauch führen könnte. Solche Inhalte müssten vor einer KI-Verarbeitung anonymisiert oder ganz von der Nutzung ausgeschlossen werden. Gleichzeitig ergab die Analyse deutliche Potenziale: Durch KI-Unterstützung ließen sich bestimmte kreative Aufgaben erheblich beschleunigen (z.\,B. automatische Entwürfe oder Bildoptimierungen), was Zeit und Aufwand in der Unternehmenskommunikation sparen könnte.
 
-In der Softwareeinführung lassen sich mehrere Phasen wiedererkennen: Mit der Bedarfserhebung und Bewertung wurde die Rolle der Projektvorbereitung erfüllt, in der Ziele und Nutzen festgelegt werden. Die Analyse mit Excel und Memo entspricht einem Teil der Planung, da Ressourcen, Risiken und Alternativen geprüft wurden. Eine vollständige Auswahl- oder Rollout-Phase stand zwar noch aus, doch erste Überlegungen zur systematischen Evaluierung möglicher Alternativen wurden bereits vorbereitet.\footnote{Vgl. \cite{pureconsultant2023}.}
+Die Ergebnisse der Excel-Analyse wurden in einem ausführlichen Memo dokumentiert, das als Grundlage für weitere Entscheidungen und Abstimmungen diente. Damit wurde die theoretische Phase der Dokumentation abgeschlossen.\footnote{Vgl. \cite{S_PohlRupp}, S.~4.} Rückblickend lassen sich die bisher durchlaufenen Schritte auch den typischen Phasen einer Software-Einführung zuordnen: Die Bedarfsaufnahme und initiale Bewertung entsprachen einer Projektvorbereitung, in der Ziele und Nutzen festgelegt wurden. Die vertiefte Analyse mit Excel und Memo kann als Teil der Planung gesehen werden, da hier bereits Ressourcenfragen, Risiken und erste Alternativen betrachtet wurden. Eine eigentliche Auswahl- oder Rollout-Phase stand zwar noch aus, doch wurden bereits erste Überlegungen für mögliche Vorgehensweisen und Lösungsalternativen angestellt.\footnote{Vgl. \cite{pureconsultant2023}.} 
 
-Parallel zu diesen Schritten fanden Gespräche mit internen Kunden statt, um Anforderungen zu präzisieren und Prioritäten zu bestimmen. Hier zeigte sich, dass einige Tools wie Acrobat für den Arbeitsalltag unverzichtbar sind, während andere Anwendungen mit KI-Funktionen eher optional wahrgenommen wurden. Dieses Vorgehen knüpft an die in der Theorie beschriebenen Methoden der Anforderungsanalyse an, etwa Interviews oder Priorisierungstechniken.\footnote{Vgl. \cite{S_ISR}.}
+Parallel zur Analyse fanden auch fortlaufend Gespräche mit dem internen Kunden (Unternehmenskommunikation) statt, um die Anforderungen weiter zu präzisieren und Prioritäten abzustimmen. Dabei zeigte sich, dass manche Tools (z.\,B. Adobe Acrobat für PDF-Dokumente) für den täglichen Betrieb unverzichtbar sind, während andere, insbesondere neue KI-basierte Anwendungen, vom Fachbereich als „nice-to-have“ und damit nachrangig eingestuft wurden. Dieses Vorgehen knüpfte direkt an bekannte Methoden der Anforderungsanalyse an – etwa den Einsatz von Interviews und Priorisierungstechniken – und spiegelt die in der Theorie empfohlene praxisnahe Bewertung wider.\footnote{Vgl. \cite{S_ISR}.}
 
-Insgesamt zeigt sich, dass die Vorgehensweise des Teams nicht auf einer isolierten Entscheidung basierte, sondern eng an den theoretischen Phasen von Anforderungsmanagement, Softwareeinführung und ITIL orientiert war. Zugleich musste der Prozess an die praktische Situation angepasst werden, indem Unsicherheiten adressiert, Kriterien konkretisiert und die Abstimmung mit relevanten Stakeholdern in den Vordergrund gestellt wurden.
+\subsection{Vorläufiges Ergebnis}
 
-\subsection{Vergleich mit ähnlichen Fällen: Microsoft 365 Copilot}
-Ein vergleichbarer Fall zeigt sich bei der Einführung von Microsoft 365 Copilot. Die Lösung wurde in Anwendungen wie Word, Excel, Outlook oder Teams integriert und bietet Funktionen zur automatischen Texterstellung, Analyse oder Zusammenfassung.\footnote{Vgl. \cite{S_MS_CopilotOverview}.} Die Nachfrage war groß, insbesondere bei Abteilungen mit hoher Dokumentations- und Analysearbeit. Gleichzeitig entstanden aber erhebliche Bedenken bezüglich Datenschutz und Sicherheit, da nicht klar war, wie sensibel verarbeitete Daten genutzt oder gespeichert werden. Microsoft versichert zwar, dass Copilot-Daten innerhalb der Service-Grenzen verbleiben und nicht zum Training von KI-Modellen eingesetzt werden,\footnote{Vgl. \cite{S_MS_CopilotSecurity}.} dennoch blieben Zweifel bestehen.
+Trotz der umfassenden Prüfung liegt bislang noch keine endgültige Entscheidung zur erweiterten Nutzung der Adobe Creative Cloud vor. Die KI-gestützten Komponenten sind zum aktuellen Zeitpunkt weiterhin deaktiviert, bis alle erforderlichen Prüfschritte abgeschlossen sind und eine fundierte Bewertung vorliegt. Eine zentrale Herausforderung für das weitere Vorgehen ist die Entscheidung, wie mit dem Alles-oder-nichts-Prinzip umgegangen wird: Aus technischer und lizenzrechtlicher Sicht kann die Adobe Creative Cloud entweder für alle Nutzenden vollständig freigeschaltet werden – mit sämtlichen erweiterten Funktionen – oder muss für alle auf den eingeschränkten Funktionsumfang begrenzt bleiben, so wie es derzeit der Fall ist. 
 
-Um diese Risiken zu bewältigen, gingen Unternehmen unterschiedlich vor. Viele starteten mit Pilotprojekten in ausgewählten Abteilungen, um den Einsatz zu erproben und Risiken einzugrenzen. Darauf aufbauend wurden klare Nutzungsrichtlinien entwickelt, die festlegten, in welchen Fällen Copilot erlaubt ist und welche Daten ausgeschlossen bleiben.\footnote{Vgl. \cite{S_Reco}.} Ergänzend erfolgten Schulungen für Mitarbeitende, um ein Bewusstsein für Chancen und Gefahren zu schaffen. Teilweise wurden auch technische Schutzmaßnahmen wie restriktivere Zugriffsrechte oder Monitoring-Tools eingeführt.\footnote{Vgl. \cite{S_Reco}; \cite{S_Kyndryl}.} In einigen Organisationen beschränkte man sich zunächst auf den Einsatz in weniger kritischen Bereichen.\footnote{Vgl. \cite{S_Reco}.} 
+Vor diesem Hintergrund werden derzeit zwei mögliche Lösungswege diskutiert. Erstens könnte man der Hauptbedarfsträgerin (der Unternehmenskommunikation) die vollumfängliche Nutzung der neuen Funktionen ermöglichen, gleichzeitig jedoch für andere Fachbereiche den Zugang beschränken und für diese nach Alternativlösungen ohne KI-Funktionalität suchen. Zweitens wäre es möglich, sämtliche betroffene Fachbereiche einzubeziehen und jeweils getrennte Risikobewertungen durchzuführen. Auf Basis dieser Prüfungen könnte man anschließend – sofern keine unvertretbaren Risiken identifiziert werden – die erweiterten Funktionen für alle Bereiche freischalten.
 
-Der Vergleich mit dem Adobe-Fall verdeutlicht: Sobald Anbieter KI-Funktionen in bestehende Softwareprodukte integrieren, müssen Unternehmen eine Balance zwischen Innovationspotenzial und Sicherheitsanforderungen finden. Ein strukturierter Prozess aus Bedarfsaufnahme, Risikoprüfung und enger Abstimmung mit Datenschutz und IT-Sicherheit bildet dabei die Grundlage für eine verantwortungsvolle Entscheidung.
+Die Entscheidung zwischen diesen Ansätzen ist im November 2025 noch offen. Das Team tendiert dazu, vor einem organisationsweiten Rollout zunächst in ausgewählten Bereichen (wie der Unternehmenskommunikation) Erfahrungen zu sammeln und die Entwicklung der unternehmensweiten KI-Policy abzuwarten. In jedem Fall wird eng mit den strategischen Einheiten zusammengearbeitet, um sicherzustellen, dass die schließlich gewählte Lösung zur IT-Strategie der BWB passt und geltende Sicherheitsstandards eingehalten werden. Dieses Zwischenergebnis unterstreicht, wie wichtig ein sorgfältiges, schrittweises Vorgehen bei der Einführung von KI-Funktionen ist: Anstatt vorschnell alle Möglichkeiten freizuschalten, priorisiert das Unternehmen Sicherheit und Compliance und wägt alternative Umsetzungsstrategien ab.
+\section{Handlungsempfehlungen}
 
-
-
-\subsection{Handlungsempfehlungen}
-
-\subsection{Fazit}
+\section{Fazit}
 % === Glossar ====
 \section*{Glossar}  
 \addcontentsline{toc}{section}{Glossar} 
@@ -359,10 +370,10 @@ Der Vergleich mit dem Adobe-Fall verdeutlicht: Sobald Anbieter KI-Funktionen in 
 \vspace*{\fill}
 \begin{center}
     \begin{adjustbox}{rotate=90, center, valign=b}
-        \begin{minipage}{0.9\textheight}
+        \begin{minipage}{0.95\textheight}
             \centering
-            {\Large\bfseries Anhang 1}\\[1em]
-            AAAA
+            {\Large\bfseries Anhang 1: Excel-Tabelle (Adobe-Liste)}\\[1em]
+            \includegraphics[width=\textheight]{BILDER-PTB2/Adobe.Liste.1.png}
         \end{minipage}
     \end{adjustbox}
 \end{center}
