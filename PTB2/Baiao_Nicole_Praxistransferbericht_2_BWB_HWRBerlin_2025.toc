@@ -18,5 +18,6 @@
 \contentsline {section}{Literaturverzeichnis}{11}{section.5}%
 \contentsline {section}{Anhangsverzeichnis}{14}{section.5}%
 \contentsline {subsection}{Anhang 1}{15}{section*.1}%
-\contentsline {section}{Ehrenwörtliche Erklärung}{20}{section*.1}%
+\contentsline {subsection}{Anhang 2: Interviewprotokoll}{20}{section*.2}%
+\contentsline {section}{Ehrenwörtliche Erklärung}{26}{section*.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
