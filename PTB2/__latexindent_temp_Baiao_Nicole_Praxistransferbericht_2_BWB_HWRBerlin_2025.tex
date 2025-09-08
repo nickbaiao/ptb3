@@ -231,32 +231,27 @@ Das Ziel dieser Arbeit ist es daher, anhand des Falls der erweiterten Nutzung de
 % === Theoretischer Rahmen ===
 \section{Theoretischer Rahmen}
 \subsection{Software-Einführung und -Erweiterung}
-In der Literatur finden sich unterschiedliche Definitionen des Begriffs Softwareeinführung. Nach einer engeren Auffassung bezeichnet er ausschließlich die erstmalige Implementierung einer neuen Anwendung in einem Unternehmen und umfasst damit vor allem die technische Installation, Inbetriebnahme und Akzeptanz durch die Mitarbeitenden.\footnote{Vgl.\cite{papershift2022}.} 
-Eine erweiterte Definition geht darüber hinaus: Sie versteht Softwareeinführung nicht nur als einmalige Implementierung, sondern auch als Anpassung oder Erweiterung neuer Softwarelösungen. Jede Änderung oder neue Nutzungssituation bedeutet somit eine erneute „Einführung“ – auch wenn es sich nicht um ein komplett neues Produkt handelt.\footnote{Vgl.\cite{pureconsultant2023}.}
+In der Fachliteratur wird der Begriff Softwareeinführung unterschiedlich verstanden. Manche Autoren sehen darunter vor allem die erstmalige Implementierung einer Anwendung mit Installation, Inbetriebnahme und Akzeptanz durch die Mitarbeitenden.\footnote{Vgl. \cite{papershift2022}.} Andere betrachten die Einführung umfassender, nämlich als kontinuierlichen Prozess, der auch Anpassungen und Erweiterungen bestehender Systeme einschließt.\footnote{Vgl. \cite{pureconsultant2023}.} 
 
-Für ein großes Unternehmen wie die Berliner Wasserbetriebe sind beide Definitionen relevant. Einerseits werden regelmäßig neue Anwendungen eingeführt, andererseits spielen die Anpassung und Erweiterung bestehender Softwarelösungen eine zentrale Rolle. In dieser Arbeit liegt der Fokus jedoch auf der Erweiterung und Skalierung bereits genutzter Software, wie dies am Beispiel der Adobe Cloud deutlich wird.\footnote{Vgl.\cite{softwarevergleich2023}.}
-Ein strukturierter Ablauf ist entscheidend für den Erfolg. Typischerweise wird der Prozess in fünf Phasen gegliedert, die sich an Projektmanagement- und ITIL-Strukturen orientieren:
+Für die Berliner Wasserbetriebe spielen beide Sichtweisen eine Rolle: Einerseits werden regelmäßig neue Anwendungen eingeführt, andererseits müssen bestehende Systeme immer wieder erweitert oder angepasst werden. Jede solche Anpassung wird daher wie eine erneute Einführung behandelt.\footnote{Vgl. \cite{softwarevergleich2023}.}
+Der Einführungsprozess folgt meist einem klaren Ablauf in fünf Phasen:  
 \begin{enumerate}
-    \item \textbf{Projektvorbereitung} – Festlegung von Zielen, Nutzen und Projektteam.
-    \item \textbf{Planung} – Ausarbeitung von Konzept, Prozessen, Ressourcen und Risiken.
-    \item \textbf{Auswahl der Software} – systematische Evaluierung und Pilotierung.
-    \item \textbf{Installation \& Rollout} – Umsetzung, Datenmigration, Tests und Übergabe.
-    \item \textbf{Überwachung \& Analyse} – Betrieb, Support und kontinuierliche Optimierung.\footnote{Vgl.\cite{papershift2022}.} 
+    \item \textbf{Projektvorbereitung} – Festlegung von Zielen, Nutzen und Projektteam,
+    \item \textbf{Planung} – Konzepte, Prozesse, Ressourcen, Risiken,
+    \item \textbf{Auswahl} – Evaluierung und Pilotierung,
+    \item \textbf{Installation \& Rollout} – Migration, Tests, Übergabe,
+    \item \textbf{Überwachung \& Analyse} – Betrieb, Support, Optimierung.\footnote{Vgl. \cite{papershift2022}.}
 \end{enumerate}
-Bei einer Software-Erweiterung, die im Mittelpunkt dieser Arbeit steht, sind hingegen nur einzelne Phasen in vollem Umfang relevant. Welche dies konkret sind, wird im weiteren Verlauf noch verdeutlicht.  
- \subsection{Cloud-Software und KI-Funktionalitäten}
+\subsection{Cloud und Künstliche Intelligenz in Unternehmen}
 
-Die zunehmende Nutzung von Cloud-Software hat die Dynamik der Einführung und Erweiterung von Anwendungen grundlegend verändert. Cloud-Lösungen sind skalierbar, ortsunabhängig verfügbar und lassen sich vergleichsweise einfach aktualisieren.\footnote{Vgl. \cite{S_BSI_Grundlagen}, S.~5.} Gleichzeitig stellen sie Unternehmen vor neue Herausforderungen, insbesondere im Hinblick auf Datensicherheit, die Einhaltung gesetzlicher Vorgaben und eine mögliche Abhängigkeit vom Anbieter.\footnote{Vgl. \cite{S_BSI_Risiken}, S.~7.}
-
-Hinzu kommt, dass viele Cloud-Produkte heute mit KI-Funktionalitäten ausgestattet sind. Diese eröffnen Chancen wie die Automatisierung von Prozessen, die Unterstützung kreativer Tätigkeiten oder die Verbesserung der Entscheidungsqualität.\footnote{Vgl. \cite{S_BSI_KI}, S.~9.} Gleichzeitig bergen sie Risiken: der Umgang mit sensiblen Daten, die oft in externen Rechenzentren verarbeitet werden, wirft Fragen zum Datenschutz auf.\footnote{Vgl. \cite{S_ENISA_AI}, S.~24-26.} Auch die mangelnde Transparenz sogenannter „Black-Box-Algorithmen“ kann problematisch sein.\footnote{Vgl. \cite{S_ENISA_AI}, S.~9.} Unternehmen müssen daher Chancen und Risiken abwägen und geeignete Governance-Strukturen schaffen. Die spezifische Vorgehensweise der BWB wird im weiteren Verlauf praxisnah dargestellt.
-
+Die zunehmende Nutzung von Cloud-Software hat die Einführung und Erweiterung von Anwendungen grundlegend verändert. Cloud-Lösungen sind flexibel skalierbar und ortsunabhängig verfügbar, stellen Unternehmen aber vor Herausforderungen wie Datensicherheit, rechtliche Vorgaben und mögliche Abhängigkeiten vom Anbieter.\footnote{Vgl. \cite{S_BSI_Grundlagen}, \cite{S_BSI_Risiken}.} 
+Viele Cloud-Produkte enthalten zudem KI-Funktionen, die Chancen wie Automatisierung, kreative Unterstützung und bessere Entscheidungsqualität eröffnen.\footnote{Vgl. \cite{S_BSI_KI}, S.~9.} Gleichzeitig bestehen Risiken, etwa durch die Verarbeitung sensibler Daten in externen Rechenzentren, fehlende Transparenz von „Black-Box-Algorithmen“ und erhöhte Anforderungen an Datenschutz und IT-Sicherheit.\footnote{Vgl. \cite{S_ENISA_AI}, S.~9, S.~24--26.} 
+Unternehmen müssen diese Aspekte sorgfältig abwägen und geeignete Governance-Strukturen entwickeln. Wie die BWB dabei konkret vorgehen, wird im Praxisteil dargestellt.
 \subsection{ITIL-Best Practices}
 
 Die ITIL ist ein zentraler Bestandteil für das Verständnis von Software-Erweiterungen im IT-Service-Management. Um seine Rolle nachvollziehen zu können, ist es notwendig, zunächst einige grundlegende Begriffe zu klären. Ein IT-Service ist eine immaterielle Dienstleistung der Informationstechnologie, die unter anderem Beratung, Planung sowie die Bereitstellung von Hardware- und Softwareleistungen umfasst. ITIL definiert ihn als „ein oder mehrere IT-Systeme, die einen Geschäftsprozess ermöglichen oder unterstützen und vom Kunden als zusammenhängendes Ganzes wahrgenommen werden“.\footnote{Vgl. \cite{S_ITIL}, S.~6.} 
 
-Die Qualität des Service spielt dabei eine zentrale Rolle und wird durch kontinuierliche Steuerung und Verbesserung gesichert. Aufbauend darauf versteht man unter IT-Service-Management (ITSM) ein prozessorientiertes Modell, das die Gesamtheit der Methoden und Prozesse zur Lieferung, Unterstützung und Steuerung von IT-Services umfasst. Ziel ist es, die IT-Infrastruktur und Anwendungen so auszurichten, dass sie die Geschäftsziele bestmöglich unterstützen.\footnote{Vgl. \cite{S_ITIL}, S.~8, S.~139.}
-
-Als Rahmenwerk dient hier die IT Infrastructure Library (ITIL), die in den 1980er-Jahren im Auftrag der britischen Regierung entwickelt wurde.\footnote{Ebenda, S.~11--12.} Sie beruht auf dem sogenannten Best-Practice-Ansatz, also einer Vereinheitlichung der Analyseergebnisse britischer Behörden, die ihre gesammelten Erfahrungen in einer Büchersammlung dokumentierten.\footnote{Ebenda, S.~123.} ITIL legt damit fest, was und wann im IT-Service-Management zu tun ist, ohne jedoch das Wie vorzuschreiben.\footnote{Ebenda, S.~124.} 
+Die Qualität des Service spielt dabei eine zentrale Rolle und wird durch kontinuierliche Steuerung und Verbesserung gesichert. Aufbauend darauf versteht man unter IT-Service-Management (ITSM) ein prozessorientiertes Modell, das die Gesamtheit der Methoden und Prozesse zur Lieferung, Unterstützung und Steuerung von IT-Services umfasst. Ziel ist es, die IT-Infrastruktur und Anwendungen so auszurichten, dass sie die Geschäftsziele bestmöglich unterstützen.\footnote{Vgl. \cite{S_ITIL}, S.~8, S.~139.}Als Rahmenwerk dient hier die IT Infrastructure Library (ITIL)\footnote{Ebenda, S.~11--12.} Sie beruht auf dem sogenannten Best-Practice-Ansatz, also einer Vereinheitlichung der Analyseergebnisse britischer Behörden, die ihre gesammelten Erfahrungen in einer Büchersammlung dokumentierten.\footnote{Ebenda, S.~123.} ITIL legt damit fest, was und wann im IT-Service-Management zu tun ist, ohne jedoch das Wie vorzuschreiben.\footnote{Ebenda, S.~124.} 
 
 \subsection{Rolle des Anforderungsmanagements}
 
@@ -280,58 +275,69 @@ Transparente Kommunikation ist dafür entscheidend: Nur wenn Ziele, Hintergründ
 
 Die Berliner Wasserbetriebe nutzen seit vielen Jahren Adobe-Produkte in der Unternehmenskommunikation, bisher in Form der lokal installierten Creative Suite. Da dieses Produkt von Adobe eingestellt wurde, erfolgte der notwendige Umstieg auf die cloudbasierte Adobe Creative Cloud. Um die Arbeitsfähigkeit sofort zu sichern, wurden zunächst nur die bereits bekannten Werkzeuge freigeschaltet – ohne neue Cloud- oder KI-Funktionen.
 
-\subsection{Bedarfsaufnahme}
-
-Parallel äußerte die Unternehmenskommunikation den Wunsch nach einem erweiterten Zugriff auf zusätzliche Komponenten, insbesondere auf die in der Creative Cloud integrierten KI-gestützten Funktionen. Damit lag ein klarer Bedarf vor: Einerseits sollten bewährte Tools weiterhin genutzt werden können, andererseits bestand das Interesse an den neuen Möglichkeiten der Cloud-Lösung. Dieser Bedarf markierte den Ausgangspunkt für den Anforderungsmanagement-Prozess, in dem Chancen und Risiken der erweiterten Nutzung systematisch geprüft werden.
+Parallel äußerte die Unternehmenskommunikation den Wunsch nach einem erweiterten Zugriff auf zusätzliche Komponenten, insbesondere auf die in der Creative Cloud integrierten KI-gestützten Funktionen. Damit lag ein klarer Bedarf vor: Einerseits sollten bewährte Tools weiterhin genutzt werden können, andererseits bestand das Interesse an den neuen Möglichkeiten der Cloud-Lösung. Dieser Bedarf markierte den Ausgangspunkt für den Anforderungsmanagement-Prozess, in dem Chancen und Risiken der erweiterten Nutzung systematisch geprüft werden.\footnote{Vgl. Anhang 2, Frage 2.}
 
 \subsection{Abstimmungen}
 
-Gemäß der etablierten Prozesse bei den BWB müssen bei der Einführung oder Erweiterung von Software zunächst verschiedene Stakeholder einbezogen werden. Daher fand frühzeitig eine enge Abstimmung mit dem Portfolio-Management, der IT-Sicherheit sowie dem Datenschutz statt, um den Bedarf nicht nur technisch, sondern auch organisatorisch und sicherheitsrelevant zu prüfen. Dieses Vorgehen entspricht den in ITIL beschriebenen Best Practices.\footnote{Vgl. \cite{S_ITIL}, S.~40--43.} 
+Gemäß der etablierten Prozesse bei den BWB müssen bei der Einführung oder Erweiterung von Software zunächst verschiedene Stakeholder einbezogen werden. Daher fand frühzeitig eine enge Abstimmung mit dem Portfolio-Management, der IT-Sicherheit sowie dem Datenschutz statt, um den Bedarf nicht nur technisch, sondern auch organisatorisch und sicherheitsrelevant zu prüfen.\footnote{Vgl. Anhang 2, Frage 3.} Dieses Vorgehen entspricht den in ITIL beschriebenen Best Practices.\footnote{Vgl. \cite{S_ITIL}, S.~40--43.} 
 
-In diesem Fall lag eine Besonderheit darin, dass die Umstellung auf die Adobe Creative Cloud aus Dringlichkeitsgründen bereits erfolgt war, bevor alle Prüfschritte abgeschlossen wurden. Die üblichen Rücksprachen mit IT-Sicherheit, Datenschutz und weiteren Beteiligten (u.\,a. den IT-internen Betreuern der Adobe-Produkte und der Arbeitnehmervertretung) wurden daher im Nachgang intensiv nachgeholt, um die Freigabe zusätzlicher Komponenten zu beurteilen.
+In diesem Fall lag eine Besonderheit darin, dass die Umstellung auf die Adobe Creative Cloud aus Dringlichkeitsgründen bereits erfolgt war, bevor alle Prüfschritte abgeschlossen wurden. Die üblichen Rücksprachen mit IT-Sicherheit, Datenschutz und weiteren Beteiligten (u.\,a. den IT-internen Betreuern der Adobe-Produkte und der Arbeitnehmervertretung) wurden daher im Nachgang intensiv nachgeholt, um die Freigabe zusätzlicher Komponenten zu beurteilen.\footnote{Vgl. Anhang 2, Frage 3.}
 
-Die Hauptschwierigkeit in der Abstimmungsphase ergab sich aus den neuartigen KI-Funktionen der Software. Für den Umgang mit KI gibt es bei den BWB noch keine endgültig verabschiedete Richtlinie – eine unternehmensweite KI-Policy befindet sich zwar in Arbeit, war aber zum Zeitpunkt des Falls noch nicht verfügbar. Folglich war anfangs unklar, worauf bei der Bewertung der Anfrage der Schwerpunkt zu legen ist: auf die generelle Cloud-Nutzung, auf die KI-Komponenten oder auf spezifische fachliche Anforderungen. Um ein gemeinsames Verständnis für das komplexe Thema zu schaffen, waren mehrere Abstimmungsrunden erforderlich. In vorbereitenden Gesprächen mit den Beteiligten wurde zunächst geklärt, welche Adobe-Tools im Einsatz sind, welche neuen Module und KI-Funktionen zur Diskussion stehen und welche Risiken oder Vorgaben (etwa aus Datenschutzsicht) zu beachten sind. Erst auf Basis dieses gemeinsamen Informationsstands konnte die eigentliche Bewertung strukturiert angegangen werden.
+Die Hauptschwierigkeit in der Abstimmungsphase ergab sich aus den neuartigen KI-Funktionen der Software. Für den Umgang mit KI gibt es bei den BWB noch keine endgültig verabschiedete Richtlinie – eine unternehmensweite KI-Policy befindet sich zwar in Arbeit, war aber zum Zeitpunkt des Falls noch nicht verfügbar. Folglich war anfangs unklar, worauf bei der Bewertung der Anfrage der Schwerpunkt zu legen ist: auf die generelle Cloud-Nutzung, auf die KI-Komponenten oder auf spezifische fachliche Anforderungen. Um ein gemeinsames Verständnis für das komplexe Thema zu schaffen, waren mehrere Abstimmungsrunden erforderlich. In vorbereitenden Gesprächen mit den Beteiligten wurde zunächst geklärt, welche Adobe-Tools im Einsatz sind, welche neuen Module und KI-Funktionen zur Diskussion stehen und welche Risiken oder Vorgaben (etwa aus Datenschutzsicht) zu beachten sind. Erst auf Basis dieses gemeinsamen Informationsstands konnte die eigentliche Bewertung strukturiert angegangen werden.\footnote{Vgl. Anhang 2, Frage 4.}
 
 \subsection{Bewertung}
 
-Für die systematische Analyse der Anforderung wurden die gesammelten Informationen in einer Excel-Tabelle strukturiert erfasst. Dort wurden alle relevanten Kriterien dokumentiert und die vorhandenen sowie neuen Komponenten der Adobe Creative Cloud entlang dieser Kriterien bewertet. Dazu gehörten insbesondere:
-
+Für die Analyse wurden ein Memo und eine Excel-Tabelle genutzt. Das Memo diente der allgemeinen Einführung, während die Tabelle eine Übersicht über alle einzelnen Software-Produkte der Adobe Creative Cloud bot und sichtbar machte, welche davon KI-Funktionen enthalten. Dort wurden alle relevanten Kriterien dokumentiert und bewertet. Dort wurden alle relevanten Kriterien dokumentiert und die vorhandenen sowie neuen Komponenten der Adobe Creative Cloud entlang dieser Kriterien bewertet.\footnote{Vgl. Anhang 2, Frage 5.} Dazu gehörten insbesondere:
 \begin{itemize}
-    \item \textbf{Bereits genutzte Anwendungen bei den BWB:} Welche Tools sind im Arbeitsalltag bereits unverzichtbar und haben daher höchste Priorität bei einer Erweiterung?
-    \item \textbf{Aktueller Angebotsumfang durch Adobe:} Welche Funktionen sind im bestehenden Lizenzpaket enthalten und für welche Erweiterungen wären zusätzliche Lizenzen oder Upgrades nötig?
-    \item \textbf{Umgang mit Daten (intern/extern):} Benötigen die in Frage kommenden Adobe-Tools den Zugriff auf interne (möglicherweise sensible) Daten oder werden Daten in die Cloud hochgeladen? Wenn ja, welche Datenkategorien sind betroffen (z.\,B. öffentliche vs. vertrauliche Informationen)?
-    \item \textbf{Einsatzzweck der Anwendung:} Welchen konkreten Mehrwert bieten die neuen Funktionen im Arbeitsalltag? (z.\,B. automatisierte Dokumentenerstellung, KI-gestützte Bildbearbeitung, Datenanalyse-Unterstützung.)
-    \item \textbf{Vorhandensein von KI-Funktionen:} Enthält die Anwendung KI-gestützte Module (z.\,B. Machine-Learning-Funktionen) und ist deren Nutzung zwingend integriert oder optional konfigurierbar?
-    \item \textbf{Herstellerangaben zur Datensicherheit:} Wie werden die Daten bei Adobe verarbeitet und gespeichert? Werden eventuell Daten an Adobe-Server übertragen, und existieren Aussagen dazu, dass keine Weitergabe oder unautorisierte Nutzung (z.\,B. für KI-Training) erfolgt?
-    \item \textbf{Kosten- und Lizenzmodelle:} Welche Mehrkosten würden durch die Freischaltung zusätzlicher Funktionen oder Benutzerkonten entstehen? Gibt es alternative Lizenzmodelle (Basis vs. Premium), und wie verhalten sich diese im Kosten-Nutzen-Verhältnis?
+    \item genutzte Anwendungen und deren Relevanz und Zweck,
+    \item Angebotsumfang und Lizenzmodelle,
+    \item Art der verarbeiteten Daten (öffentlich oder sensibel),
+    \item Vorhandensein von KI-Funktionen.\footnote{Vgl. Anhang 1.}
 \end{itemize}
 
-Die Bewertung entlang dieser Kriterien beleuchtete sowohl Risiken als auch Chancen der erweiterten Adobe-Nutzung. So wurde beispielsweise deutlich, dass bei KI-gestützten Funktionen besondere Vorsicht geboten ist: Sensible Unternehmensdaten (etwa detailreiche interne Grafiken oder Betriebspläne) dürfen nicht ungeschützt in eine Cloud-KI gegeben werden, da dies zu ungewollter Veröffentlichung oder Missbrauch führen könnte. Solche Inhalte müssten vor einer KI-Verarbeitung anonymisiert oder ganz von der Nutzung ausgeschlossen werden. Gleichzeitig ergab die Analyse deutliche Potenziale: Durch KI-Unterstützung ließen sich bestimmte kreative Aufgaben erheblich beschleunigen (z.\,B. automatische Entwürfe oder Bildoptimierungen), was Zeit und Aufwand in der Unternehmenskommunikation sparen könnte.
+Die Bewertung entlang dieser Kriterien beleuchtete sowohl Risiken als auch Chancen der erweiterten Adobe-Nutzung.\footnote{Vgl. Anhang 2, Frage 5.} So wurde beispielsweise deutlich, dass bei KI-gestützten Funktionen besondere Vorsicht geboten ist: Sensible Unternehmensdaten (etwa detailreiche interne Grafiken oder Betriebspläne) dürfen nicht ungeschützt in eine Cloud-KI gegeben werden, da dies zu ungewollter Veröffentlichung oder Missbrauch führen könnte. Solche Inhalte müssten vor einer KI-Verarbeitung anonymisiert oder ganz von der Nutzung ausgeschlossen werden. Gleichzeitig ergab die Analyse deutliche Potenziale: Durch KI-Unterstützung ließen sich bestimmte kreative Aufgaben erheblich beschleunigen (z.\,B. automatische Entwürfe oder Bildoptimierungen), was Zeit und Aufwand in der Unternehmenskommunikation sparen könnte.\footnote{Vgl. Anhang 2, Frage 6--7.}
 
-Die Ergebnisse der Excel-Analyse wurden in einem ausführlichen Memo dokumentiert, das als Grundlage für weitere Entscheidungen und Abstimmungen diente. Damit wurde die theoretische Phase der Dokumentation abgeschlossen.\footnote{Vgl. \cite{S_PohlRupp}, S.~4.} Rückblickend lassen sich die bisher durchlaufenen Schritte auch den typischen Phasen einer Software-Einführung zuordnen: Die Bedarfsaufnahme und initiale Bewertung entsprachen einer Projektvorbereitung, in der Ziele und Nutzen festgelegt wurden. Die vertiefte Analyse mit Excel und Memo kann als Teil der Planung gesehen werden, da hier bereits Ressourcenfragen, Risiken und erste Alternativen betrachtet wurden. Eine eigentliche Auswahl- oder Rollout-Phase stand zwar noch aus, doch wurden bereits erste Überlegungen für mögliche Vorgehensweisen und Lösungsalternativen angestellt.\footnote{Vgl. \cite{pureconsultant2023}.} 
-
-Parallel zur Analyse fanden auch fortlaufend Gespräche mit dem internen Kunden (Unternehmenskommunikation) statt, um die Anforderungen weiter zu präzisieren und Prioritäten abzustimmen. Dabei zeigte sich, dass manche Tools (z.\,B. Adobe Acrobat für PDF-Dokumente) für den täglichen Betrieb unverzichtbar sind, während andere, insbesondere neue KI-basierte Anwendungen, vom Fachbereich als „nice-to-have“ und damit nachrangig eingestuft wurden. Dieses Vorgehen knüpfte direkt an bekannte Methoden der Anforderungsanalyse an – etwa den Einsatz von Interviews und Priorisierungstechniken – und spiegelt die in der Theorie empfohlene praxisnahe Bewertung wider.\footnote{Vgl. \cite{S_ISR}.}
+Die Ergebnisse der Excel-Analyse wurden in einem ausführlichen Memo dokumentiert, das als Grundlage für weitere Entscheidungen und Abstimmungen diente. Damit wurde die theoretische Phase der Dokumentation abgeschlossen.\footnote{Vgl. \cite{S_PohlRupp}, S.~4.} Rückblickend lassen sich die bisher durchlaufenen Schritte auch den typischen Phasen einer Software-Einführung zuordnen: Die Bedarfsaufnahme und initiale Bewertung entsprachen einer Projektvorbereitung, in der Ziele und Nutzen festgelegt wurden. Die vertiefte Analyse mit Excel und Memo kann als Teil der Planung gesehen werden, da hier bereits Ressourcenfragen, Risiken und erste Alternativen betrachtet wurden. Eine eigentliche Auswahl- oder Rollout-Phase stand zwar noch aus, doch wurden bereits erste Überlegungen für mögliche Vorgehensweisen und Lösungsalternativen angestellt.\footnote{Vgl. \cite{pureconsultant2023}.} Parallel zur Analyse fanden auch fortlaufend Gespräche mit dem internen Kunden (Unternehmenskommunikation) statt, um die Anforderungen weiter zu präzisieren und Prioritäten abzustimmen. Dabei zeigte sich, dass manche Tools (z.\,B. Adobe Acrobat für PDF-Dokumente) für den täglichen Betrieb unverzichtbar sind, während andere, insbesondere neue KI-basierte Anwendungen, vom Fachbereich als „nice-to-have“ und damit nachrangig eingestuft wurden. Dieses Vorgehen knüpfte direkt an bekannte Methoden der Anforderungsanalyse an – etwa den Einsatz von Interviews und Priorisierungstechniken – und spiegelt die in der Theorie empfohlene praxisnahe Bewertung wider.\footnote{Vgl. \cite{S_ISR}.}
 
 \subsection{Vorläufiges Ergebnis}
 
-Trotz der umfassenden Prüfung liegt bislang noch keine endgültige Entscheidung zur erweiterten Nutzung der Adobe Creative Cloud vor. Die KI-gestützten Komponenten sind zum aktuellen Zeitpunkt weiterhin deaktiviert, bis alle erforderlichen Prüfschritte abgeschlossen sind und eine fundierte Bewertung vorliegt. Eine zentrale Herausforderung für das weitere Vorgehen ist die Entscheidung, wie mit dem Alles-oder-nichts-Prinzip umgegangen wird: Aus technischer und lizenzrechtlicher Sicht kann die Adobe Creative Cloud entweder für alle Nutzenden vollständig freigeschaltet werden – mit sämtlichen erweiterten Funktionen – oder muss für alle auf den eingeschränkten Funktionsumfang begrenzt bleiben, so wie es derzeit der Fall ist. 
-
-Vor diesem Hintergrund werden derzeit zwei mögliche Lösungswege diskutiert. Erstens könnte man der Hauptbedarfsträgerin (der Unternehmenskommunikation) die vollumfängliche Nutzung der neuen Funktionen ermöglichen, gleichzeitig jedoch für andere Fachbereiche den Zugang beschränken und für diese nach Alternativlösungen ohne KI-Funktionalität suchen. Zweitens wäre es möglich, sämtliche betroffene Fachbereiche einzubeziehen und jeweils getrennte Risikobewertungen durchzuführen. Auf Basis dieser Prüfungen könnte man anschließend – sofern keine unvertretbaren Risiken identifiziert werden – die erweiterten Funktionen für alle Bereiche freischalten.
-
-Die Entscheidung zwischen diesen Ansätzen ist im November 2025 noch offen. Das Team tendiert dazu, vor einem organisationsweiten Rollout zunächst in ausgewählten Bereichen (wie der Unternehmenskommunikation) Erfahrungen zu sammeln und die Entwicklung der unternehmensweiten KI-Policy abzuwarten. In jedem Fall wird eng mit den strategischen Einheiten zusammengearbeitet, um sicherzustellen, dass die schließlich gewählte Lösung zur IT-Strategie der BWB passt und geltende Sicherheitsstandards eingehalten werden. Dieses Zwischenergebnis unterstreicht, wie wichtig ein sorgfältiges, schrittweises Vorgehen bei der Einführung von KI-Funktionen ist: Anstatt vorschnell alle Möglichkeiten freizuschalten, priorisiert das Unternehmen Sicherheit und Compliance und wägt alternative Umsetzungsstrategien ab.
+Eine endgültige Entscheidung liegt noch nicht vor. Klar ist jedoch, dass die Adobe Creative Cloud entweder vollständig oder gar nicht freigeschaltet werden kann – eine selektive Freigabe pro Abteilung ist technisch nicht möglich. Für die Unternehmenskommunikation erscheint eine Freischaltung der KI-Funktionen vertretbar, da hier überwiegend öffentliche Inhalte verarbeitet werden. Andere Bereiche wie Planung und Bau müssen jedoch noch geprüft werden, da dort sensible Daten anfallen könnten.\footnote{Vgl. Anhang 2, Frage 9 und 12.} Aktuell stehen zwei Szenarien im Raum:
+\begin{itemize}
+    \item \textbf{Teilfreigabe:} Nur die Unternehmenskommunikation erhält Zugriff auf die neuen Funktionen; für andere Fachbereiche würden Alternativen ohne KI geprüft.
+    \item \textbf{Gesamtfreigabe:} Nach Risikoprüfung aller betroffenen Abteilungen könnte die Cloud vollständig freigeschaltet werden, falls keine unvertretbaren Risiken bestehen.
+\end{itemize}
+Bis dahin bleiben die KI-Funktionen deaktiviert. Die BWB verfolgen damit einen vorsichtigen Ansatz: Sicherheit und Compliance haben Vorrang vor einer schnellen Einführung.\footnote{Vgl. Anhang 2, Frage 12--13.}
 \section{Handlungsempfehlungen}
-
 \section{Fazit}
+\newpage
 % === Glossar ====
 \section*{Glossar}  
 \addcontentsline{toc}{section}{Glossar} 
 \vspace{0.6cm}
 \begin{tabular}{p{4cm} p{11.35cm}}   
     \hline
-    \textbf{\normalsize Cloud} & \normalsize Cloud Computing bedeutet, dass IT-Ressourcen wie Speicher, Programme oder Rechenleistung über das Internet von Anbietern bereitgestellt werden, sodass Nutzer flexibel und ortsunabhängig darauf zugreifen können.\footnotemark[70]\\[0.5cm]
+    \textbf{\normalsize Adobe Creative Cloud} & \normalsize Ein cloudbasierter Abonnementdienst von Adobe, der verschiedene Programme für Design, Bildbearbeitung, Video, Web und Dokumentenmanagement umfasst. Nutzer greifen flexibel über das Internet auf die Anwendungen und Services zu. \\[0.5cm]
     \hline
-    \textbf{\normalsize BBBB} & \normalsize BBBB. \footnotemark[71]\\[0.5cm]
+    \textbf{\normalsize Adobe Creative Suite} & \normalsize Ein Vorgängerprodukt der Creative Cloud, das aus lokal installierbaren Programmen für Grafik, Design und Medienbearbeitung bestand. Es wurde von Adobe eingestellt und durch die Creative Cloud ersetzt. \\[0.5cm]
+    \hline
+    \textbf{\normalsize Cloud} & \normalsize Cloud Computing bedeutet, dass IT-Ressourcen wie Speicherplatz, Programme oder Rechenleistung nicht mehr auf dem eigenen Computer, sondern über das Internet von einem Anbieter bereitgestellt werden. Dadurch können Unternehmen und Privatpersonen flexibel, ortsunabhängig und meist nach Bedarf auf diese Dienste zugreifen, ohne eigene Infrastruktur betreiben zu müssen. \\[0.5cm]
+    \hline
+    \textbf{\normalsize Künstliche Intelligenz (KI)} & \normalsize Technologien, die Maschinen befähigen, Aufgaben zu erledigen, die menschliches Denken erfordern, z.\,B. Mustererkennung, Sprachverarbeitung oder Entscheidungsfindung. KI kann manuell programmierte Regeln oder lernende Algorithmen nutzen. \\[0.5cm]
+    \hline
+    \textbf{\normalsize Portfolio-Management} & \normalsize Die systematische Planung, Steuerung und Überwachung aller Projekte, Programme und Anwendungen eines Unternehmens, um Ressourcen optimal einzusetzen und strategische Ziele zu unterstützen. \\[0.5cm]
+    \hline
+    \textbf{\normalsize Risikomanagement} & \normalsize Der Prozess zur systematischen Identifikation, Bewertung und Steuerung von Risiken, um mögliche Schäden zu minimieren und Chancen gezielt nutzen zu können. \\[0.5cm]
+    \hline
+    \textbf{\normalsize Sicherheitsmanagement} & \normalsize Alle organisatorischen und technischen Maßnahmen, die darauf abzielen, Informationen, Systeme und Prozesse vor Bedrohungen zu schützen und deren Verfügbarkeit, Vertraulichkeit und Integrität sicherzustellen. \\[0.5cm]
 \end{tabular}
+
+\newpage
+
+\begin{tabular}{p{4cm} p{11.35cm}}   
+    \hline
+    \textbf{\normalsize Vorhaben-Management} & \normalsize Die strukturierte Planung, Koordination und Kontrolle von internen Initiativen oder Projekten, mit dem Ziel, deren Umsetzung termingerecht, wirtschaftlich und qualitativ gesichert zu steuern. \\[0.5cm]
+\end{tabular}
+
 
 % Fußnoten für Teil 1
 % \footnotetext[70]{Vgl. \cite{quelle_namen}.}
@@ -499,6 +505,55 @@ Eine endgültige Entscheidung steht noch aus, und derzeit werden verschiedene L�
 
 Derzeit gibt es keine eindeutige Präferenz. Vorrangig sollen zunächst alle laufenden Prüfungen und Abstimmungen abgeschlossen werden – insbesondere die noch ausstehenden Risikobewertungen für andere Fachbereiche sowie die Fertigstellung der internen KI-Richtlinie. Auf dieser Basis wird dann entschieden, wie wir weiter vorgehen. Bis dahin gilt es, umsichtig zu bleiben: Wir halten an der eingeschränkten Nutzung fest, bis klare interne Vorgaben zur KI-Nutzung vorliegen. Parallel behalten wir mögliche alternative Lösungen im Blick, doch zunächst warten wir die Ergebnisse der laufenden Prüfungen ab.
 
+% Anhang 3
+\newpage
+\phantomsection
+\addcontentsline{toc}{subsection}{Anhang 3: Interviewprotokoll}
+\label{sec:Anhang3}
+
+{\Large\bfseries Anhang 3: Interviewprotokoll}\\[1em]
+\textbf{Interviewer:} Nicole Camille Baião \\
+\textbf{Befragte:} Carla Marcus-Schulz (Sicherheitsmanagerin) \\
+\textbf{Datum:} 08. September 2025 \\
+\textbf{Ort:} Berliner Wasserbetriebe, Neue Jüdenstraße 2, 10179 Berlin 
+
+\subsection*{Einstieg ins Thema}
+
+\textbf{Frage 1:} Könnten Sie sich bitte kurz vorstellen und Ihre Rolle im Sicherheitsmanagement erläutern?  
+
+\subsection*{Bewertung von Software-Produkten mit KI-Funktionalitäten}
+
+\textbf{Frage 2:} Nach welchen Kriterien bewerten Sie generell Software-Produkte, die KI-Funktionen enthalten?  
+
+\textbf{Frage 3:} Welche Rolle spielen hierbei Datenschutz, IT-Sicherheit und Compliance-Anforderungen?  
+
+\textbf{Frage 4:} Gibt es spezielle Prüfverfahren oder Checklisten, die Sie im Unternehmen einsetzen?  
+
+\subsection*{Erfahrungen mit Adobe Creative Cloud}
+
+\textbf{Frage 5:} Wie sind Sie im Fall der Adobe Creative Cloud mit den integrierten KI-Funktionalitäten vorgegangen?  
+
+\textbf{Frage 6:} Können Sie kurz beschreiben, welche Vorgehensweisen sich in Ihrer Praxis beim Umgang mit KI-Funktionen oder allgemein bei sicherheitskritischen Software-Einführungen bewährt haben?  
+
+\textbf{Frage 7:} Welche besonderen Herausforderungen gab es dabei, z.\,B. in Bezug auf Datentransparenz oder die Verarbeitung sensibler Daten?  
+
+\textbf{Frage 8:} Welche Faktoren waren letztlich entscheidend, um eine Lösung oder eine Entscheidung zu finden?  
+
+\subsection*{Spezielle Empfehlungen für den Einsatz von KI-Funktionen}
+
+\textbf{Frage 9:} Welche Maßnahmen sind aus Sicht des Sicherheitsmanagements entscheidend, um KI-Funktionen in Cloud-Diensten sicher und verantwortungsvoll einzusetzen?  
+
+\textbf{Frage 10:} Welche Rolle spielen dabei interne Regelwerke wie Governance-Modelle oder Freigabeprozesse?  
+
+\textbf{Frage 11:} Inwiefern ist die Sensibilisierung und Schulung der Mitarbeitenden ein zentraler Erfolgsfaktor?  
+
+\textbf{Frage 12:} Wie lässt sich aus Ihrer Sicht ein wirksames Risikomanagement speziell für KI-Anwendungen gestalten?  
+
+\subsection*{Allgemeine Unternehmensperspektive}
+
+\textbf{Frage 13:} Was sollten Unternehmen Ihrer Erfahrung nach unbedingt beachten, wenn sie KI-basierte Softwareprodukte einführen oder erweitern?  
+
+\textbf{Frage 14:} Was würden Sie – basierend auf Ihren Erfahrungen – speziell den Berliner Wasserbetrieben empfehlen, um in Zukunft mit solchen Fällen strukturiert umzugehen?  
 
 
 % === Ehrenwörtliche Erklärung ===

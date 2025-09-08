@@ -3,21 +3,21 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {section}{\numberline {2}Theoretischer Rahmen}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Software-Einführung und -Erweiterung}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Cloud-Software und KI-Funktionalitäten}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Cloud und Künstliche Intelligenz in Unternehmen}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}ITIL-Best Practices}{3}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Rolle des Anforderungsmanagements}{4}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Change Management}{5}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Anforderungsmanagement in der Praxis}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Bedarfsaufnahme}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Abstimmungen}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Bewertung}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Vorläufiges Ergebnis}{9}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Handlungsempfehlungen}{10}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{10}{section.5}%
+\contentsline {section}{\numberline {3}Anforderungsmanagement in der Praxis}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Abstimmungen}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Bewertung}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Vorläufiges Ergebnis}{8}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Handlungsempfehlungen}{9}{section.4}%
+\contentsline {section}{\numberline {5}Fazit}{9}{section.5}%
 \contentsline {section}{Glossar}{10}{section.5}%
-\contentsline {section}{Literaturverzeichnis}{11}{section.5}%
-\contentsline {section}{Anhangsverzeichnis}{14}{section.5}%
-\contentsline {subsection}{Anhang 1}{15}{section*.1}%
-\contentsline {subsection}{Anhang 2: Interviewprotokoll}{20}{section*.2}%
-\contentsline {section}{Ehrenwörtliche Erklärung}{26}{section*.2}%
+\contentsline {section}{Literaturverzeichnis}{12}{section.5}%
+\contentsline {section}{Anhangsverzeichnis}{15}{section.5}%
+\contentsline {subsection}{Anhang 1}{16}{section*.1}%
+\contentsline {subsection}{Anhang 2: Interviewprotokoll}{21}{section*.2}%
+\contentsline {subsection}{Anhang 3: Interviewprotokoll}{27}{section*.3}%
+\contentsline {section}{Ehrenwörtliche Erklärung}{29}{section*.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
