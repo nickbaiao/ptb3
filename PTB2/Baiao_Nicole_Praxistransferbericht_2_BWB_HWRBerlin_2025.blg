@@ -5,67 +5,61 @@ The style file: hwrbib.bst
 Database file #1: quellen-ptb2.bib
 Warning--entry type for "S_BWB" isn't style-file defined
 --line 1 of file quellen-ptb2.bib
-Warning--entry type for "S_Asana" isn't style-file defined
---line 7 of file quellen-ptb2.bib
 Warning--entry type for "S_ISR" isn't style-file defined
 --line 14 of file quellen-ptb2.bib
 Warning--entry type for "S_AdobeAI" isn't style-file defined
 --line 21 of file quellen-ptb2.bib
-Warning--entry type for "S_AdobeCloud" isn't style-file defined
---line 28 of file quellen-ptb2.bib
 Warning--entry type for "S_Ambient" isn't style-file defined
 --line 35 of file quellen-ptb2.bib
 Warning--entry type for "papershift2022" isn't style-file defined
 --line 42 of file quellen-ptb2.bib
 Warning--entry type for "pureconsultant2023" isn't style-file defined
 --line 49 of file quellen-ptb2.bib
-Warning--entry type for "softwarevergleich2023" isn't style-file defined
---line 56 of file quellen-ptb2.bib
 Warning--entry type for "S_BSI_Grundlagen" isn't style-file defined
 --line 63 of file quellen-ptb2.bib
 Warning--entry type for "S_BSI_Risiken" isn't style-file defined
 --line 70 of file quellen-ptb2.bib
 Warning--entry type for "S_WikipediaBedarf" isn't style-file defined
 --line 110 of file quellen-ptb2.bib
-You've used 17 entries,
+You've used 14 entries,
             2042 wiz_defined-function locations,
-            581 strings with 7392 characters,
-and the built_in function-call counts, 4586 in all, are:
-= -- 466
-> -- 141
-< -- 15
-+ -- 44
-- -- 42
-* -- 286
-:= -- 908
-add.period$ -- 54
-call.type$ -- 17
-change.case$ -- 92
-chr.to.int$ -- 15
-cite$ -- 17
-duplicate$ -- 194
-empty$ -- 298
-format.name$ -- 74
-if$ -- 848
-int.to.chr$ -- 3
+            567 strings with 6781 characters,
+and the built_in function-call counts, 3827 in all, are:
+= -- 388
+> -- 120
+< -- 12
++ -- 37
+- -- 36
+* -- 238
+:= -- 758
+add.period$ -- 45
+call.type$ -- 14
+change.case$ -- 77
+chr.to.int$ -- 13
+cite$ -- 14
+duplicate$ -- 161
+empty$ -- 250
+format.name$ -- 62
+if$ -- 710
+int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 6
-newline$ -- 91
-num.names$ -- 51
-pop$ -- 79
+newline$ -- 76
+num.names$ -- 42
+pop$ -- 67
 preamble$ -- 1
-purify$ -- 104
+purify$ -- 86
 quote$ -- 0
-skip$ -- 142
+skip$ -- 119
 stack$ -- 0
-substring$ -- 204
-swap$ -- 15
-text.length$ -- 15
-text.prefix$ -- 15
+substring$ -- 168
+swap$ -- 12
+text.length$ -- 12
+text.prefix$ -- 12
 top$ -- 0
-type$ -- 96
+type$ -- 78
 warning$ -- 0
-while$ -- 36
+while$ -- 30
 width$ -- 0
-write$ -- 217
-(There were 12 warnings)
+write$ -- 181
+(There were 9 warnings)

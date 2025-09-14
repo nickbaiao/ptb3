@@ -1,24 +1,14 @@
 \begin{thebibliography}{}
 
-\bibitem[{Ado}25a]{S_AdobeAI}
-{Adobe} (2025a).
+\bibitem[{Ado}25]{S_AdobeAI}
+{Adobe} (2025).
 \newblock {\em Generative AI Approach – Adobe Firefly}.
 \newblock \url{https://www.adobe.com/de/ai/overview/firefly/gen-ai-approach.html} (Zugriff am 22.08.2025).
-
-\bibitem[{Ado}25b]{S_AdobeCloud}
-{Adobe Business} (2025b).
-\newblock {\em Content Supply Chain – Creation \& Production}.
-\newblock \url{https://business.adobe.com/de/solutions/content-supply-chain/creation-production.html} (Zugriff am 22.08.2025).
 
 \bibitem[{Amb}25]{S_Ambient}
 {Ambient Digital} (2025).
 \newblock {\em Künstliche Intelligenz: Chancen und Risiken}.
 \newblock \url{https://ambient.digital/wissen/blog/kuenstliche-intelligenz-chancen-risiken/} (Zugriff am 22.08.2025).
-
-\bibitem[{Asa}25]{S_Asana}
-{Asana} (2025).
-\newblock {\em Requirements Management – Alles was Sie wissen müssen}.
-\newblock \url{https://asana.com/de/resources/requirements-management} (Zugriff am 22.08.2025).
 
 \bibitem[{Ber}25]{S_BWB}
 {Berliner Wasserbetriebe} (2025).
@@ -72,11 +62,6 @@ Pohl, K. and Rupp, C. (2015).
 Schichtel, A. (2016).
 \newblock {\em Change Management f{\"u}r Dummies}.
 \newblock Wiley-VCH, Weinheim.
-
-\bibitem[Sof23]{softwarevergleich2023}
-Softwarevergleich.de (2023).
-\newblock {\em Softwareeinführung: Wie Unternehmen die Projektphasen meistern}.
-\newblock \url{https://softwarevergleich.de/wissen/wissen/software-einfuehrung-wie-unternehmen-die-projektphasen-meistern-16#c293} (Zugriff am 18.08.2025).
 
 \bibitem[SZ08]{S_ITIL}
 Stych, C. and Zeppenfeld, K. (2008).

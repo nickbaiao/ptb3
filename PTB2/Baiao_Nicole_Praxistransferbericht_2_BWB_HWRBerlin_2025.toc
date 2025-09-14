@@ -16,9 +16,9 @@
 \contentsline {section}{\numberline {5}Fazit}{9}{section.5}%
 \contentsline {section}{Glossar}{10}{section.5}%
 \contentsline {section}{Literaturverzeichnis}{12}{section.5}%
-\contentsline {section}{Anhangsverzeichnis}{15}{section.5}%
-\contentsline {subsection}{Anhang 1: Excel-Tabelle (Adobe-Liste)}{16}{section*.1}%
-\contentsline {subsection}{Anhang 2: Interviewprotokoll}{21}{section*.2}%
+\contentsline {section}{Anhangsverzeichnis}{14}{section.5}%
+\contentsline {subsection}{Anhang 1: Excel-Tabelle (Adobe-Liste)}{15}{section*.1}%
+\contentsline {subsection}{Anhang 2: Interviewprotokoll}{20}{section*.2}%
 \contentsline {subsection}{Anhang 3: Interviewprotokoll}{27}{section*.3}%
 \contentsline {section}{Ehrenwörtliche Erklärung}{29}{section*.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
