@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {2.1}Software-Einführung und -Erweiterung}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Cloud und Künstliche Intelligenz in Unternehmen}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}ITIL-Best Practices}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Rolle des Anforderungsmanagements}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Rolle des Requirements Engineering}{4}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Change Management}{5}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Anforderungsmanagement in der Praxis}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Bedarfsaufnahme}{5}{subsection.3.1}%
