@@ -20,5 +20,5 @@
 \contentsline {subsection}{Anhang 1: Excel-Tabelle (Adobe-Liste)}{15}{section*.1}%
 \contentsline {subsection}{Anhang 2: Interviewprotokoll}{20}{section*.2}%
 \contentsline {subsection}{Anhang 3: Interviewprotokoll}{27}{section*.3}%
-\contentsline {section}{Ehrenwörtliche Erklärung}{29}{section*.3}%
+\contentsline {section}{Ehrenwörtliche Erklärung}{34}{section*.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
