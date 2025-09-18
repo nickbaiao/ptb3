@@ -23,16 +23,16 @@ Warning--entry type for "S_PMTools" isn't style-file defined
 --line 152 of file quellen-ptb2.bib
 You've used 14 entries,
             2042 wiz_defined-function locations,
-            566 strings with 6764 characters,
-and the built_in function-call counts, 3818 in all, are:
-= -- 386
+            567 strings with 6570 characters,
+and the built_in function-call counts, 3827 in all, are:
+= -- 388
 > -- 120
 < -- 12
 + -- 37
 - -- 36
 * -- 238
-:= -- 756
-add.period$ -- 44
+:= -- 758
+add.period$ -- 45
 call.type$ -- 14
 change.case$ -- 77
 chr.to.int$ -- 13
@@ -40,13 +40,13 @@ cite$ -- 14
 duplicate$ -- 161
 empty$ -- 250
 format.name$ -- 62
-if$ -- 708
+if$ -- 710
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 6
-newline$ -- 75
+newline$ -- 76
 num.names$ -- 42
-pop$ -- 68
+pop$ -- 67
 preamble$ -- 1
 purify$ -- 86
 quote$ -- 0
@@ -61,5 +61,5 @@ type$ -- 78
 warning$ -- 0
 while$ -- 30
 width$ -- 0
-write$ -- 179
+write$ -- 181
 (There were 9 warnings)
