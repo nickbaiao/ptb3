@@ -63,14 +63,14 @@ Pohl, K. and Rupp, C. (2015).
 \newblock 3 Edition.
 \newblock dpunkt.verlag, Heidelberg.
 
-\bibitem[Sch16]{S_Schichtel}
-Schichtel, A. (2016).
-\newblock {\em Change Management f{\"u}r Dummies}.
-\newblock Wiley-VCH, Weinheim.
-
 \bibitem[SZ08]{S_ITIL}
 Stych, C. and Zeppenfeld, K. (2008).
 \newblock {\em Informatik im Fokus: ITIL}.
 \newblock Springer, Berlin, Heidelberg.
+
+\bibitem[{TOP}25]{S_TOPdeskChangeManagement}
+{TOPdesk} (2025).
+\newblock {\em What is IT-Changemanagement?}
+\newblock \url{https://www.topdesk.com/en/glossary/what-is-it-change-management/} (Zugriff am 18.09.2025).
 
 \end{thebibliography}

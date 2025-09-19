@@ -21,45 +21,47 @@ Warning--entry type for "S_BSI_Risiken" isn't style-file defined
 --line 70 of file quellen-ptb2.bib
 Warning--entry type for "S_PMTools" isn't style-file defined
 --line 152 of file quellen-ptb2.bib
+Warning--entry type for "S_TOPdeskChangeManagement" isn't style-file defined
+--line 158 of file quellen-ptb2.bib
 You've used 14 entries,
             2042 wiz_defined-function locations,
-            567 strings with 6570 characters,
-and the built_in function-call counts, 3827 in all, are:
-= -- 388
+            565 strings with 6656 characters,
+and the built_in function-call counts, 3795 in all, are:
+= -- 387
 > -- 120
 < -- 12
 + -- 37
 - -- 36
-* -- 238
-:= -- 758
+* -- 237
+:= -- 754
 add.period$ -- 45
 call.type$ -- 14
 change.case$ -- 77
 chr.to.int$ -- 13
 cite$ -- 14
-duplicate$ -- 161
-empty$ -- 250
+duplicate$ -- 158
+empty$ -- 243
 format.name$ -- 62
-if$ -- 710
+if$ -- 700
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 6
+missing$ -- 4
 newline$ -- 76
 num.names$ -- 42
-pop$ -- 67
+pop$ -- 63
 preamble$ -- 1
 purify$ -- 86
 quote$ -- 0
-skip$ -- 119
+skip$ -- 118
 stack$ -- 0
 substring$ -- 168
 swap$ -- 12
 text.length$ -- 12
 text.prefix$ -- 12
 top$ -- 0
-type$ -- 78
+type$ -- 80
 warning$ -- 0
 while$ -- 30
 width$ -- 0
-write$ -- 181
-(There were 9 warnings)
+write$ -- 180
+(There were 10 warnings)
