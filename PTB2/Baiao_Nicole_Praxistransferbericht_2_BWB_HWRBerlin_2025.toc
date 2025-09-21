@@ -11,13 +11,15 @@
 \contentsline {subsection}{\numberline {3.1}Bedarfsaufnahme}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Abstimmungen}{6}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Bewertung}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Vorläufiges Ergebnis}{9}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Handlungsempfehlungen}{9}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{9}{section.5}%
-\contentsline {section}{Glossar}{10}{section.5}%
-\contentsline {section}{Literaturverzeichnis}{12}{section.5}%
-\contentsline {section}{Anhangsverzeichnis}{14}{section.5}%
-\contentsline {subsection}{Anhang 1: Excel-Tabelle (Adobe-Liste)}{15}{section*.1}%
-\contentsline {subsection}{Anhang 2: Interviewprotokoll}{20}{section*.2}%
-\contentsline {subsection}{Anhang 3: Interviewprotokoll}{27}{section*.3}%
+\contentsline {subsection}{\numberline {3.4}Vorläufiges Ergebnis}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Spezielle Empfehlungen für KI-Funktionen}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Datenschutz und Sicherheitsmaßnahmen}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Risikomanagement und Governance}{9}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Fazit}{10}{section.5}%
+\contentsline {section}{Glossar}{11}{section.5}%
+\contentsline {section}{Literaturverzeichnis}{13}{section.5}%
+\contentsline {section}{Anhangsverzeichnis}{15}{section.5}%
+\contentsline {subsection}{Anhang 1: Excel-Tabelle (Adobe-Liste)}{16}{section*.1}%
+\contentsline {subsection}{Anhang 2: Interviewprotokoll}{21}{section*.2}%
+\contentsline {subsection}{Anhang 3: Interviewprotokoll}{28}{section*.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

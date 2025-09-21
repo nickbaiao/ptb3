@@ -23,45 +23,45 @@ Warning--entry type for "S_PMTools" isn't style-file defined
 --line 152 of file quellen-ptb2.bib
 Warning--entry type for "S_TOPdeskChangeManagement" isn't style-file defined
 --line 158 of file quellen-ptb2.bib
-You've used 14 entries,
+You've used 15 entries,
             2042 wiz_defined-function locations,
-            565 strings with 6656 characters,
-and the built_in function-call counts, 3795 in all, are:
-= -- 387
-> -- 120
-< -- 12
-+ -- 37
-- -- 36
-* -- 237
-:= -- 754
-add.period$ -- 45
-call.type$ -- 14
-change.case$ -- 77
-chr.to.int$ -- 13
-cite$ -- 14
-duplicate$ -- 158
-empty$ -- 243
-format.name$ -- 62
-if$ -- 700
+            570 strings with 6825 characters,
+and the built_in function-call counts, 4076 in all, are:
+= -- 413
+> -- 127
+< -- 13
++ -- 39
+- -- 38
+* -- 253
+:= -- 807
+add.period$ -- 48
+call.type$ -- 15
+change.case$ -- 82
+chr.to.int$ -- 14
+cite$ -- 15
+duplicate$ -- 172
+empty$ -- 266
+format.name$ -- 66
+if$ -- 755
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 76
-num.names$ -- 42
-pop$ -- 63
+missing$ -- 6
+newline$ -- 81
+num.names$ -- 45
+pop$ -- 72
 preamble$ -- 1
-purify$ -- 86
+purify$ -- 92
 quote$ -- 0
-skip$ -- 118
+skip$ -- 127
 stack$ -- 0
-substring$ -- 168
-swap$ -- 12
-text.length$ -- 12
-text.prefix$ -- 12
+substring$ -- 180
+swap$ -- 13
+text.length$ -- 13
+text.prefix$ -- 13
 top$ -- 0
-type$ -- 80
+type$ -- 84
 warning$ -- 0
-while$ -- 30
+while$ -- 32
 width$ -- 0
-write$ -- 180
+write$ -- 192
 (There were 10 warnings)
