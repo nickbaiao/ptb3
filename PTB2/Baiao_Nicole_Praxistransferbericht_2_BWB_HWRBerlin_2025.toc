@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {2.2}Cloud und Künstliche Intelligenz in Unternehmen}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}ITIL-Best Practices}{3}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Rolle des Requirements Engineering}{4}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Change Management im ITSM}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}IT Change Management im ITSM}{5}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Prozessablauf in der Praxis}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Bedarfsaufnahme}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Abstimmungen}{6}{subsection.3.2}%

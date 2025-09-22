@@ -15,21 +15,17 @@
 \newblock {\em Arbeiten bei den Berliner Wasserbetrieben}.
 \newblock \url{https://www.bwb.de/de/arbeitgeber.php} (Zugriff am 22.09.2025).
 
-\bibitem[{BSI}24]{S_BSI_KI}
-{BSI – Bundesamt für Sicherheit in der Informationstechnik} (2024).
+\bibitem[{BSI}24a]{BSI_2024}
+{BSI - Bundesamt für Sicherheit in der Informationstechnik} (2024a).
+\newblock Cloud-dienste sicher nutzen.
+\newblock Technical report, BSI.
+\newblock \url{https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Broschueren/Wegweiser_Checklisten_Flyer/Brosch_A6_Cloud_Computing.pdf?__blob=publicationFile&v=9} (Zugriff am 20.09.2025).
+
+\bibitem[{BSI}24b]{S_BSI_KI}
+{BSI – Bundesamt für Sicherheit in der Informationstechnik} (2024b).
 \newblock Generative ki-modelle: Potenziale und herausforderungen.
 \newblock Technical report, BSI.
 \newblock \url{https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/KI/Generative_KI-Modelle.pdf?__blob=publicationFile&v=7} (Zugriff am 23.09.2025).
-
-\bibitem[{BSI}25a]{S_BSI_Grundlagen}
-{BSI – Bundesamt für Sicherheit in der Informationstechnik} (2025a).
-\newblock {\em Cloud Computing – Grundlagenwissen}.
-\newblock \url{https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cloud-Computing-Sicherheitstipps/Grundlagenwissen/grundlagenwissen_node.html} (Zugriff am 30.08.2025).
-
-\bibitem[{BSI}25b]{S_BSI_Risiken}
-{BSI – Bundesamt für Sicherheit in der Informationstechnik} (2025b).
-\newblock {\em Cloud Computing – Risiken und Sicherheitstipps}.
-\newblock \url{https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cloud-Computing-Sicherheitstipps/Cloud-Risiken-und-Sicherheitstipps/cloud-risiken-und-sicherheitstipps_node.html} (Zugriff am 21.09.2025).
 
 \bibitem[Con23]{pureconsultant2023}
 Consultant, P. (2023).
