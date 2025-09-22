@@ -27,6 +27,11 @@
 \newblock Technical report, BSI.
 \newblock \url{https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/KI/Generative_KI-Modelle.pdf?__blob=publicationFile&v=7} (Zugriff am 23.09.2025).
 
+\bibitem[{Ceg}25]{S_Cegos2025}
+{Cegos Integrata} (2025).
+\newblock {\em KI-Governance: Leitfaden für verantwortungsvollen Einsatz künstlicher Intelligenz}.
+\newblock \url{https://www.cegos-integrata.de/blog/it-blog/ki/ki-governance-leitfaden-fur-verantwortungsvollen-einsatz-kunstlicher-intelligenz} (Zugriff am 18.09.2025).
+
 \bibitem[Con23]{pureconsultant2023}
 Consultant, P. (2023).
 \newblock {\em Softwareeinführung: Definition, Vorgehen \& Tipps}.
@@ -42,11 +47,6 @@ Consultant, P. (2023).
 Fabarius, W. (2023).
 \newblock {\em ChatGPT in der Unternehmenspraxis: Anwendungsbeispiele für Risikomanagement, Controlling und Compliance}.
 \newblock Erich Schmidt Verlag.
-
-\bibitem[{ISR}25]{S_ISR}
-{ISR Information Products AG} (2025).
-\newblock {\em Anforderungsmanagement – Wissen}.
-\newblock \url{https://isr.de/ressourcen/wissen/anforderungsmanagement/#kontakt} (Zugriff am 17.09.2025).
 
 \bibitem[Pap22]{papershift2022}
 Papershift (2022).
