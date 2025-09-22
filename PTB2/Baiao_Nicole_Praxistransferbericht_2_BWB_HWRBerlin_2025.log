@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  22 SEP 2025 22:27
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  22 SEP 2025 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -835,18 +835,13 @@ Overfull \hbox (12.42065pt too wide) in paragraph at lines 326--327
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+[]|\TU/TimesNewRoman(0)/b/n/12 Change Advisory
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
 []|\TU/TimesNewRoman(0)/b/n/12 Portfolio-
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 347--347
-[]|\TU/TimesNewRoman(0)/m/n/12 Der Prozess zur systematischen Identifikation, Bewertung und
- []
-
-
-Overfull \hbox (8.83742pt too wide) in paragraph at lines 349--349
-[]|\TU/TimesNewRoman(0)/b/n/12 Sicherheitsmanagement| 
  []
 
 
@@ -855,12 +850,22 @@ Overfull \hbox (8.3513pt too wide) in paragraph at lines 335--351
  []
 
 [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
+Underfull \hbox (badness 1742) in paragraph at lines 354--354
+[]|\TU/TimesNewRoman(0)/m/n/12 Der Prozess zur systematischen Identifikation, Bewertung und
+ []
+
+
+Overfull \hbox (8.83742pt too wide) in paragraph at lines 356--356
+[]|\TU/TimesNewRoman(0)/b/n/12 Sicherheitsmanagement| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 []|\TU/TimesNewRoman(0)/b/n/12 Vorhaben-
  []
 
 
-Overfull \hbox (8.3513pt too wide) in paragraph at lines 354--358
+Overfull \hbox (8.3513pt too wide) in paragraph at lines 352--360
 [][] 
  []
 
@@ -928,7 +933,7 @@ Underfull \hbox (badness 1448) in paragraph at lines 52--55
 File: BILDER-PTB2/Anhang1.neu.png Graphic file (type bmp)
 <BILDER-PTB2/Anhang1.neu.png>
 
-Overfull \hbox (35.14131pt too wide) in paragraph at lines 403--404
+Overfull \hbox (35.14131pt too wide) in paragraph at lines 404--405
  [][] 
  []
 
@@ -936,7 +941,7 @@ Overfull \hbox (35.14131pt too wide) in paragraph at lines 403--404
 File: BILDER-PTB2/Anhang2.neu.png Graphic file (type bmp)
 <BILDER-PTB2/Anhang2.neu.png>
 
-Overfull \hbox (35.14131pt too wide) in paragraph at lines 414--415
+Overfull \hbox (35.14131pt too wide) in paragraph at lines 415--416
  [][] 
  []
 
@@ -944,7 +949,7 @@ Overfull \hbox (35.14131pt too wide) in paragraph at lines 414--415
 File: BILDER-PTB2/Anhang3.neu.png Graphic file (type bmp)
 <BILDER-PTB2/Anhang3.neu.png>
 
-Overfull \hbox (35.14131pt too wide) in paragraph at lines 425--426
+Overfull \hbox (35.14131pt too wide) in paragraph at lines 426--427
  [][] 
  []
 
@@ -952,7 +957,7 @@ Overfull \hbox (35.14131pt too wide) in paragraph at lines 425--426
 File: BILDER-PTB2/Anhang4.neu.png Graphic file (type bmp)
 <BILDER-PTB2/Anhang4.neu.png>
 
-Overfull \hbox (35.14131pt too wide) in paragraph at lines 436--437
+Overfull \hbox (35.14131pt too wide) in paragraph at lines 437--438
  [][] 
  []
 
@@ -960,22 +965,22 @@ Overfull \hbox (35.14131pt too wide) in paragraph at lines 436--437
 File: BILDER-PTB2/Anhang5.neu.png Graphic file (type bmp)
 <BILDER-PTB2/Anhang5.neu.png>
 
-Overfull \hbox (35.14131pt too wide) in paragraph at lines 447--448
+Overfull \hbox (35.14131pt too wide) in paragraph at lines 448--449
  [][] 
  []
 
 [20] [21] [22] [23] [24]
-Overfull \hbox (6.11696pt too wide) in paragraph at lines 507--508
+Overfull \hbox (6.11696pt too wide) in paragraph at lines 508--509
 \TU/TimesNewRoman(0)/m/n/12 Sicherheitsmanagement-Abteilung einen Schutzbedarfs-Steckbrief für die Adobe Creative Cloud
  []
 
 
-Overfull \hbox (26.7986pt too wide) in paragraph at lines 517--518
+Overfull \hbox (26.7986pt too wide) in paragraph at lines 518--519
 []\TU/TimesNewRoman(0)/m/n/12 Bei der strategischen Einordnung solcher KI-gestützten Anwendungen hat das Portfolio-Management
  []
 
 [25] [26] [27] [28]
-Overfull \hbox (18.35524pt too wide) in paragraph at lines 557--559
+Overfull \hbox (18.35524pt too wide) in paragraph at lines 558--560
 []\TU/TimesNewRoman(0)/b/n/12 Frage 3: \TU/TimesNewRoman(0)/m/n/12 Welche Rolle spielen hierbei Datenschutz, IT-Sicherheit und Compliance-Anforderungen? 
  []
 
@@ -983,7 +988,7 @@ Overfull \hbox (18.35524pt too wide) in paragraph at lines 557--559
 File: BILDER-PTB2/anhang4.1.png Graphic file (type bmp)
 <BILDER-PTB2/anhang4.1.png>
 
-Overfull \hbox (35.14131pt too wide) in paragraph at lines 613--614
+Overfull \hbox (35.14131pt too wide) in paragraph at lines 614--615
  [][] 
  []
 
@@ -991,7 +996,7 @@ Overfull \hbox (35.14131pt too wide) in paragraph at lines 613--614
 File: BILDER-PTB2/anhang4.2.png Graphic file (type bmp)
 <BILDER-PTB2/anhang4.2.png>
 
-Overfull \hbox (35.14131pt too wide) in paragraph at lines 623--624
+Overfull \hbox (35.14131pt too wide) in paragraph at lines 624--625
  [][] 
  []
 
@@ -999,7 +1004,7 @@ Overfull \hbox (35.14131pt too wide) in paragraph at lines 623--624
 File: BILDER-PTB2/Anhang4.3.png Graphic file (type bmp)
 <BILDER-PTB2/Anhang4.3.png>
 
-Overfull \hbox (35.14131pt too wide) in paragraph at lines 634--635
+Overfull \hbox (35.14131pt too wide) in paragraph at lines 635--636
  [][] 
  []
 
@@ -1007,12 +1012,12 @@ Overfull \hbox (35.14131pt too wide) in paragraph at lines 634--635
 File: BILDER-PTB2/anhang4.4.png Graphic file (type bmp)
 <BILDER-PTB2/anhang4.4.png>
 
-Overfull \hbox (35.14131pt too wide) in paragraph at lines 645--646
+Overfull \hbox (35.14131pt too wide) in paragraph at lines 646--647
  [][] 
  []
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
+Underfull \hbox (badness 10000) in paragraph at lines 667--668
 
  []
 
