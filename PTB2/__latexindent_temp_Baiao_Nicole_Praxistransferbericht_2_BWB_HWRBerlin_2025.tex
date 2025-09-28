@@ -179,8 +179,8 @@ Fachbereich Duales Studium\\ [0.2cm]
 
 % --- Tabelle mit Unterschriften ---
 \begin{tabular}{p{8cm} p{8cm}}
-  \normalsize{Berlin, den 27. September 2025} &
-  \normalsize{Berlin, den 28. September 2025} \\[0.4cm]
+  \normalsize{Berlin, den 26. September 2025} &
+  \normalsize{Berlin, den 26. September 2025} \\[0.4cm]
 
   % Bild nach unten schieben, ohne die Zeilenhöhe zu vergrößern
   \smash{\raisebox{-0.5cm}[0pt][0pt]{%
@@ -191,7 +191,7 @@ Fachbereich Duales Studium\\ [0.2cm]
   \\
 
   % Linie
-  \rule{5cm}{0.4pt} & \rule{5cm}{0.4pt} \\[0.1cm]
+  \rule{5.5cm}{0.4pt} & \rule{5.5cm}{0.4pt} \\[0.1cm]
   \normalsize{(Unterschrift der Studentin)} &
   \normalsize{(Unterschrift der Ausbildungsleiterin)}
 \end{tabular}
@@ -239,7 +239,7 @@ Innerhalb der IT ist das Team Anforderungsmanagement für die internen Kunden de
 
 Seit der Einführung von Cloud-Technologien und Künstlicher Intelligenz gewinnen beide kontinuierlich an Bedeutung. Am Beispiel der Adobe Creative Cloud zeigt sich, dass moderne KI-Funktionalitäten\footnote{Vgl. \cite{S_AdobeAI}.} erhebliche Chancen für Effizienzsteigerungen bieten, zugleich aber Risiken für den IT-Betrieb und die Sicherheit des Unternehmens mit sich bringen.\footnote{Vgl. \cite{S_Ambient}.} Besonders relevant ist die Frage, wie bestehende Softwareprodukte um neue KI-Funktionen erweitert und innerhalb bestehender Verträge skaliert werden können, ohne dass dafür eine vollständige Neubeschaffung notwendig ist.
 
-Das Ziel dieser Arbeit ist es daher, anhand des Falls der erweiterten Nutzung der Adobe Cloud aufzuzeigen, wie Anforderungen systematisch analysiert und bewertet werden können, um daraus Handlungsempfehlungen für künftige ähnliche Szenarien abzuleiten. Hierzu werden theoretische Konzepte aus IT Infrastructure Library (ITIL), Change- und Anforderungsmanagement mit praktischen Erfahrungen im Anforderungsprozess verknüpft. Zur Ergänzung werden Interviews mit Mitarbeitenden der Berliner Wasserbetriebe herangezogen, die praxisnahe Einblicke und Erfahrungen liefern. Die Ausarbeitung erfolgt in LaTeX.
+Das Ziel dieser Arbeit ist es daher, anhand des Falls der erweiterten Nutzung der Adobe Cloud aufzuzeigen, wie Anforderungen systematisch analysiert und bewertet werden können, um daraus Handlungsempfehlungen für künftige ähnliche Szenarien abzuleiten. Hierzu werden theoretische Konzepte aus der IT Infrastructure Library (ITIL), Change- und Anforderungsmanagement mit praktischen Erfahrungen im Anforderungsprozess verknüpft. Zur Ergänzung werden Interviews mit Mitarbeitenden der Berliner Wasserbetriebe herangezogen, die praxisnahe Einblicke und Erfahrungen liefern. Diese Ausarbeitung erfolgt in LaTeX.
 
 % === Theoretischer Rahmen ===
 \section{Theoretischer Rahmen}
@@ -256,23 +256,23 @@ Der Einführungsprozess folgt meist einem klaren Ablauf in fünf Phasen:
     \item \textbf{Überwachung \& Analyse} – Betrieb, Support, Optimierung.\footnote{Vgl. \cite{papershift2022}, Abschnitt: Die 5 Phasen der Softwareeinführung.}
 \end{enumerate}
 Bei einer Software-Erweiterung, die im Mittelpunkt dieser Arbeit steht, sind hingegen nur einzelne Phasen in vollem Umfang relevant. Welche dies konkret sind, wird im weiteren Verlauf noch verdeutlicht.
-\subsection{Cloud und Künstliche Intelligenz in Unternehmen}
+\subsection{Cloud und Künstliche Intelligenz im Unternehmen}
 
-Die zunehmende Nutzung von Cloud-Software hat die Einführung und Erweiterung von Anwendungen grundlegend verändert. Cloud-Lösungen sind flexibel skalierbar und ortsunabhängig verfügbar,\footnote{Vgl. \cite{BSI_2024} S. 7.} stellen Unternehmen aber vor Herausforderungen wie Datensicherheit, rechtliche Vorgaben und mögliche Abhängigkeiten vom Anbieter.\footnote{Vgl. \cite{BSI_2024} S. 8.}. 
+Die zunehmende Nutzung von Cloud-Software hat die Einführung und Erweiterung von Anwendungen grundlegend verändert. Cloud-Lösungen sind flexibel skalierbar und ortsunabhängig verfügbar,\footnote{Vgl. \cite{BSI_2024} S. 7.} stellen Unternehmen aber vor Herausforderungen wie Datensicherheit, rechtliche Vorgaben und mögliche Abhängigkeiten vom Anbieter.\footnote{Vgl. \cite{BSI_2024} S. 8.} 
 Viele Cloud-Produkte enthalten zudem KI-Funktionen, die Chancen wie Automatisierung, kreative Unterstützung und bessere Entscheidungsqualität eröffnen.\footnote{Vgl. \cite{S_BSI_KI}, S.~9.} Gleichzeitig bestehen Risiken, etwa durch die Verarbeitung sensibler Daten in externen Rechenzentren und erhöhte Anforderungen an Datenschutz und IT-Sicherheit.\footnote{Vgl. \cite{S_ENISA_AI}, S.~26--27.} 
 Unternehmen müssen diese Aspekte sorgfältig abwägen und geeignete Governance-Strukturen entwickeln. Wie die BWB dabei konkret vorgehen, wird im Praxisteil dargestellt.
 \subsection{ITIL-Best Practices}
 
 Die ITIL ist ein zentraler Bestandteil für das Verständnis von Software-Erweiterungen im IT-Service-Management. Um seine Rolle nachvollziehen zu können, ist es notwendig, zunächst einige grundlegende Begriffe zu klären. Ein IT-Service ist eine immaterielle Dienstleistung der Informationstechnologie, die unter anderem Beratung, Planung sowie die Bereitstellung von Hardware- und Softwareleistungen umfasst. ITIL definiert ihn als „ein oder mehrere IT-Systeme, die einen Geschäftsprozess ermöglichen oder unterstützen und vom Kunden als zusammenhängendes Ganzes wahrgenommen werden“.\footnote{Vgl. \cite{S_ITIL}, S.~5--6.} 
 
-Die Qualität des Service spielt dabei eine zentrale Rolle und wird durch kontinuierliche Steuerung und Verbesserung gesichert. Aufbauend darauf versteht man unter IT-Service-Management (ITSM) ein prozessorientiertes Modell, das die Gesamtheit der Methoden und Prozesse zur Lieferung, Unterstützung und Steuerung von IT-Services umfasst. Ziel ist es, die IT-Infrastruktur und Anwendungen so auszurichten, dass sie die Geschäftsziele bestmöglich einhalten.\footnote{Vgl. \cite{S_ITIL}, S.~8, S.~139.}Als Rahmenwerk dient hier die ITIL, die in den 80er-Jahren im Auftrag der britischen Regierung entwickelt wurde. Sie beruht auf dem sogenannten Best-Practice-Ansatz, also einer Vereinheitlichung der Analyseergebnisse britischer Behörden, die ihre gesammelten Erfahrungen in einer Büchersammlung dokumentierten. ITIL legt damit fest, was und wann etwas im IT-Service-Management zu tun ist, ohne jedoch das Wie vorzuschreiben.\footnote{Vgl. \cite{S_ITIL}, S.~11--12 und S.123.}
+Die Qualität des Service spielt dabei eine zentrale Rolle und wird durch kontinuierliche Steuerung und Verbesserung gesichert. Aufbauend darauf versteht man unter IT-Service-Management (ITSM) ein prozessorientiertes Modell, das die Gesamtheit der Methoden und Prozesse zur Lieferung, Unterstützung und Steuerung von IT-Services umfasst. Ziel ist es, die IT-Infrastruktur und Anwendungen so auszurichten, dass sie die Geschäftsziele bestmöglich einhalten.\footnote{Vgl. \cite{S_ITIL}, S.~8, S.~139.} Als Rahmenwerk dient hier die ITIL, die in den 80er-Jahren im Auftrag der britischen Regierung entwickelt wurde. Sie beruht auf dem sogenannten Best-Practice-Ansatz, also einer Vereinheitlichung der Analyseergebnisse britischer Behörden, die ihre gesammelten Erfahrungen in einer Büchersammlung dokumentierten. ITIL legt damit fest, was und wann etwas im IT-Service-Management zu tun ist, ohne jedoch das Wie vorzuschreiben.\footnote{Vgl. \cite{S_ITIL}, S.~11--12 und S.123.}
 
 \subsection{Rolle des Requirements Engineering}
 
 Das Requirements Engineering ist ein systematischer und disziplinierter Prozess, mit dem Anforderungen an ein System erfasst, spezifiziert und über den gesamten Lebenszyklus hinweg verwaltet werden.\footnote{Vgl. \cite{S_PohlRupp}, S.~4.} Eine Anforderung wird definiert als Bedingung oder Fähigkeit, die von einem Benutzer oder System benötigt wird, um ein Ziel zu erreichen oder ein Problem zu lösen. Sie kann auch aus Normen, Verträgen oder Spezifikationen hervorgehen oder als dokumentierte Repräsentation beschrieben sein.\footnote{Vgl. \cite{S_PohlRupp}, S.~3.}
 
 Im Mittelpunkt des Requirements Engineering steht der Begriff des Stakeholders. Als Stakeholder gelten alle Personen oder Organisationen, die in irgendeiner Weise Einfluss auf die Anforderungen eines Systems haben. Dazu zählen etwa spätere Nutzer, Administratoren, das Management oder auch externe Institutionen. Wichtig ist: Anforderungen entstehen nicht isoliert, sondern immer im Kontext der Interessen und Bedürfnisse dieser Stakeholder.\footnote{Vgl. \cite{S_PohlRupp}, S.~3--4.}
-Das Ziel des Requirements Engineering ist es, die Anforderungen der Stakeholder möglichst vollständig und in hoher Qualität zu erfassen, zu dokumentieren und über den gesamten Projektverlauf hinweg zu berücksichtigen, um Risiken zu minimieren und die Kundenzufriedenheit sicherzustellen. \footnote{Vgl. \cite{S_PohlRupp}, S.11.} 
+Das Ziel des Requirements Engineering ist es, die Anforderungen der Stakeholder möglichst vollständig und in hoher Qualität zu erfassen, zu dokumentieren und über den gesamten Projektverlauf hinweg zu berücksichtigen, um Risiken zu minimieren und die Kundenzufriedenheit sicherzustellen.\footnote{Vgl. \cite{S_PohlRupp}, S.11.}
 Um dieses Ziel zu erreichen, umfasst das Requirements Engineering vier zentrale Tätigkeiten:
 \begin{itemize}
     \item \textbf{Ermitteln:} Identifizieren und Präzisieren der Anforderungen durch geeignete Techniken wie Interviews oder Beobachtungen.
@@ -327,7 +327,7 @@ Eine endgültige Entscheidung steht noch aus. Für die Unternehmenskommunikation
 Ein Schwerpunkt liegt auf dem Datenschutz, insbesondere der konsequenten Einhaltung der Datenschutz-Grundverordnung (DSGVO). Dazu zählen die Einholung einer Einwilligung, die Zweckbindung der Datenverarbeitung sowie Transparenz gegenüber den Betroffenen.\footnote{Vgl. \cite{S_Fabarius2023}, S. 82–83.}  Nur wenn diese Prinzipien klar umgesetzt sind, können Organisationen Vertrauen aufbauen und rechtliche Risiken vermeiden. Bei den BWB stellen Sicherheitsmanagement und Datenschutz gemeinsam sicher, dass dies konsequent erfolgt.\footnote{Vgl. \hyperref[sec:Anhang3]{Anhang 3, Frage 3.}}
 
 Technische Sicherheitsmaßnahmen sind entscheidend: Dazu gehören Verschlüsselung sensibler Daten, strenge Zugriffskontrollen, Netzwerkschutz durch Firewalls und Intrusion-Detection-Systeme sowie eine kontinuierliche Systemüberwachung zur frühzeitigen Erkennung von Bedrohungen.\footnote{Vgl. \cite{S_Fabarius2023}, S. 95.} Auch die physische Sicherheit ist wichtig: Rechenzentren und Server sollten nur mit streng kontrollierten Zugängen (z. B. biometrisch oder per Zugangskarte) erreichbar sein und rund um die Uhr überwacht werden.\footnote{Vgl. \cite{S_Fabarius2023}, S. 96.}
-Neben der Technik erfordern KI-Anwendungen auch administrative und organisatorische Schutzmaßnahmen. Dazu gehört, dass Mitarbeitende regelmäßig geschult und sensibilisiert werden, um das Bewusstsein für Datenschutz und IT-Sicherheit zu stärken.\footnote{Vgl. \hyperref[sec:Anhang3]{Anhang 3, Frage 11.}} Die BWB haben ein Strategieprojekt gestartet, in dem IT, Datenschutz, Sicherheit und Strategie Leitlinien entwickeln, um KI-Funktionen in der Cloud mit klaren Prozessen, Verantwortlichkeiten und Schutzmaßnahmen einzusetzen. \footnote{Vgl. \hyperref[sec:Anhang3]{Anhang 3, Frage 9.}}
+Neben der Technik erfordern KI-Anwendungen auch administrative und organisatorische Schutzmaßnahmen. Dazu gehört, dass Mitarbeitende regelmäßig geschult und sensibilisiert werden, um das Bewusstsein für Datenschutz und IT-Sicherheit zu stärken.\footnote{Vgl. \hyperref[sec:Anhang3]{Anhang 3, Frage 11.}} Die BWB haben ein Strategieprojekt gestartet, in dem IT, Datenschutz, Sicherheit und Strategie Leitlinien entwickeln, um KI-Funktionen in der Cloud mit klaren Prozessen, Verantwortlichkeiten und Schutzmaßnahmen einzusetzen.\footnote{Vgl. \hyperref[sec:Anhang3]{Anhang 3, Frage 9.}}
 
 \subsection{Risikomanagement und Governance}
 
@@ -675,7 +675,7 @@ Ich würde empfehlen, die anstehenden Maßnahmen im Rahmen des KI-Strategieproje
     \raggedright
     \item \normalsize dass ich meinen Praxistransferbericht ohne fremde Hilfe erstellt habe,
     \item \normalsize dass ich wörtliche Zitate aus der Literatur – etwa aus Büchern, wissenschaftlichen Artikeln oder offiziellen Quellen – entnommen und entsprechend gekennzeichnet habe,
-    \item \normalsize dass ich Künstliche Intelligenz zur Formulierung einiger Sätze verwendet habe, und ebenfalls zur Korrektur der grammatikalischen Fehler beim Schreiben“
+    \item \normalsize dass ich Künstliche Intelligenz zur Formulierung einiger Sätze und ebenfalls zur Korrektur von grammatikalischen Fehlern verwendet habe.“
 \end{itemize}
 „Alle Quellen, die aus dem Internet oder aus anderen digitalen Medien stammen, die für den Praxistransferbericht verwendet wurden, sind der Arbeit beigefügt.“
 
@@ -683,13 +683,13 @@ Ich würde empfehlen, die anstehenden Maßnahmen im Rahmen des KI-Strategieproje
 
 % --- Tabelle mit Unterschriften ---
 
-\begin{tabular}{p{8cm}}
-    \normalsize{Berlin, den 26. September 2025} \\[0.5cm]
-    \includegraphics[width=5.5cm]{BILDER-PTB2/unterschrift_nicole.png} \\
-    \normalsize{\underline{\hspace{5.5cm}}} \\
-    \normalsize{(Unterschrift der Studentin)}
-\end{tabular} % \underline{\hspace{6cm}} erzeugt eine Linie mit einer Länge von 6 cm
-
+\begin{tabular}{@{}p{8cm}@{}}
+  \normalsize{Berlin, den 26. September 2025} \\[0.5cm]
+  \smash{\raisebox{-0.60cm}[0pt][0pt]{%
+    \includegraphics[width=5.5cm]{BILDER-PTB2/unterschrift_nicole.png}}} \\
+  \rule{5.5cm}{0.4pt} \\[0.1cm]
+  \normalsize{(Unterschrift der Studentin)}
+\end{tabular}
 
 % === ENDE DOKUMENT ===
 \end{document}
