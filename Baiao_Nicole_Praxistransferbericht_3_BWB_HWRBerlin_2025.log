@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  19 JAN 2026 13:13
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  19 JAN 2026 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -779,162 +779,26 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \c@lstlisting=\count323
 Package tocbasic Info: setting babel extension for `lol' on input line 127.
 \scr@dte@lstlisting@maxnumwidth=\skip99
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_charlottenburg' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_friedrichshain_kreuzberg' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_fust' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_koerperschaften_I' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_koerperschaften_II' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_koerperschaften_III' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_koerperschaften_IV' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_lichtenberg' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_marzahn_hellersdorf' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_mitte_tiergarten' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_neukoelln' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_pankow_weissensee' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_prenzlauer_berg' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_reinickendorf' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_schoeneberg' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_spandau' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_steglitz' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_tempelhof' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_treptow_koepenick' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_wedding' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_wilmersdorf' undefined on input line 129.
-
-
-LaTeX Warning: Citation `google_maps_tfa_zu_fa_zehlendorf' undefined on input line 129.
-
-
-LaTeX Warning: Citation `fa_fuer_fahndung_und_strafsachen' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_fuer_koerperschaften_i' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_fuer_koerperschaften_ii' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_fuer_koerperschaften_iii' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_fuer_koerperschaften_iv' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_charlottenburg' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_friedrichshain_kreuzberg' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_lichtenberg' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_marzahn_hellersdorf' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_mitte_tiergarten' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_neukoelln' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_pankow_weissensee' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_prenzlauer_berg' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_reinickendorf' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_schoeneberg' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_spandau' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_steglitz' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_tempelhof' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_treptow_koepenick' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_wedding' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_wilmersdorf' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_zehlendorf' undefined on input line 130.
-
-
-LaTeX Warning: Citation `fa_technisches_finanzamt' undefined on input line 130.
-
 File: BILDER-PTB3/Berliner-wasserbetriebe.svg.png Graphic file (type bmp)
 <BILDER-PTB3/Berliner-wasserbetriebe.svg.png>
 File: BILDER-PTB3/Hochschule_für_Wirtschaft_und_Recht_Berlin_logo.jpg Graphic file (type bmp)
 <BILDER-PTB3/Hochschule_für_Wirtschaft_und_Recht_Berlin_logo.jpg>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 167.
+(Font)              <14.4> on input line 166.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 167.
+(Font)              <7> on input line 166.
 File: BILDER-PTB3/unterschrift_nicole.png Graphic file (type bmp)
 <BILDER-PTB3/unterschrift_nicole.png>
 File: BILDER-PTB3/unterschrift_max.png Graphic file (type bmp)
 <BILDER-PTB3/unterschrift_max.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 189.
+(Font)              <12> on input line 188.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 189.
+(Font)              <8> on input line 188.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 189.
+(Font)              <6> on input line 188.
 
-Overfull \hbox (26.84541pt too wide) in paragraph at lines 183--194
+Overfull \hbox (26.84541pt too wide) in paragraph at lines 182--193
 [][] 
  []
 
@@ -945,29 +809,27 @@ Overfull \hbox (26.84541pt too wide) in paragraph at lines 183--194
 \openout4 = `Baiao_Nicole_Praxistransferbericht_3_BWB_HWRBerlin_2025.toc'.
 
  [1]
-Overfull \hbox (8.3513pt too wide) in paragraph at lines 209--216
+Overfull \hbox (8.3513pt too wide) in paragraph at lines 208--215
 [] 
  []
 
 [2]
-Overfull \hbox (8.3513pt too wide) in paragraph at lines 251--257
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 222.
+
+Overfull \hbox (8.3513pt too wide) in paragraph at lines 250--256
 [] 
  []
 
-[1] (./Baiao_Nicole_Praxistransferbericht_3_BWB_HWRBerlin_2025.bbl
+[1] (./Baiao_Nicole_Praxistransferbericht_3_BWB_HWRBerlin_2025.bbl) [2]
 
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 3.
-
-) [2]
-
-LaTeX Warning: Hyper reference `sec:Anhang2' on page 3 undefined on input line 280.
+LaTeX Warning: Hyper reference `sec:Anhang2' on page 3 undefined on input line 279.
 
 
-LaTeX Warning: Reference `sec:Anhang2' on page 3 undefined on input line 280.
+LaTeX Warning: Reference `sec:Anhang2' on page 3 undefined on input line 279.
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
@@ -986,11 +848,11 @@ Package rerunfilecheck Info: File `Baiao_Nicole_Praxistransferbericht_3_BWB_HWRB
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23168 strings out of 474773
- 466039 string characters out of 5757725
+ 23186 strings out of 474773
+ 466579 string characters out of 5757725
  1927839 words of memory out of 5000000
- 45013 multiletter control sequences out of 15000+600000
- 562270 words of font info for 73 fonts, out of 8000000 for 9000
+ 45028 multiletter control sequences out of 15000+600000
+ 562294 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,13n,107p,10987b,397s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
