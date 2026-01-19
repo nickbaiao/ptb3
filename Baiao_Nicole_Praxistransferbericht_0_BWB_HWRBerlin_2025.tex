@@ -1,0 +1,331 @@
+% NICOLE CAMILLE BAIÃO - PRAXISTRANSFERBERICHT I
+
+% === DOKUMENTKLASSE ===
+\documentclass[
+    12pt, 
+    a4paper,
+    ]{scrartcl} % KOMA-Script-Artikelklasse mit deutscher Typografie
+
+% === SPRACHE & ZEICHENSATZ ===
+\usepackage[ngerman]{babel} % Deutsche Sprache und Silbentrennung
+\usepackage{csquotes} % Typografisch korrekte Anführungszeichen
+
+% === SEITENLAYOUT & FORMATIERUNG ===
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.15}
+\usepackage{fancyhdr}
+\usepackage{float} % Exakte Platzierung von Gleitobjekten (z. B. Bilder)
+\usepackage{caption} % Bild-/Tabellenbeschriftungen anpassen
+\usepackage{adjustbox} % Elemente (z. B. Tabellen) skalieren oder ausrichten
+\usepackage{makecell} % Mehrzeilige Zellen in Tabellen (Tabellen in Tabellen)
+\usepackage{ragged2e}
+\justifying 
+% === SCHRIFTARTEN ===
+\usepackage{iftex} % Prüft, ob XeTeX oder LuaTeX verwendet wird
+\usepackage{fontspec} % Benutzerdefinierte Schriftarten (nur mit XeLaTeX/LuaLaTeX)
+\usepackage{titlesec}
+% Aktuelle Größen beibehalten:
+\titleformat{\section}{\normalfont\fontsize{14}{5}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\fontsize{13}{5}\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\fontsize{12}{5}\bfseries}{\thesubsubsection}{1em}{} 
+
+% ABSTÄNDE ANPASSEN — Das ist der Schlüssel:
+\titlespacing*{\section}{0pt}{1.1\baselineskip}{0.1\baselineskip}
+\titlespacing*{\subsection}{0pt}{1.0\baselineskip}{0.1\baselineskip}
+\titlespacing*{\subsubsection}{0pt}{0.9\baselineskip}{0.1\baselineskip}
+ % Hauptschriftart
+\setmainfont{Times New Roman} % Setzt Times New Roman als Hauptschrift
+
+% === GRAFIKEN & ABBILDUNGEN ===
+\usepackage{graphicx} % Bilder einfügen
+\usepackage{xcolor} % Farben verwenden (z. B. in Code oder Text)
+\usepackage{longtable}
+\usepackage{tablefootnote}
+% === QUELLEN & VERWEISE ===
+\usepackage{cite} % Quellenangaben
+\usepackage[
+    colorlinks,       % Links ohne Umrandungen in gewählter Farbe
+    linkcolor=black,  % Farbe interner Verweise
+    filecolor=black,  % Farbe externer Verweise
+    citecolor=black,  % Farbe von Zitaten
+    urlcolor=black,    % Farbe von Links
+    breaklinks
+]{hyperref} % Verlinkungen
+\usepackage{cleveref} % Querverweise der Querverweise
+\newcommand{\etalchar}[1]{#1}
+
+% === TABELLEN ===
+\usepackage{longtable} % Tabellen über mehrere Seiten
+% makecell wurde oben bereits geladen
+
+% === CODE-DARSTELLUNG ===
+\usepackage{listings} % Quellcode einfügen und formatieren
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% === ÜBERSCHRIFTEN-FORMATIERUNG ===
+\setkomafont{sectioning}{\rmfamily\bfseries} % Überschriften fett und serifenlos
+
+% === VERLINKUNGEN & REFERENZEN ===
+\hypersetup{breaklinks=true} % Erlaubt Zeilenumbruch bei langen Links (wichtig für URLs oder Literaturverweise)
+\newcommand{\anhang}[1]{\hyperref[#1]{\nameref{#1}}} % Eigener Befehl für Anhang-Verweise mit automatisch lesbarem Namen (anstatt z. B. nur "Abschnitt 5.1")
+
+% === SEITENLAYOUT & RÄNDER ===
+\geometry{
+    verbose,
+    tmargin=3cm,  % Oberer Rand
+    bmargin=2cm,  % Unterer Rand
+    lmargin=2.1cm,  % Linker Rand
+    rmargin=3cm   % Rechter Rand
+}
+
+% === TYPOGRAFISCHE FEINHEITEN ===
+\displaywidowpenalty = 5000
+\widowpenalty=5000
+\clubpenalty=5000
+% === FUßNOTEN UND VERWEISE ===
+\newcommand{\footfigref}[1]{\footnote{Abb. \ref{#1} auf Seite \pageref{#1}}} % Eigener Fußnotenbefehl für Bildverweise mit Seitenzahl
+
+% === ABSTÄNDE & ABSATZFORMATIERUNG ===
+\setlength{\footskip}{10mm} % Abstand zwischen Text und Fußzeile
+\setlength{\abovecaptionskip}{4pt}  % Abstand oberhalb von Bild-/Tabellenunterschriften
+\setlength{\belowcaptionskip}{0pt}  % Abstand unterhalb von Bild-/Tabellenunterschriften
+\setlength{\intextsep}{1pc}         % Abstand bei Gleitobjekten (z. B. Bilder im Textfluss)
+\setlength{\parindent}{0pt} % Kein Einzug am Absatzanfang
+\setlength{\parskip}{0.75\baselineskip} % Einheitlicher Abstand zwischen Absätzen
+\setstretch{1.5} % 1½-zeiliger Zeilenabstand
+% === BILD- UND TABELLENUNTERSCHRIFTEN VERKLEINERN ===
+\addtokomafont{caption}{\small} % Macht Bild-/Tabellenunterschriften kleiner
+
+% === INHALTSVERZEICHNIS & LISTEN ===
+\KOMAoptions{listof=entryprefix, toc=indent} % Inhaltsverzeichnis: eingerückt und mit Präfix bei Abbildungs-/Tabellenlisten
+
+% === CODEDARSTELLUNG (SQL) ===
+\lstdefinelanguage{SQL}{
+    keywords={SELECT, FROM, WHERE, INSERT, INTO, VALUES, UPDATE, SET, DELETE, JOIN, LEFT, RIGHT, INNER, ORDER, BY, GROUP, ASC, DESC, CREATE, TABLE, PRIMARY, KEY, FOREIGN, ALTER, DROP, DATABASE, BEGIN, TRANSACTION, IF, EXISTS, COMMIT, AND},
+    keywordstyle=\color{blue},           % Keywords blau
+    comment=[l]{--},                     % Kommentare mit --
+    morecomment=[s]{/*}{*/},             % Blockkommentare
+    commentstyle=\color{gray},          % Kommentare grau
+    stringstyle=\color{red},            % Strings rot
+}
+
+\lstset{
+    basicstyle=\ttfamily\linespread{0.85}\selectfont,   % Standard-Monospace-Schrift für Listings
+    keywordstyle=\bfseries\color{blue},  % Beispiel-Stil für Keywords
+    commentstyle=\itshape\color{gray},   % Stil für Kommentare
+    stringstyle=\color{red},            % Stil für Strings
+    columns=flexible,       % Flexibler Zeilenumbruch
+    language=SQL,
+    breaklines=true
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% === BEGINN DOKUMENT ===
+\begin{document}
+% === LITERATUR EINBINDEN (unsichtbar zitieren, damit sie im Literaturverzeichnis auftaucht) ===
+\nocite{google_maps_tfa_zu_fa_charlottenburg,google_maps_tfa_zu_fa_friedrichshain_kreuzberg,google_maps_tfa_zu_fa_fust,google_maps_tfa_zu_fa_koerperschaften_I,google_maps_tfa_zu_fa_koerperschaften_II,google_maps_tfa_zu_fa_koerperschaften_III,google_maps_tfa_zu_fa_koerperschaften_IV,google_maps_tfa_zu_fa_lichtenberg,google_maps_tfa_zu_fa_marzahn_hellersdorf,google_maps_tfa_zu_fa_mitte_tiergarten,google_maps_tfa_zu_fa_neukoelln,google_maps_tfa_zu_fa_pankow_weissensee,google_maps_tfa_zu_fa_prenzlauer_berg,google_maps_tfa_zu_fa_reinickendorf,google_maps_tfa_zu_fa_schoeneberg,google_maps_tfa_zu_fa_spandau,google_maps_tfa_zu_fa_steglitz,google_maps_tfa_zu_fa_tempelhof,google_maps_tfa_zu_fa_treptow_koepenick,google_maps_tfa_zu_fa_wedding,google_maps_tfa_zu_fa_wilmersdorf,google_maps_tfa_zu_fa_zehlendorf} %alle berlin und maps quellen
+\nocite{fa_fuer_fahndung_und_strafsachen,fa_fuer_koerperschaften_i,fa_fuer_koerperschaften_ii,fa_fuer_koerperschaften_iii,fa_fuer_koerperschaften_iv,fa_charlottenburg,fa_friedrichshain_kreuzberg,fa_lichtenberg,fa_marzahn_hellersdorf,fa_mitte_tiergarten,fa_neukoelln,fa_pankow_weissensee,fa_prenzlauer_berg,fa_reinickendorf,fa_schoeneberg,fa_spandau,fa_steglitz,fa_tempelhof,fa_treptow_koepenick,fa_wedding,fa_wilmersdorf,fa_zehlendorf,fa_technisches_finanzamt}
+
+% --- Seitenzahlen-Formatierung 1/3: Römische Zahlen ---
+\pagenumbering{Roman}  % Nutzt römische Zahlen (I, II, III, …)
+\pagestyle{fancy}      % Aktiviert fancyhdr für benutzerdefinierte Kopf-/Fußzeilen
+\fancyhf{}             % Setzt alle Kopf- und Fußzeilen zurück
+\fancyhead[R]{\thepage}  % Seitenzahl oben rechts anzeigen
+\renewcommand{\headrulewidth}{0pt} % Keine Linie in der Kopfzeile
+\renewcommand{\footrulewidth}{0pt} % Keine Linie in der Fußzeile
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% === BEGINN TITELSEITE ===
+\begin{titlepage}
+\centering % Zentriert den gesamten Inhalt der Titelseite
+   
+% --- Logos einfügen (links und rechts) ---
+\includegraphics[scale=0.15]{BILDER-PTB0/Berliner-wasserbetriebe.svg.png}\hfill % \hfill sorgt dafür, dass die beiden Logos links und rechts stehen
+\includegraphics[scale=0.25]{BILDER-PTB0/Hochschule_für_Wirtschaft_und_Recht_Berlin_logo.jpg} \\[0.7cm] % \\[1.8cm] fügt einen vertikalen Abstand von 1.8 cm nach den Bildern ein
+
+% --- Titel (fette und große Schrift) ---
+\Large{\textbf{Titel}} \\[0.3cm]
+    \doublespacing % Verdoppelt den Zeilenabstand
+
+% --- Untertitel ---
+{\Large Praxistransferbericht 0} \\
+\singlespacing % Setzt den Zeilenabstand wieder auf normalen Wert
+
+% --- Neuer Text mit Abstand --
+\vspace{0.1cm} % Abstand zum Unterschift
+\large % Setzt die Schriftgröße auf Standard
+vorgelegt am XXXXXXXXX an der\\ [0.2cm]
+Hochschule für Wirtschaft und Recht Berlin\\ [0.2cm]
+Fachbereich Duales Studium\\ [0.2cm]
+\vspace{0.6cm} % Abstand zur Tabelle
+
+% --- Tabelle mit persönlichen Angaben ---
+\begin{tabular}{l l}  
+    \textbf{\normalsize{von}} & \normalsize{Nicole Camille Baião}  \\[0.2cm]
+    \textbf{\normalsize{Bereich:}} & \normalsize{Wirtschaft} \\[0.2cm]
+    \textbf{\normalsize{Fachrichtung:}} & \normalsize{Wirtschaftsinformatik} \\[0.2cm]
+    \textbf{\normalsize{Studienjahrgang:}} & \normalsize{2024} \\[0.2cm]
+    \textbf{\normalsize{Studienhalbjahr:}} & \normalsize{X. Semester} \\[0.2cm]
+    \textbf{\normalsize{Ausbildungsbetrieb:}} & \normalsize{Berliner Wasserbetriebe}  \\[0.2cm]
+    \textbf{\normalsize{Betreuender Prüfer:}} & \normalsize{XXXXXXXXX} \\[0.2cm]
+    \textbf{\normalsize{Betreuer im Betrieb:}} & \normalsize{Maximilian Cygan} \\[1.25cm]
+\end{tabular} 
+
+% --- Bereich für Unterschriften ---
+\raggedright % Setzt den folgenden Text linksbündig
+\textbf{\normalsize{Vom Ausbildungsleiter zur Kenntnis genommen:}} \\[0.5cm]
+
+% --- Tabelle mit Unterschriften ---
+\begin{tabular}{p{8cm} p{8cm}}
+    \normalsize{Berlin, den XX. XXXX 202X} & \normalsize{Berlin, den XX. XXXX 202X} \\[0.4cm]
+
+    \includegraphics[width=5.7cm]{BILDER-PTB0/unterschrift_nicole.png} &
+    \includegraphics[width=4cm]{BILDER-PTB0/unterschrift_max.png} \\[0.1cm]
+
+    \normalsize{\underline{\hspace{5cm}}} & \normalsize{\underline{\hspace{5cm}}} \\[0.1cm]
+    \normalsize{(Unterschrift der Studentin)} & \normalsize{(Unterschrift des Ausbildungsleiters)}
+\end{tabular}
+% === ENDE TITELSEITE ===
+\end{titlepage}
+
+% === Inhaltsverzeichnis === 
+\setcounter{page}{1} % Setzt die Seitennummer auf 1 für neue Zählung (Neustart der Zählung)
+\newpage
+\section*{Inhaltsverzeichnis}  
+\renewcommand{\contentsname}{}
+\vspace{-1.3cm}  % Anpassung des vertikalen Abstands
+\tableofcontents % Inhaltsverzeichnis erstellen
+
+% === Abküzungsverzeichnis === 
+\newpage
+\section*{Abkürzungsverzeichnis}  
+\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
+\vspace{0.6cm}
+\begin{tabular}{p{4cm} p{11.35cm}}   
+    \textbf{\normalsize AAA:} & \normalsize AAAA \\[0.5cm]
+    \hline
+    \textbf{\normalsize BBB:} & \normalsize BBBB \\[0.5cm]
+    \hline
+    \textbf{\normalsize CCC:} & \normalsize CCCC \\[0.5cm]
+ \end{tabular}
+
+% --- Seitenzahlen-Formatierung 2/3: Wechsel auf normale (arabische) Zahlen ---
+\newpage
+\pagenumbering{arabic} % Normale Zahlen ab "Einleitung"
+\setcounter{page}{1}
+% === Einleitung ===
+\section{Einleitung}
+HALLOO
+
+% === TEIL 1 ===
+\section{TEIL 1 }
+AAAA
+
+\begin{itemize}
+    \setlength\itemsep{0.4\baselineskip}
+    \setlength\parskip{0pt}
+    \setlength\parsep{0pt}
+    
+    \item \normalsize aaaa.
+    \item \normalsize bbbb.
+    \item \normalsize cccc.
+  \end{itemize}
+
+  % === TEIL 2 ===
+\section{TEIL 2}
+% --- TEIL 2.1 ---
+\subsection{AAAAA}
+AAAAAA
+% --- TEIL 2.2 ---
+\subsection{BBBB}
+
+% === Glossar ====
+\section*{Glossar}  
+\addcontentsline{toc}{section}{Glossar} 
+\vspace{0.6cm}
+\begin{tabular}{p{4cm} p{11.35cm}}   
+    \hline
+    \textbf{\normalsize AAAA:} & \normalsize AAAAA.\footnotemark[70]\\[0.5cm]
+    \hline
+    \textbf{\normalsize BBBB:} & \normalsize BBBB. \footnotemark[71]\\[0.5cm]
+\end{tabular}
+
+% Fußnoten für Teil 1
+% \footnotetext[70]{Vgl. \cite{quelle_namen}.}
+% \footnotetext[71]{Vgl. \cite{name1212}, Abschnitt „XXXX“.}
+
+% === Literaturverzeichnis ===
+\newpage
+\section*{Literaturverzeichnis} 
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+
+% === Verweis auf Literaturverzeichnis ===
+\renewcommand{\refname}{} % kein extra titel der quellen
+\vspace{-\baselineskip} % Den zusätzlichen Abstand entfernen
+\bibliographystyle{hwrbib}  % Wähle einen Stil (z.B. plain, alpha, unsrt, apalike, etc.)
+\bibliography{quellen-ptb0}    % Verweis auf quellen.bib (ohne .bib-Endung)
+
+% === Anhang ===
+\newpage
+\section*{Anhangsverzeichnis}
+\addcontentsline{toc}{section}{Anhangsverzeichnis}
+\vspace{0.6cm}
+\begin{itemize}
+    \item \hyperref[sec:Anhang1]{Anhang 1}, S. \pageref{sec:Anhang1}
+    \item \hyperref[sec:Anhang2]{Anhang 2}, S. \pageref{sec:Anhang2}
+\end{itemize}
+
+\appendix
+\renewcommand{\thesection}{\Alph{section}}
+\newpage
+% Anhang 1
+\newpage
+\phantomsection
+\addcontentsline{toc}{subsection}{Anhang 1}
+\label{sec:Anhang1}
+
+\vspace*{\fill}
+\begin{center}
+    \begin{adjustbox}{rotate=90, center, valign=b}
+        \begin{minipage}{0.9\textheight}
+            \centering
+            {\Large\bfseries Anhang 1}\\[1em]
+            AAAA
+        \end{minipage}
+    \end{adjustbox}
+\end{center}
+\vspace*{\fill}
+
+% === Ehrenwörtliche Erklärung ===
+\newpage
+\section*{Ehrenwörtliche Erklärung}
+\addcontentsline{toc}{section}{Ehrenwörtliche Erklärung}
+
+„Ich erkläre ehrenwörtlich:
+
+\begin{itemize}
+    \raggedright
+    \item \normalsize dass ich meinen Praxistransferbericht ohne fremde Hilfe erstellt habe,
+    \item \normalsize dass ich wörtliche Zitate aus der Literatur – etwa aus Büchern, wissenschaftlichen Artikeln oder offiziellen Quellen – entnommen und entsprechend gekennzeichnet habe,
+    \item \normalsize dass ich Künstliche Intelligenz zur Formulierung einiger Sätze verwendet habe, und ebenfalls zur Korrektur der grammatikalischen Fehler beim Schreiben“
+\end{itemize}
+„Alle Quellen, die aus dem Internet oder aus anderen digitalen Medien stammen, die für den Praxistransferbericht verwendet wurden, sind der Arbeit beigefügt.“
+
+„Ich bin mir bewusst, dass eine falsche Erklärung rechtliche Konsequenzen nach sich zieht“.\\
+
+% --- Tabelle mit Unterschriften ---
+
+\begin{tabular}{p{8cm}}
+    \normalsize{Berlin, den XX. XXXX 202X} \\[0.5cm]
+    \includegraphics[width=5.5cm]{BILDER-PTB0/unterschrift_nicole.png} \\
+    \normalsize{\underline{\hspace{5.5cm}}} \\
+    \normalsize{(Unterschrift der Studentin)}
+\end{tabular} % \underline{\hspace{6cm}} erzeugt eine Linie mit einer Länge von 6 cm
+
+
+% === ENDE DOKUMENT ===
+\end{document}
