@@ -5,10 +5,17 @@ Beck, Haßmann, Ittner, and Renner (2019).
 \newblock {\em Personalabrechnung mit SAP}.
 \newblock 5 Edition.
 \newblock SAP PRESS (Galileo Press).
-\newblock Abgerufen am 05.03.2025.
+\newblock \url{https://s3-eu-west-1.amazonaws.com/gxmedia.galileo-press.de/leseproben/5713/leseprobe_sappress_personalabrechnung_mit_sap_5.pdf}. Abgerufen am 05.03.2025.
 
 \bibitem[{Ber}25]{BWB_Arbeitgeber}
 {Berliner Wasserbetriebe} (2025).
 \newblock {\em Wie als Arbeitgeber}.
+\newblock \url{https://www.bwb.de/de/arbeitgeber.php}. Abgerufen am 19.01.2026.
+
+\bibitem[Koc15]{Koch_Geschaeftsprozessmanagement}
+Koch, S. (2015).
+\newblock {\em Einführung in das Management von Geschäftsprozessen: Six Sigma, Kaizen und TQM}.
+\newblock 2 Edition.
+\newblock Springer Vieweg.
 
 \end{thebibliography}

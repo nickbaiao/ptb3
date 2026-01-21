@@ -5,45 +5,45 @@ The style file: hwrbib.bst
 Database file #1: quellen-ptb3.bib
 Warning--entry type for "BWB_Arbeitgeber" isn't style-file defined
 --line 10 of file quellen-ptb3.bib
-You've used 2 entries,
+You've used 3 entries,
             2042 wiz_defined-function locations,
-            500 strings with 4095 characters,
-and the built_in function-call counts, 703 in all, are:
-= -- 67
-> -- 37
-< -- 1
-+ -- 14
-- -- 14
-* -- 50
-:= -- 141
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 14
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 24
-empty$ -- 40
-format.name$ -- 17
-if$ -- 128
+            507 strings with 4474 characters,
+and the built_in function-call counts, 1006 in all, are:
+= -- 98
+> -- 44
+< -- 2
++ -- 16
+- -- 16
+* -- 67
+:= -- 198
+add.period$ -- 12
+call.type$ -- 3
+change.case$ -- 20
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 38
+empty$ -- 63
+format.name$ -- 21
+if$ -- 188
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 14
-num.names$ -- 6
-pop$ -- 14
+missing$ -- 4
+newline$ -- 21
+num.names$ -- 9
+pop$ -- 21
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 21
 quote$ -- 0
-skip$ -- 19
+skip$ -- 28
 stack$ -- 0
-substring$ -- 24
-swap$ -- 2
-text.length$ -- 1
-text.prefix$ -- 1
+substring$ -- 36
+swap$ -- 3
+text.length$ -- 2
+text.prefix$ -- 2
 top$ -- 0
-type$ -- 10
+type$ -- 14
 warning$ -- 0
-while$ -- 5
+while$ -- 7
 width$ -- 0
-write$ -- 28
+write$ -- 44
 (There was 1 warning)
