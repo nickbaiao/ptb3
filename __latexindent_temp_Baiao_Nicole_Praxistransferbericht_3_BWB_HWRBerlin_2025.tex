@@ -43,7 +43,6 @@
 \usepackage{longtable}
 \usepackage{tablefootnote}
 % === QUELLEN & VERWEISE ===
-\usepackage{cite} % Quellenangaben
 \usepackage[
     colorlinks,       % Links ohne Umrandungen in gewählter Farbe
     linkcolor=black,  % Farbe interner Verweise
@@ -149,7 +148,7 @@
 \includegraphics[scale=0.25]{BILDER-PTB3/Hochschule_für_Wirtschaft_und_Recht_Berlin_logo.jpg} \\[0.5cm] % \\[1.8cm] fügt einen vertikalen Abstand von 1.8 cm nach den Bildern ein
 
 % --- Titel (fette und große Schrift) ---
-\Large{\textbf{Handlungsempfehlungen zur Optimierung von Schulungs- und Kommunikationsprozessen für zukünftige Microsoft 365-Anwendungen - basierend auf Planner und To Do bei den Berliner Wasserbetriebe}} \\[0.4cm]
+\Large{\textbf{Handlungsempfehlungen zur Optimierung von Schulungs- und Kommunikationsprozessen für zukünftige Microsoft 365-Anwendungen - basierend auf Microsoft Planner und To Do bei den Berliner Wasserbetriebe}} \\[0.4cm]
 
 % --- Untertitel ---
 {\Large Praxistransferbericht 3} \\
@@ -159,34 +158,36 @@
 \large % Setzt die Schriftgröße auf Standard
 vorgelegt am 02.03.2026 an der\\ [0.2cm]
 Hochschule für Wirtschaft und Recht Berlin\\ [0.2cm]
-Fachbereich Duales Studium\\ [0.2cm]
+Fachbereich Duales Studium\\ [0.4cm]
 \vspace{0.4cm} % Abstand zur Tabelle
 
 % --- Tabelle mit persönlichen Angaben ---
+{\large
 \begin{tabular}{l l}  
-    \textbf{\normalsize{von}} & \normalsize{Nicole Camille Baião}  \\[0.1cm]
-    \textbf{\normalsize{Bereich:}} & \normalsize{Wirtschaft} \\[0.1cm]
-    \textbf{\normalsize{Fachrichtung:}} & \normalsize{Wirtschaftsinformatik} \\[0.1cm]
-    \textbf{\normalsize{Studienjahrgang:}} & \normalsize{2024} \\[0.1cm]
-    \textbf{\normalsize{Studienhalbjahr:}} & \normalsize{3. Semester} \\[0.1cm]
-    \textbf{\normalsize{Ausbildungsbetrieb:}} & \normalsize{Berliner Wasserbetriebe}  \\[0.1cm]
-    \textbf{\normalsize{Betreuender Prüfer:}} & \normalsize{Prof. Dr. Gert Faustmann} \\[0.1cm]
-    \textbf{\normalsize{Betreuer im Betrieb:}} & \normalsize{Diana Ireri Jimenez Ireta} \\[0.6cm]
-\end{tabular} 
+    \textbf{von:} & Nicole Camille Baião  \\[0.1cm]
+    \textbf{Bereich:} & Wirtschaft \\[0.1cm]
+    \textbf{Fachrichtung:} & Wirtschaftsinformatik \\[0.1cm]
+    \textbf{Studienjahrgang:} & 2024 \\[0.1cm]
+    \textbf{Studienhalbjahr:} & 3. Semester \\[0.1cm]
+    \textbf{Ausbildungsbetrieb:} & Berliner Wasserbetriebe  \\[0.1cm]
+    \textbf{Betreuender Prüfer:} & Prof. Dr. Gert Faustmann \\[0.1cm]
+    \textbf{Betreuer im Betrieb:} & Diana Ireri Jimenez Ireta \\[0.7cm]
+\end{tabular}
+}
 
 % --- Bereich für Unterschriften ---
 \raggedright % Setzt den folgenden Text linksbündig
-\textbf{\normalsize{Von der Ausbildungsleiterin zur Kenntnis genommen:}} \\[0.5cm]
+\textbf{\normalsize{Von der Ausbildungsleiterin zur Kenntnis genommen:}} \\[0.8cm]
 
 % --- Tabelle mit Unterschriften ---
 \begin{tabular}{p{8cm} p{8cm}}
     \normalsize{Berlin, den 27. Februar 2026} & \normalsize{Berlin, den 27. Februar 2026} \\[0.03cm]
 
     \includegraphics[width=5.7cm]{BILDER-PTB3/unterschrift_nicole.png} &
-    \includegraphics[width=3.3cm]{BILDER-PTB3/unterschrift_diana.png} \\[0.05cm]
+    \raisebox{-0.25cm}{\includegraphics[width=3.3cm]{BILDER-PTB3/unterschrift_diana.png}} \\[-0.25cm]
 
-    \normalsize{\underline{\hspace{5cm}}} & \normalsize{\underline{\hspace{5cm}}} \\[0.05cm]
-    \normalsize{(Unterschrift der Studentin)} & \normalsize{(Unterschrift des Ausbildungsleiters)}
+    \normalsize{\underline{\hspace{5.5cm}}} & \normalsize{\underline{\hspace{5.5cm}}} \\[0.1cm]
+    \normalsize{(Unterschrift der Studentin)} & \normalsize{(Unterschrift der Ausbildungsleiterin)}
 \end{tabular}
 % === ENDE TITELSEITE ===
 \endgroup
@@ -219,16 +220,22 @@ Fachbereich Duales Studium\\ [0.2cm]
 \setcounter{page}{1}
 % === Einleitung ===
 \section{Einleitung}
-Die Berliner Wasserbetriebe (BWB) sind das größte Wasser- und Abwasserversorgungsunternehmen Deutschlands und zählen zu den größten Arbeitsgeber in Berlin. Mit rund 4.800\footnote{Berliner Wasserbetriebe: \textit{Wir als Arbeitgeber}} Mitarbeitenden und zahlreichen Fachabteilungen agiert das Unternehmen in einem komplexen organisatorischen Umfeld mit hohen regulatorischen Anforderungen, in dem IT-Abteilungen eine zentrale Rolle bei der Unterstützung und Weiterentwicklung digitaler Arbeitsprozesse einnimmt.
+Die Berliner Wasserbetriebe (BWB) sind das größte Wasser- und Abwasserversorgungsunternehmen Deutschlands und zählen zu den größten Arbeitsgeber in Berlin. Mit rund 4.800\footnote{Vgl. \cite{BWB_Arbeitgeber}} Mitarbeitenden und zahlreichen Fachabteilungen agiert das Unternehmen in einem komplexen organisatorischen Umfeld mit hohen regulatorischen Anforderungen, in dem IT-Abteilungen eine zentrale Rolle bei der Unterstützung und Weiterentwicklung digitaler Arbeitsprozesse einnimmt.
 
-Die Digitalisierung der Arbeitswelt hat in den letzen Jahren erheblich an Bedetung gewonnen, insbesondere durch die verstärke Einführung von Cloud-basierend Tools wie Microsoft 365-Anwendungen, darunter bei den Berliner Wasserbetrieben Microsoft Planner und Microsoft To Do. Diese Tools bieten vielfältige Möglichkeiten zur Verbesserung der Zusammenarbeit, Kommunikation und Produktivität innerhalb von Organisationen und sie stehen bei den BWB bereits zu Verfügung und werden in unterschliedlichen Abteilungen aktiv verwendet.
+Die Digitalisierung der Arbeitswelt hat in den letzten Jahren erheblich an Bedeutung gewonnen. In vielen Unternehmen werden in diesem Zusammenhang neue digitale Anwendungen eingesetzt, um Arbeitsprozesse effizienter zu gestalten sowie die Zusammenarbeit und Kommunikation nachhaltig zu unterstützen. Ein Beispiel hierfür ist der Einsatz von Microsoft-365-Anwendungen in organisationalen Arbeitsumgebungen.
 
-Die Planung, Steurung und Begleitung dieser Anwendungen erfolgt bei den BWB innerhalb der IT-Z/P (Methoden und Werkzeuge). Dort werden standardisierte Prozesse für Kommunkation und Schulung entwickelt, mit dem Ziel, eine einheitliche, nachvollziehbare nachhaltige Nutzung der bereitsgestellten Tools im Unternehmen sicherzustellen.
+Bei den Berliner Wasserbetrieben wurden Microsoft Planner und Microsoft To Do bereits eingeführt. Die Anwendungen stehen den Mitarbeitenden zur Verfügung und werden in unterschiedlichen Abteilungen aktiv genutzt.
 
-Ziel dieser Arbeit ist die Analyse der bestehenden Schulungs- und Kommunikationsprozessen im Zusammenhang mit der Nutzung von Microsoft Planner und To Do bei den BWB. Auf dieser Grundlage werden Handlungsempfehlungen für zufünftige Microsoft 365-Anwendungen, wie beispielweise Microsoft Forms, Lists oder neue Funktionen in Microsoft Teams, abgeleitet. Methodisch basiert die Arbeit auf Grundlagen des Geschäftsprozessmanagements (BPM). Bestehende IST-Prozesse werden analysiert und anhand geeigneter BPM-Kriterien bewertet, um daraus konzeptionelle SOLL-Prozesse abzueleiten, die als Orientierung für die zukünftige Gestaltung von Schulungs- und Kommunikationsprozessen dienen können. 
+Die Planung, Steurung und Begleitung dieser Anwendungen erfolgt bei der BWB innerhalb der IT-Z/P (Methoden und Werkzeuge). Dort werden standardisierte Prozesse für Kommunikation und Schulung entwickelt, mit dem Ziel, eine einheitliche und nachvollziehbare Nutzung der bereitgestellten Tools im Unternehmen sicherzustellen.
+
+Ziel dieser Arbeit ist die Analyse der bestehenden Schulungs- und Kommunikationsprozessen im Zusammenhang mit der Nutzung von Microsoft Planner und To Do bei der BWB. Auf dieser Grundlage werden Handlungsempfehlungen für zukünftige Microsoft 365-Anwendungen, wie beispielweise Microsoft Forms, Lists oder neue Funktionen in Microsoft Teams, abgeleitet. Methodisch basiert die Arbeit auf Grundlagen des Geschäftsprozessmanagements (BPM). Bestehende IST-Prozesse werden analysiert und anhand geeigneter BPM-Kriterien bewertet, um daraus konzeptionelle SOLL-Prozesse abzueleiten, die als Orientierung für die zukünftige Gestaltung von Schulungs- und Kommunikationsprozessen dienen können. 
 % === TEIL 1 ===
 \section{Theoretischer Rahmen}
-AAAA
+Zur erfolgreichen Einführung weiterer Microsoft-365-Anwendungen sind durchdachte Schulungs- und Kommunikationsprozesse erforderlich. In diesem Kapitel werden die theoretischen Grundlagen für die Analyse, Bewertung und Optimierung dieser Prozessen dargelegt.
+
+\subsection{Analyse mit Geschäftsprozessmanagement}
+Der Begriff des "Geschäftsprozesses" wird in der Fachliteratur unterschiedlich verwendet. Allgemein versteht man darunter eine geordnete Abfolge von Tätigkeiten, die logisch zusammenhängen und ein Ziel verfolgen. Jeder Prozess erhält Inputs von Lieferanten, verarbeitet diese und liefert das Ergebnis als Output an seine Kunden.\footnote{Vgl. \cite{Koch_Geschaeftsprozessmanagement}, S. 2.}
+  
 
 \begin{itemize}
     \setlength\itemsep{0.4\baselineskip}
@@ -254,14 +261,10 @@ AAAAAA
 \vspace{0.6cm}
 \begin{tabular}{p{4cm} p{11.35cm}}   
     \hline
-    \textbf{\normalsize AAAA:} & \normalsize AAAAA.\footnotemark[70]\\[0.5cm]
+    \textbf{\normalsize AAAA:} & \normalsize AAAAA.\footnote{Vgl. \hyperref[sec:Anhang1]{Anhang 1}.}\\[0.5cm]
     \hline
-    \textbf{\normalsize BBBB:} & \normalsize BBBB. \footnotemark[71]\\[0.5cm]
+    \textbf{\normalsize BBBB:} & \normalsize BBBB.\footnote{Vgl. \hyperref[sec:Anhang2]{Anhang 2}.}\\[0.5cm]
 \end{tabular}
-
-% Fußnoten für Teil 1
-% \footnotetext[70]{Vgl. \cite{quelle_namen}.}
-% \footnotetext[71]{Vgl. \cite{name1212}, Abschnitt „XXXX“.}
 
 % === Literaturverzeichnis ===
 \newpage
