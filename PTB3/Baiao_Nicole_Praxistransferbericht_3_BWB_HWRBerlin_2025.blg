@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Baiao_Nicole_Praxistransferbericht_3_BWB_HWRBerlin_2025.aux
+The style file: hwrbib.bst
+Database file #1: quellen-ptb3.bib
+Warning--entry type for "BWB_Arbeitgeber" isn't style-file defined
+--line 2 of file quellen-ptb3.bib
+Warning--entry type for "Prosci_ADKAR" isn't style-file defined
+--line 24 of file quellen-ptb3.bib
+You've used 4 entries,
+            2042 wiz_defined-function locations,
+            512 strings with 4573 characters,
+and the built_in function-call counts, 1116 in all, are:
+= -- 110
+> -- 28
+< -- 4
++ -- 10
+- -- 8
+* -- 66
+:= -- 218
+add.period$ -- 14
+call.type$ -- 4
+change.case$ -- 22
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 50
+empty$ -- 79
+format.name$ -- 16
+if$ -- 209
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 25
+num.names$ -- 12
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 24
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 50
+swap$ -- 4
+text.length$ -- 4
+text.prefix$ -- 4
+top$ -- 0
+type$ -- 20
+warning$ -- 0
+while$ -- 8
+width$ -- 0
+write$ -- 54
+(There were 2 warnings)

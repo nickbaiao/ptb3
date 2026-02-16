@@ -1,0 +1,26 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{Abkürzungsverzeichnis}{II}{Doc-Start}%
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theoretischer Rahmen}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Grundlagen des Geschäftsprozessmanagement}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Prozessmodellierung und -bewertung}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}IST- und SOLL-Prozessen}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Qualitativen Bewertungskriterien}{4}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Veränderungsbegleitung mit ADKAR-Modell}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Praxisanalyse: Planner und To Do bei den BWB}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Prozessverständnis von Einführung bis Kommunikation und Schulung}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}SWOT-Analyse der Schulungsprozesse}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Kommunikationsanalyse nach ADKAR-Modell}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Handlungsempfehlungen}{9}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Fazit und Kritische Reflexion}{10}{section.4}%
+\contentsline {section}{Glossar}{11}{section.4}%
+\contentsline {section}{Literaturverzeichnis}{12}{section.4}%
+\contentsline {section}{Anhangsverzeichnis}{13}{section.4}%
+\contentsline {subsection}{Anhang 1: Symbole für die Modellierung}{14}{section*.1}%
+\contentsline {subsection}{Anhang 2: Beteiligungsprozess bei den BWB}{16}{section*.2}%
+\contentsline {subsection}{Anhang 3: Darstellung des ADKAR-Modells}{17}{section*.3}%
+\contentsline {subsection}{Anhang 4: Schulungs- und Kommunikationsprozess bei den BWB}{18}{section*.4}%
+\contentsline {subsection}{Anhang 5: Interviewprotokoll (Diana Jimenez)}{19}{section*.5}%
+\contentsline {subsection}{Anhang 6: Interviewprotokoll (Nicolas Zoll)}{24}{section*.6}%
+\contentsline {section}{Ehrenwörtliche Erklärung}{28}{section*.6}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
