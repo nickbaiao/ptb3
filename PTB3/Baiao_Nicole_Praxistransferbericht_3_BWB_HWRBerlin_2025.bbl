@@ -3,23 +3,42 @@
 \bibitem[{Ber}25]{BWB_Arbeitgeber}
 {Berliner Wasserbetriebe} (2025).
 \newblock {\em Wir als Arbeitgeber}.
-\newblock \url{https://www.bwb.de/de/arbeitgeber.php}. Abgerufen am 19.01.2026.
+\newblock \url{https://www.bwb.de/de/arbeitgeber.php}.
+\newblock Abgerufen am 19.01.2026.
+
+\bibitem[{Doh}20]{Ub_Uni}
+{Dohndorf, Dr. Oliver} (2020).
+\newblock {\em Was ist LaTeX?}
+\newblock \url{https://www.ub.ruhr-uni-bochum.de/recherchieren/literaturverwaltungsprogramme/latex}.
+\newblock Abgerufen am 09.02.2026.
 
 \bibitem[Gad19]{Gadatsch_Geschaeftsprozessmanagement}
-Gadatsch, A. (2019).
+Gadatsch, Andreas (2019).
 \newblock {\em Grundkurs Geschäftsprozess-Management: Analyse, Modellierung, Optimierung und Controlling von Prozessen}.
 \newblock 9 Edition.
 \newblock Springer Vieweg.
 
 \bibitem[Koc15]{Koch_Geschaeftsprozessmanagement}
-Koch, S. (2015).
+Koch, Susanne (2015).
 \newblock {\em Einführung in das Management von Geschäftsprozessen: Six Sigma, Kaizen und TQM}.
 \newblock 2 Edition.
 \newblock Springer Vieweg.
 
-\bibitem[{Pro}20]{Prosci_ADKAR}
-{Prosci Inc.} (2020).
+\bibitem[{o.V}20]{Prosci_ADKAR}
+{o.V.} (2020).
 \newblock {\em The Prosci ADKAR Model}.
-\newblock \url{https://www.andchange.com/wp-content/uploads/2020/02/ADKAR-6-in1.pdf}. Abgerufen am 19.01.2026.
+\newblock \url{https://www.andchange.com/wp-content/uploads/2020/02/ADKAR-6-in1.pdf}.
+\newblock Abgerufen am 19.01.2026.
+
+\bibitem[{Rau}24]{Boc_Group}
+{Rausch, Tobias} (2024).
+\newblock {\em Vertändnis von Geschäftsprozessmanagement (GPM)}.
+\newblock \url{https://www.boc-group.com/de/blog/bpm/durch-effektives-geschaeftsprozessmangement-zu-operativer-exzellenz/}.
+\newblock Abgerufen am 15.02.2026.
+
+\bibitem[vRvHA12]{Rosenstiel_ChangeManagement}
+von Rosenstiel, Lutz, von Hornstein, Elisabeth, and Augustin, Siegfried (2012).
+\newblock {\em Change Management Praxisfälle}.
+\newblock Springer.
 
 \end{thebibliography}

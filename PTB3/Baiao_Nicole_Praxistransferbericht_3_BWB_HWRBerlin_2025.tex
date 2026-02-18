@@ -207,17 +207,21 @@ Fachbereich Duales Studium\\ [0.4cm]
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 \vspace{0.6cm}
 \begin{tabular}{p{4cm} p{11.35cm}}   
-    \textbf{\normalsize ADKAR:} & \normalsize Awareness, Desire, Knowledge, Ability, Reinforcement \\[0.5cm]
+    \textbf{\normalsize ADKAR:} & \normalsize Awareness (Bewusstsein), Desire (Wunsch), Knowledge (Wissen), Ability (Fähigkeit), Reinforcement (Verstärkung) \\[0.5cm]
     \hline
     \textbf{\normalsize BPM:} & \normalsize Busnisses Process Management \\[0.5cm]
     \hline
     \textbf{\normalsize BWB:} & \normalsize Berliner Wasserbetriebe \\[0.5cm]
     \hline
     \textbf{\normalsize GPM:} & \normalsize Geschäftsprozessmanagement \\[0.5cm]
-    \hline    
+    \hline 
+    \textbf{\normalsize SWOT:} & \normalsize Strengths (Stärken), Weaknesses (Schwächen), Opportunities (Chancen), Threats (Risiken) \\[0.5cm]
+    \hline 
     \textbf{\normalsize IT-Z/M:} & \normalsize IT-Zentrale Aufgaben - Methoden und Werkzeuge \\[0.5cm]
     \hline
     \textbf{\normalsize IT-Z/R:} & \normalsize IT-Zentrale Aufgaben – Risk Compliance and Security \\[0.5cm]
+    \hline
+    \textbf{\normalsize VVT:} & \normalsize Verzeichnis von Verarbeitungstätigkeiten \\[0.5cm]
  \end{tabular}
 
 % --- Seitenzahlen-Formatierung 2/3: Wechsel auf normale (arabische) Zahlen ---
@@ -238,9 +242,7 @@ Ziel dieser Arbeit ist die Analyse der bestehenden Schulungs- und Kommunikations
 \subsection{Grundlagen des Geschäftsprozessmanagement}
 Die Begriffe \enquote{Geschäftsprozess} und \enquote{Prozess} werden in der Fachliteratur unterschiedlich definiert. Ein Prozess ist allgemein eine geordnete Abfolge von Tätigkeiten, die logisch zusammenhängen und ein bestimmtes Ziel verfolgen. Ein Geschäftsprozess ist ein spezieller Prozess, der zur Bearbeitung eines betriebswirtschaftlich relevanten Objekts durchgeführt wird. Er erhält Inputs von Lieferanten, verarbeitet das Objekt und liefert das Ergebnis als Output an seine Kunden.\footnote{Vgl. \cite{Koch_Geschaeftsprozessmanagement}, S.~2.} Das Geschäftsprozessmanagement (GPM) enthält keine einheitliche Definition und als synonym werden auch Begriffe wie Busnisses Process Management (BPM) oder Prozessmanagement verwendet. Gründsätzlich umfasst GPM die Planung, Steurung, Überwachung und Weiterentwicklung, den Prozessentwurft, die Prozessimplementierung sowie das Prozesscontrolling von Geschäftsprozessen in einer Organisation.\footnote{Vgl. \cite{Koch_Geschaeftsprozessmanagement}, S.~10.}
 
-Das Geschäftsprozessmanagement basiert auf dem Zusammenwirken unterschiedlicher Rollen, die auf verschiedene Ebenen der Organisation angesiedelt sind und sowohl das operative Tagesgeschäft als auch die Weiterentwicklung von Geschäftsprozessen unterstützen. Der Chief Process Officer (CPO) trägt die Gesamtverantwortung für die Prozesse einer Organisation und ist für die Dokumentation, Restrukturierung und das Monitoring der Geschäftsprozesse zuständig. Zur bereichsübergreifenden Abstimmung und Steuerung von Prozessen wird häufig ein Process Steering Board bzw. Process Control Board eingerichtet, das übergreifende Prozessfragen klärt und Maßnahmen priorisiert.\footnote{Vgl. \cite{Gadatsch_Geschaeftsprozessmanagement}, S.~54-55.} Der Process Owner ist für die strategische und operative Steuerung eines Geschäftsprozesses verantwortlich und überwacht die Erreichung der definierten Prozessziele. Prozessmitarbeiter übernehmen überwiegend operative Aufgaben in den Prozessen und unterstützen durch ihre Fachkenntnisse die Umsetzung und kontinuierliche Verbesserung der Geschäftsprozesse. Definierten Rollen und Verantwortlichkeiten tragen dazu bei, Aufgaben im Rahmen des Geschäftsprozessmanagement klar zuzuordnen und Prozesse effizient zu steuern. Die strategische orientierte Gestaltung der Geschäftsprozesse erfolgt dabei im Kontext einer übergeordneten Prozessmanagement-Funktion, die die Ausrichtung und Koordination des GPM sicherstellt. 
-
-Nach Gadatsch umfasst das Geschäftsprozessmanagement mehrere Aufgabenbereiche, die entlang des BPM-Lebenszyklus angesiedelt sind.\footnote{Vgl. \cite{Gadatsch_Geschaeftsprozessmanagement}, S.~56-57.} Diese beginnen mit der Projektvorbereitung, in der relevante Prozesse identifiziert, abgegrenzt, dokumentiert und modelliert werden. Darauf aufbauend erfolgt die Prozessanalyse mit dem Ziel, bestehende Schwachstellen zu erkennen. In der Phase der Prozessgestaltung bzw. -optimierung werden Prozesse neu gestaltet oder verbessert und entsprechende Prozessziele festgelegt. Anschließend schließtgschritt werden die definierten Prozesse organisatorisch und technisch umgesetzt, insbesondere durch die Implementierung in IT-Systeme wie Workflow-Management-Systeme. Die Prozessausführung und -überwachung dient der operativen Durchführung der Prozesse sowie der Kontrolle der Zielerreichung. Über alle Phasen hinweg stellt die übergreifende Prozesssteuerung die Koordination und Steuerung der Prozesse im gesamten BPM-Lebenszyklus sicher.\footnote{Vgl. \cite{Gadatsch_Geschaeftsprozessmanagement}, S.~55.}
+Nach Rausch erfolgt die Implementierung von Geschäftsprozessmanagement (GPM) schrittweise entlang mehrerer zentraler Phasen. Zunächst werden relevante Prozesse definiert, indem ihre Inputs, Aktivitäten und Outputs strukturiert erfasst werden. Darauf aufbauend erfolgt eine Analyse der bestehenden Abläufe zur Identifikation von Schwachstellen und Optimierungspotenzialen. In der anschließenden Optimierungsphase werden Prozesse neu gestaltet oder angepasst, um Effizienz und Effektivität zu erhöhen. Die implementierten Veränderungen werden organisatorisch eingeführt, kommuniziert und durch Schulungsmaßnahmen begleitet, sodass Rollen und Verantwortlichkeiten klar zugeordnet sind. Nach der operativen Umsetzung werden die Prozesse kontinuierlich ausgeführt und regelmäßig kontrolliert, um die Zielerreichung zu überprüfen und weitere Verbesserungen abzuleiten.\footnote{Vgl. \cite{Boc_Group}.}
 
 \subsection{Prozessmodellierung und -bewertung}
 Prozessmodelle werden als vereinfachte Abbildungen realer Prozesse innerhalb eines Unternehmens oder zwischen Unternehmen verstanden. Sie stellen die chronologisch-sachlogische Abfolge von Tätigkeiten dar und reduzieren die Komplexität realer Abläufe auf das für den jeweiligen Zweck notwendige Maß. Abhängig von der Zielsetzung unterscheiden sich Prozessmodelle hinsichtlich ihres Detaillierungsgrades und ihres Umfangs. Ziel der Prozessmodellierung ist es, Transparenz über Abläufe, Zuständigkeiten und Zusammenhänge zu schaffen, sodass alle Prozessbeteiligten ihre Aufgaben innerhalb der Prozesskette nachvollziehen können. Prozessmodelle unterstützen damit das Verständnis über Tätigkeiten, Funktionen, Rollen und Schnittstellen und tragen zur Erhöhung der Transparenz von Abläufen innerhalb und außerhalb der Organisation bei der Analyse.\footnote{Vgl. \cite{Koch_Geschaeftsprozessmanagement}, S.~47.}
@@ -253,13 +255,17 @@ Die Modellierung von IST-Prozessen bildet die Grundlage für die Analyse bestehe
 Die Soll-Modellierung baut auf den Erkenntnissen der Ist-Analyse auf und dient der gezielten Verbesserung von Strukturen und Abläufen. Ein Istmodell kann dabei als Leitfaden für das Sollkonzept genutzt werden, um sicherzustellen, dass keine relevanten Sachverhalte unberücksichtigt bleiben. Gleichzeitig ist zu beachten, dass die Erstellung von Istmodellen mit zeitlichem und organisatorischem Aufwand verbunden ist und nicht automatisch zu Prozessverbesserungen führt.\footnote{Ebenda, S.~65.}
 
 \subsubsection{Qualitativen Bewertungskriterien}
-Qualitative Bewertungsverfahren kommen dann zum Einsatz, wenn neben quantitativen auch qualitative Aspekte in die Bewertung von Lösungsalternativen einbezogen werden sollen oder wenn rein quantitative Wirtschaftlichkeitsbetrachtungen keine eindeutigen Ergebnisse liefern beziehungsweise nicht sinnvoll durchführbar sind. Sie dienen insbesondere dazu, nicht-monetäre Kriterien wie Qualität, Sicherheit oder inhaltliche Eignung systematisch zu berücksichtigen und auf dieser Grundlage eine Entscheidung für eine geeignete Lösung zu unterstützen.
-Zu den qualitativen Bewertungsverfahren zählen unter anderem die Nutzwertanalyse, bei der Lösungsalternativen anhand zuvor festgelegter qualitativer Kriterien bewertet und in eine Rangfolge gebracht werden. Diese Kriterien bilden unterschiedliche qualitative Aspekte ab und drücken aus, in welchem Maß eine Alternative die angestrebten Ziele erfüllt.\footnote{Vgl. \cite{Koch_Geschaeftsprozessmanagement}, S.~97-98.} 
-Die Prioritätenanalyse dient dazu, mehrere Kriterien oder Ziele nach ihrer relativen Bedeutung zu gewichten, um deren Einfluss auf eine Entscheidung transparent zu machen.\footnote{Vgl. \cite{Koch_Geschaeftsprozessmanagement}, S.~99-100.} Ergänzend ermöglicht die SWOT-Analyse eine qualitative Beurteilung, indem interne Stärken und Schwächen sowie externe Chancen und Risiken systematisch gegenübergestellt werden. Alle genannten Verfahren unterstützen die strukturierte Bewertung komplexer Sachverhalte auf Basis qualitativer Kriterien und werden im weiteren Verlauf der Arbeit gesondert erläutert.\footnote{Vgl. \cite{Koch_Geschaeftsprozessmanagement}, S.~100-101.}
+Qualitative Bewertungsverfahren kommen dann zum Einsatz, wenn neben quantitativen auch qualitative Aspekte in die Bewertung von Lösungsalternativen einbezogen werden sollen oder wenn rein quantitative Wirtschaftlichkeitsbetrachtungen keine eindeutigen Ergebnisse liefern beziehungsweise nicht sinnvoll durchführbar sind. Sie dienen insbesondere dazu, nicht-monetäre Kriterien wie Qualität, Sicherheit oder inhaltliche Eignung systematisch zu berücksichtigen und auf dieser Grundlage eine Entscheidung für eine geeignete Lösung zu unterstützen.\footnote{Vgl. \cite{Koch_Geschaeftsprozessmanagement}, S.~97.} 
 
-\subsection{Veränderungsbegleitung mit ADKAR-Modell}
-Das ADKAR-Modell ist ein Framework zur Analyse und Steuerung von Veränderungsprozessen auf individueller Ebene. Es basiert auf der Annahme, dass organisatorischer Wandel nur dann erfolgreich ist, wenn jede betroffene Person den Veränderungsprozess durchläuft. Ziel des Modells ist es, individuelles Verhalten systematisch zu beeinflussen und damit nachhaltige Veränderungen innerhalb von Organisationen zu ermöglichen.\footnote{Vgl. \cite{Prosci_ADKAR}, S.~4.}
-Das Modell beschreibt fünf aufeinander aufbauende Zustände, die für eine erfolgreiche Veränderung erreicht werden müssen: Awareness (Bewusstsein für die Notwendigkeit der Veränderung), Desire (Bereitschaft zur Unterstützung der Veränderung), Knowledge (Wissen über die Umsetzung), Ability (Fähigkeit zur praktischen Anwendung) und Reinforcement (Sicherung und Verstetigung der Veränderung). Diese Elemente sind sequenziell und kumulativ zu verstehen, da jeder Schritt auf dem vorherigen aufbaut und Voraussetzung für eine nachhaltige individuelle Veränderung ist.\footnote{Vgl. \cite{Prosci_ADKAR}, S.~5.} Die dargestellte Methode wird in dem Anhang 3 anschaulich ergänzt.
+Die SWOT-Analyse (engl. Akronym für Strengths, Weaknesses, Opportunities und Threats) ist ein qualitatives Bewertungsverfahren des strategischen Managements. In dieser Methode werden sowohl innerbetriebliche Stärken und Schwächen als auch externe Chancen und Gefahren systematisch betrachtet. Die Stärken und Schwächen beziehen sich auf interne Faktoren des Unternehmens und sind Ergebnisse der Innenanalyse. Sie entstehen aus den Eigenschaften, Ressourcen und organisatorischen Prozessen des Unternehmens selbst. Dabei handelt es sich um relative Größen, die häufig erst im Vergleich mit Wettbewerbern beurteilt werden können. Die Chancen und Gefahren resultieren aus der externen Analyse und beziehen sich auf Entwicklungen in der Unternehmensumwelt. Diese können sich aus Veränderungen im Markt, in technologischen, sozialen oder ökologischen Rahmenbedingungen ergeben. Die dabei wirkenden Kräfte sind für das Unternehmen weitgehend exogen und können nicht unmittelbar beeinflusst werden.\footnote{Vgl. \cite{Koch_Geschaeftsprozessmanagement}, S.~100-101.}
+Die SWOT-Analyse verbindet somit die Ergebnisse der internen und externen Analyse in einer Matrixdarstellung und ordnet die vier Komponenten Stärken, Schwächen, Chancen und Gefahren systematisch ein.\footnote{Vgl. \hyperref[sec:Anhang3]{Anhang 3}} 
+
+\subsection{Veränderungsprozess nach Kotter}
+Zur strukturierten Gestaltung organisatorischer Veränderungsprozesse wird häufig auf das Acht-Stufen-Modell von Kotter (1996) zurückgegriffen. Das Modell geht davon aus, dass erfolgreiche Change-Prozesse eine aufeinander aufbauende Abfolge klar definierter Schritte durchlaufen. Kotter unterscheidet folgende acht Stufen. \footnote{Vgl. \cite{Rosenstiel_ChangeManagement}, S.~127.} 
+Zentrale Voraussetzung ist zunächst die Erzeugung eines \textbf{Gefühls der Dringlichkeit}. Die Überzeugung von der Notwendigkeit der Veränderung muss nicht nur auf Führungsebene, sondern organisationsweit vorhanden sein. Darauf aufbauend ist ein \textbf{Führungsteam zu bilden}, das über Autorität, Fachkompetenz, Glaubwürdigkeit sowie gegenseitiges Vertrauen verfügt, um den Veränderungsprozess gemeinsam voranzutreiben.
+Im weiteren Verlauf ist eine klare \textbf{Vision der angestrebten Veränderung zu entwickeln}, die als übergeordnetes Ziel Orientierung für Strategien und Maßnahmen bietet. Diese Vision muss anschließend auf breiter Basis kommuniziert werden, da Unterstützung nur entstehen kann, wenn Mitarbeitende von Sinn und Umsetzbarkeit überzeugt sind. Gleichzeitig ist es erforderlich, bestehende Barrieren abzubauen und betroffene Personen zur aktiven Mitwirkung zu befähigen \textbf{(Empowerment)}.\footnote{Vgl. \cite{Rosenstiel_ChangeManagement}, S.~128-129.} 
+
+Ein weiterer zentraler Bestandteil des Modells ist die Sicherstellung kurzfristiger, sichtbarer \textbf{Erfolge}. Diese sogenannten „quick wins“ stärken Motivation und Akzeptanz innerhalb der Organisation. Bereits erreichte Fortschritte müssen im Anschluss konsolidiert und für weitere Entwicklungsschritte genutzt werden. Nachhaltigkeit wird schließlich erst erreicht, wenn neue Verhaltensweisen und Strukturen dauerhaft in der \textbf{Unternehmenskultur verankert} sind. Kotters acht Stufen konkretisieren diese Phasen und strukturieren sie in operative Handlungsschritte. Durch die schrittweise Vorgehensweise wird die Komplexität von Change-Prozessen reduziert und die Gefahr unkoordinierter Maßnahmen verringert. \footnote{Ebenda.}
 
   % === TEIL 2 ===
 \section{Praxisanalyse: Planner und To Do bei den BWB}
@@ -282,25 +288,32 @@ Die Schulungsmaßnahmen zur Einführung von Microsoft Planner und To Do bei den 
     \item \textbf{Chancen (Opportunities):} Eine differenzierte Aufbereitung der Schulungen nach Zielgruppen könnte die Effektivität der Lernprozesse deutlich erhöhen. Beispielsweise könnten grundlegende Inhalte als On-Demand-Videos für selbstständige Nutzer bereitgestellt werden, während Mitarbeitende mit höherem Unterstützungsbedarf intensivere Formate wie persönliche Beratung, Einzeltermine mit Multiplikatoren oder kleingruppige Workshops erhalten.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage 7.} Zudem könnte der Einsatz interaktiver Elemente oder praxisnaher Anwendungsbeispiele das Verständnis und die Akzeptanz fördern. Auch die Integration in bestehende Onboarding-Prozesse sowie eine frühzeitige Kommunikation über den konkreten Nutzen im Arbeitsalltag würden die Relevanz der Tools besser verdeutlichen.
     \item \textbf{Risiken (Threats):} Ein Risiko besteht in der Wahrnehmung von Redundanz: Wenn neue Anwendungen wie Planner als doppelt empfunden werden, weil bereits andere Tools mit ähnlichem Funktionsumfang im Einsatz sind,\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage 5} sinkt die Motivation zur Nutzung. Schließlich besteht die Gefahr, dass durch unzureichend differenzierte Schulungsformate die Skepsis gegenüber neuen Tools weiter verstärkt wird – insbesondere bei älteren Mitarbeitenden, die sich in ihrer gewohnten Arbeitsweise gut eingespielt fühlen und wenig Änderungswunsch äußern.
   \end{itemize}
-\subsection{Kommunikationsanalyse nach ADKAR-Modell}
-Die Kommunikationsmaßnahmen zur Einführung von Planner und To Do erweisen sich in der Praxis als nicht ausreichend, da nicht alle Mitarbeitenden die relevanten Informationen erhalten. Zur Analyse der Kommunikationsprozesse eignet sich das ADKAR-Modell mit den fünf Stufen Awareness, Desire, Knowledge, Ability und Reinforcement.
-\begin{itemize}
+\subsection{Analyse der Kommunikationsprozesse nach Kotter}
+Die Kommunikationsmaßnahmen zur Einführung von Planner und To Do erweisen sich in der Praxis als nicht ausreichend, da nicht alle Mitarbeitenden die relevanten Informationen erhalten. Zur Analyse der Kommunikationsprozesse wird anhand der acht Phasen nach Kotter analysiert werden:
+\begin{enumerate}
     \setlength\itemsep{0.4\baselineskip}
     \setlength\parskip{0pt}
     \setlength\parsep{0pt}
-\item \textbf{Awareness (Bewusstsein für die Veränderung):} Ziel der ersten Phase ist es, das Bewusstsein für die Einführung und Relevanz neuer Tools zu schaffen. In der Praxis zeigt sich jedoch, dass nicht alle Mitarbeitenden überhaupt erfahren, dass Planner und To Do verfügbar sind. Ein zentraler Grund: Die IT-Z/M-Abteilung nutzt AQUA.net als primären Informationskanal für Neuerungen. Doch nicht alle Mitarbeitenden lesen regelmäßig das Intranet – insbesondere in technischen oder operativen Bereichen wird dieser Kanal häufig ignoriert. Dadurch verpuffen zentrale Botschaften.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage 3 und 4}
+\item \textbf{Dringlichkeit erzeugen:} Die Einführung der Anwendungen wurde primär technisch kommuniziert. Eine klare Darstellung des konkreten Nutzens im Arbeitsalltag fehlte teilweise. Dadurch entstand bei vielen Mitarbeitenden keine wahrgenommene Notwendigkeit zur Veränderung.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage 3 und 4}
 
-\item \textbf{Desire (Wunsch zur Teilnahme und Unterstützung):} Einige Mitarbeitende äußern durchaus Interesse an digitalen Tools, nutzen diese aber dennoch nicht aktiv. Gründe dafür liegen nicht in mangelnder Akzeptanz, sondern oft schlicht darin, dass Informationen nicht ankommen oder Veröffentlichungen von Tools untergehen, weil sie nicht zum richtigen Zeitpunkt oder unauffällig kommuniziert werden.
+\item \textbf{Führungskoalition aufbauen:} Zwar ist die IT-Z/M federführend verantwortlich, jedoch wurden Führungskräfte der Fachbereiche nicht systematisch als aktive Unterstützer eingebunden. Dadurch blieb die Veränderung auf IT-Ebene isoliert.
 
-\item \textbf{Knowledge (Wissen, wie man die Veränderung umsetzt):} Kommunikationsprobleme haben auch zur Folge, dass Schulungstermine und Materialien nicht rechtzeitig oder nicht klar genug kommuniziert werden. Hinzu kommt, dass sich die Schulungsplanung oft verzögert, weil viele Mitbestimmungsschritte nötig sind, bevor ein Tool offiziell eingeführt werden darf.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage 1} Die eigentliche Botschaft zur Einführung wird so von der zeitlichen Realität überholt.
+\item \textbf{Vision entwickeln:} Eine klare Vision („Wie verändert Planner konkret unseren Arbeitsalltag?“) wurde nicht explizit formuliert. Die Kommunikation konzentrierte sich stärker auf Funktionen als auf Mehrwerte.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage 1} Die eigentliche Botschaft zur Einführung wird so von der zeitlichen Realität überholt.
 
-\item \textbf{Ability (Fähigkeit, die Veränderung umzusetzen):} Selbst wenn Schulungsangebote bereitstehen, wissen viele Mitarbeitende nicht, wo sie diese finden oder wie sie sich anmelden können. Die Streuung der Informationen ist lückenhaft. Besonders neue oder weniger digital affine Mitarbeitende brauchen klare Hinweise, nicht nur einmal, sondern mehrfach.
+\item \textbf{Vision kommunizieren:} Die Informationsverbreitung erfolgte hauptsächlich über AQUA.net. Da nicht alle Mitarbeitenden diesen Kanal regelmäßig nutzen, erreichte die Botschaft nicht die gesamte Belegschaft.
 
-\item \textbf{Reinforcement (Verstärkung der Veränderung):} Veränderungen brauchen langfristige Begleitung. Wenn die Nutzung von Planner und To Do nicht regelmäßig thematisiert wird, sinkt die Sichtbarkeit. Nach der ersten Welle von Ankündigungen und Schulungen fehlt oft eine kontinuierliche Erinnerung.
-\end{itemize}
+\item \textbf{Hindernisse beseitigen:} Hindernisse wie unterschiedliche Wissensstände oder Skepsis gegenüber neuen Tools wurden erkannt, jedoch nicht systematisch adressiert (z. B. durch differenzierte Schulungsformate).
+
+\item \textbf{Kurzfristige Erfolge erzielen:} Erfolgsbeispiele oder Best-Practice-Anwendungen wurden bislang nicht aktiv kommuniziert. Dadurch fehlen positive Verstärkungseffekte.
+
+\item \textbf{Veränderungen weiter vorantreiben} Nach der initialen Einführung erfolgt keine systematische Weiterentwicklung der Kommunikationsstrategie.
+
+\item \textbf{Verankerung in der Unternehmenskultur} Die Nutzung der Anwendungen ist freiwillig und bislang nicht fest in Arbeitsprozesse integriert.
+
+\end{enumerate}
 
 \subsection{Handlungsempfehlungen}
-Aus den Ergebnissen der SWOT-Analyse sowie der Kommunikationsanalyse nach dem ADKAR-Modell lassen sich mehrere konkrete Optimierungsansätze für zukünftige Einführungen von Microsoft-365-Anwendungen ableiten. Zunächst sollte der Schulungsprozess stärker zielgruppendifferenziert gestaltet werden. Die Analyse zeigt, dass heterogene Wissensstände innerhalb einer Schulung zu Überforderung oder Unterforderung führen. Künftig empfiehlt sich daher eine Aufteilung in Basis- und Vertiefungsformate. Grundlagen können als kompakte On-Demand-Videos oder strukturierte Schritt-für-Schritt-Anleitungen bereitgestellt werden, während für weniger technikaffine Mitarbeitende zusätzliche Präsenz- oder Kleingruppenformate angeboten werden sollten. Eine modulare Struktur mit kleineren Lerneinheiten erhöht die Aufnahmefähigkeit und reduziert kognitive Überlastung. 
+Aus den Ergebnissen der SWOT-Analyse sowie der Kommunikationsanalyse nach dem Kotter-Modell lassen sich mehrere konkrete Optimierungsansätze für zukünftige Einführungen von Microsoft-365-Anwendungen ableiten. Zunächst sollte der Schulungsprozess stärker zielgruppendifferenziert gestaltet werden. Die Analyse zeigt, dass heterogene Wissensstände innerhalb einer Schulung zu Überforderung oder Unterforderung führen. Künftig empfiehlt sich daher eine Aufteilung in Basis- und Vertiefungsformate. Grundlagen können als kompakte On-Demand-Videos oder strukturierte Schritt-für-Schritt-Anleitungen bereitgestellt werden, während für weniger technikaffine Mitarbeitende zusätzliche Präsenz- oder Kleingruppenformate angeboten werden sollten. Eine modulare Struktur mit kleineren Lerneinheiten erhöht die Aufnahmefähigkeit und reduziert kognitive Überlastung. 
 
 Das Multiplikatorenkonzept sollte systematischer begleitet und verstetigt werden. 
 Da Microsoft-365-Anwendungen regelmäßigen Updates und funktionalen Veränderungen unterliegen, ist es erforderlich, Multiplikator:innen kontinuierlich über Neuerungen zu informieren. Kurze Update-Briefings oder kompakte Nachschulungen stellen sicher, dass sie aktuelle Funktionen verstehen und dieses Wissen zeitnah weitergeben können. Im Bereich der Kommunikation ist eine Mehrkanalstrategie notwendig. Neben AQUA.net sollten ergänzend E-Mail-Hinweise, Führungskräftekommunikation sowie niedrigschwellige digitale Formate eingesetzt werden, um Awareness und Desire im Sinne des ADKAR-Modells zu stärken. 
@@ -316,11 +329,32 @@ Kritisch betrachtet überzeugt die Arbeit durch starken Praxisbezug, eine strukt
 \addcontentsline{toc}{section}{Glossar} 
 \vspace{0.6cm}
 \begin{tabular}{p{4cm} p{11.35cm}}   
+    \textbf{\normalsize Beteiligungsprozess:} & \normalsize Der Beteiligungsprozess beschreibt den gesamten organisatorischen Abstimmungs- und Entscheidungsablauf im Rahmen der Einführung einer neuen Anwendung. Er umfasst die Bedarfsermittlung, regulatorische Prüfungen, Abstimmungen mit zuständigen Organisationseinheiten, formale Freigaben sowie die anschließende Einbindung in Schulungs- und Kommunikationsprozesse.\footnotemark[30]\\[0.5cm]
     \hline
-    \textbf{\normalsize AAAA:} & \normalsize AAAAA.\footnote{Vgl. \hyperref[sec:Anhang1]{Anhang 1}.}\\[0.5cm]
+    \textbf{\normalsize Datenschutz-Folgenabschätzung:} & \normalsize Vertiefte datenschutzrechtliche Risikoanalyse, die durchgeführt wird, wenn eine Verarbeitung personenbezogener Daten voraussichtlich ein hohes Risiko für die Rechte und Freiheiten betroffener Personen mit sich bringt.\footnotemark[31]\\[0.5cm]
     \hline
-    \textbf{\normalsize BBBB:} & \normalsize BBBB.\footnote{Vgl. \hyperref[sec:Anhang2]{Anhang 2}.}\\[0.5cm]
+    \textbf{\normalsize LaTeX:} & \normalsize LaTeX ist ein textbasiertes Satzsystem zur Erstellung wissenschaftlicher Dokumente. Es ermöglicht die strukturierte Formulierung von Text, Formeln, Literaturverzeichnissen und Abbildungen nach formalen Standards.\footnotemark[32]\\[0.5cm]
+    \hline
+    \textbf{\normalsize Löschkonzept:} & \normalsize Dokument zur Regelung der datenschutzkonformen Löschung personenbezogener Daten. Es definiert Löschfristen und Verfahren zur Einhaltung gesetzlicher Vorgaben. \footnotemark[34]\\[0.5cm]
+    \hline
+    \textbf{\normalsize Schutzbedarfs-feststellung:} & \normalsize Bewertung des erforderlichen Sicherheitsniveaus einer Anwendungen im Hinblick auf IT-Sicherheit und Datenschutz.\footnotemark[35]\\[0.5cm]
+    \hline
+    \textbf{\normalsize Verzeichnis von Verarbeitungstätigkeiten:} & \normalsize Dokumentation aller Verarbeitungsvorgänge personenbezogener Daten innerhalb einer Organisation gemäß datenschutzrechtlichen Anforderungen.\footnotemark[36]\\[0.5cm]
+    \hline
+    \textbf{\normalsize Whitepaper:} & \normalsize Standardisierte Vorlage zur formellen Beantragung einer Software-Einführung im Rahmen des Beteiligungsverfahrens.\footnotemark[37]\\[0.5cm]
+
 \end{tabular}
+% Fußnoten für Teil 1
+\footnotetext[30]{Vgl.\ \hyperref[sec:Anhang5]{Anhang 5}, Frage~1.}
+\footnotetext[31]{Vgl.\ \hyperref[sec:Anhang6]{Anhang 6}, Frage~3.}
+\footnotetext[32]{Vgl.\ \cite{Ub_Uni}}
+\footnotetext[33]{Vgl.\ \hyperref[sec:Anhang6]{Anhang 6}, Frage~3.}
+\footnotetext[34]{Vgl. Ebenda}
+\footnotetext[35]{Vgl. Ebenda}
+\footnotetext[36]{Vgl. Ebenda}
+\footnotetext[37]{Vgl. Ebenda}
+
+
 
 % === Literaturverzeichnis ===
 \newpage
@@ -341,7 +375,7 @@ Kritisch betrachtet überzeugt die Arbeit durch starken Praxisbezug, eine strukt
 \begin{itemize}
     \item \hyperref[sec:Anhang1]{Anhang 1: Symbole für die Prozessmodellierung}, S. \pageref{sec:Anhang1}
     \item \hyperref[sec:Anhang2]{Anhang 2: Beteiligungsprozess bei den BWB}, S. \pageref{sec:Anhang2}
-    \item \hyperref[sec:Anhang3]{Anhang 3: Darstellung des ADKAR-Modells}, S. \pageref{sec:Anhang3}
+    \item \hyperref[sec:Anhang3]{Anhang 3: SWOT-Modell in Matrixdarstellung}, S. \pageref{sec:Anhang3}
     \item \hyperref[sec:Anhang4]{Anhang 4: Schulungs- und Kommunikationsprozess bei den BWB}, S. \pageref{sec:Anhang4}
     \item \hyperref[sec:Anhang5]{Anhang 5: Interviewprotokoll (Diana Jimenez)}, S. \pageref{sec:Anhang5}
     \item \hyperref[sec:Anhang6]{Anhang 6: Interviewprotokoll (Nicolas Zoll)}, S. \pageref{sec:Anhang6}
@@ -375,24 +409,24 @@ Kritisch betrachtet überzeugt die Arbeit durch starken Praxisbezug, eine strukt
 \addcontentsline{toc}{subsection}{Anhang 2: Beteiligungsprozess bei den BWB}
 \label{sec:Anhang2}
 \begin{center}
-    {\Large\bfseries Anhang 2: Beteiligungsprozess bei den BWB}\\[0.5cm]
-    {\normalsize interne Quelle: detaillierte Beteiligungsprozess-Darstellung zur Einführung neuer Microsoft-365-Apps}\\[0.3cm]
-    \includegraphics[width=0.97\textwidth]{BILDER-PTB3/beteiligungsprozess_software.pdf}
+    {\Large\bfseries Anhang 2: Beteiligungsprozess bei den BWB}\\[0.2cm]
+    {\normalsize interne Quelle: Beteiligungsprozess-Darstellung zur Einführung neuer Anwendung}\\[0.3cm]
+    \includegraphics[width=0.64\textwidth]{BILDER-PTB3/beteiligungsprozess_einfuhrung_neu.pdf}
 \end{center}
 
 % Anhang 3
 \newpage
 \phantomsection
-\addcontentsline{toc}{subsection}{Anhang 3: Darstellung des ADKAR-Modells}
+\addcontentsline{toc}{subsection}{Anhang 3: SWOT-Modell in Matrixdarstellung}
 \label{sec:Anhang3}
 \vspace*{\fill}
 \begin{center}
     \begin{adjustbox}{rotate=90, center, valign=b}
         \begin{minipage}{0.95\textheight}
             \centering
-            {\Large\bfseries Anhang 3: Darstellung des ADKAR-Modells}\\[1em]
-             {\normalsize Quelle: Eigene Darstellung in Anlehnung an das ADKAR-Modell}\\[1.0cm]
-            \includegraphics[width=\textheight]{BILDER-PTB3/adkar_anhang3.png}
+            {\Large\bfseries Anhang 3: SWOT-Modell in Matrixdarstellung}\\[1em]
+             {\normalsize Quelle: Koch, Susanne: Einführung in das Management von Geschäftsprozessen, S. 100, Tab. 2.17}\\[1.0cm]
+            \includegraphics[width=\textheight]{BILDER-PTB3/swot_analyse.pdf}
         \end{minipage}
     \end{adjustbox}
 \end{center} 
@@ -422,7 +456,7 @@ Kritisch betrachtet überzeugt die Arbeit durch starken Praxisbezug, eine strukt
 
 \textbf{Frage 1: Welche Rolle hatten Sie bei der Einführung von Microsoft Planner und To Do?}
 
-Diana: Im Jahr 2022 habe ich in unserer IT-Abteilung (IT-Z/M) die Verantwortung dafür übernommen, die Microsoft-365-Anwendungen im Unternehmen einzuführen und Schulungen sowie Betreuung dafür zu koordinieren. Obwohl die BWB das Microsoft-365-Paket bereits seit einiger Zeit besitzt, wurden die einzelnen Anwendungen erst im Rahmen des Beteiligungsprozesses nach und nach freigeschaltet. Die Einführung von Planner und To Do stellt daher eine neue Anwendungseinführung bzw. eine Erweiterung der bestehenden Systemlandschaft dar. Zunächst habe ich eng mit einem Kollegen zusammengearbeitet, der als Projektleiter im Modern-Workplace-Projekt tätig war. Schritt für Schritt habe ich dann immer mehr Aufgaben übernommen. Von Anfang an war ich in die Planung eingebunden. Meine Hauptaufgabe war es vor allem, die praktische Umsetzung der Einführung zu übernehmen: zu organisieren, \textit{wie wir die neuen Apps den BWB-Mitarbeiterinnen und -Mitarbeitern bereitstellen und vermitteln}.
+Diana: Im Jahr 2022 habe ich in unserer IT-Abteilung (IT-Z/M) die Verantwortung dafür übernommen, die Microsoft-365-Anwendungen im Unternehmen einzuführen und Schulungen sowie Betreuung dafür zu koordinieren. Obwohl die BWB das Microsoft-365-Paket bereits seit einiger Zeit besitzt, wurden die einzelnen Anwendungen erst im Rahmen des Beteiligungsprozesses nach und nach freigeschaltet. Zusammengefasst bezeichnet der Beteiligungsprozess den Ablauf zur Einführung oder Erweiterung neuer Anwendungen bei den BWB – von der Abstimmung bis zur Einbindung in Schulungs- und Kommunikationsprozesse. Die Einführung von Planner und To Do stellt daher eine neue Anwendungseinführung bzw. eine Erweiterung der bestehenden Systemlandschaft dar. Zunächst habe ich eng mit einem Kollegen zusammengearbeitet, der als Projektleiter im Modern-Workplace-Projekt tätig war. Schritt für Schritt habe ich dann immer mehr Aufgaben übernommen. Von Anfang an war ich in die Planung eingebunden. Meine Hauptaufgabe war es vor allem, die praktische Umsetzung der Einführung zu übernehmen: zu organisieren, \textit{wie wir die neuen Apps den BWB-Mitarbeiterinnen und -Mitarbeitern bereitstellen und vermitteln}.
 
 Der gesamte Schulungs- und Kommunikationsprozess hängt eng mit dem Beteiligungsprozess zusammen. Sobald ein Bedarf für eine neue Anwendung festgestellt wird, bin ich direkt beteiligt. Ich führe dann mit meinem Team Tests durch und überprüfe, ob das Tool relevant ist und sich eine Einführung lohnt. Wenn das passt, beginne ich, konkrete Schulungsmaterialien zu erstellen, stimme mich mit IT-Z/R ab und versende die Unterlagen zur Genehmigung. Danach muss ich abwarten, bis die Mitbestimmung durchlaufen ist und wir die offizielle Freigabe erhalten. Ohne die Mitbestimmung darf ich nicht mit der Erstellung von Schulungsmaterialien und der Kommunikation mit den Mitarbeitenden beginnen. Die Schulungsmaterialien umfassen vor allem Benutzerhandbücher, Präsentationen und Tutorial-Videos. 
 
@@ -487,8 +521,9 @@ Nicolas Zoll: Für die Einführung eines neuen Tools ist eine ganze Reihe von Un
     \setlength\parsep{0pt}
     \item \normalsize ein Whitepaper zur Beteiligung – die offizielle Vorlage mit den Basisinformationen zum Vorhaben (Art der Software, Bedarf, Ansprechpartner, Zeitplan usw.),
     \item \normalsize eine fachliche Beschreibung der Software (inklusive der vorgesehenen Funktionalitäten und eines Berechtigungskonzepts zur Rechtevergabe),
-    \item \normalsize eine Schutzbedarfsfeststellung (IT-Sicherheitsbewertung) in Zusammenarbeit mit der Unternehmenssicherheit – oft in Form eines Quick-Scans mit definierter Checkliste,
-    \item \normalsize sämtliche Datenschutz-Dokumente: insbesondere das Verzeichnis von Verarbeitungstätigkeiten (VVT) für das neue Tool, ein entsprechendes Löschkonzept sowie eine initiale Datenschutz-Risikoanalyse; falls diese ergibt, dass ein hohes Risiko vorliegt, kommt noch eine ausführliche Datenschutz-Folgenabschätzung hinzu,
+    \item \normalsize eine Schutzbedarfsfeststellung – also die Bewertung des erforderlichen Sicherheitsniveaus einer Anwendung im Hinblick auf IT-Sicherheit und Datenschutz – in Zusammenarbeit mit der Unternehmenssicherheit; oft in Form eines Quick-Scans mit definierter Checkliste,
+    \item \normalsize sämtliche Datenschutz-Dokumente: insbesondere das Verzeichnis von Verarbeitungstätigkeiten (VVT) – die Dokumentation aller Verarbeitungsvorgänge personenbezogener Daten innerhalb der Organisation –, 
+    \item \normalsize ein entsprechendes Löschkonzept zur Regelung der datenschutzkonformen Löschung personenbezogener Daten mit definierten Fristen und Verfahren sowie eine initiale Datenschutz-Risikoanalyse; falls diese ergibt, dass ein hohes Risiko für die Rechte und Freiheiten betroffener Personen vorliegt, kommt noch eine ausführliche Datenschutz-Folgenabschätzung als vertiefte Risikoanalyse hinzu,
     \item \normalsize die schriftlichen Freigaben/Stellungnahmen der Datenschutzinstanzen – also eine Einwilligung des Datenschutzbeauftragten (DSB) und ggf. zusätzlich eine Stellungnahme der Datenschutz-Abteilung (DS), falls diese beteiligt werden muss (z. B. bei Cloud-Themen),
     \item \normalsize ein Schulungskonzept und Anwender-Unterlagen für die Beschäftigten – beispielsweise Benutzerhandbücher, Präsentationen oder Lernvideos. Diese Materialien dienen dazu, die Mitarbeiter auf das neue Werkzeug vorzubereiten. Die Arbeitnehmervertretung fragt im Beteiligungsverfahren gezielt nach solchen Schulungsmaßnahmen, um sicherzustellen, dass alle Anwender mit der eingeführten Software umgehen können.
 \end{itemize}
@@ -524,7 +559,7 @@ Ein weiterer Verbesserungsansatz betrifft den Dokumentationsaufwand. Hier sollte
 % --- Tabelle mit Unterschriften ---
 
 \begin{tabular}{p{8cm}}
-    \normalsize{Berlin, den XX. XXXX 202X} \\[0.5cm]
+    \normalsize{Berlin, den 22. Februar 2026} \\[0.5cm]
     \includegraphics[width=5.5cm]{BILDER-PTB3/unterschrift_nicole.png} \\
     \normalsize{\underline{\hspace{5.5cm}}} \\
     \normalsize{(Unterschrift der Studentin)}
