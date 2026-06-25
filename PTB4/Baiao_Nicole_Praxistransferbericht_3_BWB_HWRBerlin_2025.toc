@@ -1,0 +1,31 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{Abkürzungsverzeichnis}{III}{Doc-Start}%
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Problemstellung und Relevanz des Themas}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Zielsetzung und Forschungsfrage}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Methodisches Vorgehen und Aufbau der Arbeit}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Theoretischer Rahmen}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Grundlagen des Geschäftsprozessmanagements}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Prozessmodellierung}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}IST- und SOLL-Prozesse}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Qualitative Bewertungskriterien}{5}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Veränderungsprozess nach Kotter}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Praxisanalyse: Planner und To Do bei den BWB}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Prozessverständnis von Einführung bis Kommunikation und Schulung}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}SWOT-Analyse der Schulungsprozesse}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Analyse der Kommunikationsprozesse nach Kotter}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Handlungsempfehlungen}{10}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Fazit}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Kritische Reflexion}{11}{subsection.4.1}%
+\contentsline {section}{Glossar}{12}{section*.1}%
+\contentsline {section}{Literaturverzeichnis}{13}{section*.2}%
+\contentsline {section}{Anhangsverzeichnis}{14}{section*.3}%
+\contentsline {subsection}{Anhang 1: Symbole für die Modellierung}{15}{section*.4}%
+\contentsline {subsection}{Anhang 2: Beteiligungsprozess bei den BWB}{17}{section*.5}%
+\contentsline {subsection}{Anhang 3: SWOT-Modell in Matrixdarstellung}{18}{section*.6}%
+\contentsline {subsection}{Anhang 4: Schulungs- und Kommunikationsprozess bei den BWB}{19}{section*.7}%
+\contentsline {subsection}{Anhang 5: Interviewprotokoll (Diana Jimenez)}{20}{section*.8}%
+\contentsline {subsection}{Anhang 6: Interviewprotokoll (Nicolas Zoll)}{25}{section*.9}%
+\contentsline {subsection}{Anhang 7: KI-Verzeichnis}{29}{section*.10}%
+\contentsline {section}{Ehrenwörtliche Erklärung}{30}{section*.11}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
