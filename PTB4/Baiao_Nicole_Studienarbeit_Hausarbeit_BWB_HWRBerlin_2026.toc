@@ -17,40 +17,40 @@
 \contentsline {subsection}{\numberline {3.1}Ausgangssituation bei den Berliner Wasserbetrieben}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Projektphasen und hybrides Vorgehen}{9}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Projektziele und Anforderungen}{10}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Projektcontrolling Vorgehen}{11}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Vorgehen des Projektcontrollings}{11}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Projektcontrolling im Praxisbeispiel}{12}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Termincontrolling}{12}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Kostencontrolling}{13}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Leistungs- und Qualitätscontrolling}{16}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Risikocontrolling}{16}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Projektcontrolling-Ergebnissen}{16}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Kritische Reflexion und Handlungsempfehlungen}{16}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Vergleich zwischen Theorie und Praxis}{16}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Stärken des aktuellen Vorgehens}{16}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Herausforderungen des agilen Projektcontrollings}{16}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Verbesserungspotenziale}{16}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Fazit}{16}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Beantwortung der Forschungsfrage}{16}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Zusammenfassung der Ergebnisse}{16}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Ausblick}{16}{subsection.6.3}%
-\contentsline {section}{Glossar}{17}{section*.1}%
-\contentsline {section}{Literaturverzeichnis}{18}{section*.2}%
-\contentsline {section}{Anhangsverzeichnis}{19}{section*.3}%
-\contentsline {subsection}{Anhang 1: Meilenstein- und Kosten-Trenddiagramm}{20}{section*.4}%
-\contentsline {subsection}{Anhang 2: Risikoinventars und Risk Map}{21}{section*.5}%
-\contentsline {subsection}{Anhang 3: Burndown- und Burnup-Chart}{22}{section*.6}%
-\contentsline {subsection}{Anhang 4: Earned-Value-Analyse}{23}{section*.7}%
-\contentsline {subsection}{Anhang 5: Interviewprotokoll (Michael Schneider)}{24}{section*.8}%
-\contentsline {subsection}{Anhang 6: Interviewprotokoll (Jonathan Scheidel)}{30}{section*.9}%
-\contentsline {subsection}{Anhang 7: Projektphasen - Meilensteinsplan}{41}{section*.10}%
-\contentsline {subsection}{Anhang 8: Termincontrolling bei den BWB}{42}{section*.11}%
-\contentsline {subsection}{Anhang 9: Projektkosten}{43}{section*.12}%
-\contentsline {subsection}{Anhang 10: Kostencontrolling bei den BWB}{46}{section*.13}%
-\contentsline {subsection}{Anhang 11: Kostencontrolling Ist-Plankosten Grafik}{47}{section*.14}%
-\contentsline {subsection}{Anhang 12: Leistungs-Qualitätscontrolling bei den BWB}{48}{section*.15}%
-\contentsline {subsection}{Anhang 13: Risikocontrolling bei den BWB}{49}{section*.16}%
-\contentsline {subsection}{Anhang 14: Interviewprotokoll (Julia Steckler)}{50}{section*.17}%
-\contentsline {subsection}{Anhang 15: Projektcontrolling - Excel-Tabelle}{53}{section*.18}%
-\contentsline {subsection}{Anhang 16: KI-Verzeichnis}{54}{section*.19}%
-\contentsline {section}{Ehrenwörtliche Erklärung}{55}{section*.20}%
+\contentsline {subsection}{\numberline {4.3}Leistungs- und Qualitätscontrolling}{15}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Risikocontrolling}{15}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Projektcontrolling-Ergebnissen}{15}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Kritische Reflexion und Handlungsempfehlungen}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Vergleich zwischen Theorie und Praxis}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Stärken des aktuellen Vorgehens}{15}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Herausforderungen des agilen Projektcontrollings}{15}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Verbesserungspotenziale}{15}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Fazit}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Beantwortung der Forschungsfrage}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Zusammenfassung der Ergebnisse}{15}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Ausblick}{15}{subsection.6.3}%
+\contentsline {section}{Glossar}{16}{section*.1}%
+\contentsline {section}{Literaturverzeichnis}{17}{section*.2}%
+\contentsline {section}{Anhangsverzeichnis}{18}{section*.3}%
+\contentsline {subsection}{Anhang 1: Meilenstein- und Kosten-Trenddiagramm}{19}{section*.4}%
+\contentsline {subsection}{Anhang 2: Risikoinventars und Risk Map}{20}{section*.5}%
+\contentsline {subsection}{Anhang 3: Burndown- und Burnup-Chart}{21}{section*.6}%
+\contentsline {subsection}{Anhang 4: Earned-Value-Analyse}{22}{section*.7}%
+\contentsline {subsection}{Anhang 5: Interviewprotokoll (Michael Schneider)}{23}{section*.8}%
+\contentsline {subsection}{Anhang 6: Interviewprotokoll (Jonathan Scheidel)}{29}{section*.9}%
+\contentsline {subsection}{Anhang 7: Projektphasen - Meilensteinsplan}{40}{section*.10}%
+\contentsline {subsection}{Anhang 8: Termincontrolling bei den BWB}{41}{section*.11}%
+\contentsline {subsection}{Anhang 9: Projektkosten}{42}{section*.12}%
+\contentsline {subsection}{Anhang 10: Kostencontrolling bei den BWB}{45}{section*.13}%
+\contentsline {subsection}{Anhang 11: Kostencontrolling Ist-Plankosten Grafik}{46}{section*.14}%
+\contentsline {subsection}{Anhang 12: Leistungs-Qualitätscontrolling bei den BWB}{47}{section*.15}%
+\contentsline {subsection}{Anhang 13: Risikocontrolling bei den BWB}{48}{section*.16}%
+\contentsline {subsection}{Anhang 14: Interviewprotokoll (Julia Steckler)}{49}{section*.17}%
+\contentsline {subsection}{Anhang 15: Projektcontrolling - Excel-Tabelle}{52}{section*.18}%
+\contentsline {subsection}{Anhang 16: KI-Verzeichnis}{53}{section*.19}%
+\contentsline {section}{Ehrenwörtliche Erklärung}{54}{section*.20}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

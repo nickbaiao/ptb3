@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  27 JUL 2026 14:38
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.3)  27 JUL 2026 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,7 +855,7 @@ Overfull \hbox (8.3513pt too wide) in paragraph at lines 407--412
 
 LaTeX Warning: Citation `Ub_Uni' on page 16 undefined on input line 416.
 
-[16] [17] (./Baiao_Nicole_Studienarbeit_Hausarbeit_BWB_HWRBerlin_2026.bbl) [18] [19]
+[16] (./Baiao_Nicole_Studienarbeit_Hausarbeit_BWB_HWRBerlin_2026.bbl) [17] [18]
 File: BILDER-PTB4/kosten_termin.png Graphic file (type bmp)
 <BILDER-PTB4/kosten_termin.png>
 
@@ -863,7 +863,7 @@ Overfull \hbox (45.24261pt too wide) in paragraph at lines 472--473
  [][] 
  []
 
-[20]
+[19]
 File: BILDER-PTB4/risiko.png Graphic file (type bmp)
 <BILDER-PTB4/risiko.png>
 
@@ -871,10 +871,10 @@ Overfull \hbox (45.24261pt too wide) in paragraph at lines 483--484
  [][] 
  []
 
-[21]
+[20]
 File: BILDER-PTB4/Burndown_Chart.png Graphic file (type bmp)
 <BILDER-PTB4/Burndown_Chart.png>
- [22]
+ [21]
 File: BILDER-PTB4/Earned-Value-Analyse.png Graphic file (type bmp)
 <BILDER-PTB4/Earned-Value-Analyse.png>
 
@@ -882,27 +882,27 @@ Overfull \hbox (45.24261pt too wide) in paragraph at lines 505--506
  [][] 
  []
 
-[23]
+[22]
 Overfull \hbox (9.51735pt too wide) in paragraph at lines 528--529
 \TU/TimesNewRoman(0)/m/n/12 daher zwingend benötigt. Angestrebt wird eine langfristige Lösung in Form eines Cloud-Produkts,
  []
 
-[24] [25] [26]
+[23] [24] [25]
 Overfull \hbox (41.25172pt too wide) in paragraph at lines 583--584
 \TU/TimesNewRoman(0)/m/n/12 terner Tutoren), der Personalentwicklung, den Learning-Administratoren sowie einer IT-Administratorin
  []
 
-[27] [28] [29] [30]
+[26] [27] [28] [29]
 Overfull \hbox (18.13649pt too wide) in paragraph at lines 683--684
 []\TU/TimesNewRoman(0)/m/n/12 Jonathan: Pflichtschulungen sind in den jeweiligen Verantwortungsbereichen verortet; Compliance-
  []
 
-[31] [32] [33] [34] [35] [36] [37] [38]
+[30] [31] [32] [33] [34] [35] [36] [37]
 Overfull \hbox (8.63844pt too wide) in paragraph at lines 843--844
 \TU/TimesNewRoman(0)/m/n/12 schöpfung angemeldeter Budgets, sowie unter Berücksichtigung der Abteilungsgröße. Technisch-
  []
 
-[39] [40]
+[38] [39]
 File: BILDER-PTB4/Phasen.png Graphic file (type bmp)
 <BILDER-PTB4/Phasen.png>
 
@@ -910,31 +910,31 @@ Overfull \hbox (45.24261pt too wide) in paragraph at lines 870--871
  [][] 
  []
 
-[41]
+[40]
 File: BILDER-PTB4/Termincontrolling_mit_Grafik.png Graphic file (type bmp)
 <BILDER-PTB4/Termincontrolling_mit_Grafik.png>
- [42]
+ [41]
 File: BILDER-PTB4/kosten_1.png Graphic file (type bmp)
 <BILDER-PTB4/kosten_1.png>
 File: BILDER-PTB4/kosten_2.png Graphic file (type bmp)
 <BILDER-PTB4/kosten_2.png>
 File: BILDER-PTB4/kosten_3.png Graphic file (type bmp)
 <BILDER-PTB4/kosten_3.png>
- [43] [44] [45]
+ [42] [43] [44]
 File: BILDER-PTB4/kostencontrolling_1.png Graphic file (type bmp)
 <BILDER-PTB4/kostencontrolling_1.png>
 File: BILDER-PTB4/kostencontrolling_2.png Graphic file (type bmp)
 <BILDER-PTB4/kostencontrolling_2.png>
- [46]
+ [45]
 File: BILDER-PTB4/Kostencontrolling_Soll_Ist_Prognose.png Graphic file (type bmp)
 <BILDER-PTB4/Kostencontrolling_Soll_Ist_Prognose.png>
- [47]
+ [46]
 File: BILDER-PTB4/Leistungs-Qualitätscontrolling.png Graphic file (type bmp)
 <BILDER-PTB4/Leistungs-Qualitätscontrolling.png>
- [48]
+ [47]
 File: BILDER-PTB4/Risikocontrolling.png Graphic file (type bmp)
 <BILDER-PTB4/Risikocontrolling.png>
- [49]
+ [48]
 Overfull \hbox (49.72829pt too wide) in paragraph at lines 996--997
 []\TU/TimesNewRoman(0)/m/n/12 Julia: Der Projektstand wird in monatlichen Projektstatus-Meetings mit den jeweiligen IT-Projektleitungen
  []
@@ -944,10 +944,10 @@ Overfull \hbox (32.16188pt too wide) in paragraph at lines 1000--1001
 \TU/TimesNewRoman(0)/m/n/12 Werten in Blue Ant ermittelt, sondern nach Augenmaß anhand der Rücksprachen aus den Projektstatus-
  []
 
-[50] [51] [52]
+[49] [50] [51]
 File: BILDER-PTB4/Kostencontrolling_Soll_Ist_Prognose.png Graphic file (type bmp)
 <BILDER-PTB4/Kostencontrolling_Soll_Ist_Prognose.png>
- [53]
+ [52]
 Underfull \hbox (badness 10000) in paragraph at lines 1054--1055
 
  []
@@ -992,10 +992,10 @@ Overfull \hbox (47.15446pt too wide) in paragraph at lines 1056--1065
 [][] 
  []
 
-[54]
+[53]
 File: BILDER-PTB4/unterschrift_nicole.png Graphic file (type bmp)
 <BILDER-PTB4/unterschrift_nicole.png>
- [55] (./Baiao_Nicole_Studienarbeit_Hausarbeit_BWB_HWRBerlin_2026.aux)
+ [54] (./Baiao_Nicole_Studienarbeit_Hausarbeit_BWB_HWRBerlin_2026.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1016,4 +1016,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  108i,13n,107p,10988b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Baiao_Nicole_Studienarbeit_Hausarbeit_BWB_HWRBerlin_2026.pdf (59 pages).
+Output written on Baiao_Nicole_Studienarbeit_Hausarbeit_BWB_HWRBerlin_2026.pdf (58 pages).
