@@ -5,11 +5,10 @@ The style file: hwrbib.bst
 Database file #1: quellen-ptb4.bib
 Warning--entry type for "Factro_Ampelstatus" isn't style-file defined
 --line 2 of file quellen-ptb4.bib
-Warning--I didn't find a database entry for "Ub_Uni"
 Warning--empty year in Factro_Ampelstatus
 You've used 7 entries,
             2042 wiz_defined-function locations,
-            531 strings with 5143 characters,
+            529 strings with 5131 characters,
 and the built_in function-call counts, 2283 in all, are:
 = -- 222
 > -- 99
@@ -48,4 +47,4 @@ warning$ -- 1
 while$ -- 18
 width$ -- 0
 write$ -- 94
-(There were 3 warnings)
+(There were 2 warnings)

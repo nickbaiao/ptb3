@@ -207,13 +207,27 @@ Fachbereich Duales Studium\\ [0.4cm]
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 \vspace{0.6cm}
 \begin{tabular}{p{4cm} p{11.35cm}}   
+    \textbf{\normalsize BK:} & \normalsize Voraussichtlich berechnete Kosten bei Projektende \\[0.5cm]
+    \hline
     \textbf{\normalsize BWB:} & \normalsize Berliner Wasserbetriebe \\[0.5cm]
     \hline
     \textbf{\normalsize DIN:} & \normalsize Deutsches Institut für Normung \\[0.5cm]
     \hline
+    \textbf{\normalsize EVA:} & \normalsize Earned-Value-Analyse \\[0.5cm]
+    \hline
+    \textbf{\normalsize IKAA:} & \normalsize Ist-Kosten der abgeschlossenen Arbeit \\[0.5cm]
+    \hline
     \textbf{\normalsize IT-Z/P:} & \normalsize IT-Zentrale Aufgaben - Projekte \\[0.5cm]
     \hline
+    \textbf{\normalsize KA:} & \normalsize Kostenabweichung \\[0.5cm]
+    \hline
+    \textbf{\normalsize KLI:} & \normalsize Kostenleistungsindex \\[0.5cm]
+    \hline
+    \textbf{\normalsize PK:} & \normalsize Plan-Kosten \\[0.5cm]
+    \hline
     \textbf{\normalsize SAP:} & \normalsize Systeme, Anwendungen und Produkte in der Datenverarbeitung \\[0.5cm]
+    \hline
+    \textbf{\normalsize SKAA:} & \normalsize Soll-Kosten der abgeschlossenen Arbeit (Earned Value) \\[0.5cm]
  \end{tabular}
 
 % --- Seitenzahlen-Formatierung 2/3: Wechsel auf normale (arabische) Zahlen ---
@@ -230,7 +244,7 @@ Die fortschreitende Digitalisierung verändert die Art und Weise, wie Unternehme
 
 IT-Einführungsprojekte gelten als anspruchsvoll und ressourcenintensiv; ein erheblicher Anteil dieser Vorhaben verfehlt die ursprünglich gesetzten Ziele hinsichtlich Zeit, Budget oder Qualität. Eine wesentliche Ursache liegt darin, dass sich die Anforderungen an das System im Projektverlauf häufig verändern. Um auf solche Änderungen flexibel reagieren zu können, gewinnen agile und iterative Vorgehensweisen gegenüber rein klassischen, plangetriebenen Ansätzen an Bedeutung.
 
-Hieraus ergibt sich ein Spannungsfeld für das Projektcontrolling: Das klassische Controlling steuert ein Projekt über fest definierte Zeit-, Budget- und Meilensteinpläne und orientiert sich am sogenannten magischen Dreieck aus Zeit, Kosten und Leistungsumfang. In einem agilen Umfeld, in dem sich der Leistungsumfang laufend weiterentwickelt, lassen sich diese Instrumente jedoch nicht ohne Weiteres anwenden. Es stellt sich daher die Frage, wie ein Projektcontrolling gestaltet sein muss, das einerseits die notwendige Transparenz über Fortschritt, Kosten und Risiken sicherstellt und andererseits der Dynamik agiler IT-Einführungsprojekte gerecht wird.
+Hieraus ergibt sich ein Spannungsfeld für das Projektcontrolling. Je nachdem, ob ein Projekt klassisch oder agil gesteuert wird, kommen unterschiedliche Controlling-Methoden und -Instrumente zum Einsatz, die sich nicht ohne Weiteres auf das jeweils andere Vorgehen übertragen lassen. Es stellt sich daher die Frage, wie ein Projektcontrolling gestaltet sein muss, das einerseits die notwendige Transparenz über Fortschritt, Kosten und Risiken sicherstellt und andererseits der Eigenart agiler IT-Einführungsprojekte gerecht wird.
 
 Die praktische Relevanz zeigt sich am Beispiel der Berliner Wasserbetriebe, die ihr abgekündigtes Lernmanagementsystem durch das cloudbasierte Modul SAP SuccessFactors Learning ablösen. Da über dieses System unter anderem gesetzlich vorgeschriebene Pflicht- und Sicherheitsschulungen revisionssicher verwaltet werden müssen und zahlreiche Bereiche, Standorte und Personengruppen betroffen sind, ist eine verlässliche Steuerung des Einführungsprojektes von hoher Bedeutung. Das Projekt bietet damit ein geeignetes Praxisbeispiel, um die Konzeption und Umsetzung eines Projektcontrollings bei einer IT-Systemeinführung zu untersuchen.
 
@@ -248,33 +262,33 @@ Nach der Einleitung stellt Kapitel 2 die Grundlagen des Projektcontrollings dar,
 
 \section{Theoretische Grundlagen des Projektscontrollings}
 
-\subsection{Begriff und Ziele des Projektsmanagements}
-Ein Projekt ist nach DIN 69901 „ein Vorhaben, das im Wesentlichen durch die Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist",\footnote{\cite{Feidler_ControllingVonProjekten}, S.~2.} also keine Routineaufgabe, sondern zeitlich begrenzt, mit beschränkten Ressourcen und festgelegtem Ziel.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~2-3.} Das Projektmanagement umfasst die Führungsaufgaben für Initiierung, Definition, Planung, Steuerung und Abschluss von Projekten. Seine Ziele werden im „magischen Dreieck" aus Sachzielen (Leistung/Qualität), Terminzielen und Kostenzielen zusammengefasst, die sich gegenseitig beeinflussen.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~5-6.}
+\subsection{Projektmanagement und Projektcontrolling: Begriffe und Zusammenhänge}
+Ein Projekt ist nach DIN 69901 \enquote{ein Vorhaben, das im Wesentlichen durch die Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist},\footnote{\cite{Feidler_ControllingVonProjekten}, S.~2.} also keine Routineaufgabe, sondern zeitlich begrenzt, mit beschränkten Ressourcen und festgelegtem Ziel.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~2-3.} Das Projektmanagement umfasst die Führungsaufgaben für Initiierung, Definition, Planung, Steuerung und Abschluss von Projekten. Seine Ziele werden im \enquote{magischen Dreieck} aus Sachzielen (Leistung/Qualität), Terminzielen und Kostenzielen zusammengefasst, die sich gegenseitig beeinflussen.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~5-6.}
 
-Grundsätzlich lassen sich zwei Arten des Projektmanagements unterscheiden: Das klassische (traditionelle) Projektmanagement zerlegt ein Projekt in Projektphasen, definiert zu Meilensteine (Etappenziele) und arbeitet dann Phase für Phase ab; die Projektziele werden zu Beginn festgelegt, danach wird geplant, umgesetzt und am Ende das fertige Produkt dem Kunden übergeben. Das agile Projektmanagement durchläuft das Projekt eine Vielzahl kleiner, sich wiederholender Schritte („Iterationen"), an deren Ende jeweils ein weiterentwickeltes Zwischenergebnis steht, zu dem der Kunde ein Feedback abgibt, bevor die nächste Iteration beginnt. Auf diesen beiden Vorgehensweisen bauen das klassische Projektcontrolling und das Controlling in agilen Projekten auf.\footnote{Vgl. \cite{Beiderwieden_ProjektmanagementIT}, S.~11.}
+Grundsätzlich lassen sich zwei Arten des Projektmanagements unterscheiden: Das klassische (traditionelle) Projektmanagement zerlegt ein Projekt in Projektphasen, definiert zu Meilensteine (Etappenziele) und arbeitet dann Phase für Phase ab; die Projektziele werden zu Beginn festgelegt, danach wird geplant, umgesetzt und am Ende das fertige Produkt dem Kunden übergeben. Das agile Projektmanagement durchläuft das Projekt eine Vielzahl kleiner, sich wiederholender Schritte (\enquote{Iterationen}), an deren Ende jeweils ein weiterentwickeltes Zwischenergebnis steht, zu dem der Kunde ein Feedback abgibt, bevor die nächste Iteration beginnt. Auf diesen beiden Vorgehensweisen bauen das klassische Projektcontrolling und das Controlling in agilen Projekten auf.\footnote{Vgl. \cite{Beiderwieden_ProjektmanagementIT}, S.~11.}
+
+Das Controlling unterstützt die Unternehmensführung bei Planung und Kontrolle und versorgt das Management mit entscheidungsrelevanten Informationen.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~8.} Darauf aufbauend beschreibt die DIN 69901 das Projektcontrolling als Regelkreis zur \enquote{Sicherung des Erreichens der Projektziele durch: Soll-Ist-Vergleich, Feststellung der Abweichungen, Bewerten der Konsequenzen und Vorschlagen von Korrekturmaßnahmen, Mitwirkung bei der Maßnahmenplanung und Kontrolle der Durchführung}.\footnote{\cite{Feidler_ControllingVonProjekten}, S.~8} Sein zentrale Ziel besteht somit darin, das Erreichen der Projektziele abzusichern, nicht beschränkt auf Kosten, sondern mit umfassendem Servicecharakter.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~10.} Damit unterstützt es das Projektmanagement bei der Abstimmung der strategischen und operativen Projektmanagementaufgaben, insbesondere bei der Projektplanung und -kontrolle, und sichert dessen Rationalität.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~11.} Die Verantwortung ist klar verteilt: Der Projektleiter verantwortet das Ergebnis, Leistung und Termine, der Projektcontroller vor allem die Transparenz der Daten.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~15.}
 
 \subsection{Controlling in klassischen Projekten}
-Das Controlling unterstützt die Unternehmensführung bei Planung und Kontrolle und versorgt das Management mit entscheidungsrelevanten Informationen.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~8.} Darauf aufbauend beschreibt die DIN 69901 das Projektcontrolling als Regelkreis zur „Sicherung des Erreichens der Projektziele durch: Soll-Ist-Vergleich, Feststellung der Abweichungen, Bewerten der Konsequenzen und Vorschlagen von Korrekturmaßnahmen, Mitwirkung bei der Maßnahmenplanung und Kontrolle der Durchführung".\footnote{\cite{Feidler_ControllingVonProjekten}, S.~8} Sein zentrale Ziel besteht somit darin, das Erreichen der Projektziele abzusichern, nicht beschränkt auf Kosten, sondern mit umfassendem Servicecharakter.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~10.} Damit unterstützt es das Projektmanagement bei der Abstimmung der strategischen und operativen Projektmanagementaufgaben, insbesondere bei der Projektplanung und -kontrolle, und sichert dessen Rationalität.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~11.} Die Verantwortung ist klar verteilt: Der Projektleiter verantwortet das Ergebnis, Leistung und Termine, der Projektcontroller vor allem die Transparenz der Daten.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S.~15.}
 
 Bei klassisch (plangetrieben) abgewickelten Projekten steht die Einhaltung von Zeit- und Kostenvorgaben im Vordergrund, da Zeitverzögerungen in einem Projektabschnitt häufig auf nachfolgende Arbeitsschritte durchschlagen und meist höhere Kosten verursachen.\footnote{Vgl. \cite{Nobach_Projektcontrolling}, S.61.} Zur laufenden Steuerung nachfolgend die Meilenstein-Trendanalyse für das Termin- und Kostencontrolling sowie die Risikomatrix für das Risikocontrolling.
 
 \subsubsection{Termin- und Kostencontrolling}
-Für ein zeitliches Kontrollsystem wird das gesamte Projekt in kleinere, möglichst gleich große Zeitabschnitte eingeteilt von höhestens etwas vier Wochen unterteilt, deren Abschluss jeweils mit einem Meilensteinen - einem überprüfbaren, vordefinierten Ergebnis mit festem Termin und definierten Kosten - markiert wird.\footnote{Vgl. \cite{Nobach_Projektcontrolling}, S~62.}
-
+Für ein zeitliches Kontrollsystem wird das gesamte Projekt in kleinere, möglichst gleich große Zeitabschnitte eingeteilt, deren Abschluss jeweils mit einem Meilensteinen - einem überprüfbaren, vordefinierten Ergebnis mit festem Termin und definierten Kosten - markiert wird. Diese Intervalle sollten bereits in der Planungsphase zu Projektbeginn bewusst gewählt und können von wichtigen Entscheidungsterminen oder kritischen Punkten im Projekt abgeleitet werden; auch Teilprojekte oder in sich abgeschlossene Tätigkeiten eignen sich hierfür als Orientierung. Dabei lassen sich technische Meilensteine, welche die Logik der Projektabwicklung erzwingen, von organisatorischen Meilensteinen unterscheiden, zu denen anhand erreichter Reifegrade Entscheidungen gefällt werden; Meilensteine ermöglichen so eine logische Struktur des Ablaufs, schrittweise Entscheidungen, verbindliche Ergebnisse sowie einen jederzeit überprüfbaren Projektstatus. Sie sollten insbesondere dort gesetzt werden, wo ein neuer logischer Abschnitt beginnt, ein Verantwortungswechsel stattfindet oder eine fachliche, planerische bzw. Go/No-Go-Entscheidung ansteht, wobei der Abstand zwischen zwei Meilensteinen in der Regel drei Monate nicht überschreiten sollte.\footnote{Vgl. [NZH24], S.\,62.} 
 Zur Überwachung der Meilensteinerreichung eignet sich vor allem die Meilenstein-Trendanalyse, da sie den Projektfortschritt im Zeitablauf nachhält und – anders als ein einfaches Balkendiagramm – frühzeitig aufzeigt, ob sich Zeitverzögerungen anbahnen.\footnote{Vgl. \cite{Nobach_Projektcontrolling}, S.62.} Im Meilenstein-Trenddiagramm zeigt die horizontale Achse den Berichtszeitpunkt und die vertikale den erwarteten Fertigstellungstermin des Meilensteins; durch die symmetrische Darstellung entsteht eine Verbindungslinie im 45°-Winkel.\footnote{Vgl. \cite{Nobach_Projektcontrolling}, S~63-64.}
-Der Kurvenverlauf lässt sich wie folgt interpretieren:
+Der Kurvenverlauf lässt sich wie folgt interpretieren (siehe Anhang 1):
 \begin{itemize}
     \setlength\itemsep{0.4\baselineskip}
     \setlength\parskip{0pt}
     \setlength\parsep{0pt}
     \item \textbf{Auswärtsbewegung} (oberhalb der Ursprungslinie): terminliche Verzögerung, der geplante Endtermin ist voraussichtlich nicht einzuhalten (terminkritisch).
     \item \textbf{Abwärtsbewegung:} der Meilenstein wird voraussuchtlich vor dem geplanten Termin erreicht.
-    \item \textbf{horizontale Linie:} der ursprünglich geplante Fertigstellungstermin wurde in jedem bisherigen Berichtszeitpunkt bestätigt.\footnote{Vgl. \hyperref[sec:Anhang1]{Anhang 1}}
+    \item \textbf{horizontale Linie:} der ursprünglich geplante Fertigstellungstermin wurde in jedem bisherigen Berichtszeitpunkt bestätigt.
 \end{itemize}
-Dieselbe Grundmethodik lässt sich über Kosten-Trenddiagramme auf die Entwicklung der prognostizierten Gesamtkosten übertragen. Da beide Analysen durch Verdichtung nur Indizien liefern, sollten sie mit einem Frühwarnsystem kombiert und den Fertigstellungsgrad ergänzt werden.\footnote{Vgl. \cite{Nobach_Projektcontrolling}, S~65.}
+Ein kontinuierlich steigender, fallender oder stark schwankender Kurvenverlauf über mehrere Berichtszeitpunkte hinweg deutet dabei darauf hin, dass die ursprüngliche Projektplanung zu optimistisch war, zu viele Zeitpuffer enthielt oder mit einer hohen Unsicherheit behaftet ist.\footnote{Vgl. [NZH24], S.\,63.} Dieselbe Grundmethodik lässt sich über Kosten-Trenddiagramme auf die Entwicklung der prognostizierten Gesamtkosten übertragen. Da beide Analysen durch Verdichtung nur Indizien liefern, sollten sie mit einem Frühwarnsystem kombiert und den Fertigstellungsgrad ergänzt werden.\footnote{Vgl. \cite{Nobach_Projektcontrolling}, S~65.}
 
 \subsubsection{Leistungs- und Qualitätscontrolling}
-Eine zentrale Schwierigkeit liegt in der zuverlässigen Ermittlung des Leistungsfortschritts. Befragt man die verantwortlichen Mitarbeiter, besteht die Gefahr, dass der Fertigstellungsgrad zu hoch eingeschätzt wird („Fast-schon-fertig-Syndrom"): Bis kurz vor Projektende wird angenommen, die geplante Leistung noch erfüllen zu können, obwohl bereits eine nicht mehr auszugleichende Planabweichung vorliegt. Verstärkt wird dies durch Qualitätsmängel, die oft erst spät entdeckt werden und Nacharbeiten auslösen; je geringer die Qualität und je später Mängel auffallen, desto größer wird die Lücke zwischen angenommenem und tatsächlichem Leistungsfortschritt.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S~133-134.}
+Eine zentrale Schwierigkeit liegt in der zuverlässigen Ermittlung des Leistungsfortschritts. Befragt man die verantwortlichen Mitarbeiter, besteht die Gefahr, dass der Fertigstellungsgrad zu hoch eingeschätzt wird (\enquote{Fast-schon-fertig-Syndrom}): Bis kurz vor Projektende wird angenommen, die geplante Leistung noch erfüllen zu können, obwohl bereits eine nicht mehr auszugleichende Planabweichung vorliegt. Verstärkt wird dies durch Qualitätsmängel, die oft erst spät entdeckt werden und Nacharbeiten auslösen; je geringer die Qualität und je später Mängel auffallen, desto größer wird die Lücke zwischen angenommenem und tatsächlichem Leistungsfortschritt.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S~133-134.}
 Zur objektiveren Bestimmung des Leistungsfortschritts stehen mehrere Methoden zur Verfügung.\footnote{Vgl. \cite{Feidler_ControllingVonProjekten}, S~136.}
 \begin{itemize}
     \setlength\itemsep{0.4\baselineskip}
@@ -289,11 +303,11 @@ Zur objektiveren Bestimmung des Leistungsfortschritts stehen mehrere Methoden zu
 Beim agilen Ansatz ist zu berücksichtigen, dass anders als beim klassischen (deterministischen) Termin- und Ressourcencontrolling kein Basisplan als Referenz zur Fortschrittskontrolle herangezogen werden kann, da aufgrund des iterativen Vorgehens jederzeit mit Anforderungsänderungen zu rechnen ist und ein ursprünglicher Basisplan somit zu jedem Zeitpunkt hinfällig wäre.\footnote{Vgl. \cite{Mayrhofer_HybridesProjektmanagement}, S.~114.} Das agile Controlling setzt deshalb an der Vorgehensweise von Scrum an: Scrum-Projekte bestehen aus einer Abfolge kurzer Iterationen, den Sprints (maximal 30 Tage), an deren Ende jeweils ein auslieferbares Produktinkrement steht; die Anforderungen werden als User Stories mit Story Points geschätzt.\footnote{Vgl. \cite{Beiderwieden_ProjektmanagementIT}, S.~114.} Aus diesen Größen leitet das Controlling seine Instrumente für Termine, Kosten und Qualität ab.
 
 \subsubsection{Termin- und Kostencontrolling}
-Das zentrale Instrument der Terminüberwachung im Scrum ist das Burndown-Chart. Dazu werden die noch verbleibenden Aufgaben bzw. offenen Story Points in regelmäßigen Abständen gezählt täglich im Daily Scrum oder jeweils zum Sprint-Ende und über den zeitlichen Verlauf (Sprint-Tage) abgetragen. Das Diagramm stellt zwei Linien gegenüber: den prognostizierten Idealverlauf der offenen Aufgaben, der gleichmäßig auf null zuläuft, und den tatsächlichen Verlauf. Aus der Lage der Ist-Linie zum Idealverlauf lässt sich der Terminstand ablesen: Liegt der tatsächliche Verlauf oberhalb des Idealverlaufs, wurden die Aufgaben langsamer als geplant abgearbeitet und es besteht ein Rückstand; liegt er unterhalb, wurden mehr Aufgaben als geplant erledigt und es besteht ein Vorsprung.\footnote{Vgl. \cite{Mayrhofer_HybridesProjektmanagement}, S.~115.}
+Das zentrale Instrument der Terminüberwachung im Scrum ist das Burndown-Chart, wie es beispielhaft in Anhang 3 dargestellt ist. Dazu werden die noch verbleibenden Aufgaben bzw. offenen Story Points in regelmäßigen Abständen gezählt täglich im Daily Scrum oder jeweils zum Sprint-Ende und über den zeitlichen Verlauf (Sprint-Tage) abgetragen. Das Diagramm stellt zwei Linien gegenüber: den prognostizierten Idealverlauf der offenen Aufgaben, der gleichmäßig auf null zuläuft, und den tatsächlichen Verlauf. Aus der Lage der Ist-Linie zum Idealverlauf lässt sich der Terminstand ablesen: Liegt der tatsächliche Verlauf oberhalb des Idealverlaufs, wurden die Aufgaben langsamer als geplant abgearbeitet und es besteht ein Rückstand; liegt er unterhalb, wurden mehr Aufgaben als geplant erledigt und es besteht ein Vorsprung.\footnote{Vgl. \cite{Mayrhofer_HybridesProjektmanagement}, S.~115.}
 
 Die Steigung der Kurve repräsentiert die relative Effizienz des Teams, die sogenannte Velocity. Ein flacherer Verlauf im Vergleich zum Idealverlauf zeigt eine niedrigere Velocity als geplant an, ein steilerer Verlauf eine höhere. Weicht die Velocity ab, kann situationsbedingt gegengesteuert werden etwa durch Anpassung des Sprint-Plans, durch Grooming (Überarbeitung) des Product Backlog oder durch Reduktion bzw. Erhöhung der pro Sprint geplanten Story Points. Dabei ist der Lerneffekt des Teams zu berücksichtigen, da eine anfangs niedrige Velocity in den ersten Sprints in den Folge-Sprints zunehmen kann. Analog lässt sich auf gleiche Weise ein Burnup-Chart einsetzen, das statt der verbleibenden die kumuliert erledigten Aufgaben abbildet.\footnote{Vgl. \hyperref[sec:Anhang3]{Anhang 3}}
 
-Für das Kostencontrolling agiler Projekte kann die Earned-Value-Analyse (EVA) eingesetzt werden.
+Für das Kostencontrolling agiler Projekte kann die Earned-Value-Analyse (EVA) eingesetzt werden, deren Aufbau Anhang 4 veranschaulicht.
 Bei ihrer Anwendung ist allerdings zu berücksichtigen, dass wegen möglicher Anforderungsänderungen im Projektverlauf anders als bei deterministischen Projekten größere Unsicherheiten in Bezug auf die Prognosen bestehen. Die Earned-Value-Analyse verbindet die Kostenbetrachtung mit dem tatsächlich erreichten Arbeitsfortschritt und stützt sich dabei im Wesentlichen auf drei Größen: die Ist-Kosten der abgeschlossenen Arbeit (IKAA), die Soll-Kosten der abgeschlossenen Arbeit bzw. den Earned Value (SKAA) sowie die Plan-Kosten (PK).\footnote{Vgl. \cite{Mayrhofer_HybridesProjektmanagement}, S.~124-125.}
 
 Aus dem Vergleich dieser Größen lassen sich Abweichungen und Prognosen ableiten, insbesondere die Kostenabweichung (KA) als Differenz zwischen Soll- und Ist-Kosten der abgeschlossenen Arbeit, die voraussichtlichenberechneten Kosten bei Projektende (BK) sowie ein Kostenleistungsindex (KLI) als Verhältnis von erbrachter Leistung zu den dafür angefallenen Ist-Kosten. Auf diese Weise wird sichtbar, ob und in welchem Umfang die Ist-Kosten die Soll-Kosten der abgeschlossenen Arbeit übersteigen, also eine Budgetüberschreitung vorliegt.\footnote{Vgl. \cite{Mayrhofer_HybridesProjektmanagement}, S.~124-125.} Da die Analyse den Fertigstellungsgrad einbezieht, verknüpft sie das Kostencontrolling unmittelbar mit dem tatsächlichen Leistungsfortschritt und liefert so eine belastbarere Aussage als eine reine Gegenüberstellung von Plan- und Ist-Kosten.\footnote{Vgl. \hyperref[sec:Anhang4]{Anhang 4}}
@@ -301,17 +315,17 @@ Aus dem Vergleich dieser Größen lassen sich Abweichungen und Prognosen ableite
 \subsubsection{Leistungs- und Qualitätscontrolling}
 Für das Qualitätscontrolling dient im agilen Vorgehen die Definition of Done als zentraler Maßstab. In ihr vereinbart das Scrum-Team vorab alle Qualitätsmerkmale, die erfüllt sein müssen, damit eine User Story als abgeschlossen gilt.\footnote{Vgl. \cite{Beiderwieden_ProjektmanagementIT}, S.~117.} Sie legt damit anhand konkreter, überprüfbarer Kriterien fest, wann eine Anforderung tatsächlich erfüllt ist, und schafft ein einheitliches Qualitätsverständnis im Team; zugleich stellt sie sicher, dass zum vereinbarten Termin (Timeboxing) die Aufgabe vollumfänglich, aber auch nicht über das Notwendige hinaus erledigt wird.\footnote{Vgl. \cite{Lang_Schops_Praxisleitfaden}, S.~90.}
 
-Die eigentliche Qualitätskontrolle erfolgt am Ende jedes Sprints im Sprint Review: Dort wird das entwickelte Sprintergebnis vorgeführt und daran gemessen, was laut Definition of Done als fertiggestellt gilt. Teilnehmer sind der Scrum Master, das Entwicklungsteam, der Product Owner und die eingeladenen Stakeholder, insbesondere der Kunde, der Rückmeldung zum Zwischenergebnis gibt.\footnote{Vgl. \cite{Beiderwieden_ProjektmanagementIT}, S.~117.} Für das Controlling ist dieser Maßstab entscheidend, weil eine Aufgabe erst dann als „fertig" in die Termin- und Kostenkennzahlen eingeht, wenn sie die vereinbarten Qualitätskriterien erfüllt. Dadurch wird verhindert, dass ein zu optimistisch gemeldeter Fertigstellungsgrad das Burndown-Chart oder die Earned-Value-Analyse verzerrt.
+Die eigentliche Qualitätskontrolle erfolgt am Ende jedes Sprints im Sprint Review: Dort wird das entwickelte Sprintergebnis vorgeführt und daran gemessen, was laut Definition of Done als fertiggestellt gilt. Teilnehmer sind der Scrum Master, das Entwicklungsteam, der Product Owner und die eingeladenen Stakeholder, insbesondere der Kunde, der Rückmeldung zum Zwischenergebnis gibt.\footnote{Vgl. \cite{Beiderwieden_ProjektmanagementIT}, S.~117.} Für das Controlling ist dieser Maßstab entscheidend, weil eine Aufgabe erst dann als \enquote{fertig} in die Termin- und Kostenkennzahlen eingeht, wenn sie die vereinbarten Qualitätskriterien erfüllt. Dadurch wird verhindert, dass ein zu optimistisch gemeldeter Fertigstellungsgrad das Burndown-Chart oder die Earned-Value-Analyse verzerrt.
 
 \subsection{Risikocontrolling}
-Ein weiteres zentrales Instrument des klassischen Projektcontrollings ist die Risikomatrix. Sie dient dazu, identifizierte Projektrisiken nach Eintrittswahrscheinlichkeit und Auswirkung einzustufen. Der zugehörige Risikofaktor ergibt sich aus der Eintrittswahrscheinlichkeit multipliziert mit der Auswirkung und kann Werte zwischen 0 (keine Auswirkung) und 1 (extreme Auswirkung) annehmen. Mithilfe eines Ampelsystems werden die Risiken anhand des Risikofaktors in drei Kategorien eingeteilt:\footnote{Vgl. \cite{Nobach_Projektcontrolling}, S.~88.}
+Ein zentrales Instrument des Projektcontrollings unabhängig vom gewählten Vorgehensmodell ist die Risikomatrix. Sie dient dazu, identifizierte Projektrisiken nach Eintrittswahrscheinlichkeit und Auswirkung einzustufen. Der zugehörige Risikofaktor ergibt sich aus der Eintrittswahrscheinlichkeit multipliziert mit der Auswirkung und kann Werte zwischen 0 (keine Auswirkung) und 1 (extreme Auswirkung) annehmen.\footnote{Vgl. \cite{Nobach_Projektcontrolling}, S.~88.} Mithilfe eines Ampelsystems werden die Risiken anhand des Risikofaktors in drei Kategorien eingeteilt (siehe Anhang 2):
 \begin{itemize}
     \setlength\itemsep{0.4\baselineskip}
     \setlength\parskip{0pt}
     \setlength\parsep{0pt}
     \item \textbf{grün (0–0,2):} kein bzw. minimales Risiko ohne wesentliche Auswirkungen; Gegenmaßnahmen sind nicht zwingend notwendig.
     \item \textbf{gelb (0,2–0,5):} mittleres Risiko; keine existenzbedrohende Gefährdung, es sollten aber Gegenmaßnahmen ergriffen werden.
-    \item \textbf{rot (0,5-1):} hohes Risiko, das bei Eintritt den gesamten Projekterfolg gefährden kann.\footnote{Vgl. \hyperref[sec:Anhang2]{Anhang 2}}
+    \item \textbf{rot (0,5-1):} hohes Risiko, das bei Eintritt den gesamten Projekterfolg gefährden kann.
 \end{itemize}
 Das Ampelsystem dient als visuelles Frühwarnsystem, das den aktuellen Risikostatus eines Projekts auf einen Blick verdeutlich. Durch die farbliche Kennzeichnung können Handlungsbedarf und Prioritäten schnell erkannt sowie Entscheidungen im Projektcontrolling und Reporting erleichtert werden.\footnote{Vgl. \cite{Factro_Ampelstatus}} Die wichtigsten (Top-)Risiken lassen sich zudem in einer Risk Map darstellen und regelmäßig im Projektlenkungsausschuss berichten.\footnote{Vgl. \cite{Nobach_Projektcontrolling}, S.~90.}
 
@@ -319,106 +333,117 @@ Das Ampelsystem dient als visuelles Frühwarnsystem, das den aktuellen Risikosta
 
 \subsection{Ausgangssituation bei den Berliner Wasserbetrieben}
 
-Ausgangspunkt des Projekts ist die Abkündigung der bisherigen Lösung IMC Learning Suite (intern AQUA.learn genannt) durch den Hersteller, sodass eine neue Software zwingend benötigt wird. Angestrebt wird eine cloudbasierte Standardanwendung, die sich in die bereits genutzte SuccessFactors-Landschaft (Recruiting sowie Performance \& Goals) einfügt und der strategischen IT-Vorgabe folgt, die Anzahl der eingesetzten Anwendungen zu reduzieren.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~1. und Frage~6.} Da über das System künftig unter anderem gesetzlich vorgeschriebene Pflicht- und Sicherheitsschulungen revisionssicher verwaltet werden müssen, ist eine verlässliche Steuerung des Einführungsprojekts von hoher Bedeutung.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~1 und Frage~9.}
+Ausgangspunkt des Projekts ist die Abkündigung der bisherigen Lösung IMC Learning Suite (intern AQUA.learn genannt) durch den Hersteller, sodass eine cloudbasierte Standardanwendung benötigt wird, die sich in die bereits genutzte SuccessFactors-Landschaft (Recruiting sowie Performance \& Goals) einfügt und der strategischen IT-Vorgabe folgt, die Anzahl der eingesetzten Anwendungen zu reduzieren.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~1 und Frage~6.} Da über das System künftig unter anderem gesetzlich vorgeschriebene Pflicht- und Sicherheitsschulungen revisionssicher verwaltet werden müssen, ist eine verlässliche Steuerung des Einführungsprojekts von hoher Bedeutung.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~1 und Frage~9.}
 
 \subsection{Projektphasen und hybrides Vorgehen}
 
-Voraussetzung für den Projektstart bei den BWB ist die Freigabe eines Projektauftrags, in dem Ziele und Anforderungen durch den Auftraggeber -- das Personalmanagement (PM) bzw. die Personalentwicklung -- schriftlich dokumentiert werden.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~17.}
-
-Der weitere Ablauf folgt einem hybriden Vorgehen aus klassischem, phasenorientiertem Projektmanagement mit definierten Freigabepunkten (Projektauftrag, Umsetzungskonzept, Zustimmung zur Produktivsetzung, Projektabschluss) und agiler, iterativer Realisierung in mehreren Iterationen mit jeweils abschließendem Test- und Freigabezyklus (Kick-off, Iterationen, User Acceptance Test). Der vollständige Phasen- und Meilensteinplan ist dieser Arbeit als Anhang beigefügt.\footnote{Vgl. \hyperref[sec:Anhang7]{Anhang 7}.} Zum Zeitpunkt der Erstellung dieser Arbeit ist die Projektplanung bereits abgeschlossen: Der Projektauftrag ist freigegeben, die Anforderungen sind erhoben und dokumentiert, das Umsetzungskonzept ist freigegeben, und auch die externe Implementierungsunterstützung sowie die benötigten Lizenzen sind beauftragt bzw. beschafft. Das Projekt befindet sich damit am Übergang zur Herstellungsphase; der Kick-off sowie die anschließenden Iterationen stehen zum Berichtsstand dieser Arbeit noch aus.\footnote{Vgl. \hyperref[sec:Anhang7]{Anhang 7}.}
+Voraussetzung für den Projektstart bei den BWB ist die Freigabe eines Projektauftrags, in dem Ziele und Anforderungen durch den Auftraggeber -- das Personalmanagement bzw. die Personalentwicklung -- schriftlich dokumentiert werden.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~17.}
+Der weitere Ablauf folgt einem hybriden Vorgehen aus klassischem, phasenorientiertem Projektmanagement mit definierten Freigabepunkten (Projektauftrag, Umsetzungskonzept, Zustimmung zur Produktivsetzung, Projektabschluss) und agiler, iterativer Realisierung in mehreren Iterationen mit jeweils abschließendem Test- und Freigabezyklus (Kick-off, Iterationen, User Acceptance Test). Der vollständige Phasen- und Meilensteinplan ist in Anhang 7 dargestellt. Zum Zeitpunkt der Erstellung dieser Arbeit ist die Projektplanung bereits abgeschlossen.
 
 \subsection{Projektziele und Anforderungen}
 
 Grundlage der folgenden Darstellung sind zwei leitfadengestützte Interviews mit der Projektleitung und dem Auftraggeber. Im Vordergrund steht laut Auftraggeber die vollständige Überführung der bisherigen Lernlandschaft in eine zukunftsfähige, cloudbasierte Standardsoftware sowie die revisionssichere Abbildung bestehender Compliance- und Nachweispflichten.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~1.} Als Erfolgskriterium gilt die Erfüllung sämtlicher Anforderungen innerhalb des geplanten Zeit- und Budgetrahmens bei angemessener Qualität, ergänzt um eine lückenlose Dokumentation in der Projektakte sowie ein regelmäßiges Berichtswesen an das Management.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~2.}
 
 Hinsichtlich des Projektumfangs sollen sämtliche Mitarbeitende der BWB sowie externe Tutoren in der Rolle des Trainers das System nutzen; betroffen sind ausschließlich Standorte in Deutschland, wobei die Einbindung von Tochtergesellschaften und Partnerunternehmen im Projekt noch zu klären ist.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~3 und Frage~4.} Unterstützt werden sollen E-Learning, Präsenzschulungen, virtuelle Trainings, Webinare sowie Zertifizierungen; Onboarding-Schulungen sind perspektivisch vorgesehen.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~5.}
-
-Aus dem Bereich Compliance ergeben sich konkrete Anforderungen an Wiederholungsturnus, Nachweisführung und Eskalation: Pflichtschulungen wie die jährliche Unterweisung elektrisch unterwiesener Personen oder der alle zwei Jahre zu erneuernde Schweißerschein müssen mit Zertifikat, Erinnerungslogik und revisionssicherer Archivierung abgebildet werden.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~8 und Frage~9.} Aus Sicht des Auftraggebers kommen weitere, detaillierte Anforderungen hinzu, insbesondere ein rollenbasiertes Berechtigungskonzept mit gestuften Administratorrollen, differenziertes Reporting zu offenen Pflichtschulungen und Compliance-Status je Kurs, ein automatisierter, kursbezogener Turnus für Zertifikatsgültigkeiten sowie eine zentrale Freigabeinstanz für unternehmensweite Pflichtschulungen, um deren unkontrollierte dezentrale Zuweisung zu vermeiden.\footnote{Vgl. \hyperref[sec:Anhang6]{Anhang 6}, Frage~1, Frage~3, Frage~6, Frage~9 und Frage~14.} Ergänzend besteht der Wunsch, Lerninhalte über das bestehende Kompetenzmodell (KODE) mit individuellen Entwicklungsplänen und dem Modul Performance \& Goals zu verknüpfen.\footnote{Vgl. \hyperref[sec:Anhang6]{Anhang 6}, Frage~16 bis~18.}
+Aus dem Bereich Compliance ergeben sich konkrete Anforderungen an Wiederholungsturnus, Nachweisführung und Eskalation: Pflichtschulungen wie die jährliche Unterweisung elektrisch unterwiesener Personen oder der alle zwei Jahre zu erneuernde Schweißerschein müssen mit Zertifikat, Erinnerungslogik und revisionssicherer Archivierung abgebildet werden.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~8 und Frage~9.} Aus Sicht des Auftraggebers kommen weitere, detaillierte Anforderungen hinzu, insbesondere ein rollenbasiertes Berechtigungskonzept mit gestuften Administratorrollen, differenziertes Reporting zu offenen Pflichtschulungen und Compliance-Status je Kurs, ein automatisierter, kursbezogener Turnus für Zertifikatsgültigkeiten sowie eine zentrale Freigabeinstanz für unternehmensweite Pflichtschulungen, um deren unkontrollierte dezentrale Zuweisung zu vermeiden.\footnote{Vgl. \hyperref[sec:Anhang6]{Anhang 6}, Frage~3, Frage~6, Frage~9.} Ergänzend besteht der Wunsch, Lerninhalte über das bestehende Kompetenzmodell (KODE) mit individuellen Entwicklungsplänen und dem Modul Performance \& Goals zu verknüpfen.\footnote{Vgl. \hyperref[sec:Anhang6]{Anhang 6}, Frage~16 bis~18.}
 
 %Als Projektbeteiligte lassen sich unterscheiden: Auftraggeber ist das Personalmanagement, Entscheidungen trifft die Projektleitung in Abstimmung mit Personalmanagement und Leitung IT, das Budget wird von beiden gemeinsam freigegeben.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~17.} Das Projektteam besteht aus Projektleitung, HR-Vertretung, Learning-Spezialisten und IT-Vertretung; Datenschutz und Personalrat werden bei Bedarf einbezogen.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~18.} Als externer Implementierungspartner ist die Firma Sopra Steria eingebunden, die gemeinsam mit der BWB-IT die Systemkonfiguration übernimmt.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~19.}
 
-\subsection{Projektcontrolling Vorgehen} 
-Bei den BWB wird aktuell der Projektstand in monatlichen Projektstatus-Meetings mit den jeweiligen IT-Projektleitungen erhoben und in einer Excel-Tabelle dokumentiert, die als Reifegradmodell zur Blue-Ant-Pflege ausgestaltet ist.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~2.} Für jedes betreute Projekt wird darin anhand mehrerer Spalten geprüft, ob das Projektportfolio und das Projektstammblatt gepflegt sind, ob Ressourcen zugeordnet wurden, ob ein grober Projektplan sowie die einzelnen Aktivitäten im Tool erfasst sind, ob die hinterlegten Termindaten schlüssig sind (u.\,a. keine überschrittenen Aktivitäten), ob Zeiten gebucht wurden und ob der monatliche Statusbericht verschickt wurde.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~2.} In einer abschließenden Bemerkungsspalte werden zusätzlich der inhaltliche Projektstand sowie etwaige Eskalationsthemen festgehalten, farblich unterschieden in Grün für erledigte Punkte bzw. allgemeine Informationen und Rot für offene Eskalationsthemen.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~2.} Die Tabelle bewertet damit primär die formale Pflegequalität des Projektplanungstools Blue Ant und nicht unmittelbar den inhaltlichen Projektfortschritt selbst, da Blue Ant aufgrund bestehender Einschränkungen noch kein vollständiges Reporting ermöglicht und deshalb parallel weitergeführt wird.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~2.}
+\subsection{Vorgehen des Projektcontrollings} 
+Bevor im folgenden Kapitel die konkrete Anwendung der Controlling-Instrumente auf das SuccessFactors-Learning-Projekt untersucht wird, wird an dieser Stelle zunächst dargestellt, wie Projektcontrolling bei den BWB derzeit organisationsweit für IT-Projekte gehandhabt wird. Aktuell wird der Projektstand in monatlichen Projektstatus-Meetings mit den jeweiligen IT-Projektleitungen erhoben und in einer Excel-Tabelle dokumentiert, die als Reifegradmodell zur Blue-Ant-Pflege ausgestaltet ist.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~2.} Für jedes betreute Projekt wird darin anhand von 13 Kriterien geprüft, ob u.\,a. Portfolio und Stammblatt gepflegt, Ressourcen sowie ein grober Projektplan mit Aktivitäten erfasst, die Termindaten schlüssig, Zeiten gebucht und der monatliche Statusbericht verschickt wurden; je Kriterium wird dabei nicht nur zwischen \enquote{ja} und \enquote{nein}, sondern auch feiner differenzierten Zwischenständen wie \enquote{teilweise} oder \enquote{in Arbeit} unterschieden, aus denen sich automatisiert ein prozentualer Reifegrad je Projekt ergibt (7,7~\% je \enquote{ja}).\footnote{Ebenda.} Zur Veranschaulichung ist eine solche Projektcontrolling-Tabelle der BWB im Original-Aufbau, jedoch mit anonymisierten Projektbezeichnungen und Inhalten, als Anhang beigefügt.\footnote{Vgl. \hyperref[sec:Anhang15]{Anhang 15}.}
 
-Vor Einführung von Blue Ant wurden Kosten- und Termintreue in getrennten Excel-Dateien geführt; für die Kostentreue wurden je Projekt Angebotswert, Ist-Kosten und voraussichtliche Ist-Kosten erfasst, wodurch sich Unter- oder Überschreitungen gegenüber dem Planwert ablesen ließen. Diese Vorgehensweise wird aktuell nicht mehr angewendet.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~5.} Ein eigenständiges Instrument zur Qualitätskontrolle existiert ebenfalls nicht; die Einschätzung der Qualität ergibt sich aus der laufenden Begleitung der Projekte durch das IT-Projektbüro ab der ersten Projektphase sowie aus den monatlichen Projektstatus-Meetings.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~6.} Verantwortlich für das Projektcontrolling ist damit grundsätzlich das IT-Projektbüro gemeinsam mit der IT-Leitung; aufgrund des Wegfalls einer Kollegin und der seither von einer Person allein zu betreuenden Vielzahl an IT-Projekten konnte seit rund anderthalb Jahren jedoch kein durchgängig kennzahlenbasiertes Projektcontrolling mehr aufgebaut bzw. weitergeführt werden.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~1 und Frage~7.} Ziel des IT-Projektbüros ist es daher, die bestehenden Projektcontrolling-Methoden mittelfristig weiterzuentwickeln und wieder zu einer rechnerisch ermittelten statt geschätzten Termin- und Kostentreue zurückzukehren, sobald die personellen und technischen Rahmenbedingungen dies zulassen.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~8.}
+In einer abschließenden Bemerkungsspalte werden zusätzlich der inhaltliche Projektstand sowie etwaige Eskalationsthemen festgehalten, farblich unterschieden in Grün für erledigte Punkte bzw. allgemeine Informationen und Rot für offene Eskalationsthemen.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~2.} Von dieser formalen Pflegequalität ist die eigentliche Termin- und Kostentreue zu unterscheiden: Diese wird nicht rechnerisch aus Plan-Ist-Daten in Blue Ant abgeleitet, sondern am Monatsende gemeinsam von IT-Projektbüro und ihrem Vorgesetzten nach Augenmaß geschätzt und einem dreistufigen Ampelschema zugeordnet (grün 80–100~\%, gelb 70–79~\%, rot unter 70~\%), bevor sie per E-Mail an die Bereichsleitung IT gemeldet wird.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~3 und Frage~4.} Die Tabelle bildet damit primär die formale Pflegequalität von Blue Ant ab und nicht unmittelbar den inhaltlichen Projektfortschritt, da Blue Ant aufgrund bestehender Einschränkungen noch kein vollständiges Reporting ermöglicht und deshalb parallel weitergeführt wird.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~2.}
+
+Vor Einführung von Blue Ant wurden Kosten- und Termintreue in getrennten Excel-Dateien geführt; für die Kostentreue wurden je Projekt Angebotswert, Ist-Kosten und voraussichtliche Ist-Kosten erfasst, wodurch sich Unter- oder Überschreitungen gegenüber dem Planwert ablesen ließen. Diese Vorgehensweise wird aktuell nicht mehr angewendet.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~5.} Ein eigenständiges Instrument zur Qualitätskontrolle existiert ebenfalls nicht; die Einschätzung der Qualität ergibt sich aus der laufenden Begleitung der Projekte durch das IT-Projektbüro ab der ersten Projektphase sowie aus den monatlichen Projektstatus-Meetings.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~6.} Verantwortlich für das Projektcontrolling ist damit grundsätzlich das IT-Projektbüro gemeinsam mit der IT-Leitung; da hierfür seit rund anderthalb Jahren nur noch eine Person zuständig ist, konnte in dieser Zeit kein durchgängig kennzahlenbasiertes Projektcontrolling mehr aufgebaut bzw. weitergeführt werden.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~1 und Frage~7.} Ziel des IT-Projektbüros ist es daher, die bestehenden Projektcontrolling-Methoden mittelfristig weiterzuentwickeln und wieder zu einer rechnerisch ermittelten statt geschätzten Termin- und Kostentreue zurückzukehren, sobald die personellen und technischen Rahmenbedingungen dies zulassen.\footnote{Vgl. \hyperref[sec:Anhang14]{Anhang 14}, Frage~8.}
 
 \section{Projektcontrolling im Praxisbeispiel}
 
 \subsection{Termincontrolling}
-%Der Fokus dieser Arbeit liegt entsprechend auf dem Abschnitt von der Projektvorbereitung bis zur Projektplanung.  
-Die Terminsteuerung des Projekts wird anhand eines Meilensteinplans mit 22 Meilensteinen über die fünf Projektphasen abgebildet, in dem für jeden Meilenstein Soll-, Ist- bzw. Prognose-Termin sowie der daraus resultierende Verzug in Tagen erfasst und mittels Ampelsystem bewertet werden.\footnote{Vgl. \hyperref[sec:Anhang8]{Anhang 8}.} Dieses Instrument wurde bewusst als vereinfachte, punktuelle Variante der in Kapitel~2.2.1 dargestellten Meilenstein-Trendanalyse gewählt: Da bei den BWB der Projektfortschritt bislang nur anhand des allgemeinen Projektstands verfolgt wird\footnote{Vgl. Kapitel~4.} und angesichts der Vielzahl parallel laufender Projekte keine Kapazität für ein aufwendiges, mehrere Berichtszeitpunkte umfassendes Trenddiagramm je Projekt besteht, bietet ein einzelner Soll-Ist-Prognose-Vergleich mit Ampelbewertung eine Methode, die sich mit vertretbarem Aufwand in den bereits bestehenden monatlichen Statusbericht integrieren lässt\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~2.} und dennoch, anders als eine reine verbale Fortschrittsbeschreibung, eine nachvollziehbare, vergleichbare Aussage über die Termintreue jedes einzelnen Meilensteins liefert. Zugleich bildet der gewählte Meilensteinplan explizit sowohl die klassischen Phasen-Freigabepunkte als auch die einzelnen Iterationen der Herstellungsphase als eigene Meilensteine ab und wird damit dem hybriden Vorgehen des Projekts gerecht.\footnote{Vgl. Kapitel~3.2.} Die zugrunde liegenden Soll-Termine stammen unmittelbar aus dem freigegebenen Projektauftrags- und Planungsdokument des Projekts.\footnote{Vgl. \hyperref[sec:Anhang8]{Anhang 8}; vgl. auch \hyperref[sec:Anhang5]{Anhang 5}, Frage~2.}
+Die Terminsteuerung des Projekts wird anhand eines Meilensteinplans mit 22 Meilensteinen über die fünf Projektphasen abgebildet, in dem für jeden Meilenstein Soll-, Ist- bzw. Prognose-Termin sowie der daraus resultierende Verzug in Tagen erfasst und mittels Ampelsystem bewertet werden.\footnote{Vgl. \hyperref[sec:Anhang8]{Anhang 8}.} Dieses Instrument wurde bewusst als vereinfachte, punktuelle Variante der in Kapitel~2.2.1 dargestellten Meilenstein-Trendanalyse gewählt: Da bei den BWB der Projektfortschritt bislang nur anhand des allgemeinen Projektstands verfolgt wird und angesichts der Vielzahl parallel laufender Projekte keine Kapazität für ein aufwendiges, mehrere Berichtszeitpunkte umfassendes Trenddiagramm je Projekt besteht, bietet ein einzelner Soll-Ist-Prognose-Vergleich mit Ampelbewertung eine Methode, die sich mit vertretbarem Aufwand in den bereits bestehenden monatlichen Statusbericht integrieren lässt und dennoch, anders als eine reine verbale Fortschrittsbeschreibung, eine nachvollziehbare, vergleichbare Aussage über die Termintreue jedes einzelnen Meilensteins liefert. Zugleich bildet der gewählte Meilensteinplan explizit sowohl die klassischen Phasen-Freigabepunkte als auch die einzelnen Iterationen der Herstellungsphase als eigene Meilensteine ab und wird damit dem hybriden Vorgehen des Projekts gerecht. Die zugrunde liegenden Soll-Termine stammen unmittelbar aus dem freigegebenen Projektauftrags- und Planungsdokument des Projekts.
 
-Zum Berichtsstand vom 16.08.2026 zeigt sich für sämtliche 22 Meilensteine ein Verzug gegenüber dem Ursprungsplan; die Ampel steht projektweit auf Rot. Der Verzug reicht von 58 Tagen bei der Zustimmung zur Produktivsetzung bis zu 91 Tagen bei der Beauftragung der externen Implementierungsunterstützung.\footnote{Vgl. \hyperref[sec:Anhang8]{Anhang 8}.}
+Zum Berichtsstand vom 16.08.2026 zeigt sich für sämtliche 22 Meilensteine ein Verzug gegenüber dem Ursprungsplan; die Ampel steht projektweit auf Rot. Der Verzug reicht von 58 Tagen bei der Zustimmung zur Produktivsetzung bis zu 91 Tagen bei der Beauftragung der externen Implementierungsunterstützung. Auf Phasenebene lässt sich der Verzug differenzierter einordnen: Bereits die Phasen Projektvorbereitung und Projektkonzeption weisen einen Verzug von 71 Tagen auf, in der Projektplanung wächst dieser leicht auf 86 Tage. In der anschließenden Herstellungsphase bleibt der Verzug mit rund 58 bis 86 Tagen im Wesentlichen konstant, statt sich von Meilenstein zu Meilenstein weiter zu vergrößern. Der Rückstand entsteht somit überwiegend in der frühen Projektphase und wird im weiteren Verlauf zwar nicht mehr aufgeholt, aber auch nicht zusätzlich vergrößert.\footnote{Ebenda} 
 
-Auf Phasenebene lässt sich der Verzug differenzierter einordnen: Bereits die Phasen Projektvorbereitung und Projektkonzeption weisen einen Verzug von 71 Tagen auf, in der Projektplanung wächst dieser leicht auf 86 Tage. In der anschließenden Herstellungsphase bleibt der Verzug mit rund 58 bis 86 Tagen im Wesentlichen konstant, statt sich von Meilenstein zu Meilenstein weiter zu vergrößern.\footnote{Vgl. \hyperref[sec:Anhang8]{Anhang 8}.} Der Rückstand entsteht somit überwiegend in der frühen Projektphase und wird im weiteren Verlauf zwar nicht mehr aufgeholt, aber auch nicht zusätzlich vergrößert.
-
-Ursächlich für diesen durchgängigen Verzug ist bereits der erste Meilenstein: Die Freigabe des Projektauftrags verzögerte sich um 71 Tage gegenüber dem ursprünglich geplanten Termin, da das Projektauftragsdokument deutlich später als vorgesehen abgegeben und freigegeben wurde. Da bei den BWB ohne freigegebenen Projektauftrag keine Projektarbeit beginnen kann,\footnote{Vgl. Kapitel~3.2.} verschob sich damit zwangsläufig der gesamte nachfolgende Zeitplan. Da sämtliche Folgetermine -- insbesondere die Beauftragung der Implementierungsunterstützung und die Lizenzbeschaffung -- auf diesem Ausgangstermin aufbauen, überträgt sich die anfängliche Verzögerung kaskadenartig auf den gesamten weiteren Projektverlauf. Dies bestätigt das bereits theoretisch beschriebene Prinzip, wonach Zeitverzögerungen in einem frühen Projektabschnitt regelmäßig auf nachfolgende Arbeitsschritte durchschlagen.\footnote{Vgl. \cite{Nobach_Projektcontrolling}, S.~61.}
+Ursächlich für diesen durchgängigen Verzug ist bereits der erste Meilenstein: Die Freigabe des Projektauftrags verzögerte sich um 71 Tage gegenüber dem ursprünglich geplanten Termin, da das Projektauftragsdokument deutlich später als vorgesehen abgegeben und freigegeben wurde. Da bei den BWB ohne freigegebenen Projektauftrag keine Projektarbeit beginnen kann, verschob sich damit zwangsläufig der gesamte nachfolgende Zeitplan. Da sämtliche Folgetermine -- insbesondere die Beauftragung der Implementierungsunterstützung und die Lizenzbeschaffung -- auf diesem Ausgangstermin aufbauen, überträgt sich die anfängliche Verzögerung kaskadenartig auf den gesamten weiteren Projektverlauf. Dies bestätigt das bereits theoretisch beschriebene Prinzip, wonach Zeitverzögerungen in einem frühen Projektabschnitt regelmäßig auf nachfolgende Arbeitsschritte durchschlagen.\footnote{Ebenda}
 
 \subsection{Kostencontrolling}
 
-Die Kostensteuerung erfolgt analog zur Terminsteuerung anhand eines Soll-Ist-Vergleichs je Meilenstein, ergänzt um eine Burn-Rate-basierte Hochrechnung der voraussichtlichen Gesamtkosten.\footnote{Vgl. \hyperref[sec:Anhang8]{Anhang 8}.} Dieses Instrument wurde aus denselben Gründen wie der Meilensteinplan im Termincontrolling gewählt: Es lässt sich mit vertretbarem Aufwand in den bestehenden monatlichen Statusbericht integrieren\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~2.} und bildet zugleich sowohl die klassischen Phasenkosten als auch die Kosten der einzelnen Iterationen ab, wodurch es dem hybriden Vorgehen des Projekts gerecht wird. Die Plankosten stammen aus der ursprünglichen Projektkalkulation, in der die Gesamtkosten des Projekts geschätzt und um ein pauschales Kalkulationsrisiko von 15~\% der Herstellkosten als Risikopuffer ergänzt wurden.\footnote{Vgl. \hyperref[sec:Anhang9]{Anhang 9}.}
+Die Kostensteuerung erfolgt analog zur Terminsteuerung anhand eines Soll-Ist-Vergleichs je Meilenstein, ergänzt um eine Burn-Rate-basierte Hochrechnung der voraussichtlichen Gesamtkosten (siehe Anhang 10 und Anhang 11). Dieses Instrument wurde aus denselben Gründen wie der Meilensteinplan im Termincontrolling gewählt: Es lässt sich mit vertretbarem Aufwand in den bestehenden monatlichen Statusbericht integrieren und bildet zugleich sowohl die klassischen Phasenkosten als auch die Kosten der einzelnen Iterationen ab, wodurch es dem hybriden Vorgehen des Projekts gerecht wird. Die Plankosten stammen aus der ursprünglichen Projektkalkulation, in der die Gesamtkosten des Projekts geschätzt und um ein pauschales Kalkulationsrisiko von 15~\% der Herstellkosten als Risikopuffer ergänzt wurden.\footnote{Vgl. \hyperref[sec:Anhang9]{Anhang 9}.}
 
-Zum Berichtsstand sind die tatsächlichen Kosten für vier der bereits erledigten Meilensteine bekannt. Während die Freigabe des Umsetzungskonzepts mit 680~€ exakt plankonform verlief, wurden die Beauftragung der externen Implementierungsunterstützung mit 9.000~€ statt geplanter 8.160~€ und insbesondere die Lizenzbeschaffung mit 197.000~€ statt geplanter 192.400~€ überschritten; auch der Abschluss der Projektplanung lag mit 1.400~€ geringfügig über den geplanten 1.360~€.\footnote{Vgl. \hyperref[sec:Anhang8]{Anhang 8}.} In der Summe ergibt sich zum Meilenstein ``Projektplanung ist abgeschlossen'' eine kumulierte Kostenüberschreitung von 5.480~€ gegenüber dem Plan (Plan: 210.760~€, Ist: 216.240~€).
+Zum Berichtsstand gemäß Anhang 9 sind die tatsächlichen Kosten für vier der bereits erledigten Meilensteine bekannt. Während die Freigabe des Umsetzungskonzepts mit 680~€ exakt plankonform verlief, wurden die Beauftragung der externen Implementierungsunterstützung mit 9.000~€ statt geplanter 8.160~€ und insbesondere die Lizenzbeschaffung mit 197.000~€ statt geplanter 192.400~€ überschritten; auch der Abschluss der Projektplanung lag mit 1.400~€ geringfügig über den geplanten 1.360~€. In der Summe ergibt sich zum Meilenstein ``Projektplanung ist abgeschlossen'' eine kumulierte Kostenüberschreitung von 5.480~€ gegenüber dem Plan (Plan: 210.760~€, Ist: 216.240~€).\footnote{Vgl. \hyperref[sec:Anhang10]{Anhang 10}.} Der mit Abstand größte Einzelposten der Abweichung ist die Lizenzbeschaffung mit 4.600~€ Mehrkosten; sie allein macht rund vier Fünftel der gesamten bisherigen Kostenüberschreitung aus. Auffällig ist dabei, dass exakt die Meilensteine mit Kostenüberschreitung -- Implementierungsunterstützung und Lizenzen -- dieselben sind, die im Termincontrolling bereits als besonders stark verzögert identifiziert wurden. Ursächlich für die Mehrkosten ist damit dieselbe Verzögerung, die bereits in Kapitel~4.1 beschrieben wurde: Um den ursprünglichen Plan-Termin trotz der späten Projektauftragsfreigabe möglichst noch zu erreichen, musste das Projektteam den weiteren Ablauf beschleunigen, was sich in zusätzlichem Zeit- und Fokusaufwand und damit in höheren Ist-Kosten niederschlägt. Die anfängliche Terminverzögerung wirkt sich somit kaskadenartig auch auf die Kostendimension des magischen Dreiecks aus.
 
-Der mit Abstand größte Einzelposten der Abweichung ist die Lizenzbeschaffung mit 4.600~€ Mehrkosten; sie allein macht rund vier Fünftel der gesamten bisherigen Kostenüberschreitung aus. Auffällig ist dabei, dass exakt die Meilensteine mit Kostenüberschreitung -- Implementierungsunterstützung und Lizenzen -- dieselben sind, die im Termincontrolling bereits als besonders stark verzögert identifiziert wurden.\footnote{Vgl. Kapitel~4.1, Termincontrolling.}
+Werden die vier neuen Ist-Werte in die Hochrechnung der Gesamtkosten einbezogen, verändert sich die Prognose erheblich: Auf Basis von sechs statt bisher zwei bekannten Ist-Perioden ergibt sich eine durchschnittliche Burn-Rate von rund 36.040~€ je Periode; hochgerechnet auf die verbleibenden 16 Perioden resultiert daraus eine Prognose der Gesamtkosten von rund 792.880~€ statt der ursprünglich ausgewiesenen 89.760~€. Gegenüber dem Gesamtbudget von 746.780~€ entspricht dies einer prognostizierten Budgetüberschreitung von rund 46.100~€. Diese deutliche Verschiebung zeigt, wie stark eine lineare Burn-Rate-Hochrechnung von der Anzahl der bereits bekannten Ist-Werte abhängt: Solange nur wenige, vergleichsweise günstige Meilensteine der frühen Projektphasen bekannt sind, unterschätzt die Prognose die tatsächlich zu erwartenden Gesamtkosten erheblich, da insbesondere die deutlich kostenintensiveren Iterationen der Herstellungsphase noch nicht in die Durchschnittsbildung eingeflossen sind.\footnote{Ebenda.}
 
-Ursächlich für die Mehrkosten ist damit dieselbe Verzögerung, die bereits im Termincontrolling beschrieben wurde: Um trotz der durch die späte Projektauftragsfreigabe entstandenen Verzögerung den ursprünglichen Plan-Termin möglichst noch zu erreichen, musste das Projektteam den weiteren Ablauf beschleunigen. Dies erforderte von den beteiligten Mitarbeitenden zusätzlichen, über die ursprüngliche Kalkulation hinausgehenden Zeit- und Fokusaufwand,\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage~2.} der sich unmittelbar in den höheren Ist-Kosten der betroffenen Meilensteine niederschlägt. Die anfängliche Terminverzögerung wirkt sich somit nicht nur auf die Termin-, sondern kaskadenartig auch auf die Kostendimension des magischen Dreiecks aus.
-
-Werden die vier neuen Ist-Werte in die Hochrechnung der Gesamtkosten einbezogen, verändert sich die Prognose erheblich: Auf Basis von sechs statt bisher zwei bekannten Ist-Perioden ergibt sich eine durchschnittliche Burn-Rate von rund 36.040~€ je Periode; hochgerechnet auf die verbleibenden 16 Perioden resultiert daraus eine Prognose der Gesamtkosten von rund 792.880~€ statt der ursprünglich ausgewiesenen 89.760~€.\footnote{Vgl. \hyperref[sec:Anhang8]{Anhang 8}; eigene Berechnung auf Basis der aktualisierten Ist-Werte.} Gegenüber dem Gesamtbudget von 746.780~€ entspricht dies einer prognostizierten Budgetüberschreitung von rund 46.100~€. Diese deutliche Verschiebung zeigt, wie stark eine lineare Burn-Rate-Hochrechnung von der Anzahl der bereits bekannten Ist-Werte abhängt: Solange nur wenige, vergleichsweise günstige Meilensteine der frühen Projektphasen bekannt sind, unterschätzt die Prognose die tatsächlich zu erwartenden Gesamtkosten erheblich, da insbesondere die deutlich kostenintensiveren Iterationen der Herstellungsphase noch nicht in die Durchschnittsbildung eingeflossen sind.
-
-Setzt man die prognostizierte Überschreitung von 46.100~€ in Relation zu dem in der ursprünglichen Projektkalkulation vorgesehenen Kalkulationsrisiko von 15~\% der Herstellkosten (110.810~€),\footnote{Vgl. \hyperref[sec:Anhang9]{Anhang 9}.} so wird dieser Risikopuffer aktuell zu rund 42~\% ausgeschöpft. Die Kostenabweichung ist damit zum gegenwärtigen Zeitpunkt zwar Anlass für die Ampelbewertung Rot, jedoch noch nicht existenzbedrohend im Sinne der in Kapitel~2.4 dargestellten Risikoklassifikation,\footnote{Vgl. Kapitel~2.4.} da für Kalkulationsunsicherheiten dieser Art von Beginn an ein entsprechender Puffer eingeplant wurde. Dies deutet darauf hin, dass die ursprüngliche Kostenschätzung der BWB grundsätzlich realistisch kalkuliert war und der vorgesehene Risikopuffer seine Funktion in der bisherigen Projektphase erfüllt.
+In Relation zu dem in der ursprünglichen Projektkalkulation vorgesehenen Kalkulationsrisiko von 15~\% der Herstellkosten (110.810~€)\footnote{Vgl. \hyperref[sec:Anhang9]{Anhang 9}.} entspricht die prognostizierte Überschreitung von 46.100~€ einer Ausschöpfung dieses Risikopuffers von rund 42~\%. Die Kostenabweichung ist damit zum gegenwärtigen Zeitpunkt zwar Anlass für die Ampelbewertung Rot, jedoch noch nicht existenzbedrohend im Sinne der in Kapitel~2.4 dargestellten Risikoklassifikation, da für Kalkulationsunsicherheiten dieser Art von Beginn an ein entsprechender Puffer eingeplant wurde. Dies deutet darauf hin, dass die ursprüngliche Kostenschätzung der BWB grundsätzlich realistisch kalkuliert war und der vorgesehene Risikopuffer seine Funktion in der bisherigen Projektphase erfüllt.
 
 \subsection{Leistungs- und Qualitätscontrolling}
+
+Für das Leistungs- und Qualitätscontrolling wird eine Definition-of-Done-Checkliste mit fünf Standardkriterien je Arbeitsergebnis eingesetzt (K1 Ergebnis erstellt, K2 fachlich geprüft, K3 mit Stakeholdern abgestimmt, K4 freigegeben, K5 dokumentiert/abgelegt), aus der sich ein prozentualer Erfüllungsgrad je Arbeitsergebnis ableitet.\footnote{Vgl. \hyperref[sec:Anhang12]{Anhang 12}.} Dieses Instrument wurde bewusst gewählt, weil die Definition of Done in der Theorie ursprünglich auf User Stories innerhalb eines Sprints zugeschnitten ist, ihr Grundprinzip -- vorab vereinbarte, überprüfbare Kriterien statt einer subjektiven Fertig-Einschätzung -- sich jedoch unabhängig davon anwenden lässt, ob das Arbeitsergebnis eine User Story oder ein klassisches Phasendokument ist. Für das hybride Vorgehen bei BWB wird dieselbe Kriterienstruktur deshalb sowohl auf die klassischen Phasenergebnisse (Projektauftrag, Anforderungsdokument, Umsetzungskonzept, Lizenzen/Implementierungspartner, Projektplanung) als auch -- vorbereitend für die Herstellungsphase -- auf die künftigen iterativen Arbeitsergebnisse angewendet.
+
+Von den fünf bereits abgeschlossenen Arbeitsergebnissen erreichen zwei einen Erfüllungsgrad von 100~\% (Umsetzungskonzept, Projektplanung); die übrigen drei liegen bei 80~\%, da jeweils ein Kriterium nicht erfüllt ist -- beim Projektauftrag K4 (freigegeben), beim Anforderungsdokument sowie bei Lizenzen/Implementierungspartner jeweils K2 (fachlich geprüft).\footnote{Vgl. Ebenda.} Für die fünf noch ausstehenden Arbeitsergebnisse der Herstellungs- und Abschlussphase liegt naturgemäß noch keine Bewertung vor.\footnote{Vgl. Ebenda.} Es handelt sich damit eher um punktuelle formale Lücken einzelner Arbeitsergebnisse als um ein systematisches Problem, das sich durch alle bewerteten Arbeitsergebnisse zieht.
+
+Für die Interpretation ist wichtig, zwischen Leistungsfortschritt und Qualität zu unterscheiden: K1 (Ergebnis erstellt) ist bei allen fünf bewerteten Arbeitsergebnissen erfüllt, der inhaltliche Leistungsfortschritt liegt also vollständig vor.\footnote{Vgl. Ebenda.} Die Kriterien K2 bis K5 bilden dagegen die Qualitätssicherung ab -- Prüfung, Abstimmung, Freigabe und Dokumentation --, und genau hier zeigen sich die Lücken. Der Erfüllungsgrad von 80~\% statt 100~\% bedeutet somit nicht, dass ein Arbeitsergebnis unvollständig erbracht wurde, sondern dass die begleitende Qualitätssicherung noch nicht vollständig abgeschlossen ist. Fehlt die fachliche Prüfung (K2) beim Anforderungsdokument oder bei Lizenzen/Implementierungspartner, besteht das Risiko, dass nachfolgende Phasen auf einer ungeprüften Grundlage aufbauen und Mängel erst spät auffallen -- ein Effekt, der dem bereits in Kapitel~2.2.2 beschriebenen Fast-schon-fertig-Syndrom entspricht. Fehlt beim Projektauftrag die Freigabe (K4), ist dies sogar noch kritischer zu bewerten, da die formale Freigabe des Projektauftrags nach dem in Kapitel~3.2 dargestellten hybriden Phasenmodell die Voraussetzung für den gesamten Projektstart bildet. Diese Lücken lassen sich auf dieselbe Ursache zurückführen wie die in Kapitel~4.1 und 4.2 beschriebenen Termin- und Kostenabweichungen: Um die Verzögerung aus der späten Projektauftragsfreigabe zumindest teilweise auszugleichen, wurde der Ablauf beschleunigt, wobei formale Nachbereitungsschritte wie Prüfung und Freigabedokumentation gegenüber der inhaltlichen Fertigstellung offenbar zeitlich nachrangig behandelt wurden.
+
+Für die noch ausstehenden Arbeitsergebnisse der Herstellungs- und Abschlussphase ist die Checkliste bereits vorbereitet, aber noch nicht befüllt;\footnote{Vgl. \hyperref[sec:Anhang12]{Anhang 12}.} sie kann in den kommenden Berichtszyklen unmittelbar weitergeführt werden, sobald die jeweiligen Iterationen, UAT- und Produktivsetzungsschritte abgeschlossen sind.
+
 \subsection{Risikocontrolling}
 
-\subsection{Projektcontrolling-Ergebnissen}
-%Soll-Ist-Vergleich je Controlling-Bereich (Übersicht-Ergebnissen)
+Für das Risikocontrolling wird ein Risikoinventar mit sechs identifizierten Risiken eingesetzt, das für jedes Risiko Kategorie, Eintrittswahrscheinlichkeit, Auswirkung, den daraus multiplikativ gebildeten Risikofaktor sowie die resultierende Risikoklasse nach dem in Kapitel~2.4 dargestellten Ampelschema (grün $\leq$~2, gelb 3--4, rot $\geq$~6) ausweist, ergänzt um Maßnahme, Verantwortlichkeit und Bearbeitungsstatus je Risiko.\footnote{Vgl. \hyperref[sec:Anhang13]{Anhang 13}.} Ergänzend fasst eine Risikomatrix die Risiken nach Eintrittswahrscheinlichkeit und Auswirkung in einer 3$\times$3-Feldübersicht zusammen und zeigt, wie viele Risiken auf welche Kombination aus Wahrscheinlichkeit und Auswirkung entfallen.\footnote{Vgl. Ebenda.}
 
-%fehlendes Instrument / Lücke in der Praxis
-%Das ist genau der Punkt, den ich meinte: BWB steuert die Iterationen faktisch auf Meilenstein-Ebene (klassisch), nicht auf Story-Point-Ebene (agil/granular). Für deine Arbeit ist das eine legitime und interessante Beobachtung, die du z. B. in 4.5 (Theorie-Praxis-Vergleich) oder 5.2 aufgreifen kannst: In der Theorie ist das Burndown-Chart das Standardinstrument für Terminkontrolle in Sprints, in der Praxis bei BWB wird dieser granulare Teil aber nicht abgebildet – die Iteration wird nur als "erledigt/nicht erledigt zum Termin X" ins übergeordnete, eher klassische Meilensteincontrolling eingehängt.
+Von den sechs Risiken werden drei als hoch (R-01, R-05, R-06) und drei als mittel (R-02, R-03, R-04) eingestuft; kein Risiko liegt im grünen Bereich. In der Risikomatrix zeigt sich dieses Bild dadurch, dass sich die Risiken auf vier der neun Felder verteilen: zwei Felder mit hoher Auswirkung -- bei niedriger (1 Risiko) bzw. hoher Eintrittswahrscheinlichkeit (2 Risiken) -- sowie zwei Felder mit mittlerer Auswirkung -- bei mittlerer (2 Risiken) bzw. hoher Eintrittswahrscheinlichkeit (1 Risiko).\footnote{Vgl. Ebenda.} Damit weist lediglich ein Risiko eine niedrige Eintrittswahrscheinlichkeit auf; alle übrigen Risiken konzentrieren sich auf den mittleren bis hohen Wahrscheinlichkeits- und Auswirkungsbereich, ohne dass eines davon als unkritisch eingestuft werden kann.
+Auffällig ist, dass sich drei der sechs Risiken unmittelbar aus den bereits in den vorangegangenen Teilkapiteln herausgearbeiteten Befunden ableiten: R-01 (wiederholter Verzug bei künftigen Freigabepunkten) knüpft direkt an den in Kapitel~4.1 festgestellten Kaskadeneffekt der späten Projektauftragsfreigabe an; R-05 (pauschale statt differenzierter Kostenschätzung der Iterationen) greift die in Kapitel~4.2 bereits angedeutete methodische Lücke auf, dass für die Herstellungsphase keine granulare, story-point-basierte Aufwandsschätzung vorliegt; R-06 (noch nicht spezifiziertes Berechtigungs- und Rollenkonzept) entspricht den im Interview mit dem Auftraggeber offen gebliebenen Anforderungen zu Administratorrollen und Reporting-Rechten.\footnote{Vgl. \hyperref[sec:Anhang6]{Anhang 6}, Frage~3.} Das Risikoinventar bündelt damit einen wesentlichen Teil der bereits identifizierten Termin-, Kosten- und Leistungsrisiken in einer einheitlichen, nach vorne gerichteten Bewertung.
 
-\section{Kritische Reflexion und Handlungsempfehlungen}
-\subsection{Vergleich zwischen Theorie und Praxis}
+Die übrigen drei Risiken decken demgegenüber Dimensionen ab, die aus den bisherigen quantitativen Auswertungen nicht unmittelbar hervorgehen: R-02 betrifft den noch ungeklärten Projektumfang hinsichtlich Tochtergesellschaften und Partnerunternehmen, R-03 die noch offene datenschutzrechtliche Umsetzbarkeit des gewünschten Einsichtsrechts von Führungskräften in Lernhistorien, und R-04 mögliche Kapazitätsengpässe beim externen Implementierungspartner Sopra Steria.\footnote{Vgl. \hyperref[sec:Anhang13]{Anhang 13}.} Für jedes Risiko ist im Inventar eine Maßnahme sowie eine verantwortliche Stelle hinterlegt; auf die konkreten Maßnahmen wird an dieser Stelle nicht im Detail eingegangen, da diese gebündelt mit den übrigen Templates in Kapitel~5 aufgegriffen werden. Hinsichtlich des Bearbeitungsstatus befinden sich lediglich zwei der sechs Risiken (R-01, R-06) bereits in Bearbeitung, während die übrigen vier noch als offen geführt werden.\footnote{Vgl. Ebenda.} Das Risikocontrolling befindet sich damit aktuell im Wesentlichen auf der Stufe der Identifikation und Bewertung; die systematische Umsetzung der zugehörigen Maßnahmen steht für den Großteil der Risiken noch aus.
 
-\subsection{Stärken des aktuellen Vorgehens}
+\section{Kritische Reflexion}
+\subsection{Gesamtbetrachtung des Projektcontrollings}
+Eine zusammenfassende Übersicht der Soll-Ist-Vergleiche sowie des Ampel-Gesamtstatus je Controlling-Bereich ist dieser Arbeit als Anhang beigefügt.\footnote{Vgl. \hyperref[sec:Anhang16]{Anhang 16}.} Die Zusammenschau der vier Controlling-Bereiche aus Kapitel~4 zeigt kein Nebeneinander unabhängiger Probleme, sondern eine durchgängige Ursache-Wirkungs-Kette, die von der verspäteten Projektauftragsfreigabe ausgeht und sich über die dadurch nötige Beschleunigung des Ablaufs auch in Kosten, Qualitätssicherung und Risiken fortpflanzt -- mehrere identifizierte Risiken bilden exakt dieselben Schwachstellen ab, die bereits im Termin- und Kostencontrolling sichtbar wurden. Termin, Kosten, Qualitätsdokumentation und Risiko hängen damit eng zusammen und lassen sich nicht isoliert betrachten. Einzig der Leistungsfortschritt entzieht sich dieser Kette: Er wurde, wie in Kapitel~4.3 gezeigt, trotz Verzug vollständig erbracht, offenbar durch erhöhten Personalaufwand statt geringere Sorgfalt kompensiert -- der Preis dafür zeigt sich in den höheren Kosten und punktuellen Lücken der Qualitätsdokumentation.
 
-\subsection{Herausforderungen des agilen Projektcontrollings}
+Während die BWB-eigene Reifegrad-Tabelle, wie in Kapitel~3.4 beschrieben, primär die formale Pflegequalität von Blue Ant abbildet und die Termin- und Kostentreue nur geschätzt wird, beruhen die in dieser Arbeit entwickelten Templates durchgängig auf rechnerisch ermittelten Werten, bilden zugleich klassische Freigabepunkte und Iterationen als eigene Meilensteine ab und lassen sich dennoch mit vertretbarem Aufwand in den bestehenden Statusbericht integrieren. Erst der Abgleich mit der Theorie aus Kapitel~2 machte sichtbar, dass die bestehende Blue-Ant-Tabelle keines der dort beschriebenen Instrumente abbildet, sondern nur die Werkzeugpflege misst; auf dieser Basis konnten die theoretischen Instrumente gezielt an die Projektbedingungen angepasst werden, etwa durch einen vereinfachten Soll-Ist-Vergleich anstelle einer vollständigen Trendanalyse.
+Die Anwendung auf das Praxisprojekt zeigt damit, dass sich ein wirksames Projektcontrolling für eine agile IT-Systemeinführung methodisch konzipieren lässt, indem klassische Instrumente wie der Meilensteinplan gezielt vereinfacht und mit den vorhandenen organisatorischen Kapazitäten in Einklang gebracht werden, ohne dabei die iterativen Bestandteile des hybriden Vorgehens auszublenden. Zugleich macht das Beispiel deutlich, dass diese Verbindung an ihre Grenzen stößt, sobald genuin agile Steuerungsgrößen wie Story Points fehlen -- ein Punkt, der im folgenden Kapitel vertieft wird.
 
-\subsection{Verbesserungspotenziale}
+\subsection{Herausforderungen und Verbesserungspotenziale}
+
+Die Anwendung der Instrumente auf das Praxisprojekt macht eine doppelte Herausforderung sichtbar. Zum einen zeigt sich am Termincontrolling der Iterationen eine Lücke zwischen Theorie und Praxis: Statt des theoretisch zentralen, story-point-basierten Burndown-Charts werden die Iterationen bei den BWB nur als Meilensteine mit Soll-, Ist- und Prognose-Termin geführt, wodurch agiles Feincontrolling faktisch auf klassische Meilensteinlogik reduziert wird -- nachvollziehbar angesichts fehlender Kapazitäten, aber ein Hinweis darauf, dass beide Ebenen aktiv verzahnt werden müssen, statt die eine durch die andere zu ersetzen. Ähnliches gilt für die lineare Burn-Rate-Hochrechnung, die frühzeitig die Gesamtkosten unterschätzt, sowie für die Definition-of-Done-Checkliste, die alle Kriterien gleich gewichtet, obwohl eine fehlende Freigabe schwerer wiegt als offene Dokumentation. 
+
+Zum anderen liegt eine methodische Grenze der Arbeit selbst darin, dass sich aus einem einzelnen hybriden Praxisprojekt keine allgemeingültige Formel für die Verbindung klassischer und agiler Steuerungselemente ableiten lässt, sondern nur ein situativ bewährtes Vorgehen. Daraus ergeben sich Weiterentwicklungen: eine story-point-basierte Iterationsebene, eine ergänzende Earned-Value-Analyse, eine Gewichtung der Definition-of-Done-Kriterien nach Kritikalität sowie ein laufend aktualisiertes, mit Abweichungen verknüpftes Risikoinventar.
 
 \section{Fazit}
 
 \subsection{Beantwortung der Forschungsfrage}
 
+Die Arbeit zeigt: Ein wirksames Projektcontrolling für eine agile IT-Systemeinführung entsteht nicht durch die unveränderte Übertragung klassischer oder rein agiler Instrumente, sondern dadurch, dass beide Ebenen bewusst miteinander verzahnt statt nacheinander abgearbeitet werden -- im Praxisbeispiel etwa durch einen Meilensteinplan, der sowohl klassische Freigabepunkte als auch agile Iterationen als eigene Meilensteine abbildet, ergänzt um eine vereinfachte Burn-Rate-Hochrechnung und eine auf Phasenergebnisse übertragene Definition of Done. Die Verbindung gelingt somit über gemeinsame, vergleichbare Kennzahlen statt über getrennte Controlling-Welten; ihre Grenze liegt dort, wo genuin agile Steuerungsgrößen wie Story Points fehlen und die Iterationssteuerung faktisch auf Meilenstein-Ebene verbleibt, statt granular auf Sprintebene zu erfolgen.
+
 \subsection{Zusammenfassung der Ergebnisse}
 
-\subsection{Ausblick}
-\begin{enumerate}
-    \setlength\itemsep{0.4\baselineskip}
-    \setlength\parskip{0pt}
-    \setlength\parsep{0pt}
-\item \textbf{??:} Die Einführung der Anwendungen wurde primär technisch kommuniziert. Eine klare Darstellung des konkreten Nutzens im Arbeitsalltag fehlte teilweise. Dadurch entstand bei vielen Mitarbeitenden keine wahrgenommene Notwendigkeit zur Veränderung.\footnote{Vgl. \hyperref[sec:Anhang5]{Anhang 5}, Frage 4}
-\end{enumerate}
+Bezogen auf die eingangs gestellten Teilfragen lässt sich festhalten: Klassisches und agiles Projektcontrolling unterscheiden sich vor allem darin, woran sie Fortschritt festmachen -- an Phasen und Meilensteinen versus an Sprints und Story Points --, teilen aber dasselbe Grundprinzip des Soll-Ist-Vergleichs. Genau dieses gemeinsame Prinzip war die Brücke, über die sich beide Ebenen im Praxisbeispiel verbinden ließen, ohne dass ein Ansatz dem anderen untergeordnet wurde. Für vergleichbare IT-Einführungsprojekte ergibt sich daraus die Handlungsempfehlung, Controlling-Instrumente nicht nach Lehrbuch zu übernehmen, sondern konsequent an die organisatorischen Kapazitäten anzupassen und dabei bewusst in Kauf zu nehmen, dass diese Anpassung -- wie am Fehlen einer story-point-basierten Iterationssteuerung sichtbar -- zunächst auf Kosten der methodischen Tiefe geht. Mit zunehmender Projektreife und wachsender Verfügbarkeit granularer Daten sollte das Controlling schrittweise nachgeschärft werden, statt als einmalig festgelegtes System zu gelten.
+
 % === Glossar ====
 \section*{Glossar}  
 \phantomsection
 \addcontentsline{toc}{section}{Glossar} 
 \vspace{0.6cm}
 \begin{tabular}{p{4cm} p{11.35cm}}   
-    \textbf{\normalsize Beteiligungsprozess:} & \normalsize Der Beteiligungsprozess beschreibt den gesamten organisatorischen Abstimmungs- und Entscheidungsablauf im Rahmen der Einführung einer neuen Anwendung. Er umfasst die Bedarfsermittlung, regulatorische Prüfungen, Abstimmungen mit zuständigen Organisationseinheiten, formale Freigaben sowie die anschließende Einbindung in Schulungs- und Kommunikationsprozesse.\footnotemark[30]\\[0.5cm]
+    \textbf{\normalsize Ampelsystem:} & \normalsize Visuelles Berichtsinstrument, das den Status von Projektkennzahlen (z.\,B. Termine, Kosten, Risiken) mithilfe der Farben Grün, Gelb und Rot darstellt. Es ermöglicht eine schnelle Einschätzung, ob ein Bereich planmäßig verläuft (Grün), gefährdet ist (Gelb) oder kritisch ist und Handlungsbedarf besteht (Rot).\\[0.5cm]
     \hline
-    \textbf{\normalsize Datenschutz-Folgenabschätzung:} & \normalsize Vertiefte datenschutzrechtliche Risikoanalyse, die durchgeführt wird, wenn eine Verarbeitung personenbezogener Daten voraussichtlich ein hohes Risiko für die Rechte und Freiheiten betroffener Personen mit sich bringt.\footnotemark[31]\\[0.5cm]
+    \textbf{\normalsize Blue-Ant:} & \normalsize Softwarelösung für Projekt-, Portfolio- und Ressourcenmanagement, die unter anderem zur Planung, Steuerung und Dokumentation von Projekten eingesetzt wird.\\[0.5cm]
+    \hline
+    \textbf{\normalsize Daily Scrum:} & \normalsize Kurzes, zeitlich begrenztes tägliches Meeting im Scrum-Rahmenwerk, in dem das Entwicklungsteam den Fortschritt seit dem letzten Treffen bespricht, anstehende Aufgaben plant und Hindernisse identifiziert.\\[0.5cm]
+    \hline
+    \textbf{\normalsize Go/No Go-Entscheidung:} & \normalsize Formaler Entscheidungspunkt innerhalb eines Projekts, an dem auf Basis definierter Kriterien festgelegt wird, ob das Projekt bzw. eine Projektphase fortgesetzt (Go) oder gestoppt (No Go) wird.\\[0.5cm]
+    \hline
+    \textbf{\normalsize Iterationen:} & \normalsize Sich wiederholende, zeitlich begrenzte Arbeitszyklen im agilen Projektmanagement, an deren Ende jeweils ein weiterentwickeltes Zwischenergebnis steht, das dem Kunden zur Rückmeldung vorgelegt wird.\\[0.5cm]
+    \hline
+    \textbf{\normalsize Sprints:} & \normalsize Feste, meist ein bis vier Wochen dauernde Iterationen im Scrum-Rahmenwerk, innerhalb derer ein definiertes Arbeitspaket aus dem Product Backlog umgesetzt und am Ende ein potenziell auslieferbares Produktinkrement fertiggestellt wird.\\[0.5cm]
+    \hline
+    \textbf{\normalsize Story Points:} & \normalsize Relative Maßeinheit im agilen Projektmanagement zur Schätzung des Aufwands einer User Story, die Faktoren wie Komplexität, Umfang und Unsicherheit berücksichtigt, ohne diese in konkreten Zeiteinheiten auszudrücken.\\[0.5cm]
+    \hline
+    \textbf{\normalsize User Stories:} & \normalsize Kurze, aus Anwendersicht formulierte Beschreibungen einer Anforderung an ein System, die üblicherweise den Nutzer, sein Ziel und den damit verbundenen Nutzen benennen und als Grundlage für die Priorisierung im Product Backlog dienen.\\[0.5cm]
 \end{tabular}
 
-% Fußnoten für Teil 1
-\footnotetext[30]{Vgl.\ \hyperref[sec:Anhang5]{Anhang 5}, Frage~1.}
-\footnotetext[31]{Vgl.\ \hyperref[sec:Anhang6]{Anhang 6}, Frage~3.}
-\footnotetext[32]{Vgl.\ \cite{Ub_Uni}}
-\footnotetext[33]{Vgl.\ \hyperref[sec:Anhang6]{Anhang 6}, Frage~3.}
-\footnotetext[34]{Vgl. Ebenda}
-\footnotetext[35]{Vgl. Ebenda}
-\footnotetext[36]{Vgl. Ebenda}
-\footnotetext[37]{Vgl. Ebenda}
+\vspace{0.6cm}
+\begin{tabular}{p{4cm} p{11.35cm}} 
+ \textbf{\normalsize Velocity:} & \normalsize Kennzahl im agilen Projektmanagement, die angibt, wie viele Story Points ein Team innerhalb eines Sprints im Durchschnitt abarbeitet, und die zur Planung und Prognose zukünftiger Sprints herangezogen wird.\\[0.5cm]
+\end{tabular}
 
 % === Literaturverzeichnis ===
 \newpage
@@ -453,8 +478,10 @@ Setzt man die prognostizierte Überschreitung von 46.100~€ in Relation zu dem 
     \item \hyperref[sec:Anhang12]{Anhang 12: Leistungs-Qualitätscontrolling bei den BWB}, S. \pageref{sec:Anhang12}
     \item \hyperref[sec:Anhang13]{Anhang 13: Risikocontrolling bei den BWB}, S. \pageref{sec:Anhang13}
     \item \hyperref[sec:Anhang14]{Anhang 14: Interviewprotokoll (Julia Steckler)}, S. \pageref{sec:Anhang14}
-    \item \hyperref[sec:Anhang15]{Anhang 15: Projektcontrolling - Excel-Tabelle}, S. \pageref{sec:Anhang15}
-    \item \hyperref[sec:Anhang16]{Anhang 16: KI-Verzeichnis}, S. \pageref{sec:Anhang16}
+    \item \hyperref[sec:Anhang15]{Anhang 15: Projektcontrolling-Template bei den BWB}, S. \pageref{sec:Anhang15}
+    \item \hyperref[sec:Anhang16]{Anhang 16: Projektcontrolling - Gesamte Übersicht}, S. \pageref{sec:Anhang16}
+    \item \hyperref[sec:Anhang17]{Anhang 17: KI-Verzeichnis}, S. \pageref{sec:Anhang17}
+
 \end{itemize}
 
 \appendix
@@ -556,7 +583,7 @@ Michael: Unterst\"utzt werden sollen E-Learning, Pr\"asenzschulungen (buchbar \"
 
 \textbf{Frage 6: Wie l\"auft Lernen heute?}
 
-Michael: Aktuell im Einsatz ist die IMC Learning Suite, intern ,,Aqualern`` genannt. Verwaltung und Organisation der Schulungen erfolgen durch die Abteilung Personalf\"uhrung und -entwicklung (PTE). Teilnahmen werden im bisherigen Learning-Management-System dokumentiert; die daraus erstellten Nachweise werden von dort in die jeweilige Personalakte der Mitarbeitenden \"ubertragen. Das zentrale aktuelle Problem besteht darin, dass die Software end of life ist, nicht mehr weiterentwickelt wird und ab dem kommenden Jahr vom Hersteller nicht mehr unterst\"utzt wird.
+Michael: Aktuell im Einsatz ist die IMC Learning Suite, intern ,,Aqualern`` genannt. Verwaltung und Organisation der Schulungen erfolgen durch die Abteilung Personalf\"uhrung und -entwicklung. Teilnahmen werden im bisherigen Learning-Management-System dokumentiert; die daraus erstellten Nachweise werden von dort in die jeweilige Personalakte der Mitarbeitenden \"ubertragen. Das zentrale aktuelle Problem besteht darin, dass die Software end of life ist, nicht mehr weiterentwickelt wird und ab dem kommenden Jahr vom Hersteller nicht mehr unterst\"utzt wird.
 
 \medskip
 \textbf{Frage 7: Wie sind die Lerninhalte aufgestellt?}
@@ -585,7 +612,7 @@ Michael: Das System wird von Mitarbeitenden, F\"uhrungskr\"aften, Trainern (eins
 \medskip
 \textbf{Frage 11: Welche Aufgaben haben die Rollen?}
 
-Michael: Mitarbeitende buchen Schulungen selbst, die Zuweisung erfolgt durch die Personalentwicklung (PME). Die Genehmigung h\"angt davon ab, ob eine Schulung kostenpflichtig ist: grunds\"atzlich genehmigen die Personalabteilung und die Weiterbildungsverantwortlichen, in der Regel zus\"atzlich die F\"uhrungskraft; bei besonders teuren Schulungen sind weitere Genehmigende einzubinden. Lernkataloge werden von der Personalabteilung (PME) erstellt, die Inhalte pflegen die jeweils zust\"andigen Referenten bzw. die Learning-Administratoren, und Berichte erstellt die Personalabteilung.
+Michael: Mitarbeitende buchen Schulungen selbst, die Zuweisung erfolgt durch die Personalentwicklung. Die Genehmigung h\"angt davon ab, ob eine Schulung kostenpflichtig ist: grunds\"atzlich genehmigen die Personalabteilung und die Weiterbildungsverantwortlichen, in der Regel zus\"atzlich die F\"uhrungskraft; bei besonders teuren Schulungen sind weitere Genehmigende einzubinden. Lernkataloge werden von der Personalabteilung erstellt, die Inhalte pflegen die jeweils zust\"andigen Referenten bzw. die Learning-Administratoren, und Berichte erstellt die Personalabteilung.
 
 \bigskip
 \noindent{\large\bfseries 6. Organisationsstruktur}
@@ -648,7 +675,7 @@ Michael: Als Implementierungspartner fungiert die Firma Sopra Steria, ein Rahmen
 \textbf{Ort:} Berliner Wasserbetriebe, Neue J\"udenstra{\ss}e 1, 10179 Berlin
 
 \bigskip
-\noindent{\large\bfseries Erg\"anzende Anforderungen aus dem Personalmanagement (PM)}
+\noindent{\large\bfseries Erg\"anzende Anforderungen aus dem Personalmanagement}
 
 \bigskip
 \noindent{\large\bfseries 1. Berechtigungen \& Datenschutz}
@@ -660,7 +687,7 @@ Jonathan: Aus Sicht der Personalentwicklung sollte die Lernhistorie f\"ur die Be
 \medskip
 \textbf{Frage 2: Wer darf Berichte sehen?}
 
-Jonathan: Berichte werden als Gesamtauswertungen f\"urs Controlling bzw. zum Jahresende verstanden. Personalberichte sollten grunds\"atzlich nur von der Personalentwicklung (PME) eingesehen und reportet werden k\"onnen. Weiterbildungsbeauftragte sollten f\"ur ihren eigenen Verantwortungsbereich Einsicht erhalten, etwa in die Anzahl offener bzw. abgeschlossener Seminare. F\"uhrungskr\"afte ben\"otigen dies nicht zwingend, k\"onnten jedoch f\"ur den eigenen Bereich profitieren, insbesondere f\"ur das Budget-Reporting. Zentral bzw. kurs\"ubergreifend liegt die Zust\"andigkeit bei der Personalentwicklung.
+Jonathan: Berichte werden als Gesamtauswertungen f\"urs Controlling bzw. zum Jahresende verstanden. Personalberichte sollten grunds\"atzlich nur von der Personalentwicklung eingesehen und reportet werden k\"onnen. Weiterbildungsbeauftragte sollten f\"ur ihren eigenen Verantwortungsbereich Einsicht erhalten, etwa in die Anzahl offener bzw. abgeschlossener Seminare. F\"uhrungskr\"afte ben\"otigen dies nicht zwingend, k\"onnten jedoch f\"ur den eigenen Bereich profitieren, insbesondere f\"ur das Budget-Reporting. Zentral bzw. kurs\"ubergreifend liegt die Zust\"andigkeit bei der Personalentwicklung.
 
 \medskip
 \textbf{Frage 3: Welche Administratorrollen gibt es?}
@@ -829,9 +856,9 @@ Jonathan: Der Onboarding-Prozess ist im Aqua.net hinterlegt und wird gelegentlic
 Jonathan: Dies wird aktuell nicht eng nachverfolgt; die Verantwortung liegt bei der F\"uhrungskraft bzw. der jeweils zust\"andigen Trainingsinstanz und h\"angt vom jeweiligen Training ab, etwa wenn externe Anbieter nur alle drei bis sechs Monate Kurse durchf\"uhren. Rein online-basierte Pflichtschulungen sollen voraussichtlich innerhalb der ersten zwei Wochen absolviert werden.
 
 \bigskip
-\noindent{\large\bfseries 10. Reporting \& Kennzahlen aus PM-Sicht}
+\noindent{\large\bfseries 10. Reporting \& Kennzahlen aus Personalmanagement-Sicht}
 
-\textbf{Frage 33: In welcher Frequenz ben\"otigt PM eigene interne Auswertungen?}
+\textbf{Frage 33: In welcher Frequenz ben\"otigt Personalmanagement eigene interne Auswertungen?}
 
 Jonathan: Am liebsten w\"urden Auswertungen bei Bedarf bzw. sofort bei Systemzugriff zur Verf\"ugung stehen. Regelm\"a{\ss}ig ist mindestens eine quartalsweise Auswertung erforderlich. W\"ochentliche oder monatliche Auswertungen werden voraussichtlich nicht ben\"otigt. Gew\"unscht wird ein selbstst\"andiges, tagesaktuelles Ziehen von Reports auf Knopfdruck anstelle automatisch zugestellter Reports.
 
@@ -850,7 +877,7 @@ Jonathan: Die Information \"uber eine Budget\"uberschreitung geht an die Persona
 \bigskip
 \noindent{\large\bfseries 12. Kommunikation \& Change Management}
 
-\textbf{Frage 36: Welche Informationskan\"ale nutzt PM, um Mitarbeitende \"uber Pflichtschulungen zu informieren?}
+\textbf{Frage 36: Welche Informationskan\"ale nutzt Personalmanagement, um Mitarbeitende \"uber Pflichtschulungen zu informieren?}
 
 Jonathan: Aqua.net ist der Hauptkanal f\"ur kaufm\"annische Bereiche, technisch-gewerbliche Bereiche werden zus\"atzlich verst\"arkt per E-Mail informiert. Meist erfolgt die Information \"uber die F\"uhrungskraft, die regelm\"a{\ss}ig auf die Mailbox zugreift und die Information an die Besch\"aftigten weitergibt, was jedoch nicht f\"ur alle Besch\"aftigten gleicherma{\ss}en gilt. Alternativ erfolgt die Verteilung \"uber Sekretariate, an die eine Mail geschickt wird, die diese dann intern weiterverteilen, insbesondere f\"ur Besch\"aftigte ohne regelm\"a{\ss}igen Mailbox-Zugriff. Gelegentlich werden zus\"atzlich Frage-Antwort-Formate wie Teams-Meetings angeboten, deren Ank\"undigung ebenfalls \"uber Aqua.net erfolgt.
 
@@ -866,7 +893,7 @@ Jonathan: F\"ur das neue System soll es eine Pilotgruppe vor dem unternehmenswei
 \label{sec:Anhang7}
 \begin{center}
     {\Large\bfseries Anhang 7: Projektphasen - Meilensteinsplan}\\[0.2cm]
-    {\normalsize interne Quelle von Berliner Wasserbetriebe}\\[1.0cm]
+    {\normalsize Quelle: Eigene Darstellung in Anlehnung an die Projektphasen bei den Berliner Wasserbetriebe}\\[1.0cm]
     \includegraphics[width=1.1\textwidth]{BILDER-PTB4/Phasen.png}
 \end{center}
 
@@ -882,7 +909,7 @@ Jonathan: F\"ur das neue System soll es eine Pilotgruppe vor dem unternehmenswei
             \centering
             {\Large\bfseries Anhang 8: Termincontrolling bei den BWB}\\[1em]
              {\normalsize Quelle: Eigene Darstellung in Anlehnung an die Projektphasen bei den BWB}\\[0.4cm]
-            \includegraphics[width=0.9\textheight,keepaspectratio]{BILDER-PTB4/Termincontrolling_mit_Grafik.png}
+            \includegraphics[width=1.0\textheight,keepaspectratio]{BILDER-PTB4/Termincontrolling_mit_Grafik.png}
         \end{minipage}
     \end{adjustbox}
 \end{center} 
@@ -911,7 +938,7 @@ Jonathan: F\"ur das neue System soll es eine Pilotgruppe vor dem unternehmenswei
         \begin{minipage}{0.95\textheight}
             \centering
             {\Large\bfseries Anhang 10: Kostencontrolling bei den BWB}\\[1em]
-             {\normalsize Quelle: Eigene Darstellung in Anlehnung an die Kostencontrolling-Template bei den BWB}\\[0.4cm]
+             {\normalsize Quelle: Eigene Darstellung}\\[0.4cm]
             \includegraphics[width=0.9\textheight,keepaspectratio]{BILDER-PTB4/kostencontrolling_1.png}
              \includegraphics[width=1.0\textwidth]{BILDER-PTB4/kostencontrolling_2.png}
         \end{minipage}
@@ -929,7 +956,7 @@ Jonathan: F\"ur das neue System soll es eine Pilotgruppe vor dem unternehmenswei
         \begin{minipage}{0.95\textheight}
             \centering
             {\Large\bfseries Anhang 11: Kostencontrolling Ist-Plankosten Prognose - Grafik}\\[1em]
-             {\normalsize Quelle: Eigene Darstellung in Anlehnung an die Projektkostensdokument bei den BWB}\\[0.4cm]
+             {\normalsize Quelle: Eigene Darstellung in Anlehnung an die Kostencontrolling-Template bei den BWB}\\[0.4cm]
             \includegraphics[width=0.9\textheight,keepaspectratio]{BILDER-PTB4/Kostencontrolling_Soll_Ist_Prognose.png}
         \end{minipage}
     \end{adjustbox}
@@ -946,8 +973,8 @@ Jonathan: F\"ur das neue System soll es eine Pilotgruppe vor dem unternehmenswei
         \begin{minipage}{0.95\textheight}
             \centering
             {\Large\bfseries Anhang 12: Leistungs-Qualitätscontrolling bei den BWB}\\[1em]
-             {\normalsize Quelle: Eigene Darstellung in Anlehnung an die Projektkostensdokument bei den BWB}\\[0.4cm]
-            \includegraphics[width=0.9\textheight,keepaspectratio]{BILDER-PTB4/Leistungs-Qualitätscontrolling.png}
+             {\normalsize Quelle: Eigene Darstellung}\\[0.4cm]
+            \includegraphics[width=1.1\textheight,keepaspectratio]{BILDER-PTB4/Leistungs-Qualitätscontrolling.png}
         \end{minipage}
     \end{adjustbox}
 \end{center} 
@@ -963,8 +990,9 @@ Jonathan: F\"ur das neue System soll es eine Pilotgruppe vor dem unternehmenswei
         \begin{minipage}{0.95\textheight}
             \centering
             {\Large\bfseries Anhang 13: Risikocontrolling bei den BWB}\\[1em]
-             {\normalsize Quelle: Eigene Darstellung in Anlehnung an die Projektkostensdokument bei den BWB}\\[0.4cm]
-            \includegraphics[width=0.9\textheight,keepaspectratio]{BILDER-PTB4/Risikocontrolling.png}
+             {\normalsize Quelle: Eigene Darstellung}\\[0.4cm]
+            \includegraphics[width=0.9\textheight,keepaspectratio]{BILDER-PTB4/Risikocontrolling_1_neu.png}
+                \includegraphics[width=0.3\textwidth]{BILDER-PTB4/Risikocontrolling_2_neu.png}
         \end{minipage}
     \end{adjustbox}
 \end{center} 
@@ -986,61 +1014,61 @@ Jonathan: F\"ur das neue System soll es eine Pilotgruppe vor dem unternehmenswei
 
 \textbf{Frage 1: Können Sie Ihre Rolle und Ihre Aufgaben kurz beschreiben?}
 
-Julia: Ich bin im IT-Projektbüro bei IT-Z/P tätig, einer dauerhaften Instanz, die alle bei IT-Z/P betreuten IT-Projekte begleitet. Das IT-Projektbüro ist Anlaufstelle für IT-Projektleitungen bei Fragen, Problemen und Eskalationsthemen, übernimmt das On- und Offboarding interner sowie externer Mitarbeitender (u.\,a. Consultants, externe Projektleitungen) einschließlich Berechtigungsvergabe und führt regelmäßige Projektstatus-Meetings mit den Projektleitungen durch. Die Stelle war ursprünglich mit zwei Personen besetzt; seit dem Ausscheiden der Kollegin vor rund anderthalb Jahren wird die Aufgabe allein wahrgenommen.
+Julia: Ich bin im IT-Projektbüro bei der Abteilung IT-Z/P tätig, einer dauerhaft angelegten Instanz, die sämtliche bei IT-Z/P zur Betreuung eingegangenen IT-Projekte begleitet. Das IT-Projektbüro ist Anlaufstelle für IT-Projektleitungen bei Fragen, Sorgen und Eskalationsthemen und übernimmt das On- und Offboarding neuer interner sowie externer Mitarbeitender, darunter externe Projektleitungen sowie Junior- und Senior-Consultants bzw. extern eingekaufte Entwickler, einschließlich der Vergabe der dafür benötigten Berechtigungen. Hinzu kommen regelmäßige Projektstatus-Meetings, in denen sowohl der allgemeine Projektstand (u.\,a. Probleme, Eskalationsthemen, Budgetlage, Termintreue) als auch die ordnungsgemäße Pflege des Projektplanungstools Blue Ant besprochen werden. Die Stelle war ursprünglich mit zwei Personen besetzt; seit dem Ausscheiden der Kollegin vor rund anderthalb Jahren übernehme ich allein die Rolle.
 
 \bigskip
 \noindent{\large\bfseries 2. Aktuelles Vorgehen im Projektcontrolling}
 
 \textbf{Frage 2: Wie wird der Projektstand aktuell erfasst und gesteuert?}
 
-Julia: Der Projektstand wird in monatlichen Projektstatus-Meetings mit den jeweiligen IT-Projektleitungen erhoben. Erfasst werden u.\,a., ob das Projektportfolio und Stammblatt gepflegt sind, ob Ressourcen zugeordnet, ein grober Projektplan sowie Aktivitäten und Termine im Projektplanungstool Blue Ant hinterlegt und schlüssig sind, ob Zeiten gebucht wurden und ob der monatliche Statusbericht verschickt wurde. Die Ergebnisse werden zusätzlich in einer Excel-Tabelle mit Ampelsystem festgehalten, da Blue Ant aufgrund noch bestehender Einschränkungen kein vollständiges Reporting ermöglicht.
+Julia: Der Projektstand wird in monatlichen Projektstatus-Meetings mit den jeweiligen IT-Projektleitungen erhoben und in einer Excel-Tabelle dokumentiert, die als Reifegradmodell zur Blue-Ant-Pflege ausgestaltet ist. Für jedes betreute Projekt wird darin geprüft, ob das Projektportfolio und das Projektstammblatt gepflegt sind, ob Ressourcen zugeordnet wurden, ob ein grober Projektplan sowie die einzelnen Aktivitäten im Tool erfasst sind, ob die hinterlegten Termindaten schlüssig sind (u.\,a. keine überschrittenen Aktivitäten), ob Zeiten gebucht wurden und ob der monatliche Statusbericht verschickt wurde. In einer abschließenden Bemerkungsspalte werden zusätzlich der inhaltliche Projektstand, offene Klärungspunkte -- etwa zu einem als zu langsam empfundenen Einkaufs- bzw. Ausschreibungsprozess -- sowie erkannte Risiken und Eskalationsthemen festgehalten, farblich unterschieden in Grün für erledigte Punkte bzw. allgemeine Informationen und Rot für offene Eskalationsthemen. Diese Excel-Lösung wird eingesetzt, da Blue Ant aufgrund noch bestehender Einschränkungen kein vollständiges Reporting ermöglicht und daher parallel weitergeführt werden muss.
 
 \textbf{Frage 3: Wie werden Termin- und Kostentreue konkret ermittelt?}
 
-Julia: Termin- und Kostentreue werden nicht rechnerisch aus Meilensteinen oder Plan-/Ist-Werten in Blue Ant ermittelt, sondern nach Augenmaß anhand der Rücksprachen aus den Projektstatus-Meetings geschätzt. Am Monatsende werden alle Projekte gemeinsam mit dem Vorgesetzten (Projektleiter) anhand der Tabelle durchgegangen; dabei wird eingeschätzt, ob und wie stark sich Verzögerungen auf die zuletzt gemeldete Termintreue auswirken (z.\,B. Abwertung von 86 auf 80\,Prozent bei erkennbaren Risiken). Die so festgelegte Termin- und Kostentreue wird anschließend per E-Mail an die Bereichsleitung IT gemeldet.
+Julia: Termin- und Kostentreue werden nicht rechnerisch aus Meilensteinen oder Plan-Ist-Daten in Blue Ant ermittelt -- eine meilensteinbasierte Ableitung der Termintreue findet derzeit nicht statt --, sondern anhand der in den Projektstatus-Meetings besprochenen Stände nach Augenmaß eingeschätzt. Am Monatsende geht sie gemeinsam mit ihrem Vorgesetzten (Projektleiter) sämtliche betreuten Projekte anhand der Tabelle durch, bespricht offene Fragen, die teils vom Vorgesetzten zu entscheiden sind, und schätzt gemeinschaftlich ein, wo ein Projekt gut bzw. schlecht läuft. Da so gut wie nie sämtliche Projekte exakt planmäßig verlaufen, wird eine Termintreue von 100~\% praktisch nie erreicht; stattdessen wird bewertet, wie gravierend erkannte Verzögerungen sind -- etwa wenn sich ein Projektende um mehrere Monate verschiebt -- und diese Einschätzung fließt anteilig in die monatlich gemeldete Termintreue ein (z.\,B. Abwertung von 86 auf 80~\%, wenn sich zwei Projekte im Berichtsmonat verzögert haben). Die gemeinsam festgelegte Termin- und Kostentreue wird anschließend per E-Mail an die Bereichsleitung IT gemeldet, wobei man sich stets an der zuletzt gemeldeten Termintreue orientiert und einschätzt, ob sich der Eindruck verbessert oder verschlechtert hat.
 
 \textbf{Frage 4: Nach welchen Schwellenwerten funktioniert das Ampelsystem?}
 
-Julia: Werte zwischen 80 und 100\,Prozent gelten als grün, Werte zwischen 70 und 79\,Prozent als gelb, Werte unter 70\,Prozent als rot.
+Julia: Werte zwischen 80 und 100~\% gelten als grün, Werte zwischen 70 und 79~\% als gelb, Werte unter 70~\% als rot. Die Kostentreue liegt aktuell bei über 100~\%, da sich die bisherigen Ausgaben im geplanten Rahmen bewegen.
 
 \bigskip
 \noindent{\large\bfseries 3. Vorgehen vor Einführung von Blue Ant}
 
 \textbf{Frage 5: Wie wurde der Projektstand vor Einführung von Blue Ant erfasst?}
 
-Julia: Zuvor wurden Kosten- und Termintreue in zwei getrennten Excel-Dateien geführt. Für die Kostentreue wurden je Projekt Angebotswert (Planwert), Ist-Kosten und voraussichtliche Ist-Kosten erfasst, die ebenfalls aus den Projektstatus-Meetings mit den IT-Projektleitungen stammten; daraus ließen sich Unter- oder Überschreitungen gegenüber dem Planwert ablesen. Diese Vorgehensweise wird aktuell nicht mehr angewendet.
+Julia: Zuvor wurden Kosten- und Termintreue in zwei getrennten Excel-Dateien geführt. In der Kostendatei waren je Projekt die aktuelle Projektphase, ein Angebotswert, die Ist-Kosten sowie die voraussichtlichen Ist-Kosten hinterlegt; diese Werte wurden in separaten Projektstatus-Meetings mit den jeweiligen IT-Projektleitungen abgefragt und anschließend in die Datei übertragen. Auf dieser Grundlage ließ sich unmittelbar ablesen, wie hoch der ursprüngliche Planwert war, wie sich die Ist-Kosten entwickelten und ob eine Unter- oder Überschreitung vorlag; ein Kostenreporting gegen den Planwert war damit gegeben. Zusätzlich wurden projektphasenbezogene Dokumente (Phasenoutputs) geführt, die nach Abschluss jeder Projektphase neu erstellt, geprüft und überarbeitet werden mussten, was ebenfalls mit einem hohen Zeit- und Abstimmungsaufwand verbunden war. Diese Vorgehensweisen werden aktuell nicht mehr angewendet.
 
 \bigskip
 \noindent{\large\bfseries 4. Qualitätscontrolling}
 
 \textbf{Frage 6: Wie wird die Qualität eines Projekts bzw. der entwickelten Software kontrolliert?}
 
-Julia: Ein eigenständiges Instrument zur Qualitätskontrolle existiert nicht; die Einschätzung der Qualität ergibt sich aus der laufenden Begleitung der Projekte. Das IT-Projektbüro ist im Regelfall bereits ab der ersten Projektphase eingebunden, in der Auftrag und Ziel des Projekts festgelegt werden, und erhält über die monatlichen Projektstatus-Meetings kontinuierlich Einblick in den fachlichen und technischen Fortschritt. Werden dabei unklare oder unrealistische Anforderungen erkennbar, wird der Projektleitung empfohlen, Rücksprache mit dem Fachbereich bzw. Auftraggeber zu halten.
+Julia: Ein eigenständiges Instrument zur Qualitätskontrolle existiert nicht. Die Einschätzung der Qualität -- verstanden sowohl als funktionale Umsetzung als auch als inhaltliche Übereinstimmung mit den zuvor gestellten Anforderungen -- ergibt sich aus der laufenden Begleitung der Projekte. Das IT-Projektbüro ist im Regelfall bereits ab der ersten Projektphase eingebunden, in der Auftrag und Ziel des Projekts festgelegt werden, und erhält durch den regelmäßigen Kontakt, insbesondere über die monatlichen Projektstatus-Meetings, ein fortlaufendes Bild davon, wie professionell und weit entwickelt die Anforderungen sind. Wird dabei erkennbar, dass Anforderungen noch nicht hinreichend geklärt oder ausgeschrieben sind, wird der Projektleitung empfohlen, Rücksprache mit dem Fachbereich bzw. Auftraggeber zu halten und gemeinsam zu klären, welche Anforderungen bestehen und welche davon aus IT-Sicht überhaupt realistisch umsetzbar sind.
 
 \bigskip
 \noindent{\large\bfseries 5. Herausforderungen und geplante Weiterentwicklung}
 
 \textbf{Frage 7: Welche Herausforderungen bestehen aktuell im Projektcontrolling?}
 
-Julia: Durch den Weggang der Kollegin wird die Aufgabe seit rund anderthalb Jahren allein wahrgenommen, wodurch die geplante Weiterentwicklung der KPIs sowie die vollständige Ablösung der Excel-Lösung durch Blue Ant zunehmend nachrangig priorisiert wurden. Blue Ant kann derzeit noch nicht vollumfänglich genutzt werden, sodass ein manueller Parallelbetrieb mit Excel-Tabellen erforderlich bleibt. Zusätzlicher Aufwand entstand durch die Neuerfassung und laufende Überarbeitung projektphasenbezogener Dokumente (Phasenoutputs) sowie zugehöriger Prozessanpassungen.
+Julia: Durch den Weggang der Kollegin wird die Aufgabe seit rund anderthalb Jahren allein wahrgenommen, wodurch die geplante Weiterentwicklung der KPIs sowie die vollständige Ablösung der Excel-Lösung durch Blue Ant zunehmend nachrangig priorisiert wurden. Blue Ant kann derzeit noch nicht vollumfänglich genutzt werden, sodass ein manueller Parallelbetrieb mit Excel-Tabellen erforderlich bleibt. Zusätzlicher Aufwand entstand in der Vergangenheit durch die Neuerfassung und laufende Überarbeitung der projektphasenbezogenen Dokumente (Phasenoutputs) sowie zugehöriger Prozessanpassungen, was ebenfalls viel Zeit in Anspruch nahm.
 
 \textbf{Frage 8: Ist eine Rückkehr zu einer rechnerisch ermittelten Termin- und Kostentreue geplant?}
 
-Julia: Ziel ist es, wieder zu einer rechnerisch ermittelten statt einer geschätzten Termintreue zurückzukehren, sobald die Rahmenbedingungen (u.\,a. Personalsituation, vollständige Nutzbarkeit von Blue Ant) dies zulassen.
+Julia: Ziel ist es, wieder zu einer rechnerisch ermittelten statt einer geschätzten Termintreue zurückzukehren, sobald die Rahmenbedingungen -- insbesondere die Personalsituation und die vollständige Nutzbarkeit von Blue Ant -- dies zulassen.
 
 % Anhang 15
 \newpage
 \phantomsection
-\addcontentsline{toc}{subsection}{Anhang 15: Projektcontrolling - Excel-Tabelle}
+\addcontentsline{toc}{subsection}{Anhang 15: Projektcontrolling-Template bei den BWB}
 \label{sec:Anhang15}
 \vspace*{\fill}
 \begin{center}
     \begin{adjustbox}{rotate=90, center, valign=b}
         \begin{minipage}{0.95\textheight}
             \centering
-            {\Large\bfseries Anhang 15: Projektcontrolling - Excel-Tabelle}\\[1em]
-             {\normalsize interne Quelle: Besipiel von Projektcontrolling - Excel-Tabelle bei den BWB}\\[0.4cm]
-            \includegraphics[width=0.9\textheight,keepaspectratio]{BILDER-PTB4/Kostencontrolling_Soll_Ist_Prognose.png}
+            {\Large\bfseries Anhang 15: Projektcontrolling-Tabelle bei den BWB}\\[1em]
+             {\normalsize interne Quelle: Besipiel von Projektcontrolling-Template im Excel bei den BWB}\\[0.4cm]
+            \includegraphics[width=1.0\textheight,keepaspectratio]{BILDER-PTB4/bwb-projektcontrolling.png}
         \end{minipage}
     \end{adjustbox}
 \end{center} 
@@ -1048,10 +1076,27 @@ Julia: Ziel ist es, wieder zu einer rechnerisch ermittelten statt einer geschät
 % Anhang 16
 \newpage
 \phantomsection
-\addcontentsline{toc}{subsection}{Anhang 16: KI-Verzeichnis}
+\addcontentsline{toc}{subsection}{Anhang 16: Projektcontrolling - Gesamte Übersicht}
 \label{sec:Anhang16}
+\vspace*{\fill}
+\begin{center}
+    \begin{adjustbox}{rotate=90, center, valign=b}
+        \begin{minipage}{0.95\textheight}
+            \centering
+            {\Large\bfseries Anhang 16: Projektcontrolling - Gesamte Übersicht}\\[1em]
+             {\normalsize Quelle: Eigene Darstellung}\\[0.4cm]
+            \includegraphics[width=0.9\textheight,keepaspectratio]{BILDER-PTB4/Gesamtübersicht_neu.png}
+        \end{minipage}
+    \end{adjustbox}
+\end{center} \
 
-{\Large\bfseries Anhang 16: KI-Verzeichnis}\\[0.6cm]
+% Anhang 17
+\newpage
+\phantomsection
+\addcontentsline{toc}{subsection}{Anhang 17: KI-Verzeichnis}
+\label{sec:Anhang17}
+
+{\Large\bfseries Anhang 17: KI-Verzeichnis}\\[0.6cm]
 
 \begin{tabular}{|p{3.2cm}|p{5.2cm}|p{4.2cm}|p{3.2cm}|}
     \hline
